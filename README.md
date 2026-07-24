@@ -1,149 +1,161 @@
+# TheGreatGSAPI
+Global Sovereignty &amp; Asymmetric Power Index
+Perfect, I can see you're creating it now. Here's what you need:
+
+## **README** — Yes, add it
+
+Your README should have:
+```markdown
 # The Great GSAPI
 *Global Sovereignty & Asymmetric Power Index*
 
 Open-source geopolitical analytics platform mapping non-traditional power dynamics, resource control, and legal-cultural friction across disputed territories.
 
-## 🌍 Features
+## Features
+- Interactive 3D geospatial dashboard (Deck.gl)
+- 4-pillar sovereignty scoring algorithm
+- 10+ mirrored open datasets (HydroSHEDS, WorldPop, FAO, etc.)
+- Self-hosted PostGIS backend (API-independent)
+- Comparative territory analysis
 
-- **Interactive 3D Geospatial Dashboard** — Deck.gl-powered 3D terrain, water sovereignty layers, territorial control visualization
-- **4-Pillar Sovereignty Scoring** — Composite algorithm measuring jurisdictional autonomy, resource security, and infrastructural control
-- **10+ Mirrored Open Datasets** — Self-hosted PostGIS backend (HydroSHEDS, WorldPop, FAO, OpenStreetMap, CourtListener, more)
-- **API-Independent Architecture** — All data cached locally; platform works even if upstream sources go down
-- **Comparative Territory Analysis** — Side-by-side friction analysis across territories, upstream/downstream dynamics, legal divergence
-
-## 📊 Four Analytical Pillars
-
-### Pillar A: Physical Geography & Territorial Asymmetry
-Topography, elevation, geographic isolation, demographic breakdown, topographic high-ground advantage
-
-### Pillar B: Hydropolitics & Resource Control
-Upstream vs. downstream river basin positions, groundwater aquifer control, dam rights, arable land %, agricultural import dependency
-
-### Pillar C: Infrastructural & Economic Levers of Power
-Border checkpoint management, EEZ rights, airspace sovereignty, frequency spectrum, power grid connectivity, monetary control
-
-### Pillar D: Legal-Cultural Friction & Governance Divergence
-Gap between enforced legal systems (occupation law, military orders) and preferred local systems (customary law, religious baseline)
-
-## 🚀 Quick Start
-
-### Prerequisites
-- Docker & Docker Compose
-- Python 3.10+
-- Node.js 18+
-
-### Clone & Run Locally
-
+## Quick Start
 ```bash
 git clone https://github.com/qv4rk/TheGreatGSAPI.git
 cd TheGreatGSAPI
-
-# Start PostgreSQL + PostGIS backend
-docker-compose up -d
-
-# Install backend dependencies
-cd backend
-pip install -r requirements.txt
-
-# Run ETL pipeline to load data
-python etl/run_pipeline.py
-
-# Start FastAPI server
-uvicorn app.main:app --reload --port 8000
+docker-compose up
+# Open http://localhost:3000
 ```
 
-Backend will be available at `http://localhost:8000`
+## Data Sources & Attribution
+All datasets are open-access. Full attribution in [DATA_SOURCES.md](DATA_SOURCES.md)
+- HydroSHEDS (CC BY 4.0)
+- WorldPop (CC BY 4.0)
+- OpenStreetMap (ODbL)
+- ... [full list with URLs and licenses]
 
-```bash
-# In another terminal, install frontend
-cd frontend
-npm install
-npm run dev
-```
+## Architecture
+- **Backend:** FastAPI + PostGIS + GeoPandas
+- **Frontend:** React + Deck.gl + D3.js + Nivo
+- **ETL:** Python data pipeline (weekly updates)
 
-Frontend will be available at `http://localhost:3000`
+## Project Status
+- [x] Phase 1: Data pipeline
+- [ ] Phase 2: FastAPI backend
+- [ ] Phase 3: Frontend UI
+- [ ] Phase 4: Sovereignty scorecard
+- [ ] Phase 5: Release & documentation
 
-## 🏗️ Architecture
+## Contributing
+Contributions welcome. Please see [CONTRIBUTING.md](CONTRIBUTING.md)
 
-### Backend Stack
-- **FastAPI** — REST API serving spatial queries
-- **PostGIS** — PostgreSQL extension for geospatial data
-- **GeoPandas** — Python geospatial analysis
-- **Shapely** — Geometric operations
-- **SQLAlchemy** — ORM for database abstraction
-
-### Frontend Stack
-- **React** — UI framework
-- **Deck.gl** — High-performance WebGL rendering for 3D geospatial
-- **MapLibre GL JS** — Lightweight base mapping
-- **D3.js** — Custom visualizations
-- **Nivo** — Radar charts & comparative analytics
-
-### Data Pipeline (ETL)
-- **Python scripts** ingest data from 10+ open sources
-- **Periodic updates** (configurable: daily/weekly/monthly)
-- **Data validation** & schema conformance
-- **Spatial indexing** for fast queries
-- **Version tracking** with source attribution
-
-## 📚 Data Sources & Attribution
-
-All datasets are open-access and properly attributed. See [DATA_SOURCES.md](DATA_SOURCES.md) for complete attribution, URLs, licenses, and data dictionaries.
-
-**Key Sources:**
-- HydroSHEDS (CC BY 4.0) — River basins, flow direction
-- WorldPop (CC BY 4.0) — Population distribution
-- OpenStreetMap (ODbL) — Base layers, POIs
-- FAOSTAT (CC BY-NC-SA 3.0) — Agricultural data
-- CourtListener API (Apache 2.0) — Legal statutes & cases
-- Open-Elevation API (MIT) — Topography & DEM
-- Pew Research / World Values Survey — Cultural friction metrics
-
-## 📋 Project Roadmap
-
-| Phase | Milestone | Status | Target |
-|-------|-----------|--------|--------|
-| 1 | Data Harvesting & GIS Pipeline Setup | ✅ Completed | — |
-| 2 | Backend API Development | 🟡 In Progress | Aug 2026 |
-| 3 | Frontend Deck.gl/MapLibre UI Integration | ⏳ Planned | Sep 2026 |
-| 4 | Sovereignty Scorecard & Radar Charts | ⏳ Planned | Oct 2026 |
-| 5 | Open-Source Release & GitHub Docs | ⏳ Planned | Nov 2026 |
-
-## 🤝 Contributing
-
-Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on:
-- Reporting bugs
-- Proposing features
-- Submitting pull requests
-- Adding new data sources
-
-## 📖 Documentation
-
-- [DATA_SOURCES.md](DATA_SOURCES.md) — Complete attribution & data dictionary
-- [CONTRIBUTING.md](CONTRIBUTING.md) — Contribution guidelines
-- [ARCHITECTURE.md](ARCHITECTURE.md) — Detailed system design (coming)
-- [API_DOCS.md](API_DOCS.md) — FastAPI endpoint reference (coming)
-
-## 🔗 Deployment
-
-See [DEPLOYMENT.md](DEPLOYMENT.md) for production deployment guides (Vercel, AWS, self-hosted).
-
-## 📜 License
-
+## License
 MIT License — See [LICENSE](LICENSE)
-
-This project is built on open data. We maintain full attribution and encourage others to fork, modify, and build upon this work.
-
-## 🙏 Acknowledgments
-
-This project would not be possible without the open-source geospatial community:
-- Natural Earth / OpenStreetMap contributors
-- HydroSHEDS team at WWF
-- WorldPop researchers at University of Southampton
-- D3.js, Deck.gl, and PostGIS communities
+```
 
 ---
 
-**Questions?** Open an [issue](https://github.com/qv4rk/TheGreatGSAPI/issues) or check the [discussions](https://github.com/qv4rk/TheGreatGSAPI/discussions).
+## **.gitignore** — Yes, add Python preset
 
-*Last Updated: July 2026*
+A geospatial Python project needs this:
+```
+# Environment
+.env
+.env.local
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data (local cache — don't commit raw data files)
+data/raw/*
+data/processed/*
+*.geojson
+*.shp
+*.shx
+*.dbf
+*.prj
+*.gpkg
+*.tif
+*.tiff
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+postgres_data/
+
+# Frontend
+node_modules/
+dist/
+build/
+.next/
+.env.local
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large files (use Git LFS if you need to version datasets)
+*.zip
+*.tar.gz
+```
+
+---
+
+## **License** — Use MIT
+
+MIT is perfect for "others should be able to clone and use this":
+- Permissive (people can modify, commercialize, distribute)
+- Requires attribution (protects you)
+- Perfect for open geopolitical data projects
+
+GitHub will auto-add it.
+
+---
+
+## **Also create these files:**
+
+1. **`LICENSE`** (GitHub adds automatically)
+2. **`DATA_SOURCES.md`** — Detailed attribution for all 10+ datasets
+3. **`CONTRIBUTING.md`** — How people submit PRs
+4. **`.github/ISSUE_TEMPLATE/bug_report.md`** — Issue templates
+5. **`docker-compose.yml`** — So people can run PostGIS locally
+6. **`requirements.txt`** — Python dependencies
+
+---
+
+**My recommendation:** 
+- ✅ Add README
+- ✅ Add .gitignore (Python)
+- ✅ Add MIT License
+- ❌ No template (you're custom)
+
+
