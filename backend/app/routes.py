@@ -3,7 +3,8 @@ FastAPI route handlers for The Great GASPI
 Endpoints for serving territory profiles, scores, and spatial features to frontend
 """
 
-from fastapi import APIRouter, HTTPException, Query
+from fastapi import APIRouter, HTTPException, Query, Depends
+from sqlalchemy.orm import Session
 from typing import List, Optional
 import logging
 from datetime import datetime
@@ -15,6 +16,8 @@ from .models import (
     HealthResponse,
     ErrorResponse
 )
+from .database import SessionLocal
+from . import routes_db
 
 logger = logging.getLogger(__name__)
 
@@ -26,8 +29,8 @@ router = APIRouter(prefix="/api/v1", tags=["territories"])
 # TERRITORY ENDPOINTS
 # ============================================================================
 
-@router.get("/territories/{territory_id}", response_model=TerritoryProfile)
-async def get_territory_profile(territory_id: str):
+@router.get("/territories/{territory_id}")
+async def get_territory_profile(territory_id: str, db: Session = Depends(lambda: SessionLocal())):
     """
     Get complete territory profile with all four pillars and scores
     Feeds the frontend GaspiMapViewer component
@@ -35,26 +38,24 @@ async def get_territory_profile(territory_id: str):
     Example: GET /api/v1/territories/west-bank
     """
     try:
-        # TODO: Query database for territory_id
-        # For now, return mock data structure
         logger.info(f"Fetching profile for territory: {territory_id}")
-
-        # This will be implemented in Phase 2b with actual database queries
-        raise HTTPException(
-            status_code=501,
-            detail="Territory endpoint not yet implemented - database integration needed"
-        )
-    except HTTPException:
-        raise
+        profile = routes_db.get_territory_profile(db, territory_id)
+        return profile
+    except ValueError as e:
+        logger.error(f"Territory not found: {territory_id}")
+        raise HTTPException(status_code=404, detail=str(e))
     except Exception as e:
-        logger.error(f"Error fetching territory {territory_id}: {e}")
+        logger.error(f"Error fetching territory {territory_id}: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=str(e))
+    finally:
+        db.close()
 
 
 @router.get("/territories")
 async def list_territories(
     limit: int = Query(50, ge=1, le=100),
-    offset: int = Query(0, ge=0)
+    offset: int = Query(0, ge=0),
+    db: Session = Depends(lambda: SessionLocal())
 ):
     """
     List all available territories with basic metadata
@@ -62,44 +63,47 @@ async def list_territories(
     """
     try:
         logger.info(f"Listing territories: limit={limit}, offset={offset}")
-
-        # TODO: Query database for all territories
-        raise HTTPException(
-            status_code=501,
-            detail="List territories endpoint not yet implemented"
-        )
-    except HTTPException:
-        raise
+        territories, total = routes_db.list_territories(db, limit, offset)
+        return {
+            "territories": territories,
+            "total": total,
+            "limit": limit,
+            "offset": offset
+        }
     except Exception as e:
-        logger.error(f"Error listing territories: {e}")
+        logger.error(f"Error listing territories: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=str(e))
+    finally:
+        db.close()
 
 
 @router.get("/territories/{territory_id}/scores")
-async def get_sovereignty_scores(territory_id: str):
+async def get_sovereignty_scores(territory_id: str, db: Session = Depends(lambda: SessionLocal())):
     """
     Get sovereignty scores for a territory
     Returns the multi-axis radar chart data for frontend
     """
     try:
         logger.info(f"Fetching scores for: {territory_id}")
-
-        # TODO: Query sovereignty_scores table
-        raise HTTPException(
-            status_code=501,
-            detail="Scores endpoint not yet implemented"
-        )
-    except HTTPException:
-        raise
+        scores = routes_db.get_sovereignty_scores(db, territory_id)
+        if not scores:
+            raise HTTPException(status_code=404, detail="Scores not found for this territory")
+        return scores
+    except ValueError as e:
+        logger.error(f"Territory not found: {territory_id}")
+        raise HTTPException(status_code=404, detail=str(e))
     except Exception as e:
-        logger.error(f"Error fetching scores: {e}")
+        logger.error(f"Error fetching scores: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=str(e))
+    finally:
+        db.close()
 
 
 @router.get("/territories/{territory_id}/compare")
 async def compare_territories(
     territory_id: str,
-    compare_to: str = Query(..., description="Territory ID to compare against")
+    compare_to: str = Query(..., description="Territory ID to compare against"),
+    db: Session = Depends(lambda: SessionLocal())
 ):
     """
     Compare two territories side-by-side
@@ -107,17 +111,16 @@ async def compare_territories(
     """
     try:
         logger.info(f"Comparing {territory_id} vs {compare_to}")
-
-        # TODO: Query both territories and return comparative data
-        raise HTTPException(
-            status_code=501,
-            detail="Comparison endpoint not yet implemented"
-        )
-    except HTTPException:
-        raise
+        comparison = routes_db.compare_territories(db, territory_id, compare_to)
+        return comparison
+    except ValueError as e:
+        logger.error(f"Territory not found: {e}")
+        raise HTTPException(status_code=404, detail=str(e))
     except Exception as e:
-        logger.error(f"Error comparing territories: {e}")
+        logger.error(f"Error comparing territories: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=str(e))
+    finally:
+        db.close()
 
 
 # ============================================================================
@@ -127,7 +130,8 @@ async def compare_territories(
 @router.get("/territories/{territory_id}/spatial-features")
 async def get_spatial_features(
     territory_id: str,
-    feature_type: Optional[str] = Query(None, description="accessible_area|restricted_area|high_ground|barrier")
+    feature_type: Optional[str] = Query(None, description="accessible_area|restricted_area|high_ground|barrier"),
+    db: Session = Depends(lambda: SessionLocal())
 ):
     """
     Get GeoJSON spatial features for map rendering
@@ -135,18 +139,16 @@ async def get_spatial_features(
     """
     try:
         logger.info(f"Fetching spatial features for {territory_id}")
-
-        # TODO: Query spatial_features table
-        # Return GeoJSON FeatureCollection
-        raise HTTPException(
-            status_code=501,
-            detail="Spatial features endpoint not yet implemented"
-        )
-    except HTTPException:
-        raise
+        features = routes_db.get_spatial_features(db, territory_id, feature_type)
+        return features
+    except ValueError as e:
+        logger.error(f"Territory not found: {territory_id}")
+        raise HTTPException(status_code=404, detail=str(e))
     except Exception as e:
-        logger.error(f"Error fetching spatial features: {e}")
+        logger.error(f"Error fetching spatial features: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=str(e))
+    finally:
+        db.close()
 
 
 @router.get("/territories/{territory_id}/high-ground-peaks")
@@ -267,24 +269,21 @@ async def get_legal_friction_pillar(territory_id: str):
 # DATA ATTRIBUTION & SOURCES
 # ============================================================================
 
-@router.get("/sources", response_model=List[DataSource])
-async def get_data_sources():
+@router.get("/sources")
+async def get_data_sources(db: Session = Depends(lambda: SessionLocal())):
     """
     Get attribution and metadata for all data sources
     Lists licenses, URLs, and update frequencies
     """
     try:
         logger.info("Fetching data sources")
-        # TODO: Query data_sources table
-        raise HTTPException(
-            status_code=501,
-            detail="Data sources endpoint not yet implemented"
-        )
-    except HTTPException:
-        raise
+        sources = routes_db.get_data_sources(db)
+        return {"sources": sources, "total": len(sources)}
     except Exception as e:
-        logger.error(f"Error fetching sources: {e}")
+        logger.error(f"Error fetching sources: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=str(e))
+    finally:
+        db.close()
 
 
 @router.get("/territories/{territory_id}/sources")
