@@ -1,0 +1,65 @@
+version: '3.8'
+
+services:
+  # PostgreSQL with PostGIS extension
+  postgres:
+    image: postgis/postgis:16-3.4
+    container_name: gsapi-postgres
+    environment:
+      POSTGRES_DB: gsapi
+      POSTGRES_USER: gsapi
+      POSTGRES_PASSWORD: gsapi_dev_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./backend/migrations/init.sql:/docker-entrypoint-initdb.d/01-init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U gsapi"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - gsapi-network
+
+  # FastAPI backend
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: gsapi-backend
+    environment:
+      DATABASE_URL: postgresql://gsapi:gsapi_dev_password@postgres:5432/gsapi
+      PYTHONUNBUFFERED: 1
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./backend:/app
+      - ./data:/data
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    networks:
+      - gsapi-network
+
+  # pgAdmin for database management (optional)
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: gsapi-pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@gsapi.local
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgres
+    networks:
+      - gsapi-network
+
+volumes:
+  postgres_data:
+
+networks:
+  gsapi-network:
+    driver: bridge
