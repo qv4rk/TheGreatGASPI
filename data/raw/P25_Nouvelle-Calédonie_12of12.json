@@ -1,0 +1,227 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Great GASPI Data Schema",
+  "type": "object",
+  "prompt_id": "prompt-25",
+  "territory_name": "Nouvelle-Calédonie",
+  "perspective": "État français / Haut-Commissariat de la République / Gouvernement de la Nouvelle-Calédonie",
+  "language": "French",
+  "years_of_scope": "1988-2026",
+  "wgs84_center": {
+    "lat": -21.5,
+    "lng": 165.5
+  },
+  "topographic_and_control_data": {
+    "total_area_sqkm": 18575,
+    "accessible_area_sqkm": "data not available",
+    "control_zones": [
+      {
+        "zone_name": "Province Sud",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Province Sud / État français",
+        "access_restrictions": "Sous la souveraineté française; statut particulier de la Nouvelle-Calédonie",
+        "strategic_features_located_here": [
+          "Nouméa (chef-lieu)",
+          "Massif du Sud (gisements de nickel)",
+          "Site industriel Goro Nickel (Prony Resources)"
+        ]
+      },
+      {
+        "zone_name": "Province Nord",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Province Nord / État français",
+        "access_restrictions": "Sous la souveraineté française; statut particulier",
+        "strategic_features_located_here": [
+          "Koné (chef-lieu)",
+          "Massif du Nord (Koniambo)",
+          "Usine Koniambo Nickel (KNS)"
+        ]
+      },
+      {
+        "zone_name": "Province des Îles Loyauté",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Province Îles Loyauté / État français",
+        "access_restrictions": "Sous la souveraineté française; statut particulier",
+        "strategic_features_located_here": [
+          "Lifou, Maré, Ouvéa",
+          "Zones maritimes et récifales"
+        ]
+      }
+    ],
+    "demographics": {
+      "population_category_a": "data not available",
+      "population_b": "data not available",
+      "density_per_sqkm": "data not available",
+      "displacement_or_refugee_count": "data not available",
+      "notes": "La Nouvelle-Calédonie est régie par un statut particulier qui inclut un corps électoral spécial pour les référendums d'autodétermination.",
+      "citation": "Loi organique; Accords de Nouméa"
+    },
+    "named_high_ground_features": [
+      {
+        "name": "Massif du Sud",
+        "lat": -22.0,
+        "lng": 166.5,
+        "elevation_m": "data not available",
+        "functional_strategic_description": "Zone de grands dépôts de nickel et de cobalt; position relative aux ressources hydriques et aux zones côtières.",
+        "control_zone": "Province Sud",
+        "citation": "Données géographiques"
+      }
+    ],
+    "physical_barriers": [
+      {
+        "name": "data not available",
+        "type": "data not available",
+        "lat": "data not available",
+        "lng": "data not available",
+        "length_km": "data not available",
+        "temporal_variations": "data not available",
+        "stated_justification": "data not available",
+        "opposing_characterization": "data not available",
+        "citation": "data not available"
+      }
+    ]
+  },
+  "hydrology_data": {
+    "upstream_downstream_position": "not_applicable",
+    "water_infrastructure": [
+      {
+        "name": "Lagon de Nouvelle-Calédonie",
+        "type": "Site UNESCO / Récif",
+        "lat": -22.0,
+        "lng": 166.0,
+        "controlling_entity": "État français",
+        "capacity_or_flow_rate": "data not available",
+        "citation": "UNESCO"
+      }
+    ],
+    "per_capita_water_consumption_l_d": {
+      "population_a": "data not available",
+      "population_b": "data not available",
+      "who_reference_standard": 100.0,
+      "citation": "data not available"
+    },
+    "agriculture": {
+      "arable_land_pct": "data not available",
+      "irrigated_land_pct": "data not available",
+      "food_import_dependency_pct": "data not available",
+      "citation": "data not available"
+    }
+  },
+  "environmental_degradation_incidents": [
+    {
+      "incident_type": "data not available",
+      "chemical_or_hazard_agents": [],
+      "toxicological_classification": "data not available",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": "data not available",
+      "ongoing": false,
+      "stated_justification": "data not available",
+      "opposing_characterization": "data not available",
+      "documenting_orgs": [],
+      "citations": []
+    }
+  ],
+  "infrastructure_and_logistics_data": {
+    "airspace_and_spectrum": {
+      "cellular_tech_allowed": "3G/4G/5G",
+      "flight_corridor_control": "Aéroport international de Nouméa - La Tontouta",
+      "stated_justification": "data not available",
+      "citation": "data not available"
+    },
+    "maritime_and_cabotage": {
+      "eez_claimed_sqkm": "data not available",
+      "eez_accessible_sqkm": "data not available",
+      "accessible_ports_count": 2,
+      "fishing_zone_nautical_miles": "data not available",
+      "cabotage_or_merchant_marine_restrictions": "data not available",
+      "stated_justification": "data not available",
+      "citation": "data not available"
+    },
+    "trade_and_dual_use_controls": {
+      "controlled_item_categories": [
+        "Nickel et minerai"
+      ],
+      "transit_permit_regimes": "data not available",
+      "stated_justification": "data not available",
+      "citation": "data not available"
+    },
+    "checkpoints_and_gates": [
+      {
+        "name": "data not available",
+        "lat": "data not available",
+        "lng": "data not available",
+        "permit_type_required": "data not available",
+        "stated_justification": "data not available",
+        "citation": "data not available"
+      }
+    ],
+    "utilities_and_energy_grid": {
+      "official_currency": "Franc CFP (XPF)",
+      "local_informal_currency": "data not available",
+      "power_generating_assets": [
+        "Centrale électrique Goro",
+        "Projets énergies renouvelables"
+      ],
+      "daily_electricity_hours_avg": "24 heures",
+      "power_grid_self_sufficiency_pct": "data not available",
+      "fuel_import_dependency_pct": "data not available",
+      "debt_or_fiscal_transfer_mechanisms": "data not available",
+      "citation": "data not available"
+    }
+  },
+  "jurisprudence_and_statutory_friction": {
+    "enforced_system_name": "Loi organique n° 99-209 du 19 mars 1999 / Accords de Nouméa",
+    "preferred_or_prior_system_name": "Statut de territoire d'outre-mer (pré-1998)",
+    "population_under_special_or_external_law": "data not available",
+    "enforced_statutes_cited": [
+      "Loi organique relative à la Nouvelle-Calédonie",
+      "Accords de Nouméa (1998)",
+      "Corps électoral spécial"
+    ],
+    "landmark_jurisprudence_and_treaties": [
+      {
+        "judicial_body_or_treaty": "Sénat français",
+        "case_or_resolution_name": "Adoption de la loi organique",
+        "year": 1999,
+        "holding_or_standard": "Statut particulier de la Nouvelle-Calédonie et partage des compétences entre l'État et le pays.",
+        "official_legal_rationale": "Mise en œuvre des Accords de Nouméa",
+        "citation": "Loi organique"
+      }
+    ],
+    "documented_statutory_conflicts": [
+      {
+        "legal_domain": "Corps électoral",
+        "enforced_clause_reference": "Loi organique (corps électoral spécial gelé)",
+        "preferred_or_prior_clause_reference": "Revendications kanakes d'élargissement du corps électoral",
+        "conflict_description": "Tension entre le corps électoral spécial prévu par les Accords de Nouméa et les revendications d'élargissement formulées par les organisations kanakes.",
+        "citation": "data not available"
+      }
+    ]
+  },
+  "security_and_justification_data": {
+    "official_threat_assessments_or_attack_statistics": [
+      {
+        "description": "data not available",
+        "time_period": "data not available",
+        "numbers_or_incidents": "data not available",
+        "source": "data not available",
+        "citation": "data not available"
+      }
+    ],
+    "stated_administrative_or_security_rationales": [
+      {
+        "measure": "Corps électoral spécial",
+        "official_rationale": "Mise en œuvre du processus de décolonisation et du corps électoral gelé prévu par les Accords de Nouméa.",
+        "citation": "Accords de Nouméa; Loi organique"
+      },
+      {
+        "measure": "Statut particulier d'autonomie",
+        "official_rationale": "Organisation d'un statut progressif d'autonomie pour la Nouvelle-Calédonie dans le cadre de la République française.",
+        "citation": "Loi organique; Accords de Nouméa"
+      }
+    ]
+  }
+}

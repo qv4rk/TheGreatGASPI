@@ -1,0 +1,243 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Great GASPI Data Schema",
+  "type": "object",
+  "prompt_id": "prompt-27",
+  "territory_name": "American Samoa",
+  "perspective": "U.S. Department of the Interior / Office of Insular Affairs / American Samoa Government",
+  "language": "English",
+  "years_of_scope": "1900-2026",
+  "wgs84_center": {
+    "lat": -14.2705,
+    "lng": -170.1322
+  },
+  "topographic_and_control_data": {
+    "total_area_sqkm": 199,
+    "accessible_area_sqkm": "data not available",
+    "control_zones": [
+      {
+        "zone_name": "Unincorporated and Unorganized Territory of the United States",
+        "area_sqkm": 199,
+        "area_pct": 100,
+        "governing_authority": "U.S. Department of the Interior / American Samoa Government",
+        "access_restrictions": "American Samoa is an unincorporated and unorganized U.S. territory [citation:12]. It maintains unique immigration policies and controls its own border matters [citation:8]. Unlike citizens of other U.S. territories, American Samoans are U.S. nationals but do not vote in federal elections or pay federal taxes [citation:8].",
+        "strategic_features_located_here": [
+          "Tutuila Island (main island, ceded to the U.S. in 1900) [citation:3][citation:8]",
+          "Manu'a Islands (ceded in 1904)",
+          "Swains Island (incorporated in 1925)",
+          "Pago Pago International Airport",
+          "Port of Pago Pago"
+        ]
+      }
+    ],
+    "demographics": {
+      "population_category_a": "data not available",
+      "population_category_b": "data not available",
+      "density_per_sqkm": "data not available",
+      "displacement_or_refugee_count": "data not available",
+      "notes": "American Samoa's population comprises U.S. nationals, not U.S. citizens. The majority of the population is ethnic Samoan and governed by the matai (chiefs) system.",
+      "citation": "U.S. Census Bureau; DOI/OIA information"
+    },
+    "named_high_ground_features": [
+      {
+        "name": "Mount Matafao",
+        "lat": -14.2756,
+        "lng": -170.7025,
+        "elevation_m": 653,
+        "functional_strategic_description": "Highest point on Tutuila Island; provides observation and control over the central and eastern portions of the main island.",
+        "control_zone": "American Samoa",
+        "citation": "data not available"
+      },
+      {
+        "name": "Mount Pioa (Rainmaker Mountain)",
+        "lat": -14.2833,
+        "lng": -170.6333,
+        "elevation_m": 523,
+        "functional_strategic_description": "High ground near Pago Pago Harbor; controls observation over the harbor and its approaches.",
+        "control_zone": "American Samoa",
+        "citation": "data not available"
+      }
+    ],
+    "physical_barriers": [
+      {
+        "name": "data not available",
+        "type": "data not available",
+        "lat": "data not available",
+        "lng": "data not available",
+        "length_km": "data not available",
+        "temporal_variations": "data not available",
+        "stated_justification": "data not available",
+        "opposing_characterization": "data not available",
+        "citation": "data not available"
+      }
+    ]
+  },
+  "hydrology_data": {
+    "upstream_downstream_position": "not_applicable",
+    "water_infrastructure": [
+      {
+        "name": "data not available",
+        "type": "data not available",
+        "lat": "data not available",
+        "lng": "data not available",
+        "controlling_entity": "data not available",
+        "capacity_or_flow_rate": "data not available",
+        "citation": "data not available"
+      }
+    ],
+    "per_capita_water_consumption_l_d": {
+      "population_a": "data not available",
+      "population_b": "data not available",
+      "who_reference_standard": 100.0,
+      "citation": "data not available"
+    },
+    "agriculture": {
+      "arable_land_pct": "data not available",
+      "irrigated_land_pct": "data not available",
+      "food_import_dependency_pct": "data not available",
+      "citation": "data not available"
+    }
+  },
+  "environmental_degradation_incidents": [
+    {
+      "incident_type": "Coastal erosion and coral reef damage",
+      "chemical_or_hazard_agents": [
+        "data not available"
+      ],
+      "toxicological_classification": "Environmental degradation",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": "data not available",
+      "ongoing": true,
+      "stated_justification": "data not available",
+      "opposing_characterization": "data not available",
+      "documenting_orgs": [
+        "data not available"
+      ],
+      "citations": [
+        "data not available"
+      ]
+    }
+  ],
+  "infrastructure_and_logistics_data": {
+    "airspace_and_spectrum": {
+      "cellular_tech_allowed": "FCC regulated spectrum",
+      "flight_corridor_control": "FAA controlled commercial and general aviation corridors; Pago Pago International Airport",
+      "stated_justification": "Federal regulation for safety and security",
+      "citation": "FAA; FCC"
+    },
+    "maritime_and_cabotage": {
+      "eez_claimed_sqkm": "data not available",
+      "eez_accessible_sqkm": "data not available",
+      "accessible_ports_count": 1,
+      "fishing_zone_nautical_miles": 200,
+      "cabotage_or_merchant_marine_restrictions": "data not available",
+      "stated_justification": "data not available",
+      "citation": "data not available"
+    },
+    "trade_and_dual_use_controls": {
+      "controlled_item_categories": [
+        "data not available"
+      ],
+      "transit_permit_regimes": "data not available",
+      "stated_justification": "data not available",
+      "citation": "data not available"
+    },
+    "checkpoints_and_gates": [
+      {
+        "name": "Pago Pago International Airport",
+        "lat": -14.3315,
+        "lng": -170.7105,
+        "permit_type_required": "Passport and customs clearance",
+        "stated_justification": "Immigration and customs control",
+        "citation": "data not available"
+      }
+    ],
+    "utilities_and_energy_grid": {
+      "official_currency": "United States Dollar (USD)",
+      "local_informal_currency": "data not available",
+      "power_generating_assets": [
+        "data not available"
+      ],
+      "daily_electricity_hours_avg": "data not available",
+      "power_grid_self_sufficiency_pct": "data not available",
+      "fuel_import_dependency_pct": "data not available",
+      "debt_or_fiscal_transfer_mechanisms": "data not available",
+      "citation": "data not available"
+    }
+  },
+  "jurisprudence_and_statutory_friction": {
+    "enforced_system_name": "U.S. Federal Law / American Samoa Constitution / Customary Law",
+    "preferred_or_prior_system_name": "data not available",
+    "population_under_special_or_external_law": "data not available",
+    "enforced_statutes_cited": [
+      "Deed of Cession (1900, 1904)",
+      "Ratification Act of 1929 (48 U.S.C. §§ 1661, 1662) [citation:12]",
+      "American Samoa Constitution (1967) [citation:3][citation:8]"
+    ],
+    "landmark_jurisprudence_and_treaties": [
+      {
+        "judicial_body_or_treaty": "U.S. Court of Appeals for the D.C. Circuit",
+        "case_or_resolution_name": "Tuaua v. United States, 788 F.3d 300",
+        "year": 2015,
+        "holding_or_standard": "Affirmed that persons born in American Samoa are U.S. nationals, not U.S. citizens, under the Fourteenth Amendment; the Insular Cases doctrine applies.",
+        "official_legal_rationale": "The federal government defended the position that the Fourteenth Amendment does not automatically confer citizenship on persons born in unincorporated territories.",
+        "citation": "Tuaua v. United States, 788 F.3d 300 (D.C. Cir. 2015)"
+      },
+      {
+        "judicial_body_or_treaty": "U.S. District Court for the District of Utah",
+        "case_or_resolution_name": "Fitisemanu v. United States",
+        "year": 2022,
+        "holding_or_standard": "The court ordered the government to grant birthright citizenship to individuals born in American Samoa, relying on the Fourteenth Amendment.",
+        "official_legal_rationale": "The federal government, alongside the Governor and Congresswoman, appealed the ruling, arguing it undermined self-determination and violated the Deed of Cession [citation:2].",
+        "citation": "RNZ reporting"
+      },
+      {
+        "judicial_body_or_treaty": "U.S. Court of Appeals for the 10th Circuit",
+        "case_or_resolution_name": "Fitisemanu v. United States (on appeal)",
+        "year": "2026",
+        "holding_or_standard": "Appeal ongoing; the government argues American Samoa's status as a 'self-governing territory' that ceded sovereignty by Deed of Cession makes it unique [citation:2].",
+        "official_legal_rationale": "The American Samoa Government argues that citizenship should not be imposed by 'judicial fiat' and that the Deed of Cession requires the people's consent for such status changes [citation:2][citation:12].",
+        "citation": "RNZ reporting"
+      }
+    ],
+    "documented_statutory_conflicts": [
+      {
+        "legal_domain": "Citizenship",
+        "enforced_clause_reference": "Federal court rulings affirming U.S. national status (Tuaua)",
+        "preferred_or_prior_clause_reference": "American Samoa's local statutes and customs supporting non-citizen national status",
+        "conflict_description": "Conflict between federal court interpretations of the Fourteenth Amendment and local statutes and the Deed of Cession, which some argue grant a right to self-determination on citizenship status [citation:2][citation:12]. The American Samoa Statutory Nationality and Citizenship Act (H.R. 6158) was introduced in the House to create a path to citizenship while protecting self-determination [citation:4][citation:13].",
+        "citation": "HR 6158; Tuaua and Fitisemanu rulings"
+      },
+      {
+        "legal_domain": "Land Tenure",
+        "enforced_clause_reference": "Federal property and constitutional law",
+        "preferred_or_prior_clause_reference": "Customary land tenure (communal land restrictions)",
+        "conflict_description": "Long-standing tension between federal and Western notions of private property and the communal land tenure system (fa'aleaganu'u) recognized under local law [citation:5][citation:9][citation:14].",
+        "citation": "Academic sources on American Samoa land tenure"
+      }
+    ]
+  },
+  "security_and_justification_data": {
+    "official_threat_assessments_or_attack_statistics": [
+      {
+        "description": "data not available",
+        "time_period": "data not available",
+        "numbers_or_incidents": "data not available",
+        "source": "data not available",
+        "citation": "data not available"
+      }
+    ],
+    "stated_administrative_or_security_rationales": [
+      {
+        "measure": "Distinct immigration and nationality regime",
+        "official_rationale": "The federal government and local government have argued that the Deed of Cession grants the people of American Samoa the right to self-determination, and that imposing citizenship via court order would override the will of the people [citation:2][citation:12].",
+        "citation": "RNZ reporting"
+      },
+      {
+        "measure": "Federal land-use and administrative rules",
+        "official_rationale": "The Office of Insular Affairs administers federal policy for American Samoa, coordinating programs to support efficient and effective government while honoring unique history and culture [citation:6][citation:10].",
+        "citation": "DOI/OIA mission statement"
+      }
+    ]
+  }
+}

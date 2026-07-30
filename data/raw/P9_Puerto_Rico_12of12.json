@@ -1,0 +1,247 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Great GASPI Data Schema",
+  "type": "object",
+  "prompt_id": "prompt-9",
+  "territory_name": "Puerto Rico",
+  "perspective": "U.S. Federal Government / Financial Oversight and Management Board (FOMB) / Department of the Interior",
+  "language": "English",
+  "years_of_scope": "1898-2026",
+  "wgs84_center": {
+    "lat": 18.2208,
+    "lng": -66.5901
+  },
+  "topographic_and_control_data": {
+    "total_area_sqkm": 9104,
+    "accessible_area_sqkm": "data not available",
+    "control_zones": [
+      {
+        "zone_name": "Commonwealth of Puerto Rico (Municipalities)",
+        "area_sqkm": 9104,
+        "area_pct": 100,
+        "governing_uthority": "Government of Puerto Rico (local jurisdiction)",
+        "access_restrictions": "Subject to federal statutory supremacy under the Territory Clause of the U.S. Constitution.",
+        "strategic_features_located_here": [
+          "Cordillera Central",
+          "El Yunque National Forest (federal reservation)",
+          "Roosevelt Roads Naval Station (former, transferred to local control)"
+        ]
+      }
+    ],
+    "demographics": {
+      "population_category_a": 3198651,
+      "population_category_b": "data not available",
+      "density_per_sqkm": 323,
+      "displacement_or_refugee_count": "data not available",
+      "notes": "The population of Puerto Rico in 2024 was 3,198,651. It is a decrease of 0.1% from 2023.",
+      "citation": "U.S. Census Bureau, 2024 population estimate."
+    },
+    "named_high_ground_features": [
+      {
+        "name": "El Yunque National Forest",
+        "lat": 18.3107,
+        "lng": -65.7912,
+        "elevation_m": 1080,
+        "functional_strategic_description": "Control of observation and movement corridors over the northeastern coastal plain. Position relative to critical watersheds.",
+        "control_zone": "Commonwealth of Puerto Rico",
+        "citation": "USDA Forest Service"
+      },
+      {
+        "name": "Cerro de Punta",
+        "lat": 18.1667,
+        "lng": -66.5167,
+        "elevation_m": 1339,
+        "functional_strategic_description": "Highest point in the Cordillera Central; control of observation and fire control over interior mountain passes and movement corridors.",
+        "control_zone": "Commonwealth of Puerto Rico",
+        "citation": "USGS"
+      }
+    ],
+    "physical_barriers": [
+      {
+        "name": "Vieques Bombing Range (formerly restricted military zone)",
+        "type": "manmade",
+        "lat": 18.1262,
+        "lng": -65.4303,
+        "length_km": "data not available",
+        "temporal_variations": "Range operations ceased in 2003; cleanup under EPA oversight continues",
+        "stated_justification": "Official justification for the US Navy's presence was based on military readiness and national security, citing the strategic importance of the Caribbean. Subsequent federal justification for cleanup has been environmental remediation.",
+        "opposing_characterization": "Local communities and environmental groups have characterized the range as a source of environmental contamination and a threat to public health.",
+        "citation": "EPA and DoD reports"
+      }
+    ]
+  },
+  "hydrology_data": {
+    "upstream_downstream_position": "not_applicable",
+    "water_infrastructure": [
+      {
+        "name": "Carraízo Reservoir",
+        "type": "Reservoir",
+        "lat": 18.1328,
+        "lng": -66.0342,
+        "controlling_entity": "PRASA (Puerto Rico Aqueduct and Sewer Authority)",
+        "capacity_or_flow_rate": "data not available",
+        "citation": "PRASA"
+      },
+      {
+        "name": "Dos Bocas Reservoir",
+        "type": "Reservoir",
+        "lat": 18.2361,
+        "lng": -66.6878,
+        "controlling_entity": "PRASA",
+        "capacity_or_flow_rate": "data not available",
+        "citation": "PRASA"
+      }
+    ],
+    "per_capita_water_consumption_l_d": {
+      "population_a": "data not available",
+      "population_b": "data not available",
+      "who_reference_standard": 100.0,
+      "citation": "data not available"
+    },
+    "agriculture": {
+      "arable_land_pct": "data not available",
+      "irrigated_land_pct": "data not available",
+      "food_import_dependency_pct": 85,
+      "citation": "Local agricultural reports"
+    }
+  },
+  "environmental_degradation_incidents": [
+    {
+      "incident_type": "Caño Martín Peña Contamination",
+      "chemical_or_hazard_agents": [
+        "Industrial waste",
+        "Sewage",
+        "Heavy metals"
+      ],
+      "toxicological_classification": "Environmental hazard",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": "data not available",
+      "ongoing": true,
+      "stated_justification": "EPA and federal agencies are engaged in remediation efforts under various environmental statutes.",
+      "opposing_characterization": "Local communities have characterized the area as a health hazard and a failure of environmental enforcement.",
+      "documenting_orgs": [
+        "EPA",
+        "Local community groups"
+      ],
+      "citations": [
+        "EPA documents"
+      ]
+    }
+  ],
+  "infrastructure_and_logistics_data": {
+    "airspace_and_spectrum": {
+      "cellular_tech_allowed": "3G, 4G, 5G (FCC regulated)",
+      "flight_corridor_control": "FAA controlled corridors; SJU airport authority",
+      "stated_justification": "Federal regulation of airspace and telecommunications to ensure safety and uniformity.",
+      "citation": "FCC, FAA"
+    },
+    "maritime_and_cabotage": {
+      "eez_claimed_sqkm": "data not available",
+      "eez_accessible_sqkm": "data not available",
+      "accessible_ports_count": 2,
+      "fishing_zone_nautical_miles": 200,
+      "cabotage_or_merchant_marine_restrictions": "The Jones Act (Section 27 of the Merchant Marine Act of 1920) requires that goods shipped between U.S. ports be carried on U.S.-built, U.S.-flagged, and U.S.-crewed vessels.",
+      "stated_justification": "The federal government justifies the Jones Act as a national security measure to maintain a strong U.S. merchant marine and ensure the availability of American-built vessels and mariners for national defense purposes.",
+      "citation": "Merchant Marine Act of 1920; various federal court rulings."
+    },
+    "trade_and_dual_use_controls": {
+      "controlled_item_categories": [
+        "Data not available"
+      ],
+      "transit_permit_regimes": "data not available",
+      "stated_justification": "data not available",
+      "citation": "data not available"
+    },
+    "checkpoints_and_gates": [
+      {
+        "name": "Port of San Juan (CBP Inspections)",
+        "lat": 18.4655,
+        "lng": -66.1057,
+        "permit_type_required": "Customs and Border Protection clearance for international cargo and passengers",
+        "stated_justification": "Enforcement of federal immigration, customs, and agricultural laws at the port of entry.",
+        "citation": "CBP"
+      }
+    ],
+    "utilities_and_energy_grid": {
+      "official_currency": "United States Dollar (USD)",
+      "local_informal_currency": "data not available",
+      "power_generating_assets": [
+        "LUMA Energy (transmission and distribution)",
+        "Genera PR (power generation)"
+      ],
+      "daily_electricity_hours_avg": "data not available",
+      "power_grid_self_sufficiency_pct": "data not available",
+      "fuel_import_dependency_pct": "data not available",
+      "debt_or_fiscal_transfer_mechanisms": "The Puerto Rico Oversight, Management, and Economic Stability Act (PROMESA) established the FOMB to oversee fiscal restructuring, including the restructuring of PREPA debt.",
+      "citation": "PROMESA; FOMB reports."
+    }
+  },
+  "jurisprudence_and_statutory_friction": {
+    "enforced_system_name": "Federal statutory supremacy (Title 48 of the U.S. Code, PROMESA, U.S. Constitution)",
+    "preferred_or_prior_system_name": "Local Constitution and statutes of the Commonwealth of Puerto Rico",
+    "population_under_special_or_external_law": 3198651,
+    "enforced_statutes_cited": [
+      "Article IV, Section 3 of the U.S. Constitution (Territory Clause)",
+      "Title 48 of the U.S. Code (Territories and Insular Possessions)",
+      "Puerto Rico Oversight, Management, and Economic Stability Act (PROMESA)"
+    ],
+    "landmark_jurisprudence_and_treaties": [
+      {
+        "judicial_body_or_treaty": "Supreme Court of the United States",
+        "case_or_resolution_name": "Downes v. Bidwell (182 U.S. 244)",
+        "year": 1901,
+        "holding_or_standard": "Established the doctrine of 'territorial incorporation,' holding that the Constitution does not automatically apply to territories.",
+        "official_legal_rationale": "The U.S. government argued that Puerto Rico was not part of the United States for purposes of the Constitution, justifying the imposition of tariffs on Puerto Rican goods.",
+        "citation": "Downes v. Bidwell, 182 U.S. 244 (1901)"
+      },
+      {
+        "judicial_body_or_treaty": "Supreme Court of the United States",
+        "case_or_resolution_name": "Financial Oversight and Management Board v. Aurelius (140 S. Ct. 1649)",
+        "year": 2020,
+        "holding_or_standard": "Held that members of the FOMB were not 'officers of the United States' under the Appointments Clause.",
+        "official_legal_rationale": "The U.S. government defended the constitutionality of PROMESA and the FOMB's structure.",
+        "citation": "Financial Oversight and Management Board v. Aurelius, 140 S. Ct. 1649 (2020)"
+      },
+      {
+        "judicial_body_or_treaty": "Supreme Court of the United States",
+        "case_or_resolution_name": "United States v. Vaello-Madero",
+        "year": 2022,
+        "holding_or_standard": "Held that Congress can constitutionally exclude Puerto Rico residents from the Supplemental Security Income (SSI) program.",
+        "official_legal_rationale": "The U.S. government argued that treating Puerto Rico differently from states for federal benefits is constitutional under the territorial clauses.",
+        "citation": "United States v. Vaello-Madero, 596 U.S. ___ (2022)"
+      }
+    ],
+    "documented_statutory_conflicts": [
+      {
+        "legal_domain": "Fiscal Oversight",
+        "enforced_clause_reference": "PROMESA (Board authority to certify fiscal plans and override local laws)",
+        "preferred_or_prior_clause_reference": "Local Puerto Rico statutes (e.g., Act 22 / Act 60 tax codes)",
+        "conflict_description": "Conflict between the FOMB's absolute veto power over local fiscal laws and the locally enacted budget and tax laws passed by the Puerto Rican legislature.",
+        "citation": "PROMESA; Local laws."
+      }
+    ]
+  },
+  "security_and_justification_data": {
+    "official_threat_assessments_or_attack_statistics": [
+      {
+        "description": "Official justifications for fiscal oversight, citing threats to fiscal stability and public safety",
+        "time_period": "2016-2026",
+        "numbers_or_incidents": "data not available",
+        "source": "FOMB and federal government statements",
+        "citation": "FOMB and federal government statements"
+      }
+    ],
+    "stated_administrative_or_security_rationales": [
+      {
+        "measure": "Jones Act Application",
+        "official_rationale": "National security and maintaining a strong U.S. merchant marine.",
+        "citation": "Merchant Marine Act of 1920."
+      },
+      {
+        "measure": "Fiscal Oversight under PROMESA",
+        "official_rationale": "To provide a mechanism for fiscal stability and debt restructuring in Puerto Rico.",
+        "citation": "PROMESA"
+      }
+    ]
+  }
+}

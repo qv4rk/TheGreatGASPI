@@ -1,0 +1,331 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Great GASPI Data Schema",
+  "type": "object",
+  "prompt_id": "prompt-16",
+  "territory_name": "Guåhan (Guam)",
+  "perspective": "CHamoru Land Rights / Decolonization Advocates / Chamorro Land Trust Commission",
+  "language": "English (with CHamoru terms)",
+  "years_of_scope": "1898-2026",
+  "wgs84_center": {
+    "lat": 13.4443,
+    "lng": 144.7937
+  },
+  "topographic_and_control_data": {
+    "total_area_sqkm": 544,
+    "accessible_area_sqkm": "data not available",
+    "control_zones": [
+      {
+        "zone_name": "Military Reservations (DoD-controlled lands)",
+        "area_sqkm": 123.9,
+        "area_pct": 22.78,
+        "governing_authority": "U.S. Department of Defense (Joint Region Marianas)",
+        "access_restrictions": "Highly restricted; requires DoD-issued biometric ID credentials; ancestral land-owning families barred from entry to properties taken by condemnation after WWII; military fences cut off access to ancestral fishing grounds and forests[citation:2][citation:13]",
+        "strategic_features_located_here": [
+          "Andersen Air Force Base (Litekyan/Ritidian area)",
+          "Naval Base Guam",
+          "Marine Corps Base Camp Blaz",
+          "Tarague Beach (site of open burning/open detonation operations)"
+        ]
+      },
+      {
+        "zone_name": "Ancestral Lands (under CLTC and GALC)",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Chamorro Land Trust Commission (CLTC) / Guam Ancestral Lands Commission (GALC)",
+        "access_restrictions": "Administered for native CHamoru beneficiaries; leases granted to native Chamorros; agricultural and residential lease programs; ~6,734 residential applicants and ~1,030 agricultural applicants with ~4,325 residential acres and ~2,263 agricultural acres identified[citation:1][citation:6]",
+        "strategic_features_located_here": [
+          "Litekyan / Ritidian (ancestral and sacred site)",
+          "Pagat",
+          "Sumay",
+          "Jinapsan"
+        ]
+      },
+      {
+        "zone_name": "Ancestral Lands Commission (GALC) Process Lands",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Guam Ancestral Lands Commission",
+        "access_restrictions": "Ancestral lands are those owned privately by residents of Guam on or after January 1, 1930[citation:1]. Lands confiscated or condemned by the U.S. government on or after January 1, 1930[citation:15]. ~879 acres returned to 716 families and heirs since 2011[citation:6]",
+        "strategic_features_located_here": [
+          "Original lands seized by military after WWII",
+          "Replacement land (excess federal/government land)"
+        ]
+      }
+    ],
+    "demographics": {
+      "population_category_a": 153836,
+      "population_category_b": 118000,
+      "density_per_sqkm": "data not available",
+      "displacement_or_refugee_count": "data not available",
+      "notes": "Total population estimated at 153,836 (2024 estimate from U.S. Census Bureau). Native CHamoru population dropped from 92% in 1920 to 39% as of 2020. Active-duty military and dependent population approximately 30,000-40,000. The CHamoru now own approximately one-third of the island[citation:11][citation:14]. Indigenous CHamoru population subject to unincorporated territorial status without sovereign land control.",
+      "citation": "U.S. Census Bureau; Miami Inter-American Law Review, 2024"
+    },
+    "named_high_ground_features": [
+      {
+        "name": "Mount Lamlam",
+        "lat": 13.337,
+        "lng": 144.661,
+        "elevation_m": 406,
+        "functional_strategic_description": "Highest point on Guam; control of observation over large portions of the southern and central island; position relative to water resources and movement corridors",
+        "control_zone": "Public lands / mixed jurisdiction",
+        "citation": "USGS"
+      },
+      {
+        "name": "Litekyan / Ritidian Point",
+        "lat": 13.6334,
+        "lng": 144.8546,
+        "elevation_m": 100,
+        "functional_strategic_description": "Northernmost point of Guam; sits above sole-source aquifer providing >80% of Guam's drinking water; nesting habitat for endangered green sea turtles; foraging and resting area for migratory seabirds; location of Air Force open burning/open detonation operations[citation:2][citation:7]",
+        "control_zone": "Military Reservation (Andersen AFB)",
+        "citation": "Ninth Circuit Opinion, Prutehi Litekyan v. USAF, 2025"
+      }
+    ],
+    "physical_barriers": [
+      {
+        "name": "Military Fences and Restricted Zones (Andersen AFB, Naval Base Guam, Camp Blaz)",
+        "type": "manmade",
+        "lat": "data not available",
+        "lng": "data not available",
+        "length_km": "data not available",
+        "temporal_variations": "DoD land reservations established primarily through condemnation orders 1948-1950; still in effect with expansion planned; approximately 22.78% of land area reserved for military use",
+        "stated_justification": "U.S. Department of Defense justifies land reservations for strategic posture in the Pacific and force protection requirements",
+        "opposing_characterization": "CHamoru advocates characterize military fences as cutting off access to ancestral fishing grounds and forests; rendering original land-owning families barred from entry to their own properties; military land takings constitute displacement and cultural erasure[citation:2][citation:13]",
+        "citation": "Prutehi Litekyan v. USAF, 9th Circuit, 2025"
+      }
+    ]
+  },
+  "hydrology_data": {
+    "upstream_downstream_position": "not_applicable",
+    "water_infrastructure": [
+      {
+        "name": "Northern Guam Lens Aquifer (NGLA)",
+        "type": "Sole-source freshwater lens aquifer",
+        "lat": "data not available",
+        "lng": "data not available",
+        "controlling_entity": "Guam Waterworks Authority (GWA) / Navy Public Works",
+        "capacity_or_flow_rate": "Provides drinking water to more than 80% of Guam's population[citation:2][citation:7][citation:13]",
+        "citation": "Ninth Circuit Opinion, 2025"
+      },
+      {
+        "name": "Fena Valley Reservoir",
+        "type": "Reservoir (Navy-managed)",
+        "lat": 13.3456,
+        "lng": 144.7356,
+        "controlling_entity": "U.S. Navy Public Works / Joint Region Marianas",
+        "capacity_or_flow_rate": "data not available",
+        "citation": "data not available"
+      }
+    ],
+    "per_capita_water_consumption_l_d": {
+      "population_a": "data not available",
+      "population_b": "data not available",
+      "who_reference_standard": 100.0,
+      "citation": "data not available"
+    },
+    "agriculture": {
+      "arable_land_pct": "data not available",
+      "irrigated_land_pct": "data not available",
+      "food_import_dependency_pct": "data not available",
+      "notes": "Loss of arable land linked to military firing range construction and destruction of native limestone forest ecosystems at Litekyan; loss of traditional medicinal plants (Åmot CHamoru)",
+      "citation": "Prutehi Litekyan v. USAF, 2025; Earthjustice press release"
+    }
+  },
+  "environmental_degradation_incidents": [
+    {
+      "incident_type": "Open Burning/Open Detonation (OB/OD) Operations - Tarague Beach / Litekyan",
+      "chemical_or_hazard_agents": [
+        "RDX",
+        "HMX",
+        "TNT",
+        "Perchlorate",
+        "Dioxins",
+        "Other toxic chemicals"
+      ],
+      "toxicological_classification": "Environmental contamination; chemicals linked to cancer, neurological damage, and groundwater contamination[citation:13]",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": 1982,
+      "ongoing": true,
+      "stated_justification": "U.S. Air Force states operations are necessary for disposal of unexploded ordnance; claims RCRA permitting process satisfies environmental review requirements[citation:2][citation:7]",
+      "opposing_characterization": "Local CHamoru advocates (Prutehi Litekyan / Prutehi Guåhan) characterize OB/OD operations as contaminating ancestral lands and the sole-source aquifer; operations threaten endangered sea turtles and migratory seabirds; toxic chemicals may contaminate drinking water for >80% of Guam's population[citation:13]. Environmental and cultural documentation includes: Tarague Beach sits above sole-source aquifer; Air Force failed to conduct NEPA review; OB/OD site is 180 feet from Pacific Ocean and 80 feet from jungle[citation:2][citation:13].",
+      "documenting_orgs": [
+        "Prutehi Litekyan: Save Ritidian / Prutehi Guåhan",
+        "Earthjustice",
+        "U.S. Department of the Air Force (as defendant)"
+      ],
+      "citations": [
+        "Prutehi Litekyan v. USAF, 9th Cir., February 2025[citation:2][citation:7]",
+        "Earthjustice press release, February 2025[citation:13]"
+      ]
+    },
+    {
+      "incident_type": "PFAS Contamination (Per- and Polyfluoroalkyl Substances)",
+      "chemical_or_hazard_agents": [
+        "PFAS / PFOA / PFOS"
+      ],
+      "toxicological_classification": "Chemical contamination of groundwater resources",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": "data not available",
+      "ongoing": true,
+      "stated_justification": "DoD cleanup operations underway; EPA monitoring",
+      "opposing_characterization": "Local findings indicate PFAS contamination in NGLA monitoring wells; concerns over drinking water safety[citation:2]",
+      "documenting_orgs": [
+        "EPA",
+        "Guam Environmental Protection Agency (GEPA)",
+        "Prutehi Guåhan"
+      ],
+      "citations": [
+        "Prutehi Litekyan v. USAF, 9th Circuit, 2025"
+      ]
+    }
+  ],
+  "infrastructure_and_logistics_data": {
+    "airspace_and_spectrum": {
+      "cellular_tech_allowed": "FCC regulated; military and commercial corridors at Andersen AFB",
+      "flight_corridor_control": "FAA controlled commercial and military airspace corridors; Andersen AFB operations",
+      "stated_justification": "Federal regulation of airspace for safety and strategic posture",
+      "citation": "FAA; DoD"
+    },
+    "maritime_and_cabotage": {
+      "eez_claimed_sqkm": "data not available",
+      "eez_accessible_sqkm": "data not available",
+      "accessible_ports_count": 1,
+      "fishing_zone_nautical_miles": 200,
+      "cabotage_or_merchant_marine_restrictions": "Jones Act (Section 27 of the Merchant Marine Act of 1920) requires goods shipped between U.S. ports to be carried on U.S.-built, U.S.-flagged, U.S.-crewed vessels; applies to Guam; local characterizations consider this a shipping monopoly bottleneck and economic burden[citation:9]",
+      "stated_justification": "National security and maintaining a strong U.S. merchant marine",
+      "citation": "Merchant Marine Act of 1920"
+    },
+    "trade_and_dual_use_controls": {
+      "controlled_item_categories": [
+        "Data not available"
+      ],
+      "transit_permit_regimes": "data not available",
+      "stated_justification": "data not available",
+      "citation": "data not available"
+    },
+    "checkpoints_and_gates": [
+      {
+        "name": "Andersen Air Force Base Access Gates",
+        "lat": "data not available",
+        "lng": "data not available",
+        "permit_type_required": "DoD-issued Defense Biometric Identification System (DBIDS) credentials",
+        "stated_justification": "Force protection and base security",
+        "opposing_characterization": "ancestral properties where original land-owning families are barred from entry by DoD security gates[citation:2]",
+        "citation": "DoD regulations"
+      },
+      {
+        "name": "Naval Base Guam Access Gates",
+        "lat": "data not available",
+        "lng": "data not available",
+        "permit_type_required": "DBIDS credentials",
+        "stated_justification": "Force protection and base security",
+        "citation": "DoD regulations"
+      }
+    ],
+    "utilities_and_energy_grid": {
+      "official_currency": "United States Dollar (USD)",
+      "local_informal_currency": "data not available",
+      "power_generating_assets": [
+        "Guam Power Authority (GPA) power grid",
+        "Imported fuel for power generation"
+      ],
+      "daily_electricity_hours_avg": "24 hours per day",
+      "power_grid_self_sufficiency_pct": "data not available",
+      "fuel_import_dependency_pct": "data not available",
+      "debt_or_fiscal_transfer_mechanisms": "Military tax exemptions under the Soldiers' and Sailors' Civil Relief Act impacting local revenues[citation:9]",
+      "citation": "data not available"
+    }
+  },
+  "jurisprudence_and_statutory_friction": {
+    "enforced_system_name": "U.S. Federal Law / Organic Act of Guam (1950) / 48 U.S.C. Chapter 8A",
+    "preferred_or_prior_system_name": "CHamoru Customary Law / 21 GCA Chapter 75 (Chamorro Land Trust Act) / 21 GCA Chapter 80 (Guam Ancestral Lands Commission Act) / Treaty of Paris Article IX",
+    "population_under_special_or_external_law": 153836,
+    "enforced_statutes_cited": [
+      "U.S. Constitution, 15th Amendment",
+      "48 U.S.C. Chapter 8A (Organic Act of Guam, 1950)",
+      "21 GCA Chapter 75 (Chamorro Land Trust Act)[citation:1]",
+      "21 GCA Chapter 80 (Guam Ancestral Lands Commission Act)[citation:1][citation:4]",
+      "Treaty of Paris (1898), Article IX[citation:5][citation:12]"
+    ],
+    "landmark_jurisprudence_and_treaties": [
+      {
+        "judicial_body_or_treaty": "U.S. Court of Appeals, Ninth Circuit",
+        "case_or_resolution_name": "Davis v. Guam, 932 F.3d 822 (9th Cir. 2019)",
+        "year": 2019,
+        "holding_or_standard": "Struck down Guam's political status plebiscite law restricting voting to 'Native Inhabitants of Guam' on 15th Amendment grounds; held that the restriction functioned as a proxy for race and could not stand; Supreme Court denied certiorari May 4, 2020[citation:3][citation:11][citation:14]",
+        "official_legal_rationale": "The court stated: 'Our decision makes no judgment about whether Guam's targeted interest in the self-determination of its indigenous people is genuine or compelling. Rather, our obligation is to apply established Fifteenth Amendment principles, which single out voting restrictions based on race as impermissible whatever their justification.'[citation:14]",
+        "citation": "Davis v. Guam, 932 F.3d 822 (9th Cir. 2019)"
+      },
+      {
+        "judicial_body_or_treaty": "U.S. Court of Appeals, Ninth Circuit",
+        "case_or_resolution_name": "Prutehi Litekyan: Save Ritidian v. United States Department of the Air Force, No. 22-16613",
+        "year": 2025,
+        "holding_or_standard": "Reversed district court dismissal; held that: (1) Prutehi Litekyan had standing to challenge OB/OD operations; (2) the Air Force engaged in final agency action ripe for judicial review; (3) NEPA applies to the Air Force's decision to conduct OB/OD at Tarague Beach; remanded for proceedings[citation:2][citation:7]",
+        "official_legal_rationale": "Ninth Circuit held that RCRA's permitting process does not make NEPA review 'redundant'; the Air Force had a procedural duty to take a 'hard look' at environmental impacts before committing to its disposal plan[citation:2]",
+        "citation": "Prutehi Litekyan: Save Ritidian v. USAF, No. 22-16613, 2025"
+      },
+      {
+        "judicial_body_or_treaty": "Treaty of Paris",
+        "case_or_resolution_name": "Article IX",
+        "year": 1898,
+        "holding_or_standard": "The civil rights and political status of the native inhabitants of the territories ceded to the United States shall be determined by the Congress[citation:5][citation:12]",
+        "official_legal_rationale": "U.S. Congress has not fully determined political status; Guam remains an unincorporated territory",
+        "citation": "Treaty of Paris, Article IX (1898)"
+      }
+    ],
+    "documented_statutory_conflicts": [
+      {
+        "legal_domain": "Self-determination / Voting Rights",
+        "enforced_clause_reference": "15th Amendment (federal equal protection; prohibits race-based voting restrictions)",
+        "preferred_or_prior_clause_reference": "1 GCA Chapter 21 (Self-Determination Plebiscite Law) - restricting plebiscite to 'Native Inhabitants of Guam'",
+        "conflict_description": "Direct contradiction between federal court decisions (Davis v. Guam striking down native voting rights under federal equal protection) and native CHamoru statutory rights to self-determination plebiscites under local law. The plebiscite law as written has been effectively nullified by the court, leaving no lawful pathway for Chamorro self-determination within the U.S. system[citation:3][citation:11]",
+        "citation": "Davis v. Guam, 932 F.3d 822 (9th Cir. 2019); 1 GCA Chapter 21"
+      },
+      {
+        "legal_domain": "Land Rights / Ancestral Property",
+        "enforced_clause_reference": "Guam Ancestral Lands Commission Act (21 GCA Chapter 80) - ancestral lands defined as those owned by residents of Guam on or after January 1, 1930[citation:1][citation:4][citation:15]",
+        "preferred_or_prior_clause_reference": "Federal eminent domain takings (Naval Military Government Land Acquisition Orders 1948-1950)",
+        "conflict_description": "Conflict between native CHamoru statutory rights to ancestral land distribution and federal land confiscation. Under the GALC Act, 'original lands' are those confiscated or condemned by the U.S. on or after January 1, 1930. However, a process does not exist to recognize ancestral land rights for properties not declared excess by the military. Replacement land is limited to excess federal government land[citation:15]. The military retains control over ancestral lands; CHamoru only own ~1/3 of island[citation:14]",
+        "citation": "21 GCA Chapter 80; Miami Inter-American Law Review, 2024"
+      },
+      {
+        "legal_domain": "Land Trust Qualifications",
+        "enforced_clause_reference": "Chamorro Land Trust Act (21 GCA Chapter 75) - removed native inhabitant-based qualifications in 2020 settlement to comply with federal Fair Housing Act[citation:3]",
+        "preferred_or_prior_clause_reference": "Original land trust qualifications (native inhabitant-based)",
+        "conflict_description": "When the federal government sued Guam alleging the Chamorro Land Trust program discriminated on race/national origin under the Fair Housing Act, the legislature removed native inhabitant-based qualifications. This reflects tension between federal anti-discrimination law and the goal of preferential access to land for the indigenous population[citation:3]",
+        "citation": "Guam Legislature; Parkinson, 2025"
+      }
+    ]
+  },
+  "security_and_justification_data": {
+    "official_threat_assessments_or_attack_statistics": [
+      {
+        "description": "Strategic posture assessments for land reservations in Guam",
+        "time_period": "1948-2026",
+        "numbers_or_instances": "Approximately 22.78% (123.9 sq km) of Guam's land area reserved for DoD use; expansion planned under Marine Corps relocation from Okinawa",
+        "source": "U.S. Department of Defense / Joint Region Marianas",
+        "citation": "DoD installation plans"
+      }
+    ],
+    "stated_administrative_or_security_rationales": [
+      {
+        "measure": "Military land takings / condemnation orders (1948-1950)",
+        "official_rationale": "Necessary for strategic posture, force protection, and national defense requirements in the Pacific",
+        "opposing_characterization": "CHamoru advocates characterize takings as displacement and cultural erasure; military fences cut off access to ancestral fishing grounds and forests; condemnation after WWII prevented the return of ancestral lands to original families[citation:2][citation:13]",
+        "citation": "DoD; Prutehi Litekyan v. USAF, 2025"
+      },
+      {
+        "measure": "Open Burning/Open Detonation Operations at Tarague Beach",
+        "official_rationale": "Air Force claims necessary for disposal of unexploded ordnance; RCRA permitting process satisfies environmental requirements",
+        "opposing_characterization": "Prutehi Guåhan characterized as contaminating land and water with toxic waste; degrading ancestral CHamoru lands; failing NEPA review; risk of permanent contamination to the aquifer providing drinking water to >80% of Guam; denial of public input before decision-making[citation:2][citation:13]",
+        "citation": "Prutehi Litekyan v. USAF, 2025; Earthjustice"
+      },
+      {
+        "measure": "Land access restrictions at military gates",
+        "official_rationale": "Force protection and security at military installations",
+        "opposing_characterization": "original land-owning families barred from entry to their own ancestral properties taken by military condemnation[citation:2]",
+        "citation": "Prutehi Litekyan v. USAF, 2025"
+      }
+    ]
+  }
+}

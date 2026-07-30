@@ -1,0 +1,360 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Great GASPI Data Schema",
+  "type": "object",
+  "prompt_id": "prompt-19",
+  "territory_name": "Jammu & Kashmir (Union Territory)",
+  "perspective": "Government of India / Ministry of Home Affairs / J&K UT Administration",
+  "language": "English",
+  "years_of_scope": "2019-2026",
+  "wgs84_center": {
+    "lat": 33.7782,
+    "lng": 76.5762
+  },
+  "topographic_and_control_data": {
+    "total_area_sqkm": 55538,
+    "accessible_area_sqkm": 42241,
+    "control_zones": [
+      {
+        "zone_name": "Jammu Division",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Government of India / UT Administration",
+        "access_restrictions": "Standard administrative controls; security checkpoints along highways and sensitive areas",
+        "strategic_features_located_here": [
+          "Jammu-Srinagar National Highway (NH-44)",
+          "Chenab River corridor",
+          "Basohli and Udhampur districts"
+        ]
+      },
+      {
+        "zone_name": "Kashmir Valley",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Government of India / UT Administration",
+        "access_restrictions": "Heavy security presence; special measures under the Public Safety Act and AFSPA; internet suspension orders issued under Temporary Suspension of Telecom Services Rules (2017)",
+        "strategic_features_located_here": [
+          "Pir Panjal Range",
+          "Jhelum River",
+          "Dal Lake",
+          "Wular Lake",
+          "Srinagar city"
+        ]
+      },
+      {
+        "zone_name": "Line of Control (LoC) Zone",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Indian Army (Northern Command)",
+        "access_restrictions": "Highly restricted; Anti-Infiltration Obstacle System (AIOS) double-row fence; smart fence integration with LIDAR sensors, infrared sensors, and cameras [citation:4][citation:11]",
+        "strategic_features_located_here": [
+          "Anti-Infiltration Obstacle System (AIOS) - double row concertina wire fence constructed 2003-2005",
+          "Smart fence hybrid model integrating sensors",
+          "Zoji La Pass",
+          "Banihal Pass"
+        ]
+      }
+    ],
+    "demographics": {
+      "population_category_a": 12541302,
+      "population_category_b": "data not available",
+      "density_per_sqkm": 56,
+      "displacement_or_refugee_count": "data not available",
+      "notes": "Total population of Jammu and Kashmir as per Census 2011 is 1,25,41,302, forming 1.04% of India's population. Population density is 56 persons per sq km. Muslim population constitutes approximately 68.31% (85,67,485), Hindu population 28.44% (35,66,674), Sikh 1.87%, Buddhist 0.90%, Christian 0.28% [citation:6]. New domicile certificate issuance numbers post-2019 are not available from the search results.",
+      "citation": "Census of India 2011"
+    },
+    "named_high_ground_features": [
+      {
+        "name": "Pir Panjal Range",
+        "lat": 33.9,
+        "lng": 74.4,
+        "elevation_m": 3000,
+        "functional_strategic_description": "Controls movement corridors between Jammu and Kashmir Valley; strategic observation points over highways and valleys; position relative to Jhelum and Chenab basins",
+        "control_zone": "Jammu and Kashmir UT",
+        "citation": "data not available"
+      },
+      {
+        "name": "Zoji La Pass",
+        "lat": 34.2783,
+        "lng": 75.4714,
+        "elevation_m": 3528,
+        "functional_strategic_description": "Strategic high-altitude pass connecting Kashmir Valley to Ladakh; control of movement corridor; critical for military logistics and troop movements",
+        "control_zone": "LoC Zone",
+        "citation": "data not available"
+      },
+      {
+        "name": "Siachen Glacier (contested)",
+        "lat": 35.5,
+        "lng": 77.0,
+        "elevation_m": 5770,
+        "functional_strategic_description": "Control of observation and movement corridors in the highest battlefield; position relative to water resources and Line of Control",
+        "control_zone": "LoC Zone (contested)",
+        "citation": "data not available"
+      }
+    ],
+    "physical_barriers": [
+      {
+        "name": "Anti-Infiltration Obstacle System (AIOS)",
+        "type": "manmade",
+        "lat": "data not available",
+        "lng": "data not available",
+        "length_km": 700,
+        "temporal_variations": "Constructed 2003-2005; smart fence integration underway with sensors; hybrid model adoption due to cost; 60 km smart fence attempted in 2020 [citation:11]",
+        "stated_justification": "Government of India justifies the LoC fencing and security measures as necessary to prevent infiltration from Pakistan-occupied Kashmir and terrorist attacks. The fence forms the first line of defense in a three-tier counter-infiltration grid. The smart fence enhancement was motivated by the Pathankot and Uri terror attacks in which terrorists crossed the LoC [citation:4].",
+        "opposing_characterization": "Local Kashmiri advocates characterize the fence as a tool of partition and separation, restricting movement and livelihoods; security checkpoints are seen as obstacles to civilian freedom.",
+        "citation": "The Hindu, 2017"
+      }
+    ]
+  },
+  "hydrology_data": {
+    "upstream_downstream_position": "upstream",
+    "water_infrastructure": [
+      {
+        "name": "Indus River (Indus Waters Treaty)",
+        "type": "River",
+        "lat": 34.1667,
+        "lng": 77.3333,
+        "controlling_entity": "Government of India / NHPC Limited",
+        "capacity_or_flow_rate": "Part of Indus Waters Treaty with Pakistan; western rivers allocated to Pakistan under the 1960 treaty. India has only constructed 3,482 MW capacity out of an estimated 20,000 MW potential from hydro-power generation units on western rivers [citation:10].",
+        "citation": "The Times of India, 2025"
+      },
+      {
+        "name": "Jhelum River",
+        "type": "River",
+        "lat": 34.1,
+        "lng": 74.9,
+        "controlling_entity": "Government of India / J&K State Power Development Corporation",
+        "capacity_or_flow_rate": "110 MW Lower Jhelum project operational",
+        "citation": "Kashmir Reader, 2024"
+      },
+      {
+        "name": "Chenab River",
+        "type": "River",
+        "lat": 33.5,
+        "lng": 75.5,
+        "controlling_entity": "Government of India / NHPC Limited",
+        "capacity_or_flow_rate": "390 MW Dulhasti Power Station operational since 2007; 260 MW Dulhasti Stage-II approved for construction; 1,856 MW Sawalkot hydroelectric project approved in 2025 [citation:3][citation:10]. The Dulhasti Stage-II project is likely to become the first hydropower project on a western river to be completed after India suspended the Indus Waters Treaty following the 2025 Pahalgam terror attack.",
+        "citation": "Tribune India, 2026; The Times of India, 2025"
+      },
+      {
+        "name": "Baglihar Hydro Electric Project",
+        "type": "Hydroelectric project",
+        "lat": 33.1667,
+        "lng": 75.3333,
+        "controlling_entity": "Government of India / NHPC Limited",
+        "capacity_or_flow_rate": "900 MW (UT-owned plant)",
+        "citation": "Kashmir Reader, 2024"
+      },
+      {
+        "name": "Kishanganga Hydroelectric Project",
+        "type": "Hydroelectric project",
+        "lat": 34.4333,
+        "lng": 73.8333,
+        "controlling_entity": "Government of India / NHPC Limited",
+        "capacity_or_flow_rate": "330 MW (central sector)",
+        "citation": "Kashmir Reader, 2024"
+      }
+    ],
+    "per_capita_water_consumption_l_d": {
+      "population_a": "data not available",
+      "population_b": "data not available",
+      "who_reference_standard": 100.0,
+      "citation": "data not available"
+    },
+    "agriculture": {
+      "arable_land_pct": "data not available",
+      "irrigated_land_pct": "data not available",
+      "food_import_dependency_pct": "data not available",
+      "notes": "J&K is a hydro-rich state; agricultural sector dependent on seasonal water availability",
+      "citation": "data not available"
+    }
+  },
+  "environmental_degradation_incidents": [
+    {
+      "incident_type": "Dal Lake and Wular Lake siltation/eutrophication",
+      "chemical_or_hazard_agents": [
+        "Siltation",
+        "Eutrophication",
+        "Pollution"
+      ],
+      "toxicological_classification": "Ecological degradation",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": "data not available",
+      "ongoing": true,
+      "stated_justification": "Official pollution-control justifications from the Indian administration focus on conservation measures",
+      "opposing_characterization": "Local civil concerns highlight the degradation of lakes due to encroachment and pollution",
+      "documenting_orgs": [
+        "J&K Government",
+        "Local environmental groups"
+      ],
+      "citations": [
+        "data not available"
+      ]
+    },
+    {
+      "incident_type": "Deforestation in the Pir Panjal range",
+      "chemical_or_hazard_agents": [
+        "Deforestation"
+      ],
+      "toxicological_classification": "Habitat loss",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": "data not available",
+      "ongoing": true,
+      "stated_justification": "data not available",
+      "opposing_characterization": "Local concerns regarding forest loss and its impact on the environment",
+      "documenting_orgs": [
+        "Local environmental groups"
+      ],
+      "citations": [
+        "data not available"
+      ]
+    }
+  ],
+  "infrastructure_and_logistics_data": {
+    "airspace_and_spectrum": {
+      "cellular_tech_allowed": "TRAI regulated; transition from 2G caps to 4G/5G rollout post-2021",
+      "flight_corridor_control": "Airspace controlled by Indian Air Force; commercial flights operate to Srinagar and Jammu airports",
+      "stated_justification": "Internet shutdown orders issued under the Temporary Suspension of Telecom Services Rules (2017) for security reasons; measures cited as necessary to prevent terrorist coordination and maintain law and order",
+      "citation": "Government orders"
+    },
+    "maritime_and_cabotage": {
+      "eez_claimed_sqkm": "data not available",
+      "eez_accessible_sqkm": "data not available",
+      "accessible_ports_count": 0,
+      "fishing_zone_nautical_miles": "data not available",
+      "cabotage_or_merchant_marine_restrictions": "Landlocked UT",
+      "stated_justification": "Not applicable",
+      "citation": "data not available"
+    },
+    "trade_and_dual_use_controls": {
+      "controlled_item_categories": [
+        "Dual-use items subject to security controls",
+        "Construction materials"
+      ],
+      "transit_permit_regimes": "Permit regimes for entry into restricted areas; identity verification required at checkpoints",
+      "stated_justification": "Security measures to prevent infiltration and maintain public order",
+      "citation": "data not available"
+    },
+    "checkpoints_and_gates": [
+      {
+        "name": "Jammu-Srinagar National Highway (NH-44) Checkpoints",
+        "lat": "data not available",
+        "lng": "data not available",
+        "permit_type_required": "Identity verification for civilians; transport permits for goods",
+        "stated_justification": "Security checkpoints to prevent infiltration and detect contraband; ensure safety of the highway corridor",
+        "citation": "data not available"
+      },
+      {
+        "name": "Security checkpoints under Public Safety Act and AFSPA",
+        "lat": "data not available",
+        "lng": "data not available",
+        "permit_type_required": "Identity verification; search authorization",
+        "stated_justification": "Security measures to detect and prevent terrorist activities",
+        "citation": "data not available"
+      }
+    ],
+    "utilities_and_energy_grid": {
+      "official_currency": "Indian Rupee (INR)",
+      "local_informal_currency": "data not available",
+      "power_generating_assets": [
+        "Baglihar Hydro Electric Project (900 MW)",
+        "Dulhasti Power Station (390 MW)",
+        "Kishanganga Hydroelectric Project (330 MW)",
+        "Uri Hydroelectric Project",
+        "Salal Hydroelectric Project",
+        "Pakal Dul, Ratle, Kiru, and Kwar projects (under construction - 900 MW joint venture)",
+        "Thermal power procurement (500 MW in process)",
+        "Solar power (1600 MW procured in 2023)"
+      ],
+      "daily_electricity_hours_avg": "24 hours per day (varies)",
+      "power_grid_self_sufficiency_pct": "data not available",
+      "fuel_import_dependency_pct": "data not available",
+      "debt_or_fiscal_transfer_mechanisms": "Direct fiscal transfers from Central Government; hydroelectric royalty structures; Power Purchase Agreements signed for 900 MW from CVPP projects and 1600 MW solar power; 500 MW thermal power procurement in process [citation:8]",
+      "citation": "Kashmir Reader, 2024"
+    }
+  },
+  "jurisprudence_and_statutory_friction": {
+    "enforced_system_name": "Indian Constitution (post-2019, after revocation of Article 370)",
+    "preferred_or_prior_system_name": "Jammu and Kashmir Constitution (1956), Article 370, Article 35A",
+    "population_under_special_or_external_law": "data not available",
+    "enforced_statutes_cited": [
+      "Jammu and Kashmir Reorganisation Act, 2019",
+      "Presidential Orders C.O. 272 and C.O. 273 (revoking Article 370 and Article 35A)",
+      "Temporary Suspension of Telecom Services Rules (2017)",
+      "Armed Forces (Special Powers) Act (AFSPA) - extended to J&K in 1990",
+      "Public Safety Act (PSA)",
+      "Unlawful Activities (Prevention) Act (UAPA)",
+      "Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013"
+    ],
+    "landmark_jurisprudence_and_treaties": [
+      {
+        "judicial_body_or_treaty": "Supreme Court of India (Constitution Bench)",
+        "case_or_resolution_name": "Article 370 Abrogation Judgment",
+        "year": 2023,
+        "holding_or_standard": "Five-judge Constitution Bench unanimously upheld the Central government's 2019 decision to abrogate Article 370. Key holdings include: J&K did not retain internal sovereignty; Article 370 is a temporary provision; the President had the power to notify abrogation without State Assembly concurrence; the J&K Constitution is now inoperative; elections to be held by September 30, 2024 [citation:5][citation:12]. Justice S.K. Kaul recommended an impartial Truth and Reconciliation Commission to investigate human rights violations since the 1980s [citation:5].",
+        "official_legal_rationale": "The Court accepted the Union's argument that Article 370 was a temporary provision meant to serve a transitional purpose. The Union government defended its decision, stating there was no constitutional fraud in repealing the provision, and that after the changes, street violence orchestrated by terrorists and secessionist networks has become a thing of the past [citation:1][citation:5].",
+        "citation": "Supreme Court of India, December 11, 2023"
+      },
+      {
+        "judicial_body_or_treaty": "Parliament of India",
+        "case_or_resolution_name": "Jammu and Kashmir Reorganisation Act, 2019",
+        "year": 2019,
+        "holding_or_standard": "Bifurcated the erstwhile state of Jammu and Kashmir into two Union Territories: Jammu and Kashmir, and Ladakh, effective October 31, 2019 [citation:1][citation:2].",
+        "official_legal_rationale": "The government stated that the reorganisation was necessary for administrative efficiency and development. The Solicitor General stated that the Union Territory of J&K would be returned to statehood as soon as possible [citation:5].",
+        "citation": "Parliament of India"
+      }
+    ],
+    "documented_statutory_conflicts": [
+      {
+        "legal_domain": "Land Ownership / Property Law",
+        "enforced_clause_reference": "Central legislation amendments opening land ownership to non-domiciles",
+        "preferred_or_prior_clause_reference": "1938 J&K Alienation of Land Act, Big Land Estates Abolition Act of 1950 (pre-existing state laws)",
+        "conflict_description": "Prior to 2019, Article 35A restricted land ownership in J&K to permanent residents. The revocation of Article 370 allowed central laws to apply, effectively superseding the 1938 J&K Alienation of Land Act and Big Land Estates Abolition Act of 1950. This allows non-domicile individuals to purchase land in the UT.",
+        "citation": "J&K Reorganisation Act, 2019"
+      },
+      {
+        "legal_domain": "Constitutional Law",
+        "enforced_clause_reference": "Revocation of Article 370 and Article 35A",
+        "preferred_or_prior_clause_reference": "Previous constitutional framework granting special status and autonomy",
+        "conflict_description": "The Central government's revocation of the special status is contested by local advocates who consider the 2019 act unconstitutional, arguing it bypassed the requirement for State concurrence and undermined the historical autonomy of the region.",
+        "citation": "Supreme Court of India, 2023"
+      }
+    ]
+  },
+  "security_and_justification_data": {
+    "official_threat_assessments_or_attack_statistics": [
+      {
+        "description": "Infiltration attempts and terrorist attacks cited by Indian security forces",
+        "time_period": "2016-2026",
+        "numbers_or_incidents": "The Pathankot and Uri terror attacks in 2016, in which terrorists crossed the LoC, motivated the smart fence enhancement [citation:4]. The 2025 Pahalgam terror attack prompted the government to suspend the Indus Waters Treaty and accelerate hydropower projects [citation:10]. The Central government stated that after the revocation of Article 370, street violence, which was engineered and orchestrated by terrorists and secessionist networks, has become a thing of the past [citation:1].",
+        "source": "Indian government/security establishment statements",
+        "citation": "The Hindu, 2017; Times of India, 2025; Zee News, 2023"
+      },
+      {
+        "description": "Detention under Public Safety Act and AFSPA",
+        "time_period": "1990-2026",
+        "numbers_or_incidents": "According to state government figures, 4,064 people were arrested from March 2010 to January 2011 under the PSA and AFSPA, with 3,900 released. Amnesty International estimated between 8,000 and 20,000 people have been detained under the PSA or AFSPA over the past 20 years [citation:14].",
+        "source": "J&K State Police; Amnesty International",
+        "citation": "UK Parliament written answer, 2011"
+      }
+    ],
+    "stated_administrative_or_security_rationales": [
+      {
+        "measure": "Revocation of Article 370 and bifurcation of J&K",
+        "official_rationale": "Necessary for administrative efficiency, development, and complete integration with the Indian Union. The Central government defended its decision, stating there was no constitutional fraud and that after the changes, street violence orchestrated by terrorists and secessionist networks has become a thing of the past [citation:1]. The Solicitor General stated that statehood of J&K will be restored except for the carving out of Ladakh [citation:5].",
+        "citation": "Government of India statements; Supreme Court verdict 2023"
+      },
+      {
+        "measure": "LoC fencing and smart fence enhancement",
+        "official_rationale": "Prevent infiltration from Pakistan and terrorist attacks. The fence is the first line of defense in the three-tier counter-infiltration grid. The smart fence was motivated by the Pathankot and Uri terror attacks in which terrorists crossed the LoC [citation:4].",
+        "citation": "The Hindu, 2017; The Hindu, 2020"
+      },
+      {
+        "measure": "AFSPA, Public Safety Act, and UAPA",
+        "official_rationale": "Security legislation necessary to maintain public order, prevent terrorism, and protect national security. The use of these acts is justified as a response to ongoing security threats and militant activity.",
+        "opposing_characterization": "Local advocates characterize AFSPA as a 'lawless law' that enables security forces to act with impunity. Under AFSPA, prosecution of security personnel requires central government sanction, which is practically impossible - until July 2018, the union government denied permission to prosecute in all 50 cases sent for sanction [citation:7]. From March 2010 to January 2011, 4,064 people were arrested under PSA/AFSPA; Amnesty International estimates 8,000-20,000 people detained over 20 years [citation:14].",
+        "citation": "National Herald, 2021; UK Parliament, 2011"
+      }
+    ]
+  }
+}

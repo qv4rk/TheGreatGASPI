@@ -1,0 +1,236 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Great GASPI Data Schema",
+  "type": "object",
+  "prompt_id": "prompt-10",
+  "territory_name": "Puerto Rico",
+  "perspective": "Asamblea Legislativa de Puerto Rico / Centro de Periodismo Investigativo / UTIER",
+  "language": "Spanish",
+  "years_of_scope": "1898-2026",
+  "wgs84_center": {
+    "lat": 18.2208,
+    "lng": -66.5901
+  },
+  "topographic_and_control_data": {
+    "total_area_sqkm": 9104,
+    "accessible_area_sqkm": "data not available",
+    "control_zones": [
+      {
+        "zone_name": "Municipios de Puerto Rico",
+        "area_sqkm": 9104,
+        "area_pct": 100,
+        "governing_authority": "Gobierno de Puerto Rico (Asamblea Legislativa, Gobernación)",
+        "access_restrictions": "Sujeto a la supremacía federal bajo la Cláusula Territorial de la Constitución de EE. UU.",
+        "strategic_features_located_here": [
+          "Cordillera Central",
+          "Bosque Nacional El Yunque",
+          "Antigua Base Naval de Roosevelt Roads"
+        ]
+      }
+    ],
+    "demographics": {
+      "population_category_a": 3198651,
+      "population_category_b": "data not available",
+      "density_per_sqkm": 323,
+      "displacement_or_refugee_count": "data not available",
+      "notes": "Población de Puerto Rico en 2024 según el Censo de EE. UU. La migración forzada por razones económicas ha reducido la población en los últimos años.",
+      "citation": "U.S. Census Bureau, estimado de población 2024"
+    },
+    "named_high_ground_features": [
+      {
+        "name": "Cordillera Central",
+        "lat": 18.1667,
+        "lng": -66.5167,
+        "elevation_m": 1339,
+        "functional_strategic_description": "Control de observación y control de corredores de movimiento a través de la región montañosa central. Posición relativa a las cuencas hidrográficas principales.",
+        "control_zone": "Municipios de Puerto Rico",
+        "citation": "USGS"
+      }
+    ],
+    "physical_barriers": [
+      {
+        "name": "Instalaciones militares federales restringidas",
+        "type": "manmade",
+        "lat": "data not available",
+        "lng": "data not available",
+        "length_km": "data not available",
+        "temporal_variations": "Áreas transferidas o restringidas; algunas antiguas instalaciones ahora bajo control local",
+        "stated_justification": "El gobierno federal justifica el control de tierras e instalaciones para fines de defensa y seguridad nacional.",
+        "opposing_characterization": "Organizaciones locales y civiles caracterizan el control federal de tierras como una expropiación que limita el acceso y desarrollo comunitario.",
+        "citation": "Informes locales y del Centro de Periodismo Investigativo"
+      }
+    ]
+  },
+  "hydrology_data": {
+    "upstream_downstream_position": "not_applicable",
+    "water_infrastructure": [
+      {
+        "name": "Embalse Carraízo",
+        "type": "Embalse",
+        "lat": 18.1328,
+        "lng": -66.0342,
+        "controlling_entity": "Autoridad de Acueductos y Alcantarillados (AAA) de Puerto Rico",
+        "capacity_or_flow_rate": "data not available",
+        "citation": "AAA"
+      },
+      {
+        "name": "Embalse Dos Bocas",
+        "type": "Embalse",
+        "lat": 18.2361,
+        "lng": -66.6878,
+        "controlling_entity": "Autoridad de Acueductos y Alcantarillados (AAA) de Puerto Rico",
+        "capacity_or_flow_rate": "data not available",
+        "citation": "AAA"
+      }
+    ],
+    "per_capita_water_consumption_l_d": {
+      "population_a": "data not available",
+      "population_b": "data not available",
+      "who_reference_standard": 100.0,
+      "citation": "data not available"
+    },
+    "agriculture": {
+      "arable_land_pct": "data not available",
+      "irrigated_land_pct": "data not available",
+      "food_import_dependency_pct": 85,
+      "citation": "Informes agrícolas locales"
+    }
+  },
+  "environmental_degradation_incidents": [
+    {
+      "incident_type": "Contaminación por cenizas de carbón en Peñuelas",
+      "chemical_or_hazard_agents": [
+        "Cenizas de carbón",
+        "Metales pesados"
+      ],
+      "toxicological_classification": "Contaminación ambiental y riesgo a la salud",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": "data not available",
+      "ongoing": true,
+      "stated_justification": "Justificaciones corporativas y estatales para las operaciones",
+      "opposing_characterization": "Denuncias de comunidades locales sobre contaminación y riesgos a la salud",
+      "documenting_orgs": [
+        "Centro de Periodismo Investigativo",
+        "Organizaciones comunitarias locales",
+        "EPA"
+      ],
+      "citations": [
+        "Informes del Centro de Periodismo Investigativo"
+      ]
+    }
+  ],
+  "infrastructure_and_logistics_data": {
+    "airspace_and_spectrum": {
+      "cellular_tech_allowed": "3G, 4G, 5G (regulado por la FCC)",
+      "flight_corridor_control": "Corredores controlados por la FAA; aeropuerto internacional Luis Muñoz Marín (SJU)",
+      "stated_justification": "Regulación federal de telecomunicaciones y espacio aéreo.",
+      "citation": "FCC, FAA"
+    },
+    "maritime_and_cabotage": {
+      "eez_claimed_sqkm": "data not available",
+      "eez_accessible_sqkm": "data not available",
+      "accessible_ports_count": 2,
+      "fishing_zone_nautical_miles": 200,
+      "cabotage_or_merchant_marine_restrictions": "Ley de Cabotaje (Jones Act) requiere que los bienes transportados entre puertos de EE. UU. sean llevados en barcos de bandera estadounidense, construidos en EE. UU. y tripulados por estadounidenses.",
+      "stated_justification": "El gobierno federal justifica la Jones Act como medida de seguridad nacional.",
+      "opposing_characterization": "Las caracterizaciones locales caracterizan la Jones Act como una carga económica que incrementa el costo de los bienes importados y contribuye a la congestión en el Puerto de San Juan.",
+      "citation": "Merchant Marine Act of 1920; informes del Centro de Periodismo Investigativo"
+    },
+    "trade_and_dual_use_controls": {
+      "controlled_item_categories": [
+        "data not available"
+      ],
+      "transit_permit_regimes": "data not available",
+      "stated_justification": "data not available",
+      "citation": "data not available"
+    },
+    "checkpoints_and_gates": {
+      "name": "Puerto de San Juan",
+      "lat": 18.4655,
+      "lng": -66.1057,
+      "permit_type_required": "Inspecciones de Aduanas y Protección Fronteriza de EE. UU.",
+      "stated_justification": "Aplicación de leyes federales de inmigración, aduanas y agricultura.",
+      "citation": "CBP"
+    },
+    "utilities_and_energy_grid": {
+      "official_currency": "Dólar estadounidense (USD)",
+      "local_informal_currency": "data not available",
+      "power_generating_assets": [
+        "LUMA Energy (transmisión y distribución)",
+        "Genera PR (generación de energía)"
+      ],
+      "daily_electricity_hours_avg": "data not available",
+      "power_grid_self_sufficiency_pct": "data not available",
+      "fuel_import_dependency_pct": "data not available",
+      "debt_or_fiscal_transfer_mechanisms": "Reestructuración de la deuda pública bajo PROMESA; recortes presupuestarios impuestos a la Universidad de Puerto Rico y municipios por la Junta de Control Fiscal (FOMB).",
+      "citation": "Informes de la Asamblea Legislativa y UTIER"
+    }
+  },
+  "jurisprudence_and_statutory_friction": {
+    "enforced_system_name": "Constitución de EE. UU. y leyes federales (Título 48, PROMESA)",
+    "preferred_or_prior_system_name": "Constitución del Estado Libre Asociado de Puerto Rico (1952)",
+    "population_under_special_or_external_law": 3198651,
+    "enforced_statutes_cited": [
+      "Constitución del Estado Libre Asociado de Puerto Rico (1952)",
+      "Leyes aprobadas por la Asamblea Legislativa de Puerto Rico",
+      "Ley 22 / Ley 60 (códigos de incentivos fiscales)"
+    ],
+    "landmark_jurisprudence_and_treaties": [
+      {
+        "judicial_body_or_treaty": "Tribunal Supremo de los Estados Unidos",
+        "case_or_resolution_name": "Downes v. Bidwell",
+        "year": 1901,
+        "holding_or_standard": "Estableció la doctrina de 'incorporación territorial', sosteniendo que la Constitución no se aplica automáticamente a los territorios.",
+        "official_legal_rationale": "El gobierno de EE. UU. argumentó que Puerto Rico no era parte de los Estados Unidos para fines constitucionales.",
+        "citation": "Downes v. Bidwell, 182 U.S. 244 (1901)"
+      },
+      {
+        "judicial_body_or_treaty": "Tribunal Supremo de los Estados Unidos",
+        "case_or_resolution_name": "Puerto Rico v. Sanchez Valle",
+        "year": 2016,
+        "holding_or_standard": "Sostuvo que Puerto Rico y el gobierno federal son soberanos separados para fines de la cláusula de doble incriminación.",
+        "official_legal_rationale": "El tribunal examinó la relación entre la soberanía local y federal.",
+        "citation": "Puerto Rico v. Sanchez Valle, 579 U.S. ___ (2016)"
+      }
+    ],
+    "documented_statutory_conflicts": [
+      {
+        "legal_domain": "Supervisión fiscal",
+        "enforced_clause_reference": "PROMESA (facultad de la Junta para certificar planes fiscales y anular leyes locales)",
+        "preferred_or_prior_clause_reference": "Leyes estatales aprobadas democráticamente (presupuestos locales, leyes laborales, Ley de Retiro Digno)",
+        "conflict_description": "Conflicto entre el poder de veto absoluto de la Junta de Control Fiscal sobre las leyes locales y las leyes aprobadas por la Asamblea Legislativa de Puerto Rico.",
+        "citation": "PROMESA; leyes de la Asamblea Legislativa"
+      },
+      {
+        "legal_domain": "Incentivos fiscales",
+        "enforced_clause_reference": "Ley 22 / Ley 60 (códigos de incentivos fiscales de Puerto Rico)",
+        "preferred_or_prior_clause_reference": "Requerimientos federales",
+        "conflict_description": "Conflicto entre las exenciones fiscales locales y las disposiciones federales que afectan los ingresos fiscales y la deuda pública.",
+        "citation": "Leyes de la Asamblea Legislativa; informes de la Junta de Control Fiscal"
+      }
+    ]
+  },
+  "security_and_justification_data": {
+    "official_threat_assessments_or_attack_statistics": [
+      {
+        "description": "Impacto de la Ley Jones y la supervisión fiscal en la economía local",
+        "time_period": "data not available",
+        "numbers_or_incidents": "data not available",
+        "source": "Centro de Periodismo Investigativo y organizaciones sindicales",
+        "citation": "data not available"
+      }
+    ],
+    "stated_administrative_or_security_rationales": [
+      {
+        "measure": "Ley de Cabotaje (Jones Act)",
+        "official_rationale": "Las caracterizaciones locales denuncian la Jones Act como una carga económica que incrementa los costos de importación y contribuye al desplazamiento poblacional.",
+        "citation": "Informes del Centro de Periodismo Investigativo"
+      },
+      {
+        "measure": "Exenciones fiscales (Ley 22 / Ley 60)",
+        "official_rationale": "Las caracterizaciones locales señalan que las exenciones fiscales reducen los ingresos fiscales, aumentan el desplazamiento comunitario y benefician desproporcionadamente a inversionistas externos.",
+        "citation": "Informes de la Asamblea Legislativa"
+      }
+    ]
+  }
+}

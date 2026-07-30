@@ -1,0 +1,262 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Great GASPI Data Schema",
+  "type": "object",
+  "prompt_id": "prompt-23",
+  "territory_name": "Xinjiang Uyghur Autonomous Region (XUAR)",
+  "perspective": "PRC Central Government / Xinjiang Uyghur Autonomous Region (XUAR) Authorities / XPCC",
+  "language": "Mandarin Chinese (简体中文)",
+  "years_of_scope": "1954-2026",
+  "wgs84_center": {
+    "lat": 41.0,
+    "lng": 85.0
+  },
+  "topographic_and_control_data": {
+    "total_area_sqkm": 1664900,
+    "accessible_area_sqkm": "data not available",
+    "control_zones": [
+      {
+        "zone_name": "新疆维吾尔自治区 (Xinjiang Uyghur Autonomous Region)",
+        "area_sqkm": 1664900,
+        "area_pct": 100,
+        "governing_authority": "中华人民共和国中央人民政府 / 新疆维吾尔自治区人民政府",
+        "access_restrictions": "作为中国的一个自治区，在中华人民共和国法律框架下进行行政管理。边境地区有特定的管控措施。",
+        "strategic_features_located_here": [
+          "天山山脉",
+          "阿尔泰山脉",
+          "昆仑山脉",
+          "塔里木盆地",
+          "准噶尔盆地",
+          "霍尔果斯口岸",
+          "阿拉山口口岸"
+        ]
+      },
+      {
+        "zone_name": "新疆生产建设兵团辖区 (XPCC-administered areas)",
+        "area_sqkm": 70600,
+        "area_pct": 4.2,
+        "governing_authority": "新疆生产建设兵团 (XPCC) - 受中央政府和自治区双重领导 [citation:1][citation:3]",
+        "access_restrictions": "兵团管辖的区域内设有独特的行政和司法系统 [citation:2][citation:3]。2023年，兵团管理着14个师、176个团场 [citation:1][citation:6]，并建有12座城市 [citation:6]。",
+        "strategic_features_located_here": [
+          "12座兵团城市 (包括石河子市、阿拉尔市、图木舒克市、五家渠市、北屯市、铁门关市、双河市、可克达拉市等) [citation:6][citation:14]",
+          "兵团师部及团场",
+          "大型农业垦区 (耕地面积约为124.48万公顷) [citation:1]"
+        ]
+      }
+    ],
+    "demographics": {
+      "population_category_a": "数据待查",
+      "population_category_b": "数据待查",
+      "density_per_sqkm": "数据待查",
+      "displacement_or_refugee_count": "数据待查",
+      "notes": "根据可获得的信息，兵团人口占新疆总人口的11.9%左右 [citation:1][citation:5]。2023年兵团劳动力总数达156.15万人 [citation:10]。",
+      "citation": "新疆生产建设兵团白皮书及相关政府报告 [citation:1][citation:5][citation:10]"
+    },
+    "named_high_ground_features": [
+      {
+        "name": "天山山脉 (Tian Shan mountains)",
+        "lat": 42.0,
+        "lng": 86.0,
+        "elevation_m": 7439,
+        "functional_strategic_description": "雄伟的天山山脉横亘新疆中部，是新疆重要的地理分界线。其地势险要，可提供制高观测和通道控制。",
+        "control_zone": "新疆维吾尔自治区",
+        "citation": "地理数据来源"
+      },
+      {
+        "name": "昆仑山脉 (Kunlun Mountains)",
+        "lat": 36.0,
+        "lng": 80.0,
+        "elevation_m": 7167,
+        "functional_strategic_description": "位于新疆南部，昆仑山脉构成了青藏高原的北部边缘，战略地位重要。",
+        "control_zone": "新疆维吾尔自治区",
+        "citation": "地理数据来源"
+      }
+    ],
+    "physical_barriers": [
+      {
+        "name": "边境管控设施及兵团边防力量 (Border control facilities and XPCC border defense forces)",
+        "type": "manmade",
+        "lat": "数据待查",
+        "lng": "数据待查",
+        "length_km": "数据待查",
+        "temporal_variations": "兵团自1954年成立以来一直承担屯垦戍边职责 [citation:2][citation:3]。近期多次举行反恐维稳演习，如2025年4月的'2025-反恐威慑'联合演习，参演力量包括兵团人员 [citation:12]。",
+        "stated_justification": "官方理由强调维护国家统一、边疆稳定，防范和打击'三股势力'（分裂势力、宗教极端势力、暴力恐怖势力）的破坏活动 [citation:3][citation:6]。",
+        "opposing_characterization": "外部组织和流亡团体将相关措施描述为对维吾尔族和其他少数民族的压制。",
+        "citation": "《新疆生产建设兵团的历史与发展》白皮书 [citation:3]"
+      }
+    ]
+  },
+  "hydrology_data": {
+    "upstream_downstream_position": "shared",
+    "water_infrastructure": [
+      {
+        "name": "塔里木河 (Tarim River)",
+        "type": "内陆河流",
+        "lat": 40.5,
+        "lng": 87.0,
+        "controlling_entity": "新疆维吾尔自治区水利部门",
+        "capacity_or_flow_rate": "中国最长的内陆河",
+        "citation": "地理数据来源"
+      },
+      {
+        "name": "额尔齐斯河 (Irtysh River)",
+        "type": "跨境河流",
+        "lat": 47.5,
+        "lng": 87.0,
+        "controlling_entity": "新疆维吾尔自治区水利部门",
+        "capacity_or_flow_rate": "中国唯一流向北冰洋的河流",
+        "citation": "地理数据来源"
+      }
+    ],
+    "per_capita_water_consumption_l_d": {
+      "population_a": "数据待查",
+      "population_b": "数据待查",
+      "who_reference_standard": 100.0,
+      "citation": "数据待查"
+    },
+    "agriculture": {
+      "arable_land_pct": "数据待查",
+      "irrigated_land_pct": "数据待查",
+      "food_import_dependency_pct": "数据待查",
+      "notes": "2023年，兵团生产了全国近三分之一的棉花和21.9%的工业硅 [citation:6]。",
+      "citation": "China Daily [citation:6]"
+    }
+  },
+  "environmental_degradation_incidents": [
+    {
+      "incident_type": "防沙治沙与生态保护工程",
+      "chemical_or_hazard_agents": [],
+      "toxicological_classification": "生态改善",
+      "affected_area_sqkm": "数据待查",
+      "first_documented_year": "数据待查",
+      "ongoing": true,
+      "stated_justification": "兵团在沙漠边缘和戈壁荒滩上开展大规模植树造林和生态建设，例如在塔克拉玛干沙漠与库姆塔格沙漠之间种植了近200公里长的生态防护林，防止两大沙漠合拢 [citation:4]。",
+      "opposing_characterization": "未从搜索中获得此类表征",
+      "documenting_orgs": [
+        "新疆生产建设兵团",
+        "中国日报"
+      ],
+      "citations": [
+        "China Daily [citation:4]"
+      ]
+    }
+  ],
+  "infrastructure_and_logistics_data": {
+    "airspace_and_spectrum": {
+      "cellular_tech_allowed": "3G, 4G, 5G网络",
+      "flight_corridor_control": "乌鲁木齐地窝堡国际机场、喀什徕宁国际机场等空域由中国民用航空局管理。",
+      "stated_justification": "依据国家法律和民用航空法规进行统一管理，保障航空安全和空域秩序。",
+      "citation": "数据待查"
+    },
+    "maritime_and_cabotage": {
+      "eez_claimed_sqkm": "不适用",
+      "eez_accessible_sqkm": "不适用",
+      "accessible_ports_count": 0,
+      "fishing_zone_nautical_miles": "不适用",
+      "cabotage_or_merchant_marine_restrictions": "新疆是内陆地区，没有海港。",
+      "stated_justification": "不适用",
+      "citation": "不适用"
+    },
+    "trade_and_dual_use_controls": {
+      "controlled_item_categories": [
+        "受出口管制的军民两用物项"
+      ],
+      "transit_permit_regimes": "在霍尔果斯、阿拉山口等陆路口岸实施海关监管。",
+      "stated_justification": "为维护国家安全和履行国际义务，对特定物项的进出口进行管制。",
+      "citation": "数据待查"
+    },
+    "checkpoints_and_gates": [
+      {
+        "name": "霍尔果斯口岸 (Khorgos Port)",
+        "lat": 44.2,
+        "lng": 80.4,
+        "permit_type_required": "海关和出入境检查",
+        "stated_justification": "口岸是国际人员和货物进出的通道，依法实施海关和边防检查。",
+        "citation": "地理数据来源"
+      },
+      {
+        "name": "阿拉山口口岸 (Alataw Pass Port)",
+        "lat": 45.2,
+        "lng": 82.5,
+        "permit_type_required": "海关和出入境检查",
+        "stated_justification": "中国与中亚、欧洲贸易的重要陆路通道，依法进行边境管控。",
+        "citation": "地理数据来源"
+      }
+    ],
+    "utilities_and_energy_grid": {
+      "official_currency": "人民币 (CNY)",
+      "local_informal_currency": "数据待查",
+      "power_generating_assets": [
+        "西气东输工程气源地",
+        "特高压直流输电工程",
+        "新疆电网"
+      ],
+      "daily_electricity_hours_avg": "24小时",
+      "power_grid_self_sufficiency_pct": "数据待查",
+      "fuel_import_dependency_pct": "数据待查",
+      "debt_or_fiscal_transfer_mechanisms": "中央财政对新疆维吾尔自治区有转移支付。兵团经济计划由国家直接监督 [citation:3]。",
+      "citation": "新疆生产建设兵团白皮书 [citation:3]"
+    }
+  },
+  "jurisprudence_and_statutory_friction": {
+    "enforced_system_name": "中华人民共和国法律体系，包含《宪法》、《反恐怖主义法》、《新疆维吾尔自治区去极端化条例》等",
+    "preferred_or_prior_system_name": "无",
+    "population_under_special_or_external_law": "根据官方数据，截至2023年，兵团职工基本养老保险参保人数为220.57万人 [citation:10]。",
+    "enforced_statutes_cited": [
+      "《中华人民共和国宪法》",
+      "《中华人民共和国反恐怖主义法》",
+      "《新疆维吾尔自治区去极端化条例》",
+      "《新疆维吾尔自治区实施〈中华人民共和国反恐怖主义法〉办法》",
+      "《新疆生产建设兵团的历史与发展》白皮书 [citation:3]"
+    ],
+    "landmark_jurisprudence_and_treaties": [
+      {
+        "judicial_body_or_treaty": "中华人民共和国中央人民政府",
+        "case_or_resolution_name": "《新疆生产建设兵团的历史与发展》白皮书",
+        "year": 2014,
+        "holding_or_standard": "明确兵团是新疆维吾尔自治区的重要组成部分，承担屯垦戍边职责，实行党政军企合一的特殊管理体制 [citation:3]。",
+        "official_legal_rationale": "中国政府认为兵团体制是治理新疆、促进发展、维护稳定的有效模式。",
+        "citation": "国务院新闻办公室白皮书 [citation:3]"
+      }
+    ],
+    "documented_statutory_conflicts": [
+      {
+        "legal_domain": "国家安全与去极端化立法",
+        "enforced_clause_reference": "《中华人民共和国反恐怖主义法》及《新疆维吾尔自治区去极端化条例》",
+        "preferred_or_prior_clause_reference": "传统宗教习俗及外部权利主张",
+        "conflict_description": "中国政府的反恐和去极端化法律与部分国家和国际人权组织对于宗教自由和文化权利的关注点存在分歧。",
+        "citation": "官方立法文本"
+      }
+    ]
+  },
+  "security_and_justification_data": {
+    "official_threat_assessments_or_attack_statistics": [
+      {
+        "description": "官方安全与去极端化治理理由",
+        "time_period": "1980年代至今",
+        "numbers_or_instances": "自20世纪80年代以来，分裂势力、宗教极端势力和暴力恐怖势力及其破坏活动已成为对国家统一和新疆社会稳定的重大威胁，成为兵团戍边工作的重点 [citation:3]。",
+        "source": "《新疆生产建设兵团的历史与发展》白皮书 [citation:3]",
+        "citation": "国务院新闻办公室 [citation:3]"
+      },
+      {
+        "description": "反恐维稳演习",
+        "time_period": "2025年",
+        "numbers_or_incidents": "新疆举行代号为'2025-反恐威慑'的联合演习，共有4000名人员参与，包括兵团人员 [citation:12]。",
+        "source": "泰国国家情报局转引《环球时报》报道",
+        "citation": "泰国国家情报局 (NIA) [citation:12]"
+      }
+    ],
+    "stated_administrative_or_security_rationales": [
+      {
+        "measure": "兵团屯垦戍边体制",
+        "official_rationale": "维护国家统一和新疆社会稳定，防范和打击'三股势力'的破坏活动 [citation:3][citation:6]。2024年，国务院副总理何立峰在兵团成立70周年庆祝大会上强调，兵团要进一步促进社会稳定、加强边境安全 [citation:6]。",
+        "citation": "官方白皮书及China Daily报道 [citation:3][citation:6]"
+      },
+      {
+        "measure": "兵团城市建设",
+        "official_rationale": "兵团已建成12座城市，旨在推动新疆现代化、促进经济发展和民族团结，并在边境地区发挥重要的屯垦戍边作用 [citation:6][citation:14]。",
+        "citation": "中国日报及中国驻美大使馆网站 [citation:6][citation:14]"
+      }
+    ]
+  }
+}

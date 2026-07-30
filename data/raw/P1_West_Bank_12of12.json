@@ -1,0 +1,376 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Great GASPI Data Schema",
+  "type": "object",
+  "prompt_id": "prompt-1",
+  "territory_name": "West Bank",
+  "perspective": "State of Israel / Civil Administration",
+  "language": "Hebrew",
+  "years_of_scope": "1967-2026",
+  "wgs84_center": {
+    "lat": 31.9522,
+    "lng": 35.2332
+  },
+  "topographic_and_control_data": {
+    "total_area_sqkm": 5655,
+    "accessible_area_sqkm": "data not available",
+    "control_zones": [
+      {
+        "zone_name": "Area A",
+        "area_sqkm": 904.8,
+        "area_pct": 16,
+        "governing_authority": "Palestinian Authority (full civil and security control)",
+        "access_restrictions": "Israeli civilians are barred from entering; however, the Israel Defense Forces do operate here[citation:3]",
+        "strategic_features_located_here": "data not available"
+      },
+      {
+        "zone_name": "Area B",
+        "area_sqkm": 1187.55,
+        "area_pct": 21,
+        "governing_authority": "Palestinian Authority (civil control) / Israel (shared security control)",
+        "access_restrictions": "Israeli civilians are discouraged, but not formally banned from this area[citation:3]",
+        "strategic_features_located_here": "data not available"
+      },
+      {
+        "zone_name": "Area C",
+        "area_sqkm": 3393.0,
+        "area_pct": 60,
+        "governing_authority": "Israel (full civil and security control)",
+        "access_restrictions": "Israel retains full civil and security control; Palestinian construction effectively banned; settlements encouraged through parallel planning mechanism[citation:1][citation:3]",
+        "strategic_features_located_here": [
+          "West Bank mountain ridge (north-south)",
+          "Jordan Valley",
+          "Majority of Israeli settlements",
+          "Firing zones (approx. 18% of West Bank land designated as closed military zones)[citation:6]"
+        ]
+      },
+      {
+        "zone_name": "Firing Zones (Closed Military Zones)",
+        "area_sqkm": "data not available",
+        "area_pct": 18,
+        "governing_authority": "Israel Defense Forces / Civil Administration",
+        "access_restrictions": "Designated as closed military areas under Military Order 1651; Palestinian construction prohibited; residents subject to demolition and eviction orders[citation:6]",
+        "strategic_features_located_here": [
+          "Firing Zone 918 (Masafer-Yatta area - approx. 30,000 dunams / 3,000 hectares)",
+          "South Hebron Hills",
+          "Jordan Valley areas"
+        ]
+      }
+    ],
+    "demographics": {
+      "population_category_a": 520000,
+      "population_category_b": 180000,
+      "density_per_sqkm": "data not available",
+      "displacement_or_refugee_count": "data not available",
+      "notes": "Area C is home to approximately 520,000 Israeli settlers and an estimated 180,000-300,000 Palestinians. Areas A and B contain roughly 3.36 million Palestinians (99% of the Palestinian population). 700,000+ settlers live in the West Bank including East Jerusalem (approx. 250,000 in East Jerusalem).[citation:1][citation:3][citation:8]",
+      "citation": "B'Tselem; American Jewish Committee; Peace Now data"
+    },
+    "named_high_ground_features": [
+      {
+        "name": "West Bank mountain ridge (central highlands)",
+        "lat": "data not available",
+        "lng": "data not available",
+        "elevation_m": 914,
+        "functional_strategic_description": "The north-south mountain ridge forms a 4,200-foot barrier facing eastward and dominates the Israeli coastal plain where 70% of Israel's population and 80% of industrial capacity are located. The ridge controls observation, fire, and movement corridors over major Israeli infrastructure including the international airport, highways between Haifa, Tel Aviv, and Jerusalem, and underground aquifers providing approximately 30% of Israel's water supply. Rainwater flows from these slopes into underground aquifers in western Samaria. From a military perspective, a hostile force positioned along this ridge could pose an existential threat to Israel.[citation:7]",
+        "control_zone": "Area C",
+        "citation": "Jerusalem Center for Security and Foreign Affairs (JCFA)"
+      },
+      {
+        "name": "Mount Hermon (northern high ground)",
+        "lat": 33.4167,
+        "lng": 35.85,
+        "elevation_m": 2814,
+        "functional_strategic_description": "Not directly within West Bank; included for regional strategic context. Controls eastern approaches to northern Israel and water resources.",
+        "control_zone": "Golan Heights",
+        "citation": "data not available"
+      }
+    ],
+    "physical_barriers": [
+      {
+        "name": "Separation Barrier (Geder HaHafrada / Security Fence)",
+        "type": "manmade",
+        "lat": "data not available",
+        "lng": "data not available",
+        "length_km": 760,
+        "temporal_variations": "Construction began 2002; route approved February 2005 (681 km); barrier is fence with vehicle-barrier trenches (90% of length) and 8-meter concrete wall (10% of length); final length approximately 760 km; 12% of West Bank area on the Israeli side[citation:11]",
+        "stated_justification": "Israel states the barrier is necessary to protect Israeli civilians from Palestinian terrorism, particularly suicide bombings which increased significantly during the Second Intifada. From the beginning of the Second Intifada until July 2003, 73 Palestinian suicide bombings from the West Bank killed 293 Israelis and injured over 1,900. During the 11 months after the first continuous segment was built, only 3 suicide attacks succeeded; the number of attacks declined by over 90%. Israel also cites the need to provide air defense, with enemy aircraft able to cross from the Jordan River to the Mediterranean in three minutes.[citation:7][citation:11]",
+        "opposing_characterization": "Opponents argue the barrier's route deviates substantially from the Green Line, is an illegal attempt to annex Palestinian land under the guise of security, violates international law, preempts final status negotiations, and severely restricts Palestinian movement and access to work. The International Court of Justice ruled in 2004 that the construction of the wall and its associated regime are contrary to international law.[citation:11]",
+        "citation": "Wikipedia; Israeli Supreme Court rulings; International Court of Justice Advisory Opinion (2004)"
+      },
+      {
+        "name": "Eastern Border Security Barrier (Israel-Jordan border)",
+        "type": "manmade",
+        "lat": "data not available",
+        "lng": "data not available",
+        "length_km": 424,
+        "temporal_variations": "Construction began in response to arms smuggling and infiltration; October 2024: IDF announced establishment of an eastern division to protect the frontier with Jordan; barrier planned to cover entire 264-mile border[citation:4]",
+        "stated_justification": "Israel's longest and most porous border; used for weapons smuggling from Iran and its proxies to Palestinian terrorist groups in the West Bank. Since 2020, Israeli and Jordanian authorities intercepted more than 1,000 firearms; however, many still cross successfully. In October 2024, two Jordanians crossed and attacked Israeli soldiers.[citation:4]",
+        "opposing_characterization": "Palestinian sources likely characterize this as further territorial separation and collective punishment; also strains Israeli-Jordanian relations despite security cooperation.[citation:4]",
+        "citation": "Foundation for Defense of Democracies (FDD)"
+      }
+    ]
+  },
+  "hydrology_data": {
+    "upstream_downstream_position": "upstream",
+    "water_infrastructure": [
+      {
+        "name": "Mountain Aquifer (Western and Eastern basins)",
+        "type": "Underground aquifer",
+        "lat": "data not available",
+        "lng": "data not available",
+        "controlling_entity": "Israel (Mekorot - national water company); Joint Water Committee (Israel and PA)",
+        "capacity_or_flow_rate": "data not available",
+        "citation": "Rainwater flows down slopes of the West Bank mountain ridge into underground aquifers in western Samaria[citation:7]"
+      },
+      {
+        "name": "Jordan River",
+        "type": "River",
+        "lat": "data not available",
+        "lng": "data not available",
+        "controlling_entity": "Israel (controls 100% of water flowing from Jordan River into West Bank)",
+        "capacity_or_flow_rate": "data not available",
+        "citation": "data not available"
+      },
+      {
+        "name": "Mekorot Water Supply System",
+        "type": "National water company infrastructure",
+        "lat": "data not available",
+        "lng": "data not available",
+        "controlling_entity": "Mekorot (Israeli national water company)",
+        "capacity_or_flow_rate": "data not available",
+        "citation": "Mekorot controls most water resources in Palestine; supply cuts documented in Hebron governorate (reduced from 32,000 to 26,000 cubic meters, including complete shutdown for Idna)[citation:12]"
+      }
+    ],
+    "per_capita_water_consumption_l_d": {
+      "population_a": "242",
+      "population_b": "73",
+      "who_reference_standard": 100.0,
+      "notes": "Israeli consumption in West Bank settlements: 800 liters/person/day[citation:12]",
+      "citation": "EcoMENA; Palestinian Hydrology Group[citation:5][citation:12]"
+    },
+    "agriculture": {
+      "arable_land_pct": "data not available",
+      "irrigated_land_pct": "data not available",
+      "food_import_dependency_pct": "data not available",
+      "notes": "Palestinian farms rely on inconsistent rainwater; settlement farms use state-of-the-art irrigation systems. Palestinians are forbidden to drill new wells without Israeli permits, which are difficult to obtain.[citation:5]",
+      "citation": "EcoMENA[citation:5]"
+    }
+  },
+  "environmental_degradation_incidents": [
+    {
+      "incident_type": "Water resource appropriation and discrimination",
+      "chemical_or_hazard_agents": [
+        "Groundwater depletion",
+        "Resource inequality"
+      ],
+      "toxicological_classification": "Environmental and humanitarian impact",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": 1967,
+      "ongoing": true,
+      "stated_justification": "Israel states it has responded to Palestinian needs and increased water quantities provided beyond the Interim Agreement specifications; however, 60% of water provided is sold to Palestinians at inflated prices[citation:5]",
+      "opposing_characterization": "Palestinian sources report discriminatory distribution: Israel uses 85% of water from West Bank aquifers, Palestinians receive 15%. Per capita use in Israel is 3.5 times higher than in the West Bank. Under international law, expropriating water from occupied territories for use by Israeli citizens is illegal.[citation:5]",
+      "documenting_orgs": [
+        "EcoMENA",
+        "Palestinian Hydrology Group",
+        "Business & Human Rights Resource Centre",
+        "Israeli government"
+      ],
+      "citations": [
+        "EcoMENA[citation:5]",
+        "Business & Human Rights Resource Centre[citation:12]"
+      ]
+    },
+    {
+      "incident_type": "Settlement expansion and land confiscation",
+      "chemical_or_hazard_agents": [
+        "Land degradation",
+        "Habitat fragmentation"
+      ],
+      "toxicological_classification": "Environmental and social impact",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": "data not available",
+      "ongoing": true,
+      "stated_justification": "Israel advances settlement construction for civilian and security purposes; the Civil Administration views Area C as serving Israeli needs including military training, economic interests, and settlement development[citation:1]",
+      "opposing_characterization": "Israeli settlements in the West Bank are considered illegal under international law; settlement expansion undermines a future Palestinian state. As of 2025-2026, more than 700,000 settlers live in the West Bank including East Jerusalem. Israel advanced plans for 2,377 housing units between December 1, 2024 and January 2025 alone.[citation:1][citation:8][citation:9]",
+      "documenting_orgs": [
+        "Civil Administration's Supreme Planning Council",
+        "Settlement Administration",
+        "Peace Now",
+        "ARIJ"
+      ],
+      "citations": [
+        "B'Tselem[citation:1]",
+        "JNS.org[citation:9]",
+        "AVA Press[citation:8]",
+        "The National[citation:10]"
+      ]
+    }
+  ],
+  "infrastructure_and_logistics_data": {
+    "airspace_and_spectrum": {
+      "cellular_tech_allowed": "3G, 4G, 5G (Israeli operators in settlements; Palestinian networks with limitations)",
+      "flight_corridor_control": "Israel controls airspace over the West Bank; air defense systems deployed on West Bank hilltops for forward interception of enemy aircraft; short-range radar and early-warning systems located on West Bank high ground[citation:7]",
+      "stated_justification": "Israel controls airspace for national security; the West Bank is crucial to Israel's air defense to intercept enemy aircraft from forward positions and avoid blocking line-of-sight on the coastal plain.[citation:7]",
+      "citation": "Jerusalem Center for Security and Foreign Affairs[citation:7]"
+    },
+    "maritime_and_cabotage": {
+      "eez_claimed_sqkm": "data not available",
+      "eez_accessible_sqkm": "data not available",
+      "accessible_ports_count": 0,
+      "fishing_zone_nautical_miles": "data not available",
+      "cabotage_or_merchant_marine_restrictions": "West Bank is landlocked",
+      "stated_justification": "Not applicable",
+      "citation": "data not available"
+    },
+    "trade_and_dual_use_controls": {
+      "controlled_item_categories": [
+        "Dual-use items (subject to Israeli import controls)",
+        "Construction materials (restricted for Palestinian use in Area C)",
+        "Water drilling equipment (restricted)"
+      ],
+      "transit_permit_regimes": "Permits required for Palestinians to enter Israel; Israeli Civil Administration issues permits for various activities including construction, travel, and access",
+      "stated_justification": "Security controls to prevent weapons smuggling and terrorism",
+      "citation": "data not available"
+    },
+    "checkpoints_and_gates": [
+      {
+        "name": "Qalandia Checkpoint",
+        "lat": 31.8625,
+        "lng": 35.216,
+        "permit_type_required": "Israeli security permit; varies by type (work, medical, family visit)",
+        "stated_justification": "Security checkpoint to prevent terrorist infiltration into Israel; the barrier has reduced suicide bombings by over 90% since construction[citation:11]",
+        "citation": "data not available"
+      },
+      {
+        "name": "Maale Adumim Checkpoint",
+        "lat": 31.7742,
+        "lng": 35.2944,
+        "permit_type_required": "Israeli security permit",
+        "stated_justification": "Security control for movement from East Jerusalem and northern West Bank into Israel",
+        "citation": "data not available"
+      }
+    ],
+    "utilities_and_energy_grid": {
+      "official_currency": "Israeli New Shekel (NIS)",
+      "local_informal_currency": "Jordanian Dinar (JOD) - used in Palestinian areas; US Dollar (USD)",
+      "power_generating_assets": [
+        "Israel Electric Corporation (IEC) - supplies power to West Bank settlements and Palestinian areas",
+        "Palestinian power generation (limited)"
+      ],
+      "daily_electricity_hours_avg": "24 hours per day (varies; Palestinian areas may experience disruptions)",
+      "power_grid_self_sufficiency_pct": "data not available",
+      "fuel_import_dependency_pct": "data not available",
+      "debt_or_fiscal_transfer_mechanisms": "Israel collects customs and import taxes on behalf of the Palestinian Authority under the Paris Protocol; fiscal transfers subject to clearance and deductions",
+      "citation": "data not available"
+    }
+  },
+  "jurisprudence_and_statutory_friction": {
+    "enforced_system_name": "Israeli military law (Military Orders) / Israeli civilian law (for Israeli settlers)",
+    "preferred_or_prior_system_name": "Jordanian law (pre-1967) / Palestinian Authority law / Ottoman law",
+    "population_under_special_or_external_law": "Approximately 3.36 million Palestinians in Areas A and B; 180,000-300,000 Palestinians and 520,000 settlers in Area C[citation:1][citation:3]",
+    "enforced_statutes_cited": [
+      "Military Order 1651 (Consolidated Security Instructions)",
+      "Military Order 418 (Planning and Building Law)",
+      "Ottoman Land Code of 1858",
+      "Jordanian Law No. 79 of 1966 (City and Village Planning)",
+      "Israeli constitutional law (for settlers)",
+      "Military Order 1651, Article 318 - empowers military commander to declare areas closed[citation:6]"
+    ],
+    "landmark_jurisprudence_and_treaties": [
+      {
+        "judicial_body_or_treaty": "Israel Supreme Court (Bagatz)",
+        "case_or_resolution_name": "June 2004 Ruling on Separation Barrier Route",
+        "year": 2004,
+        "holding_or_standard": "Ruled that a portion of the barrier west of Jerusalem violated the rights of Palestinians and ordered 30 km of existing and planned barrier to be rerouted; but ruled the barrier is legal in essence and accepted the government's security justification[citation:11]",
+        "official_legal_rationale": "Israel presented security rationales including the history of violence since the Second Intifada, the inadequacy of military operations to stop terrorism, and the need to protect Israeli citizens from terrorist attacks[citation:11]",
+        "citation": "Israeli Supreme Court decision; Wikipedia[citation:11]"
+      },
+      {
+        "judicial_body_or_treaty": "International Court of Justice (ICJ)",
+        "case_or_resolution_name": "Advisory Opinion on the Legal Consequences of the Construction of a Wall in the Occupied Palestinian Territory",
+        "year": 2004,
+        "holding_or_standard": "Found that the construction of the wall, and its associated regime, are contrary to international law; cannot rely on a right of self-defense or state of necessity to preclude wrongfulness[citation:11]",
+        "official_legal_rationale": "Israel rejected the ICJ opinion and continued construction",
+        "citation": "ICJ Advisory Opinion (2004)[citation:11]"
+      },
+      {
+        "judicial_body_or_treaty": "Knesset (Israeli Parliament)",
+        "case_or_resolution_name": "Death Penalty for Terrorism Law",
+        "year": 2026,
+        "holding_or_standard": "Passed by 62-48 vote making death penalty the default punishment for Palestinians convicted in military courts of killing Israelis; applies to Palestinians under Military Order 1651 but not to Israeli settlers tried in civilian courts[citation:13]",
+        "official_legal_rationale": "Security and deterrence against terrorist acts",
+        "citation": "Knesset legislation; Fadel Abdulghany analysis[citation:13]"
+      }
+    ],
+    "documented_statutory_conflicts": [
+      {
+        "legal_domain": "Criminal law / Death penalty",
+        "enforced_clause_reference": "Military Order 1651 (subjecting Palestinians to military courts and mandatory death penalty)",
+        "preferred_or_prior_clause_reference": "Civilian criminal law (for Israeli settlers; preserves judicial discretion and exclusions)",
+        "conflict_description": "System of capital punishment applied to one national group (Palestinians) but not another (Israeli settlers) within the same territory. Palestinians are subject to military courts with 96% conviction rate and mandatory death penalty; Israelis are tried in civilian courts. Procedural differences include: unanimity required for civilian death sentences reduced to majority for military courts, elimination of military commander's power to commute sentences, prohibition of pardons, 90-day execution mandate, and restricted appeals. 93% of complaints regarding settler violence against Palestinians are closed without charges filed.[citation:13]",
+        "citation": "Fadel Abdulghany analysis; Knesset legislation[citation:13]"
+      },
+      {
+        "legal_domain": "Land ownership / Property law",
+        "enforced_clause_reference": "Repeal of Law No. 40 (1953 Jordanian law restricting land sales in West Bank to Arab buyers)",
+        "preferred_or_prior_clause_reference": "Ottoman Law No. 40 (previous restrictions)",
+        "conflict_description": "Israel's security cabinet repealed Law No. 40, opening Israeli land purchases in the West Bank. Previously, this law restricted land sales to Arab buyers to prevent Israeli settlement. The change allows settlement expansion that could undermine Palestinian sovereignty and statehood. Finance Minister Bezalel Smotrich stated: 'We will continue to kill the idea of a Palestinian state.'[citation:10]",
+        "citation": "The National[citation:10]"
+      },
+      {
+        "legal_domain": "Planning and Construction law",
+        "enforced_clause_reference": "Military Order 418 (Israeli planning and building law for Area C)",
+        "preferred_or_prior_clause_reference": "Jordanian Law No. 79 of 1966 (Palestinian preferred planning law)",
+        "conflict_description": "Israel uses Military Order 418 to control all planning and construction in Area C. The Civil Administration bans Palestinian construction while encouraging settlement development through a parallel mechanism. A parallel planning mechanism grants approvals for settlers while ignoring their building violations.[citation:1]",
+        "citation": "B'Tselem[citation:1]"
+      }
+    ]
+  },
+  "security_and_justification_data": {
+    "official_threat_assessments_or_attack_statistics": [
+      {
+        "description": "Suicide bombings from the West Bank before and after construction of the separation barrier",
+        "time_period": "2000-2003 (Second Intifada)",
+        "numbers_or_incidents": "Before construction of continuous barrier segment (July 2003): 73 Palestinian suicide bombings from the West Bank, killing 293 Israelis and injuring over 1,900. During 11 months after construction: only 3 successful suicide attacks. Reduction in attacks by over 90% since barrier erection.[citation:11]",
+        "source": "Israeli government security assessments; Israeli Supreme Court ruling",
+        "citation": "Israeli Supreme Court decision; Wikipedia[citation:11]"
+      },
+      {
+        "description": "Weapons smuggling from Jordan into the West Bank",
+        "time_period": "2020-2025",
+        "numbers_or_incidents": "Since 2020, Israeli and Jordanian authorities have intercepted more than 1,100 firearms destined for Iran's proxies and criminal networks; still, many weapons successfully cross the border. October 2024: two Jordanians crossed into Israel south of the Dead Sea and attacked two Israeli soldiers. The Jordanian Muslim Brotherhood claimed affiliation.[citation:4]",
+        "source": "Israeli and Jordanian authorities; Foundation for Defense of Democracies (FDD)",
+        "citation": "FDD Policy Brief[citation:4]"
+      },
+      {
+        "description": "Settlement construction approvals under current government",
+        "time_period": "2022-2026",
+        "numbers_or_incidents": "Current cabinet (Netanyahu/Smotrich) has approved construction or expansion of 51,370 housing units in settlements (2022-2025). Supreme Planning Council approved 764 new units (December 2025) including: 478 units in Hashmonaim, 230 units in Beitar Eilat, 56 units in Givat Ze'ev. Over 700,000 settlers now live in West Bank including East Jerusalem (approx. 250,000 in East Jerusalem).[citation:8][citation:9]",
+        "source": "Civil Administration Supreme Planning Council; Peace Now; Settlement Administration",
+        "citation": "AVA Press[citation:8]; JNS.org[citation:9]"
+      }
+    ],
+    "stated_administrative_or_security_rationales": [
+      {
+        "measure": "Separation Barrier construction",
+        "official_rationale": "Necessary to protect Israeli civilians from Palestinian terrorism; security fence to prevent suicide bombings and terrorist infiltration; effective in reducing attacks by 90%. Air defense deployment on West Bank high ground to intercept enemy aircraft within 3-minute response window.[citation:7][citation:11]",
+        "citation": "Israeli government statements; Israeli Supreme Court ruling[citation:11]"
+      },
+      {
+        "measure": "Area C control and planning",
+        "official_rationale": "Israel retains full civil and security control of Area C to serve its own needs: military training, economic interests, and settlement development; views the area as vital to national security and the defense of the coastal plain.[citation:1][citation:7]",
+        "citation": "B'Tselem[citation:1]; JCFA[citation:7]"
+      },
+      {
+        "measure": "Settlement expansion",
+        "official_rationale": "Israeli settlements are part of historical rights in Judea and Samaria; necessary for security and to prevent the creation of a hostile state in the West Bank. Finance Minister Smotrich stated: 'We will continue to kill the idea of a Palestinian state.'[citation:10]",
+        "citation": "The National[citation:10]"
+      },
+      {
+        "measure": "Military Orders (1651, 418) and legal regime for Palestinians",
+        "official_rationale": "Necessary for security, maintaining public order, and protecting Israeli civilians from terrorism; military administration established due to ongoing conflict and absence of a final status agreement.[citation:6][citation:13]",
+        "citation": "UN document[citation:6]; Fadel Abdulghany analysis[citation:13]"
+      }
+    ]
+  }
+}

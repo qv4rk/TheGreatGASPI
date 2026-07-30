@@ -1,0 +1,273 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Great GASPI Data Schema",
+  "type": "object",
+  "prompt_id": "prompt-6",
+  "territory_name": "Sahara Occidental",
+  "perspective": "Frente POLISARIO / República Árabe Saharaui Democrática (RASD)",
+  "language": "Spanish",
+  "years_of_scope": "1975-2026",
+  "wgs84_center": {
+    "lat": 24.5,
+    "lng": -13.0
+  },
+  "topographic_and_control_data": {
+    "total_area_sqkm": 266000,
+    "accessible_area_sqkm": "data not available",
+    "control_zones": [
+      {
+        "zone_name": "Territorios Liberados (al este del Berm)",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "RASD / Frente POLISARIO (administración en el exilio, con presencia limitada sobre el terreno)",
+        "access_restrictions": "Zona de conflicto activo de baja intensidad; altamente contaminada por minas; acceso restringido para personal de la MINURSO y humanitario.",
+        "strategic_features_located_here": [
+          "Bir Lehlu (capital provisional declarada)",
+          "Tifariti",
+          "Zona este del Berm"
+        ]
+      },
+      {
+        "zone_name": "Territorio ocupado por Marruecos (al oeste del Berm)",
+        "area_sqkm": "data not available",
+        "area_pct": 80.0,
+        "governing_authority": "Administración marroquí (Ministère de l'Intérieur, Provinces du Sud)",
+        "access_restrictions": "Control marroquí total; acceso restringido para la población saharaui nativa; asentamientos marroquíes.",
+        "strategic_features_located_here": [
+          "El Aaiún (capital reivindicada por la RASD)",
+          "Mina de fosfatos de Bou Craa",
+          "Dakhla",
+          "Oeste del Berm"
+        ]
+      },
+      {
+        "zone_name": "El Berm (Muro de defensa marroquí)",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Ejército Real de Marruecos / Frente POLISARIO (zona de conflicto)",
+        "access_restrictions": "Zona altamente militarizada y con grandes extensiones de campos de minas, lo que la hace prácticamente inaccesible.",
+        "strategic_features_located_here": [
+          "Muro de arena de aproximadamente 2.700 km de longitud",
+          "Campos de minas y municiones de racimo"
+        ]
+      }
+    ],
+    "demographics": {
+      "population_category_a": 565000,
+      "population_category_b": 150000,
+      "density_per_sqkm": 2.1,
+      "displacement_or_refugee_count": "data not available",
+      "notes": "La cifra de 565,000 es la estimación de población total del territorio para 2024/2025. Esta población incluye un gran número de colonos marroquíes. El número de refugiados saharauis registrados en los campamentos de Tinduf, Argelia, es de aproximadamente 150,000 personas.",
+      "citation": "BBC perfil del Sáhara Occidental (datos de 2024). Estimación de refugiados."
+    },
+    "named_high_ground_features": [
+      {
+        "name": "Meseta de Saguia el-Hamra",
+        "lat": 26.5,
+        "lng": -11.5,
+        "elevation_m": 450,
+        "functional_strategic_description": "Control de las rutas de movimiento y de los principales wadis; posición relativa a la cuenca hidrográfica de Saguia el-Hamra.",
+        "control_zone": "Territorio ocupado por Marruecos",
+        "citation": "Coordenadas y descripción aproximada"
+      }
+    ],
+    "physical_barriers": [
+      {
+        "name": "Berm (Muro de defensa marroquí / Moroccan Wall)",
+        "type": "manmade",
+        "lat": "data not available",
+        "lng": "data not available",
+        "length_km": 2700,
+        "temporal_variations": "Construido por Marruecos entre 1980 y 1987. La situación de conflicto continúa, pero el alto el fuego de 1991 se rompió en noviembre de 2020.",
+        "stated_justification": "El Frente POLISARIO y la RASD caracterizan el Berm como un 'muro de la vergüenza' y un instrumento de ocupación, separación y anexión forzosa del territorio saharaui por parte de Marruecos.",
+        "opposing_characterization": "Las autoridades marroquíes lo justifican como una medida de seguridad defensiva para proteger sus 'Provincias del Sur' contra las incursiones armadas.",
+        "citation": "Longitud del Berm. Descripción del conflicto."
+      }
+    ]
+  },
+  "hydrology_data": {
+    "upstream_downstream_position": "shared",
+    "water_infrastructure": [
+      {
+        "name": "Cuenca de Saguia el-Hamra",
+        "type": "Cuenca hidrográfica",
+        "lat": 26.5,
+        "lng": -11.5,
+        "controlling_entity": "Compartida; administrada de facto por Marruecos en la zona ocupada",
+        "capacity_or_flow_rate": "data not available",
+        "citation": "Descripción geográfica"
+      }
+    ],
+    "per_capita_water_consumption_l_d": {
+      "population_a": "data not available",
+      "population_b": "data not available",
+      "who_reference_standard": 100.0,
+      "citation": "data not available"
+    },
+    "agriculture": {
+      "arable_land_pct": "data not available",
+      "irrigated_land_pct": "data not available",
+      "food_import_dependency_pct": "data not available",
+      "citation": "data not available"
+    }
+  },
+  "environmental_degradation_incidents": [
+    {
+      "incident_type": "Contaminación por minas terrestres y municiones de racimo",
+      "chemical_or_hazard_agents": [
+        "Minas terrestres",
+        "Municiones de racimo",
+        "Restos explosivos de guerra (REG)"
+      ],
+      "toxicological_classification": "Peligro físico / riesgo de muerte o lesión grave",
+      "affected_area_sqkm": 150,
+      "first_documented_year": 1975,
+      "ongoing": true,
+      "stated_justification": "El Frente POLISARIO denuncia que Marruecos es el responsable principal de la contaminación por minas, que amenaza la vida de la población saharaui, su ganado y su movilidad. Se considera un crimen contra la humanidad.",
+      "opposing_characterization": "Las autoridades marroquíes señalan que la contaminación es una consecuencia del conflicto y que ellos también realizan operaciones de desminado.",
+      "documenting_orgs": [
+        "Frente POLISARIO",
+        "UNMAS",
+        "MINURSO",
+        "Cruz Roja"
+      ],
+      "citations": [
+        "UNMAS afirma que ha despejado 150 millones de m² de tierra peligrosa, incluyendo 43 de 67 campos minados conocidos y 508 de 541 áreas de impacto de municiones de racimo.",
+        "UNMAS ha eliminado y destruido más de 30,000 minas y otros artefactos explosivos.",
+        "Se han registrado más de 1,000 víctimas de minas al este del Berm."
+      ]
+    }
+  ],
+  "infrastructure_and_logistics_data": {
+    "airspace_and_spectrum": {
+      "cellular_tech_allowed": "data not available",
+      "flight_corridor_control": "El espacio aéreo sobre el Sáhara Occidental está controlado por Marruecos en la práctica, aunque la RASD reclama su soberanía.",
+      "stated_justification": "El Frente POLISARIO denuncia el control marroquí del espacio aéreo como una violación de la soberanía saharaui.",
+      "citation": "data not available"
+    },
+    "maritime_and_cabotage": {
+      "eez_claimed_sqkm": "data not available",
+      "eez_accessible_sqkm": "data not available",
+      "accessible_ports_count": 0,
+      "fishing_zone_nautical_miles": "data not available",
+      "cabotage_or_merchant_marine_restrictions": "La RASD reclama la soberanía sobre las aguas territoriales y la ZEE del Sáhara Occidental, pero en la práctica están controladas por Marruecos. La RASD denuncia la explotación ilegal de los recursos pesqueros por parte de Marruecos y la UE.",
+      "stated_justification": "El Frente POLISARIO denuncia la explotación marítima y pesquera sin el consentimiento del pueblo saharaui.",
+      "citation": "Sentencias del TJUE que anulan los acuerdos de pesca UE-Marruecos por aplicar al Sáhara Occidental sin consentimiento saharaui."
+    },
+    "trade_and_dual_use_controls": {
+      "controlled_item_categories": [
+        "Materiales y equipos de doble uso (control marroquí)",
+        "Productos agrícolas y pesqueros (objeto de litigio internacional)"
+      ],
+      "transit_permit_regimes": "El comercio a través del Berm está sujeto a los controles de las autoridades marroquíes y del Frente POLISARIO. El paso por Guerguerat es un punto crítico.",
+      "stated_justification": "La RASD denuncia los acuerdos comerciales entre la UE y Marruecos que incluyen productos del Sáhara Occidental, ya que se realizan sin el consentimiento del pueblo saharaui.",
+      "citation": "Sentencia del TJUE (2024) sobre acuerdos comerciales."
+    },
+    "checkpoints_and_gates": [
+      {
+        "name": "Paso fronterizo de Guerguerat",
+        "lat": 21.4268293,
+        "lng": -16.9598412,
+        "permit_type_required": "data not available",
+        "stated_justification": "El Frente POLISARIO considera este paso como un punto de control de un comercio ilegal que consolida la ocupación marroquí.",
+        "citation": "Coordenadas."
+      }
+    ],
+    "utilities_and_energy_grid": {
+      "official_currency": "Peseta saharaui",
+      "local_informal_currency": "Dinar argelino (DZD) y Dirham marroquí (MAD) (de facto)",
+      "power_generating_assets": [
+        "Red eléctrica marroquí (en la zona ocupada)",
+        "Sistemas de generación local (en campamentos de refugiados y zonas liberadas)"
+      ],
+      "daily_electricity_hours_avg": "data not available",
+      "power_grid_self_sufficiency_pct": "data not available",
+      "fuel_import_dependency_pct": "data not available",
+      "debt_or_fiscal_transfer_mechanisms": "La RASD depende en gran medida de la ayuda humanitaria y de los recursos de Argelia para su administración en el exilio y los campamentos de refugiados.",
+      "citation": "Descripción de la economía de la RASD."
+    }
+  },
+  "jurisprudence_and_statutory_friction": {
+    "enforced_system_name": "Derecho marroquí (en el territorio ocupado) / Constitución de la RASD y decretos del Frente POLISARIO (en zonas liberadas y campamentos)",
+    "preferred_or_prior_system_name": "Constitución de la RASD y derecho internacional (derecho a la autodeterminación del pueblo saharaui)",
+    "population_under_special_or_external_law": "data not available",
+    "enforced_statutes_cited": [
+      "Constitución de la República Árabe Saharaui Democrática (RASD)",
+      "Decretos del Consejo Nacional Saharaui",
+      "Sentencias del Tribunal de Justicia de la Unión Europea (TJUE)",
+      "Dictamen de la Corte Internacional de Justicia (1975)"
+    ],
+    "landmark_jurisprudence_and_treaties": [
+      {
+        "judicial_body_or_treaty": "Corte Internacional de Justicia (CIJ)",
+        "case_or_resolution_name": "Dictamen consultivo sobre el Sáhara Occidental",
+        "year": 1975,
+        "holding_or_standard": "La CIJ determinó que no existían vínculos de soberanía territorial entre el Sáhara Occidental y Marruecos o Mauritania, y reconoció el derecho a la autodeterminación del pueblo saharaui.",
+        "official_legal_rationale": "La RASD se basa en este dictamen para reivindicar su derecho a la independencia y para denunciar la ocupación marroquí.",
+        "citation": "Dictamen de la CIJ de 1975."
+      },
+      {
+        "judicial_body_or_treaty": "Tribunal de Justicia de la Unión Europea (TJUE)",
+        "case_or_resolution_name": "Sentencia Front Polisario II (Asuntos acumulados C-778/21P y C-798/21P; C-779/21P y C-799/21P)",
+        "year": 2024,
+        "holding_or_standard": "El TJUE anuló los acuerdos de pesca y agricultura entre la UE y Marruecos en la medida en que se aplicaban al Sáhara Occidental, por no haber obtenido el consentimiento del pueblo saharaui.",
+        "official_legal_rationale": "La RASD considera esta sentencia un gran éxito diplomático que reafirma el estatus del Sáhara Occidental como territorio no autónomo y la necesidad del consentimiento saharaui para la explotación de sus recursos.",
+        "citation": "Sentencia del TJUE de 4 de octubre de 2024."
+      },
+      {
+        "judicial_body_or_treaty": "Consejo de Seguridad de la ONU",
+        "case_or_resolution_name": "Resolución 1514 (XV) de la Asamblea General de la ONU",
+        "year": 1960,
+        "holding_or_standard": "Declaración sobre la concesión de la independencia a los países y pueblos coloniales.",
+        "official_legal_rationale": "La RASD utiliza esta resolución para fundamentar su derecho a la independencia y a la descolonización.",
+        "citation": "Resolución 1514 (XV) de la ONU."
+      }
+    ],
+    "documented_statutory_conflicts": [
+      {
+        "legal_domain": "Soberanía y autodeterminación",
+        "enforced_clause_reference": "Constitución de la RASD (Art. 1, 15)",
+        "preferred_or_prior_clause_reference": "Dahirs marroquíes y declaraciones de anexión",
+        "conflict_description": "Conflicto entre la reivindicación de soberanía de la RASD sobre todo el territorio del Sáhara Occidental y la anexión y administración de facto por parte de Marruecos.",
+        "citation": "Constitución de la RASD; Resoluciones de la ONU."
+      },
+      {
+        "legal_domain": "Recursos Naturales",
+        "enforced_clause_reference": "Constitución de la RASD (Art. 17)",
+        "preferred_or_prior_clause_reference": "Leyes marroquíes de explotación de recursos",
+        "conflict_description": "Conflicto sobre la legitimidad de la explotación de los recursos naturales del Sáhara Occidental (fosfatos, pesca) por parte de Marruecos y terceros países, sin el consentimiento del pueblo saharaui.",
+        "citation": "Sentencia del TJUE de 2024."
+      }
+    ]
+  },
+  "security_and_justification_data": {
+    "official_threat_assessments_or_attack_statistics": [
+      {
+        "description": "Ataques del Frente POLISARIO contra posiciones marroquíes",
+        "time_period": "2020-2024",
+        "numbers_or_incidents": "Ataques con cohetes contra Smara y Al-Mahbes; otros incidentes menores.",
+        "source": "Frente POLISARIO",
+        "citation": "La información es limitada y proviene de comunicados de las partes."
+      },
+      {
+        "description": "Amenaza de minas y artefactos explosivos",
+        "time_period": "1975-presente",
+        "numbers_or_incidents": "Más de 1,000 víctimas de minas registradas al este del Berm. Más de 30,000 artefactos explosivos destruidos por UNMAS.",
+        "source": "UNMAS / MINURSO",
+        "citation": "Datos de UNMAS."
+      }
+    ],
+    "stated_administrative_or_security_rationales": [
+      {
+        "measure": "Existencia del Berm y campos de minas",
+        "official_rationale": "El Frente POLISARIO lo considera un instrumento de ocupación y anexión que viola el derecho a la autodeterminación del pueblo saharaui.",
+        "citation": "Declaraciones del Frente POLISARIO."
+      },
+      {
+        "measure": "Negación de la celebración del referéndum de autodeterminación",
+        "official_rationale": "El Frente POLISARIO denuncia el incumplimiento por parte de Marruecos de los acuerdos internacionales y exige la celebración del referéndum prometido en 1991.",
+        "citation": "Declaraciones del Frente POLISARIO."
+      }
+    ]
+  }
+}

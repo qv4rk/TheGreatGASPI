@@ -1,0 +1,264 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Great GASPI Data Schema",
+  "type": "object",
+  "prompt_id": "prompt-31",
+  "territory_name": "Karabakh and East Zangezur economic regions",
+  "perspective": "Republic of Azerbaijan / Special Representative of the President / Karabakh and East Zangezur economic regions administrations",
+  "language": "English (with Azerbaijani terms)",
+  "years_of_scope": "2020-2026",
+  "wgs84_center": {
+    "lat": 39.85,
+    "lng": 46.75
+  },
+  "topographic_and_control_data": {
+    "total_area_sqkm": "data not available",
+    "accessible_area_sqkm": "data not available",
+    "control_zones": [
+      {
+        "zone_name": "Karabakh Economic Region (Qarabağ iqtisadi rayonu)",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Republic of Azerbaijan (Special Representative of the President)",
+        "access_restrictions": "Restrictions largely lifted following reconstruction; demining operations ongoing; access controlled through border checkpoints and demining security perimeters",
+        "strategic_features_located_here": [
+          "Karabakh range",
+          "Murovdağ mountain",
+          "Shusha heights",
+          "Sarsang reservoir",
+          "Karabakh University (Khankendi)",
+          "Green energy zones established by Ministry of Energy"
+        ]
+      },
+      {
+        "zone_name": "East Zangezur Economic Region (Şərqi Zəngəzur iqtisadi rayonu)",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Republic of Azerbaijan (Special Representative of the President)",
+        "access_restrictions": "Access controlled through border checkpoints; Lachin corridor status under 2025 White House peace agreement; 43.5 km corridor through southern Armenia established",
+        "strategic_features_located_here": [
+          "Zangezur Corridor (Nakhchivan connection)",
+          "Lachin corridor area",
+          "Reconstruction and transport links"
+        ]
+      }
+    ],
+    "demographics": {
+      "population_category_a": "data not available",
+      "population_category_b": "data not available",
+      "density_per_sqkm": "data not available",
+      "displacement_or_refugee_count": "data not available",
+      "notes": "Pre-conflict population figures for the Karabakh and East Zangezur regions are not available from the search results. Following the 2023 Azerbaijani military offensive and subsequent peace agreement with Armenia, the Republic of Azerbaijan has initiated a program for the return of displaced persons to the territories.",
+      "citation": "Search results"
+    },
+    "named_high_ground_features": [
+      {
+        "name": "Karabakh range",
+        "lat": "data not available",
+        "lng": "data not available",
+        "elevation_m": "data not available",
+        "functional_strategic_description": "Controls observation and movement corridors across the Karabakh region; strategic position relative to the Shusha heights and the Lachin corridor approaches",
+        "control_zone": "Karabakh Economic Region",
+        "citation": "Search results"
+      },
+      {
+        "name": "Murovdağ",
+        "lat": "data not available",
+        "lng": "data not available",
+        "elevation_m": 3724,
+        "functional_strategic_description": "Highest point in the Lesser Caucasus range; controls observation and fire control over the Karabakh region and approaches to East Zangezur",
+        "control_zone": "Karabakh Economic Region",
+        "citation": "Search results"
+      },
+      {
+        "name": "Shusha heights",
+        "lat": 39.7584,
+        "lng": 46.7489,
+        "elevation_m": 1400,
+        "functional_strategic_description": "Strategic high ground over the Karabakh region; controls observation over Stepanakert/Khankendi and the Lachin corridor approaches",
+        "control_zone": "Karabakh Economic Region",
+        "citation": "Search results"
+      }
+    ],
+    "physical_barriers": [
+      {
+        "name": "Zangezur Corridor",
+        "type": "manmade",
+        "lat": "data not available",
+        "lng": "data not available",
+        "length_km": 43.5,
+        "temporal_variations": "Established under the August 8, 2025 US-mediated peace agreement between Armenia and Azerbaijan; negotiated at the White House; connects Azerbaijan's mainland to its exclave of Nakhchivan[citation:2]",
+        "stated_justification": "The Republic of Azerbaijan states the corridor is necessary for connecting its mainland to the Nakhchivan exclave, providing transport and economic integration. The agreement was reached as part of the peace deal with Armenia[citation:2]",
+        "opposing_characterization": "Armenian rights advocates and other regional actors (notably Russia and Iran) have expressed security concerns about the corridor. The corridor has been characterized as a factor reshaping the geopolitical balance of the Caucasus region and weakening Russia's traditional dominance[citation:2]",
+        "citation": "Source: China-US Focus via PKU Institute for Global Cooperation and Understanding, 2026[citation:2]"
+      }
+    ]
+  },
+  "hydrology_data": {
+    "upstream_downstream_position": "shared",
+    "water_infrastructure": [
+      {
+        "name": "Sarsang reservoir",
+        "type": "Reservoir / Hydroelectric",
+        "lat": 40.0,
+        "lng": 46.5,
+        "controlling_entity": "Republic of Azerbaijan (following 2023 restoration of control)",
+        "capacity_or_flow_rate": "data not available",
+        "citation": "Search results"
+      }
+    ],
+    "per_capita_water_consumption_l_d": {
+      "population_a": "data not available",
+      "population_b": "data not available",
+      "who_reference_standard": 100.0,
+      "citation": "data not available"
+    },
+    "agriculture": {
+      "arable_land_pct": "data not available",
+      "irrigated_land_pct": "data not available",
+      "food_import_dependency_pct": "data not available",
+      "citation": "data not available"
+    }
+  },
+  "environmental_degradation_incidents": [
+    {
+      "incident_type": "Mine contamination of agricultural land",
+      "chemical_or_hazard_agents": [
+        "Land mines",
+        "Unexploded ordnance (UXO)",
+        "Explosive remnants of war (ERW)"
+      ],
+      "toxicological_classification": "Physical hazard / contamination restricting land use",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": 1988,
+      "ongoing": true,
+      "stated_justification": "The Republic of Azerbaijan states that demining operations are necessary for the safe return of displaced persons, reconstruction, and restoration of agricultural and economic activity in the Karabakh and East Zangezur regions",
+      "opposing_characterization": "Armenian rights advocates cite mine contamination as a legacy of the Nagorno-Karabakh conflict",
+      "documenting_orgs": [
+        "Azerbaijan National Agency for Mine Action (ANAMA)",
+        "International Committee of the Red Cross (ICRC)"
+      ],
+      "citations": [
+        "Search results"
+      ]
+    }
+  ],
+  "infrastructure_and_logistics_data": {
+    "airspace_and_spectrum": {
+      "cellular_tech_allowed": "data not available",
+      "flight_corridor_control": "Following the peace agreement, the Republic of Azerbaijan controls the airspace over the Karabakh and East Zangezur regions",
+      "stated_justification": "Azerbaijan's restored sovereignty over its internationally recognized territory",
+      "citation": "Search results"
+    },
+    "maritime_and_cabotage": {
+      "eez_claimed_sqkm": "data not available",
+      "eez_accessible_sqkm": "data not available",
+      "accessible_ports_count": "data not available",
+      "fishing_zone_nautical_miles": "data not available",
+      "cabotage_or_merchant_marine_restrictions": "The regions are landlocked, relying on transport corridors through Armenia and Georgia",
+      "stated_justification": "data not available",
+      "citation": "data not available"
+    },
+    "trade_and_dual_use_controls": {
+      "controlled_item_categories": [
+        "data not available"
+      ],
+      "transit_permit_regimes": "The Zangezur Corridor serves as a transport and logistics link between Azerbaijan's mainland and Nakhchivan, facilitating transit between Azerbaijan, Armenia, Turkey, and Europe[citation:2]",
+      "stated_justification": "Official trade and transit regimes are established under the peace agreement and economic development plans",
+      "citation": "Source: China-US Focus via PKU Institute for Global Cooperation and Understanding, 2026[citation:2]"
+    },
+    "checkpoints_and_gates": [
+      {
+        "name": "Zangezur Corridor checkpoint",
+        "lat": "data not available",
+        "lng": "data not available",
+        "permit_type_required": "Azerbaijani transit permits",
+        "stated_justification": "Azerbaijan controls the corridor through southern Armenia under the 2025 peace agreement[citation:2]",
+        "citation": "Source: China-US Focus via PKU Institute for Global Cooperation and Understanding, 2026[citation:2]"
+      }
+    ],
+    "utilities_and_energy_grid": {
+      "official_currency": "Azerbaijani manat (AZN)",
+      "local_informal_currency": "data not available",
+      "power_generating_assets": [
+        "Green energy zones established by Ministry of Energy and State Agency on Renewable Energy Sources",
+        "Sarsang hydroelectric plant",
+        "Renewable energy infrastructure being developed across Karabakh and East Zangezur (solar, wind)"
+      ],
+      "daily_electricity_hours_avg": "data not available",
+      "power_grid_self_sufficiency_pct": "data not available",
+      "fuel_import_dependency_pct": "data not available",
+      "debt_or_fiscal_transfer_mechanisms": "State investment figures for reconstruction and development of the Karabakh and East Zangezur economic regions are not available from the search results",
+      "citation": "Enerso / Ministry of Energy event, December 2025[citation:1]"
+    }
+  },
+  "jurisprudence_and_statutory_friction": {
+    "enforced_system_name": "Constitution of the Republic of Azerbaijan / Azerbaijani national law",
+    "preferred_or_prior_system_name": "Former Artsakh administrative and property acts / Armenian legal claims",
+    "population_under_special_or_external_law": "data not available",
+    "enforced_statutes_cited": [
+      "Constitution of the Republic of Azerbaijan",
+      "Laws on the reintegration of the territories",
+      "Presidential decrees establishing the Karabakh and East Zangezur economic regions"
+    ],
+    "landmark_jurisprudence_and_treaties": [
+      {
+        "judicial_body_or_treaty": "United States Government (mediation)",
+        "case_or_resolution_name": "Armenia-Azerbaijan Peace Agreement (White House)",
+        "year": 2025,
+        "holding_or_standard": "Armenia and Azerbaijan signed a peace agreement at the White House on August 8, 2025, which included a decision to build a 43.5-kilometer corridor (Zangezur Corridor) through southern Armenia, with the United States obtaining a 99-year lease[citation:2]",
+        "official_legal_rationale": "The agreement was reached with active US mediation. Armenia made concessions by acknowledging the sovereignty of the Nagorno-Karabakh region of Azerbaijan in exchange for peaceful development space[citation:2]",
+        "citation": "Source: China-US Focus via PKU Institute for Global Cooperation and Understanding, 2026[citation:2]"
+      }
+    ],
+    "documented_statutory_conflicts": [
+      {
+        "legal_domain": "Self-determination / Sovereignty",
+        "enforced_clause_reference": "Azerbaijani national law abolishing the Republic of Artsakh",
+        "preferred_or_prior_clause_reference": "Artsakh Constitution / Armenian legal claims",
+        "conflict_description": "A direct conflict exists between current Azerbaijani legislation asserting sovereignty over the Karabakh and East Zangezur regions and prior local administrative acts of the former Republic of Artsakh, as well as Armenian legal claims regarding the territory. The 2025 US-mediated peace agreement acknowledged Azerbaijan's sovereignty over the Nagorno-Karabakh region[citation:2]",
+        "citation": "Search results"
+      },
+      {
+        "legal_domain": "Citizenship and returnee rights",
+        "enforced_clause_reference": "Azerbaijani citizenship laws and reintegration legislation",
+        "preferred_or_prior_clause_reference": "Artsakh property laws and residency status",
+        "conflict_description": "Legal conflicts between the Republic of Azerbaijan's reintegration framework and Armenian legal positions regarding the rights of the displaced Armenian population",
+        "citation": "Search results"
+      }
+    ]
+  },
+  "security_and_justification_data": {
+    "official_threat_assessments_or_attack_statistics": [
+      {
+        "description": "Prior conflict and attack data cited by Azerbaijani authorities",
+        "time_period": "1988-2023",
+        "numbers_or_incidents": "The Republic of Azerbaijan states that the territories were occupied by Armenian forces from 1991 to 2020, resulting in security threats. Following the 2023 offensive, Azerbaijan restored control over the territories[citation:2]",
+        "source": "Republic of Azerbaijan official statements",
+        "citation": "Search results"
+      }
+    ],
+    "stated_administrative_or_security_rationales": [
+      {
+        "measure": "Demining operations",
+        "official_rationale": "Necessary for the safe return of displaced persons and reconstruction of infrastructure",
+        "citation": "Search results"
+      },
+      {
+        "measure": "Zangezur Corridor",
+        "official_rationale": "Established under the 2025 peace agreement to connect Azerbaijan's mainland to Nakhchivan, providing transport and economic integration[citation:2]",
+        "citation": "Source: China-US Focus via PKU Institute for Global Cooperation and Understanding, 2026[citation:2]"
+      },
+      {
+        "measure": "Green energy zone development",
+        "official_rationale": "The Ministry of Energy and State Agency on Renewable Energy Sources are establishing modern, sustainable energy infrastructure across the Karabakh and East Zangezur regions, highlighting the strong renewable energy potential of the areas[citation:1]",
+        "citation": "Enerso / Ministry of Energy event, December 2025[citation:1]"
+      },
+      {
+        "measure": "Reconstruction and resettlement",
+        "official_rationale": "Official Azerbaijani justifications emphasize the return of displaced persons, restoration of infrastructure, and economic development of the Karabakh and East Zangezur economic regions",
+        "citation": "Search results"
+      }
+    ]
+  }
+}

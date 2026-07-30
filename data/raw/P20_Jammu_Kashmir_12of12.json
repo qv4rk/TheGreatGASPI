@@ -1,0 +1,323 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Great GASPI Data Schema",
+  "type": "object",
+  "prompt_id": "prompt-20",
+  "territory_name": "Jammu & Kashmir",
+  "perspective": "Local Kashmiri Advocates / J&K Coalition of Civil Society / High Court Bar Association",
+  "language": "English (with Urdu terms where appropriate)",
+  "years_of_scope": "2019-2026",
+  "wgs84_center": {
+    "lat": 33.7782,
+    "lng": 76.5762
+  },
+  "topographic_and_control_data": {
+    "total_area_sqkm": 55538,
+    "accessible_area_sqkm": "data not available",
+    "control_zones": [
+      {
+        "zone_name": "Kashmir Valley (High Security Zone)",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Government of India / Indian Army / J&K Police",
+        "access_restrictions": "Heavy military presence; security checkpoints for local civilians; internet suspension orders issued under Temporary Suspension of Telecom Services Rules (2017)",
+        "strategic_features_located_here": [
+          "Pir Panjal Range",
+          "Jhelum River",
+          "Dal Lake",
+          "Wular Lake",
+          "Srinagar city",
+          "Gulmarg"
+        ]
+      },
+      {
+        "zone_name": "Line of Control (LoC) Zone",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Indian Army",
+        "access_restrictions": "Military cantonments and fencing established on lands; double-row concertina wire fence with sensors; local population restricted from entering designated security zones",
+        "strategic_features_located_here": [
+          "Anti-Infiltration Obstacle System (AIOS)",
+          "Zoji La Pass",
+          "Gurez",
+          "Tangdhar"
+        ]
+      },
+      {
+        "zone_name": "Jammu Plains",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Government of India / UT Administration",
+        "access_restrictions": "Security convoys restrict civilian movement on National Highway NH-44; blockades during security operations",
+        "strategic_features_located_here": [
+          "Jammu-Srinagar National Highway (NH-44)",
+          "Chenab River corridor",
+          "Patnitop"
+        ]
+      }
+    ],
+    "demographics": {
+      "population_category_a": 12541302,
+      "population_category_b": "data not available",
+      "density_per_sqkm": 56,
+      "displacement_or_refugee_count": "data not available",
+      "notes": "Total population of Jammu and Kashmir as per Census 2011 is 1,25,41,302. Muslim population constitutes approximately 68.31%, Hindu population 28.44%. Demographic changes following the 2019 revocation of Article 370 and issuance of domicile certificates to non-locals have been a source of concern for local Kashmiri communities.",
+      "citation": "Census of India 2011"
+    },
+    "named_high_ground_features": [
+      {
+        "name": "Pir Panjal Range",
+        "lat": 33.9,
+        "lng": 74.4,
+        "elevation_m": 3000,
+        "functional_strategic_description": "Controls movement corridors between Jammu and Kashmir Valley; strategic observation points over highways and valleys; position relative to Jhelum and Chenab basins",
+        "control_zone": "Jammu and Kashmir UT",
+        "citation": "data not available"
+      },
+      {
+        "name": "Zoji La Pass",
+        "lat": 34.2783,
+        "lng": 75.4714,
+        "elevation_m": 3528,
+        "functional_strategic_description": "Strategic high-altitude pass connecting Kashmir Valley to Ladakh; control of movement corridor; critical for military logistics and troop movements",
+        "control_zone": "LoC Zone",
+        "citation": "data not available"
+      }
+    ],
+    "physical_barriers": [
+      {
+        "name": "Anti-Infiltration Obstacle System (AIOS) / Smart Fence",
+        "type": "manmade",
+        "lat": "data not available",
+        "lng": "data not available",
+        "length_km": 700,
+        "temporal_variations": "Constructed 2003-2005; smart fence integration underway with sensors and cameras; hybrid model adoption",
+        "stated_justification": "Indian Government justifies as anti-infiltration measure",
+        "opposing_characterization": "Local Kashmiri advocates characterize the fence as a tool of partition, separation, and restriction on movement and livelihoods for the local population",
+        "citation": "data not available"
+      }
+    ]
+  },
+  "hydrology_data": {
+    "upstream_downstream_position": "upstream",
+    "water_infrastructure": [
+      {
+        "name": "Kishanganga Hydroelectric Project",
+        "type": "Hydroelectric project",
+        "lat": 34.4333,
+        "lng": 73.8333,
+        "controlling_entity": "NHPC Limited (Government of India)",
+        "capacity_or_flow_rate": "330 MW",
+        "citation": "Kashmir Reader, 2024"
+      },
+      {
+        "name": "Baglihar Hydro Electric Project",
+        "type": "Hydroelectric project",
+        "lat": 33.1667,
+        "lng": 75.3333,
+        "controlling_entity": "Government of India / NHPC Limited",
+        "capacity_or_flow_rate": "900 MW",
+        "citation": "Kashmir Reader, 2024"
+      },
+      {
+        "name": "Ratle Hydroelectric Project",
+        "type": "Hydroelectric project",
+        "lat": "data not available",
+        "lng": "data not available",
+        "controlling_entity": "Government of India / NHPC Limited",
+        "capacity_or_flow_rate": "930 MW (under construction)",
+        "citation": "Kashmir Reader, 2024"
+      }
+    ],
+    "per_capita_water_consumption_l_d": {
+      "population_a": "data not available",
+      "population_b": "data not available",
+      "who_reference_standard": 100.0,
+      "citation": "data not available"
+    },
+    "agriculture": {
+      "arable_land_pct": "data not available",
+      "irrigated_land_pct": "data not available",
+      "food_import_dependency_pct": "data not available",
+      "notes": "Conversion of apple orchards and saffron cultivation land (Pampore) due to military occupation or highway projects",
+      "citation": "data not available"
+    }
+  },
+  "environmental_degradation_incidents": [
+    {
+      "incident_type": "Dal Lake and Wular Lake Degradation",
+      "chemical_or_hazard_agents": [
+        "Siltation",
+        "Eutrophication",
+        "Encroachment",
+        "Pollution"
+      ],
+      "toxicological_classification": "Ecological degradation",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": "data not available",
+      "ongoing": true,
+      "stated_justification": "Official justifications focus on conservation measures",
+      "opposing_characterization": "Local farmers and institutions express concerns over the destruction of Dal Lake and Wular Lake due to encroachment, pollution, and lack of effective conservation",
+      "documenting_orgs": [
+        "Local environmental groups",
+        "Kashmir Bar Association",
+        "J&K Coalition of Civil Society"
+      ],
+      "citations": [
+        "data not available"
+      ]
+    },
+    {
+      "incident_type": "Deforestation in Pir Panjal Range",
+      "chemical_or_hazard_agents": [
+        "Deforestation"
+      ],
+      "toxicological_classification": "Habitat loss and ecological damage",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": "data not available",
+      "ongoing": true,
+      "stated_justification": "data not available",
+      "opposing_characterization": "Local concerns regarding forest loss and its impact on the environment and traditional livelihoods",
+      "documenting_orgs": [
+        "Local environmental groups"
+      ],
+      "citations": [
+        "data not available"
+      ]
+    }
+  ],
+  "infrastructure_and_logistics_data": {
+    "airspace_and_spectrum": {
+      "cellular_tech_allowed": "Transition from 2G caps to 4G/5G rollout post-2021",
+      "flight_corridor_control": "Controlled by Indian Air Force",
+      "stated_justification": "Security measures",
+      "opposing_characterization": "Local advocates characterize the longest internet shutdown (552 days after 5 August 2019) and ongoing restrictions as violations of communication rights and digital control that isolate Kashmir from the rest of the world",
+      "citation": "data not available"
+    },
+    "maritime_and_cabotage": {
+      "eez_claimed_sqkm": "data not available",
+      "eez_accessible_sqkm": "data not available",
+      "accessible_ports_count": 0,
+      "fishing_zone_nautical_miles": "data not available",
+      "cabotage_or_merchant_marine_restrictions": "Landlocked UT",
+      "stated_justification": "Not applicable",
+      "citation": "data not available"
+    },
+    "trade_and_dual_use_controls": {
+      "controlled_item_categories": [
+        "Dual-use items subject to security controls"
+      ],
+      "transit_permit_regimes": "Permit regimes; identity verification at checkpoints",
+      "stated_justification": "Security measures",
+      "citation": "data not available"
+    },
+    "checkpoints_and_gates": [
+      {
+        "name": "Jammu-Srinagar National Highway (NH-44) Security Checkpoints",
+        "lat": "data not available",
+        "lng": "data not available",
+        "permit_type_required": "Identity verification; transport permits",
+        "stated_justification": "Security checkpoints to prevent infiltration and ensure safety",
+        "opposing_characterization": "Restrictions on civilian movement during security convoys on National Highway NH-44; blockades and fencing; forced rerouting of local traffic",
+        "citation": "data not available"
+      }
+    ],
+    "utilities_and_energy_grid": {
+      "official_currency": "Indian Rupee (INR)",
+      "local_informal_currency": "data not available",
+      "power_generating_assets": [
+        "Baglihar (900 MW)",
+        "Dulhasti (390 MW)",
+        "Kishanganga (330 MW)",
+        "Uri",
+        "Salal",
+        "Pakal Dul (under construction)",
+        "Ratle (under construction)",
+        "Kiru (under construction)",
+        "Kwar (under construction)"
+      ],
+      "daily_electricity_hours_avg": "data not available",
+      "power_grid_self_sufficiency_pct": "data not available",
+      "fuel_import_dependency_pct": "data not available",
+      "debt_or_fiscal_transfer_mechanisms": "Transfer of electricity outside the Valley by NHPC and NEPRA; local electricity deficits",
+      "citation": "data not available"
+    }
+  },
+  "jurisprudence_and_statutory_friction": {
+    "enforced_system_name": "Indian Constitution (post-2019)",
+    "preferred_or_prior_system_name": "Article 370, Article 35A, Constitution of Jammu & Kashmir (1956)",
+    "population_under_special_or_external_law": "data not available",
+    "enforced_statutes_cited": [
+      "Jammu and Kashmir Reorganisation Act, 2019",
+      "Amendments to the Land Revenue Act (allowing non-residents to purchase land)",
+      "Public Safety Act (PSA)",
+      "Armed Forces (Special Powers) Act (AFSPA)",
+      "Unlawful Activities (Prevention) Act (UAPA)"
+    ],
+    "landmark_jurisprudence_and_treaties": [
+      {
+        "judicial_body_or_treaty": "Supreme Court of India",
+        "case_or_resolution_name": "Article 370 Abrogation Judgment",
+        "year": 2023,
+        "holding_or_standard": "Constitution Bench upheld the revocation of Article 370",
+        "official_legal_rationale": "The Court accepted the Union's argument that Article 370 was a temporary provision",
+        "opposing_characterization": "Local advocates and the High Court Bar Association challenged the 2019 Act as unconstitutional, arguing it undermined the historical autonomy of the region and the special rights of local residents",
+        "citation": "Supreme Court of India, 2023"
+      }
+    ],
+    "documented_statutory_conflicts": [
+      {
+        "legal_domain": "Land Rights",
+        "enforced_clause_reference": "Amendments to the Land Revenue Act (2019 Reorganisation Act)",
+        "preferred_or_prior_clause_reference": "Article 35A, J&K Alienation of Land Act (1938)",
+        "conflict_description": "Clause-by-clause conflict between the Jammu and Kashmir Reorganisation Act 2019 and the traditional land rights of local Kashmiri residents under Article 35A. The 2019 Act and subsequent amendments allowed non-residents to purchase land, effectively overriding the 1938 J&K Alienation of Land Act which restricted land ownership to permanent residents.",
+        "citation": "J&K Reorganisation Act, 2019"
+      },
+      {
+        "legal_domain": "Constitutional Law / Self-Governance",
+        "enforced_clause_reference": "Revocation of Article 370",
+        "preferred_or_prior_clause_reference": "Article 370, Article 35A, Constitution of J&K (1956)",
+        "conflict_description": "Conflict between the historical constitutional framework that granted special status and autonomy to Jammu and Kashmir and the 2019 revocation which made all central laws applicable to the UT",
+        "citation": "J&K Reorganisation Act, 2019"
+      }
+    ]
+  },
+  "security_and_justification_data": {
+    "official_threat_assessments_or_attack_statistics": [
+      {
+        "description": "Detentions under security acts",
+        "time_period": "1990-2026",
+        "numbers_or_incidents": "4,064 people arrested from March 2010 to January 2011 under the PSA and AFSPA; Amnesty International estimates between 8,000 and 20,000 people have been detained under the PSA or AFSPA over the past 20 years.",
+        "source": "J&K State Police; Amnesty International",
+        "citation": "UK Parliament written answer, 2011"
+      },
+      {
+        "description": "Internet shutdown duration",
+        "time_period": "August 2019 - February 2021",
+        "numbers_or_incidents": "552 days of internet suspension after 5 August 2019, one of the longest internet shutdowns in history",
+        "source": "Local advocates and civil society reports",
+        "citation": "data not available"
+      }
+    ],
+    "stated_administrative_or_security_rationales": [
+      {
+        "measure": "Internet suspensions",
+        "official_rationale": "Security measures to prevent terrorist coordination and maintain law and order",
+        "opposing_characterization": "Local advocates characterize internet shutdowns as violations of communication rights and digital control that isolate Kashmir from the rest of the world",
+        "citation": "data not available"
+      },
+      {
+        "measure": "Public Safety Act (PSA), AFSPA, and UAPA",
+        "official_rationale": "Security legislation necessary to maintain public order and prevent terrorism",
+        "opposing_characterization": "Local advocates characterize AFSPA as a 'lawless law' that enables security forces to act with impunity; under AFSPA, prosecution of security personnel requires central government sanction, which is practically impossible. 93% of complaints regarding settler violence against Palestinians are closed without charges filed - local advocacy groups draw parallels to the impunity of security forces and settlers under AFSPA and related laws.",
+        "citation": "National Herald, 2021; UK Parliament, 2011"
+      },
+      {
+        "measure": "Land Law changes (Reorganisation Act and amendments)",
+        "official_rationale": "Administrative integration and economic development",
+        "opposing_characterization": "Local advocates characterize these changes as a threat to the demographic composition and cultural identity of Kashmir, enabling land alienation from the local population",
+        "citation": "data not available"
+      }
+    ]
+  }
+}

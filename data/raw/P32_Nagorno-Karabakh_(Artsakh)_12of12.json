@@ -1,0 +1,227 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Great GASPI Data Schema",
+  "type": "object",
+  "prompt_id": "prompt-32",
+  "territory_name": "Nagorno-Karabakh (Artsakh)",
+  "perspective": "Republic of Armenia / Artsakh authorities / Armenian rights and displacement advocates",
+  "language": "English (with Armenian terms)",
+  "years_of_scope": "1988-2026",
+  "wgs84_center": {
+    "lat": 39.85,
+    "lng": 46.75
+  },
+  "topographic_and_control_data": {
+    "total_area_sqkm": 11458,
+    "accessible_area_sqkm": "data not available",
+    "control_zones": [
+      {
+        "zone_name": "Former Nagorno-Karabakh Autonomous Oblast / Republic of Artsakh (pre-2023)",
+        "area_sqkm": 11458,
+        "area_pct": "data not available",
+        "governing_authority": "Republic of Artsakh (pre-2023) / now under Azerbaijani control (de facto)",
+        "access_restrictions": "Following the 2023 Azerbaijani military offensive, the Republic of Artsakh capitulated on September 20, 2023. The population of approximately 120,000 ethnic Armenians fled to Armenia by the end of September 2023.",
+        "strategic_features_located_here": [
+          "Stepanakert / Khankendi (former administrative center)",
+          "Shushi / Shusha (strategic high ground)",
+          "Lachin Corridor (critical land link to Armenia)",
+          "Martuni / Khojavend region",
+          "Mardakert / Aghdara",
+          "Sarsang Reservoir"
+        ]
+      }
+    ],
+    "demographics": {
+      "population_category_a": "data not available",
+      "population_b": "data not available",
+      "density_per_sqkm": "data not available",
+      "displacement_or_refugee_count": "data not available",
+      "notes": "The entire Armenian population of Nagorno-Karabakh (approximately 120,000 ethnic Armenians) fled to Armenia following the capitulation of the Republic of Artsakh on September 20, 2023. The displacement occurred over days, and by September 30, 2023, almost 120,000 people had arrived in Armenia.",
+      "citation": "Search results"
+    },
+    "named_high_ground_features": [
+      {
+        "name": "Shushi / Shusha Heights",
+        "lat": 39.7584,
+        "lng": 46.7489,
+        "elevation_m": 1400,
+        "functional_strategic_description": "Strategic high ground over Stepanakert and the Karabakh region; control of observation and fire control over the Lachin Corridor approaches; historically significant military position",
+        "control_zone": "Former Republic of Artsakh / now under Azerbaijani control",
+        "citation": "Search results"
+      }
+    ],
+    "physical_barriers": [
+      {
+        "name": "Lachin Corridor",
+        "type": "natural",
+        "lat": 39.5,
+        "lng": 46.5,
+        "length_km": 60,
+        "temporal_variations": "The corridor served as the sole life-line connecting Nagorno-Karabakh to Armenia. Following a ceasefire in November 2020, Russian peacekeepers were deployed to guard it. Azerbaijan established a blockade of the corridor from December 2022. The corridor came under Azerbaijani control following the September 2023 offensive.",
+        "stated_justification": "Azerbaijan justified the blockade and subsequent control citing environmental and security concerns.",
+        "opposing_characterization": "Armenian and international human rights organizations characterized the blockade as illegal, a humanitarian crisis, and a violation of the 2020 ceasefire agreement and international law.",
+        "citation": "Search results"
+      }
+    ]
+  },
+  "hydrology_data": {
+    "upstream_downstream_position": "upstream",
+    "water_infrastructure": [
+      {
+        "name": "Sarsang Reservoir",
+        "type": "Reservoir / Hydroelectric",
+        "lat": 40.0,
+        "lng": 46.5,
+        "controlling_entity": "Formerly under Artsakh control; now under Azerbaijani control",
+        "capacity_or_flow_rate": "data not available",
+        "citation": "Search results"
+      }
+    ],
+    "per_capita_water_consumption_l_d": {
+      "population_a": "data not available",
+      "population_b": "data not available",
+      "who_reference_standard": 100.0,
+      "citation": "data not available"
+    },
+    "agriculture": {
+      "arable_land_pct": "data not available",
+      "irrigated_land_pct": "data not available",
+      "food_import_dependency_pct": "data not available",
+      "citation": "data not available"
+    }
+  },
+  "environmental_degradation_incidents": [
+    {
+      "incident_type": "Blockade of Lachin Corridor",
+      "chemical_or_hazard_agents": [
+        "Food and medicine shortages",
+        "Disruption to energy supplies"
+      ],
+      "toxicological_classification": "Humanitarian crisis",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": 2022,
+      "ongoing": false,
+      "stated_justification": "Azerbaijan justified the blockade citing environmental and security concerns.",
+      "opposing_characterization": "The blockade was characterized by Armenian and international bodies as a violation of the November 2020 ceasefire agreement and international law, which contributed to a humanitarian crisis.",
+      "documenting_orgs": [
+        "International Committee of the Red Cross (ICRC)",
+        "OCHA",
+        "UN Security Council",
+        "International Court of Justice (ICJ)"
+      ],
+      "citations": [
+        "UN Security Council briefing, September 2023",
+        "ICRC statements"
+      ]
+    }
+  ],
+  "infrastructure_and_logistics_data": {
+    "airspace_and_spectrum": {
+      "cellular_tech_allowed": "data not available",
+      "flight_corridor_control": "The airspace over Nagorno-Karabakh is controlled by Azerbaijan, which suspended flights from Armenia to Artsakh.",
+      "stated_justification": "Azerbaijan's control over its airspace and borders.",
+      "citation": "Search results"
+    },
+    "maritime_and_cabotage": {
+      "eez_claimed_sqkm": "data not available",
+      "eez_accessible_sqkm": "data not available",
+      "accessible_ports_count": 0,
+      "fishing_zone_nautical_miles": "data not available",
+      "cabotage_or_merchant_marine_restrictions": "The region is landlocked.",
+      "stated_justification": "data not available",
+      "citation": "data not available"
+    },
+    "trade_and_dual_use_controls": {
+      "controlled_item_categories": [
+        "data not available"
+      ],
+      "transit_permit_regimes": "Azerbaijan controls all transit through the Lachin Corridor.",
+      "stated_justification": "Azerbaijan's sovereignty and security interests.",
+      "citation": "Search results"
+    },
+    "checkpoints_and_gates": [
+      {
+        "name": "Lachin Corridor Checkpoint",
+        "lat": "data not available",
+        "lng": "data not available",
+        "permit_type_required": "Azerbaijani permits required for transit",
+        "stated_justification": "Azerbaijan controls the border.",
+        "opposing_characterization": "The checkpoint is part of the illegal blockade of the Lachin Corridor.",
+        "citation": "Search results"
+      }
+    ],
+    "utilities_and_energy_grid": {
+      "official_currency": "Armenian Dram (AMD) (pre-2023)",
+      "local_informal_currency": "data not available",
+      "power_generating_assets": [
+        "Sarsang hydroelectric plant"
+      ],
+      "daily_electricity_hours_avg": "data not available",
+      "power_grid_self_sufficiency_pct": "data not available",
+      "fuel_import_dependency_pct": "data not available",
+      "debt_or_fiscal_transfer_mechanisms": "data not available",
+      "citation": "data not available"
+    }
+  },
+  "jurisprudence_and_statutory_friction": {
+    "enforced_system_name": "Azerbaijani national law (de facto)",
+    "preferred_or_prior_system_name": "Artsakh Constitution and laws / Armenian law",
+    "population_under_special_or_external_law": 0,
+    "enforced_statutes_cited": [
+      "Azerbaijani national law"
+    ],
+    "landmark_jurisprudence_and_treaties": [
+      {
+        "judicial_body_or_treaty": "International Court of Justice (ICJ)",
+        "case_or_resolution_name": "Orders regarding the Lachin Corridor",
+        "year": 2023,
+        "holding_or_standard": "The ICJ ordered that Azerbaijan 'take all measures at its disposal to ensure unimpeded movement of persons, vehicles and cargo along the Lachin Corridor in both directions.'",
+        "official_legal_rationale": "Azerbaijan stated it was unable to enforce the order due to domestic security concerns.",
+        "citation": "ICJ Orders, July 2023"
+      },
+      {
+        "judicial_body_or_treaty": "United Nations Security Council",
+        "case_or_resolution_name": "Briefing on the situation in the Lachin Corridor",
+        "year": 2023,
+        "holding_or_standard": "The UN Security Council heard briefings on humanitarian concerns and the blockade, though no resolution was passed.",
+        "official_legal_rationale": "Azerbaijan disputed the nature of the crisis.",
+        "citation": "UN Security Council, September 2023"
+      }
+    ],
+    "documented_statutory_conflicts": [
+      {
+        "legal_domain": "Self-determination / Humanitarian Law",
+        "enforced_clause_reference": "Azerbaijani law abolishing the Republic of Artsakh",
+        "preferred_or_prior_clause_reference": "Artsakh Constitution / Armenian rights claims",
+        "conflict_description": "A direct conflict between the abolition of the Republic of Artsakh by Azerbaijan and the international and Armenian legal positions concerning the right to self-determination of the Armenian population.",
+        "citation": "Search results"
+      }
+    ]
+  },
+  "security_and_justification_data": {
+    "official_threat_assessments_or_attack_statistics": [
+      {
+        "description": "2023 Azerbaijani military offensive and exodus",
+        "time_period": "September 2023",
+        "numbers_or_incidents": "Around 120,000 ethnic Armenians fled Nagorno-Karabakh.",
+        "source": "OCHA / UN estimates",
+        "citation": "Search results"
+      },
+      {
+        "description": "Blockade of the Lachin Corridor",
+        "time_period": "December 2022 - September 2023",
+        "numbers_or_incidents": "Disruption of food, medicine, and energy supplies",
+        "source": "ICRC",
+        "citation": "UN Security Council briefing, September 2023"
+      }
+    ],
+    "stated_administrative_or_security_rationales": [
+      {
+        "measure": "Blockade of the Lachin Corridor",
+        "official_rationale": "Azerbaijan cited environmental concerns.",
+        "opposing_characterization": "The blockade was a deliberate act of war and ethnic cleansing.",
+        "citation": "Search results"
+      }
+    ]
+  }
+}

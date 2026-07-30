@@ -1,0 +1,290 @@
+{
+  "prompt_id": "prompt-11",
+  "territory_name": "Northern Cyprus",
+  "perspective": "Turkish Republic of Northern Cyprus (TRNC) / Turkish State Authorities",
+  "language": "Turkish",
+  "years_of_scope": "1974-2026",
+  "wgs84_center": {
+    "lat": 35.25,
+    "lng": 33.75
+  },
+  "topographic_and_control_data": {
+    "total_area_sqkm": 3355,
+    "accessible_area_sqkm": 3355,
+    "control_zones": [
+      {
+        "zone_name": "KKTC (Kuzey Kıbrıs Türk Cumhuriyeti)",
+        "area_sqkm": 3355,
+        "area_pct": 100,
+        "governing_authority": "Türkiye Cumhuriyeti'nin garantörlüğünde Kuzey Kıbrıs Türk Cumhuriyeti Cumhurbaşkanlığı ve Bakanlar Kurulu",
+        "access_restrictions": "KKTC vatandaşları ve Türkiye Cumhuriyeti vatandaşları için serbest dolaşım; diğer ülke vatandaşları için vize ve giriş izni prosedürleri uygulanır.",
+        "strategic_features_located_here": [
+          "Beşparmak Dağları (Gözlem ve yangın kontrolü)",
+          "Mesarya Ovası (Hareket koridoru)",
+          "Gazimağusa ve Girne Limanları"
+        ]
+      }
+    ],
+    "demographics": {
+      "population_category_a": "KKTC vatandaşları (yaklaşık 382,836 - 2024 KKTC İstatistik Kurumu verisi)",
+      "population_category_b": "Türkiye Cumhuriyeti vatandaşları (yerleşik ve geçici işçi/öğrenci, sayı değişken)",
+      "density_per_sqkm": 114,
+      "displacement_or_refugee_count": "data not available",
+      "notes": "Nüfus verileri KKTC İstatistik Kurumu'nun 2024 yılı projeksiyonlarına dayanmaktadır. 'Population_category_a' KKTC yurttaşlarını, 'population_category_b' ise KKTC'de yaşayan ancak TC vatandaşlığı gibi başka bir statüye sahip olanları belirtir. Resmi yerinden edilme sayısı mevcut değildir, zira KKTC otoriteleri 1974 sonrası nüfus hareketlerini 'mübadele' ve 'yerleşim düzenlemesi' olarak tanımlar.",
+      "citation": "KKTC İstatistik Kurumu, 2024 Nüfus Projeksiyonları. KKTC Resmi Gazetesi arşivleri."
+    },
+    "named_high_ground_features": [
+      {
+        "name": "Beşparmak Dağları (Kyrenia Sıradağları - Batı Ucu)",
+        "lat": 35.31,
+        "lng": 33.05,
+        "elevation_m": 1024,
+        "functional_strategic_description": "Kuzey kıyı şeridine tamamen hakim bir yükselti serisi. Güneydeki Mesarya Ovası'na ve başkent Lefkoşa'ya kadar uzanan gözlem ve doğrudan ateş kontrolü sağlar. Doğu-batı yönünde doğal bir hareket engeli oluşturarak adanın kuzey-güney erişimini dar geçitlerle sınırlar.",
+        "control_zone": "KKTC",
+        "citation": "Harita Genel Komutanlığı 1:250.000 ölçekli topoğrafya haritaları; KKTC Turizm ve Çevre Bakanlığı Coğrafi Bilgi Sistemi."
+      },
+      {
+        "name": "Mesarya Ovası",
+        "lat": 35.2,
+        "lng": 33.7,
+        "elevation_m": 75,
+        "functional_strategic_description": "Lefkoşa ile Gazimağusa arasında uzanan geniş, düz ova. En önemli doğu-batı hareket koridorudur. Bu düzlük, zırhlı ve motorlu birlikler için yüksek hızlı manevra ve lojistik ikmal için uygun bir arazi yapısı sunar. Yeraltı su kaynakları (Gazimağusa Akiferi) burada bulunur.",
+        "control_zone": "KKTC",
+        "citation": "Meteoroloji Dairesi ve Devlet Su İşleri raporları."
+      }
+    ],
+    "physical_barriers": [
+      {
+        "name": "Yeşil Hat (Birleşmiş Milletler Tampon Bölgesi)",
+        "type": "hybrid",
+        "lat": 35.179,
+        "lng": 33.363,
+        "length_km": 180,
+        "temporal_variations": "1974 yılında ateşkes hatları temelinde oluşturulmuştur. Günümüzdeki fiziksel yapısı yıllar içinde inşa edilmiş duvar, tel örgü, hendek ve askeri mevzilerin bir bileşimidir.",
+        "stated_justification": "1974 Kıbrıs Barış Harekatı sonrası adadaki iki toplum arasında tampon oluşturarak çatışmaları önlemek, güvenliği ve istikrarı sağlamak için tesis edilmiş ateşkes hattıdır. KKTC makamları, bu hattın kendi egemen sınırları olduğunu belirtir.",
+        "opposing_characterization": "Kıbrıs Cumhuriyeti ve BM tarafından adanın bölünmüşlüğünü ifade eden, ancak uluslararası bir sınır teşkil etmeyen bir 'Ateşkes Hattı' olarak tanımlanır. BM kontrolündeki tampon bölge iki taraf arasında uzanır.",
+        "citation": "KKTC Dışişleri Bakanlığı yayınları; UNFICYP (Birleşmiş Milletler Kıbrıs Barış Gücü) basın açıklamaları."
+      }
+    ]
+  },
+  "hydrology_data": {
+    "upstream_downstream_position": "shared",
+    "water_infrastructure": [
+      {
+        "name": "Alaköprü Barajı (Türkiye'den KKTC'ye Su Temini Projesi kaynağı)",
+        "type": "Baraj",
+        "lat": 36.18,
+        "lng": 33.05,
+        "controlling_entity": "Türkiye Cumhuriyeti Devlet Su İşleri Genel Müdürlüğü (DSİ)",
+        "capacity_or_flow_rate": "Yıllık 75 milyon metreküp su temini kapasitesi",
+        "citation": "TC Orman ve Su İşleri Bakanlığı, DSİ Genel Müdürlüğü proje raporu, 2015."
+      },
+      {
+        "name": "Geçitköy Barajı (Su Temini Projesi KKTC alım noktası)",
+        "type": "Baraj",
+        "lat": 35.33,
+        "lng": 33.07,
+        "controlling_entity": "KKTC Tarım ve Doğal Kaynaklar Bakanlığı Su İşleri Dairesi",
+        "capacity_or_flow_rate": "26 milyon metreküp depolama kapasitesi",
+        "citation": "KKTC Su İşleri Dairesi Müdürlüğü."
+      },
+      {
+        "name": "Türkiye-KKTC Deniz Altı Boru Hattı",
+        "type": "Denizaltı Boru Hattı",
+        "lat": 36.05,
+        "lng": 33.05,
+        "controlling_entity": "DSİ ve KKTC Su İşleri Dairesi",
+        "capacity_or_flow_rate": "75 milyon m³/yıl taşıma kapasiteli, 80 km uzunluğunda HDPE boru hattı",
+        "citation": "TC Orman ve Su İşleri Bakanlığı, 'Asrın Projesi' resmi tanıtım belgesi."
+      }
+    ],
+    "per_capita_water_consumption_l_d": {
+      "population_a": 280,
+      "population_b": "data not available",
+      "who_reference_standard": 100.0,
+      "citation": "KKTC Su İşleri Dairesi 2022 yılı raporu. Günlük kişi başı tüketim, tarımsal sulama dahil toplam arz üzerinden hesaplanmıştır. 'Population_b' verisi mevcut değildir."
+    },
+    "agriculture": {
+      "arable_land_pct": 56.7,
+      "irrigated_land_pct": 12,
+      "food_import_dependency_pct": 80,
+      "citation": "KKTC Tarım ve Doğal Kaynaklar Bakanlığı, 2021 Tarımsal Yapı ve Üretim İstatistikleri."
+    }
+  },
+  "environmental_degradation_incidents": [
+    {
+      "incident_type": "Yeraltı Suyu Tuzlanması",
+      "chemical_or_hazard_agents": [
+        "Tuzlu su girişimi (deniz suyu karışımı)",
+        "Aşırı nitrat"
+      ],
+      "toxicological_classification": "İnsani tüketim standartlarını aşan klorür ve nitrat seviyeleri",
+      "affected_area_sqkm": 500,
+      "first_documented_year": 1990,
+      "ongoing": true,
+      "stated_justification": "Aşırı nüfus artışı, turizm gelişimi ve tarımsal sulama ihtiyacı nedeniyle kıyı akiferlerinden aşırı su çekimi sonucu oluşan doğal bir hidrojeolojik olaydır. 'Asrın Projesi' bu sorunu çözmek için hayata geçirilmiştir.",
+      "opposing_characterization": "Bazı çevre raporları, kontrolsüz kentleşme ve plansız tarımsal su kullanımının akiferleri geri dönüşü olmayan bir şekilde tahrip ettiğini belirtmektedir.",
+      "documenting_orgs": [
+        "KKTC Su İşleri Dairesi",
+        "ODTÜ Deniz Bilimleri Enstitüsü",
+        "Birleşmiş Milletler Kalkınma Programı (UNDP)"
+      ],
+      "citations": [
+        "KKTC Su İşleri Dairesi Yeraltı Suyu Kalite Raporu, 2019.",
+        "Elkıran, G., & Ergil, M. 'Integrated Water Resources Planning in the Turkish Republic of Northern Cyprus'. Water Resources Management, 2007."
+      ]
+    },
+    {
+      "incident_type": "Endüstriyel Atık Kirliliği",
+      "chemical_or_hazard_agents": [
+        "Bakır",
+        "Çinko",
+        "Kadmiyum",
+        "Asit maden drenajı"
+      ],
+      "toxicological_classification": "Ağır metal kontaminasyonu; toprak ve su ekosistemi için kronik toksik risk",
+      "affected_area_sqkm": 5,
+      "first_documented_year": 1974,
+      "ongoing": false,
+      "stated_justification": "Kıbrıs Maden Şirketi'ne (CMC) ait terk edilmiş Lefke maden sahası, 1974 öncesi döneme ait tarihi bir çevre sorunudur. KKTC Çevre Koruma Dairesi ve ilgili kurumlar, alanın rehabilitasyonu için çalışmalar yürütmüş ve yürütmeye devam etmektedir.",
+      "opposing_characterization": "Çevre aktivistleri, onlarca yıldır süren ihmal sonucu bölgedeki ağır metal kirliliğinin Lefke halkı üzerinde ciddi sağlık sorunlarına yol açtığını ve rehabilitasyon çalışmalarının yetersiz kaldığını iddia etmektedir.",
+      "documenting_orgs": [
+        "KKTC Çevre Koruma Dairesi",
+        "Lefke Çevre ve Ekoloji Derneği",
+        "Avrupa Komisyonu (AB destekli rehabilitasyon projeleri)"
+      ],
+      "citations": [
+        "KKTC Çevre Koruma Dairesi, CMC Lefke Sahası Rehabilitasyon Raporu.",
+        "AB Bilgi Notu: 'Supporting the Rehabilitation of the CMC Mining Site in Lefke', 2019."
+      ]
+    }
+  ],
+  "infrastructure_and_logistics_data": {
+    "airspace_and_spectrum": {
+      "cellular_tech_allowed": "3G (UMTS), 4G (LTE), 4.5G (LTE-A) teknolojilerine izin verilmektedir. KKTC Bayındırlık ve Ulaştırma Bakanlığı'na bağlı Bilgi Teknolojileri ve Haberleşme Kurumu (BTHK) tarafından yetkilendirilmiş operatörler (Kuzey Kıbrıs Turkcell ve Telsim Vodafone) hizmet vermektedir.",
+      "flight_corridor_control": "Ercan Uluslararası Havalimanı'na iniş-kalkış yapan tüm uçaklar, Türk hava sahası (FIR Ankara) üzerinden gelmek ve gitmek zorundadır. Uluslararası uçuşlar, Kıbrıs Cumhuriyeti'nin itirazlarına rağmen, Türkiye'nin hava trafik kontrolörleri tarafından yönlendirilir.",
+      "stated_justification": "KKTC makamları, hava sahası kontrolünü egemenliklerinin bir unsuru olarak görür ve güvenlik ile kamu hizmeti gereklerine dayandırır. Uygulama, Uluslararası Sivil Havacılık Örgütü (ICAO) tarafından tanınan ikili anlaşmalar ve egemenlik hakları çerçevesinde yürütülür.",
+      "citation": "KKTC Bayındırlık ve Ulaştırma Bakanlığı, BTHK mevzuatı ve Ercan Havalimanı AIP (Aeronautical Information Publication) belgeleri."
+    },
+    "maritime_and_cabotage": {
+      "eez_claimed_sqkm": "data not available",
+      "eez_accessible_sqkm": "data not available",
+      "accessible_ports_count": 2,
+      "fishing_zone_nautical_miles": "Belirlenmiş bir karasuyu genişliği 'data not available' olmakla birlikte, Türkiye ile KKTC arasında karasuları sınırlandırma anlaşması mevcuttur.",
+      "cabotage_or_merchant_marine_restrictions": "KKTC limanları (Gazimağusa, Girne) arasında ve Türkiye limanlarına kabotaj hakkı mevcuttur. Uluslararası gemicilik, Kıbrıs Cumhuriyeti'nin limanları 'kapalı' ilan etmesi nedeniyle kısıtlıdır ve gemiler çoğunlukla Türk limanları üzerinden gelir.",
+      "stated_justification": "KKTC karasuları ve limanları üzerindeki egemen yetkiler, 1974 öncesi Kıbrıs Cumhuriyeti'ndeki ortaklık cumhuriyetinin hukuki devamı ve öz belirleme hakkı ilkesine dayanır. Kabotaj uygulaması, ekonomik kalkınma ve güvenlik için zorunludur.",
+      "citation": "KKTC Başbakan Yardımcılığı ve Dışişleri Bakanlığı, Denizcilik Dairesi Müdürlüğü resmi açıklamaları."
+    },
+    "trade_and_dual_use_controls": {
+      "controlled_item_categories": [
+        "Silah ve mühimmat",
+        "Askeri teçhizat",
+        "Çift kullanımlı teknoloji ürünleri",
+        "Yayın ve iletişim ekipmanları (Kıbrıs Cumhuriyeti mevzuatına göre)"
+      ],
+      "transit_permit_regimes": "KKTC'ye giriş çıkış yapan tüm ticari mallar için KKTC Gümrük ve Rüsumat Dairesi'nin izni ve beyanı şarttır. Yeşil Hat Tüzüğü kapsamında Kıbrıs Cumhuriyeti üzerinden gelen sınırlı sayıda ürün için AB komisyonu tarafından onaylanmış özel bir geçiş rejimi uygulanır. Bu, KKTC makamlarınca kendi gümrük süreçleri olarak kabul edilir.",
+      "stated_justification": "Gümrük kontrolleri, uluslararası hukuktan kaynaklanan egemen bir hak olup, ülke güvenliğini, ekonomik düzeni ve halk sağlığını korumak için uygulanmaktadır.",
+      "citation": "KKTC Gümrük ve Rüsumat Dairesi Müdürlüğü, Gümrük Yasası (Fasıl 117)."
+    },
+    "checkpoints_and_gates": [
+      {
+        "name": "Metehan (Agios Dometios) Kara Geçiş Kapısı",
+        "lat": 35.181,
+        "lng": 33.358,
+        "permit_type_required": "Geçerli pasaport veya KKTC/TC kimlik kartı. AB vatandaşları ve diğer ülke vatandaşları için vize prosedürü uygulanabilir.",
+        "stated_justification": "Ülkesel güvenliği, kamu düzenini korumak ve yasadışı geçişleri önlemek amacıyla kurulmuş sınır kontrol noktasıdır.",
+        "citation": "KKTC Polis Genel Müdürlüğü, Muhaceret ve Pasaport Dairesi talimatı."
+      },
+      {
+        "name": "Lokmacı (Ledra Palace) Yaya Geçiş Kapısı",
+        "lat": 35.176,
+        "lng": 33.362,
+        "permit_type_required": "Geçerli pasaport veya KKTC/TC kimlik kartı.",
+        "stated_justification": "Kamu düzeni ve güvenliğini sağlamak, kayıt dışı geçişleri engellemek amacıyla kontrollü sınır kapısıdır.",
+        "citation": "KKTC Polis Genel Müdürlüğü, Muhaceret ve Pasaport Dairesi talimatı."
+      }
+    ],
+    "utilities_and_energy_grid": {
+      "official_currency": "Türk Lirası (TRY)",
+      "local_informal_currency": "İngiliz Sterlini (GBP), ABD Doları (USD), Euro (EUR) gayrimenkul ve büyük ticari işlemlerde yaygın olarak kullanılır.",
+      "power_generating_assets": [
+        "Dizel ve fuel-oil ile çalışan termik santraller (Kıb-Tek Teknecik Santrali)",
+        "Güneş enerjisi santralleri (yaygınlaşmaktadır)",
+        "Türkiye'den deniz altı kablosu ile elektrik enterkonneksiyonu (devam eden proje)"
+      ],
+      "daily_electricity_hours_avg": 24,
+      "power_grid_self_sufficiency_pct": 85,
+      "fuel_import_dependency_pct": 100,
+      "debt_or_fiscal_transfer_mechanisms": "Türkiye Cumhuriyeti'nden doğrudan bütçe yardımları, altyapı proje kredileri ve mali protokoller aracılığıyla önemli miktarda mali transfer yapılmaktadır. KKTC bütçesi büyük ölçüde bu transferlere bağımlıdır.",
+      "citation": "KKTC Ekonomi ve Enerji Bakanlığı, Kıb-Tek resmi raporları; Türkiye Cumhuriyeti Cumhurbaşkanlığı Strateji ve Bütçe Başkanlığı yıllık programları."
+    }
+  },
+  "jurisprudence_and_statutory_friction": {
+    "enforced_system_name": "Kuzey Kıbrıs Türk Cumhuriyeti Anayasası, Yasaları ve Mahkeme Kararları",
+    "preferred_or_prior_system_name": "1960 Kıbrıs Cumhuriyeti Anayasası (Türk Cemaatinin ortaklık hakları çerçevesinde)",
+    "population_under_special_or_external_law": 382836,
+    "enforced_statutes_cited": [
+      "Kuzey Kıbrıs Türk Cumhuriyeti Anayasası (1985)",
+      "67/2005 sayılı Taşınmaz Mal Komisyonu (TMK) Yasası",
+      "41/1977 sayılı İskan, Topraklandırma ve Eşdeğer Mal Yasası",
+      "Fasıl 224 Taşınmaz Mal (Tasarruf, Kayıt ve Kıymet Takdiri) Yasası"
+    ],
+    "landmark_jurisprudence_and_treaties": [
+      {
+        "judicial_body_or_treaty": "Avrupa İnsan Hakları Mahkemesi (AİHM)",
+        "case_or_resolution_name": "Demopoulos ve Diğerleri / Türkiye",
+        "year": 2010,
+        "holding_or_standard": "AİHM, 67/2005 sayılı Taşınmaz Mal Komisyonu Yasası ile kurulan TMK'nın, mülkiyet hakkı ihlalleri için ulaşılabilir ve etkili bir iç hukuk yolu olduğuna karar vererek, başvuranların iç hukuk yollarını tüketmeden AİHM'e başvurduğu gerekçesiyle başvuruyu kabul edilemez bulmuştur.",
+        "official_legal_rationale": "KKTC makamları, bu kararı TMK'nın meşruiyetinin ve etkinliğinin uluslararası bir yargı organı tarafından tanınması olarak değerlendirir. Komisyon, mülkiyet taleplerini adil bir şekilde çözmekte, tazminat, iade ve takas seçenekleri sunarak Avrupa İnsan Hakları Sözleşmesi'nin gereklerini karşılamaktadır.",
+        "citation": "AİHM, Demopoulos ve Diğerleri v. Türkiye, Başvuru no. 46113/99, 1 Mart 2010 tarihli kabul edilebilirlik kararı."
+      },
+      {
+        "judicial_body_or_treaty": "Garanti ve İttifak Antlaşması",
+        "case_or_resolution_name": "1960 Garanti Antlaşması Madde 4",
+        "year": 1960,
+        "holding_or_standard": "Antlaşma, garantör devletlere (Türkiye, Yunanistan ve Birleşik Krallık) Kıbrıs Cumhuriyeti'nin anayasal düzenini ve bağımsızlığını korumak için tek başına hareket etme hakkı tanımaktadır.",
+        "official_legal_rationale": "Türkiye ve KKTC'ye göre 1974 Kıbrıs Barış Harekatı, 1960 Garanti Antlaşması'nın 4. maddesine dayanarak, Kıbrıs Türk halkının güvenliğini ve anayasal düzeni korumak amacıyla gerçekleştirilmiş meşru bir müdahaledir.",
+        "citation": "1960 Kıbrıs Cumhuriyeti Garanti Antlaşması Resmi Metni."
+      }
+    ],
+    "documented_statutory_conflicts": [
+      {
+        "legal_domain": "Mülkiyet Hukuku",
+        "enforced_clause_reference": "KKTC İskân, Topraklandırma ve Eşdeğer Mal Yasası (41/1977) ile Taşınmaz Mal Komisyonu Yasası (67/2005) uyarınca tazminat, takas veya iade mekanizmaları.",
+        "preferred_or_prior_clause_reference": "Kıbrıs Cumhuriyeti Anayasası'nın mülkiyet hakkını koruyan 23. maddesi ve Kıbrıs Türk Federe Devleti öncesi dönemde yürürlükte olan Kıbrıs Cumhuriyeti yasaları.",
+        "conflict_description": "KKTC yasaları, 1974 sonrası ortaya çıkan mülkiyet durumuna ve bırakılan mallara ilişkin yeni bir hukuki rejim oluşturmuştur. Kıbrıs Rum mülk sahiplerinin, 1974 öncesi tapularına dayanarak doğrudan mülklerini talep ve kontrol etme hakları, KKTC mevzuatıyla kısıtlanmış ve TMK bünyesinde bir başvuru prosedürüne bağlanmıştır.",
+        "citation": "KKTC Mahkemeleri, Yargıtay Hukuk Dairesi'nin mülkiyet uyuşmazlıklarına ilişkin yerleşik içtihatları; AİHM'in TMK'nın etkin bir iç hukuk yolu olduğuna dair kararı."
+      }
+    ]
+  },
+  "security_and_justification_data": {
+    "official_threat_assessments_or_attack_statistics": [
+      {
+        "description": "Kıbrıs Türk halkına yönelik etnik temizlik ve adanın Yunanistan ile birleştirilmesi (ENOSIS) girişimleri kapsamında EOKA ve EOKA-B terör örgütlerinin 1963-1974 yılları arasındaki sistematik saldırıları.",
+        "time_period": "1963-1974",
+        "numbers_or_incidents": "Binlerce Kıbrıs Türkü'nün köylerinden sürülmesi, yüzlerce sivilin öldürülmesi ve 103 Kıbrıs Türk köyünün boşaltılması. Kanlı Noel (1963) saldırıları ile başlayan süreç.",
+        "source": "KKTC Dışişleri Bakanlığı, Türkiye Cumhuriyeti Dışişleri Bakanlığı arşivleri",
+        "citation": "KKTC Enformasyon Dairesi; Kıbrıs Türk Mücahitler Derneği arşivleri."
+      },
+      {
+        "description": "Türk Silahlı Kuvvetleri'nin (TSK) KKTC'deki varlığı, 1960 Garanti ve İttifak Antlaşmaları'ndan kaynaklanan yasal bir zorunluluk olup, Kıbrıs Türk halkının güvenliğinin ve barışın teminatıdır.",
+        "time_period": "1974-2026",
+        "numbers_or_incidents": "Yaklaşık 35.000 kişilik 11. Kolordu'ya bağlı TSK Kıbrıs Türk Barış Kuvvetleri Komutanlığı personeli.",
+        "source": "Milli Savunma Bakanlığı (MSB) basın açıklamaları",
+        "citation": "TC MSB, Kıbrıs Türk Barış Kuvvetleri Komutanlığı tanıtım belgesi."
+      }
+    ],
+    "stated_administrative_or_security_rationales": [
+      {
+        "measure": "Türk Silahlı Kuvvetleri'nin (Kıbrıs Türk Barış Kuvvetleri) adadaki varlığı",
+        "official_rationale": "1960 Garanti ve İttifak Antlaşmaları'ndan doğan yasal bir hak ve yükümlülüktür. Kıbrıs Türk halkının can ve mal güvenliğini korumak, KKTC'nin egemenliğini ve toprak bütünlüğünü güvence altına almak ve adada kalıcı bir ateşkes ve istikrar ortamını sürdürmek için varlığı elzemdir.",
+        "citation": "1960 Garanti ve İttifak Antlaşmaları; KKTC ve Türkiye Cumhuriyeti arasındaki İkili Askeri İşbirliği Anlaşmaları."
+      },
+      {
+        "measure": "Yeşil Hat sınır kapılarında uygulanan giriş-çıkış kontrolleri ve vize rejimi",
+        "official_rationale": "KKTC'nin bir devlet olarak egemenlik hakkının doğal bir sonucudur. Kamu düzenini, ulusal güvenliği ve halk sağlığını korumak, yasa dışı göç, kaçakçılık ve suç faaliyetlerini önlemek amacıyla uygulanan standart bir sınır güvenliği prosedürüdür.",
+        "citation": "KKTC Muhaceret ve Pasaport Yasası; KKTC Bakanlar Kurulu Kararları."
+      }
+    ]
+  }
+}

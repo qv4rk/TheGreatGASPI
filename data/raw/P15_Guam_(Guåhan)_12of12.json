@@ -1,0 +1,415 @@
+{
+  "prompt_id": "prompt-15",
+  "territory_name": "Guam (Guåhan)",
+  "perspective": "U.S. Department of Defense / Joint Region Marianas",
+  "language": "English",
+  "years_of_scope": "1898-2026",
+  "wgs84_center": {
+    "lat": 13.4443,
+    "lng": 144.7937
+  },
+  "topographic_and_control_data": {
+    "total_area_sqkm": 544,
+    "accessible_area_sqkm": "Approximately 370 sq km (civilian accessible; DoD controls approximately 29% of Guam's total land area, roughly 158 sq km.)",
+    "control_zones": [
+      {
+        "zone_name": "Andersen Air Force Base",
+        "area_sqkm": "Approximately 82 sq km (including Northwest Field)",
+        "area_pct": "Approximately 15% of Guam's total land area",
+        "governing_authority": "U.S. Air Force / Joint Region Marianas",
+        "access_restrictions": "Restricted to authorized personnel with valid DoD identification or base pass. Perimeter secured by fence line, patrols, and electronic surveillance.",
+        "strategic_features_located_here": [
+          "Ritidian Point (northernmost tip of Guam)",
+          "Northwest Field (proposed Marine Corps firing ranges)",
+          "Andersen South (bomber and tanker ramp)",
+          "Northern Guam Lens Aquifer recharge zone"
+        ]
+      },
+      {
+        "zone_name": "Naval Base Guam",
+        "area_sqkm": "Approximately 44 sq km (including Apra Harbor, Orote Peninsula, Naval Munitions Site)",
+        "area_pct": "Approximately 8% of Guam's total land area",
+        "governing_authority": "U.S. Navy / Joint Region Marianas",
+        "access_restrictions": "Restricted to authorized personnel. Apra Harbor is a controlled port facility. Orote Peninsula includes active firing ranges.",
+        "strategic_features_located_here": [
+          "Apra Harbor (deep-water port)",
+          "Orote Peninsula (airfield and training areas)",
+          "Naval Munitions Site (Tenjo Vista)"
+        ]
+      },
+      {
+        "zone_name": "Marine Corps Base Camp Blaz",
+        "area_sqkm": "Approximately 16 sq km (main cantonment area); additional 18 sq km for training ranges at Andersen South/Northwest Field",
+        "area_pct": "Approximately 6% of Guam's total land area (combined cantonment and ranges)",
+        "governing_authority": "U.S. Marine Corps / Joint Region Marianas",
+        "access_restrictions": "Restricted to authorized personnel. Construction ongoing; full operational capability planned for 2027. Live-fire training areas further restricted.",
+        "strategic_features_located_here": [
+          "Main cantonment at Finegayan (Dededo)",
+          "Training ranges at Andersen South and Northwest Field"
+        ]
+      },
+      {
+        "zone_name": "Civilian / Government of Guam areas",
+        "area_sqkm": "Approximately 370 sq km",
+        "area_pct": "Approximately 68% of Guam's total land area",
+        "governing_authority": "Government of Guam / U.S. Department of the Interior (for federal land not under DoD)",
+        "access_restrictions": "General public access. Certain federal properties (e.g., War in the Pacific National Historical Park) have standard park regulations.",
+        "strategic_features_located_here": [
+          "Mount Lamlam (highest peak on Guam)",
+          "Fena Valley Reservoir (water supply managed by Navy but on civilian-accessible land)",
+          "Tumon Bay tourism zone",
+          "Guam International Airport"
+        ]
+      }
+    ],
+    "demographics": {
+      "population_category_a": "Total island population: 153,836 (2020 U.S. Census)",
+      "population_category_b": "Active-duty military and dependents: approximately 21,000 (2023 estimate, Joint Region Marianas; exact breakdown not publicly released due to operational security)",
+      "density_per_sqkm": "Approximately 283 per sq km (total island); civilian-accessible density approximately 416 per sq km",
+      "displacement_or_refugee_count": "No current displacement. Historical: Approximately 1,500 CHamoru families displaced from Sumay village (Apra Harbor) and other areas during WWII and post-war land takings (1944–1950).",
+      "notes": "Demographic data from U.S. Census Bureau 2020 Decennial Census. Military population estimates from Joint Region Marianas public affairs briefings (2023). DoD does not track ethnic breakdown of civilian population; Guam Department of Public Health reports approximately 47% CHamoru.",
+      "citation": "U.S. Census Bureau, 2020 Decennial Census for Guam; Joint Region Marianas, 'Guam Military Buildup Fact Sheet' (2023); Guam Bureau of Statistics and Plans."
+    },
+    "named_high_ground_features": [
+      {
+        "name": "Mount Lamlam",
+        "lat": 13.3389,
+        "lng": 144.6578,
+        "elevation_m": 406,
+        "functional_strategic_description": "Highest peak on Guam. Located near the southwest coast, south of Apra Harbor. Offers panoramic observation of the Philippine Sea to the west, the interior valleys, and approach corridors to Apra Harbor. No DoD fire control positions currently on peak; observation is topographically dominant over the southern half of the island. Proximity to Fena Valley Reservoir provides indirect relationship to water resources.",
+        "control_zone": "Civilian / Government of Guam areas (within the municipality of Agat; part of the Guam territorial park system.)",
+        "citation": "USGS Geographic Names Information System (GNIS); Guam Department of Parks and Recreation."
+      },
+      {
+        "name": "Ritidian Point (Litekyan)",
+        "lat": 13.6517,
+        "lng": 144.8617,
+        "elevation_m": "Approximately 180 m (coastal high-ground atop limestone cliff)",
+        "functional_strategic_description": "Northernmost tip of Guam, part of Andersen Air Force Base. Comprises elevated limestone plateau dropping sharply to coastal cliffs. Provides unobstructed observation and radar surveillance capability over the northern Philippine Sea and Farallon de Medinilla approach corridor. Position is integral to the Northern Guam Lens Aquifer recharge area directly beneath. The cliff line dominates the coastal movement corridor along northern beaches.",
+        "control_zone": "Andersen Air Force Base (Restricted Access; portion under U.S. Fish and Wildlife Service Guam National Wildlife Refuge overlay at Ritidian Unit with controlled public access.)",
+        "citation": "Joint Region Marianas, 'Andersen Air Force Base Integrated Cultural Resources Management Plan' (2019); USGS."
+      },
+      {
+        "name": "Orote Peninsula (Orote Point)",
+        "lat": 13.4433,
+        "lng": 144.6233,
+        "elevation_m": "Approximately 45-60 m (limestone plateau)",
+        "functional_strategic_description": "Westernmost extension of Guam, part of Naval Base Guam. Flat limestone plateau jutting into the Philippine Sea. Controls the southern entrance to Apra Harbor. Provides observation and fire control positions across the harbor mouth and the western sea approaches. Historically fortified; active U.S. Navy firing range and communications facilities occupy the area.",
+        "control_zone": "Naval Base Guam (Restricted Access.)",
+        "citation": "U.S. Navy, 'Joint Region Marianas Shore Infrastructure Plan' (2021); NAVFAC Pacific."
+      },
+      {
+        "name": "Fena Valley Reservoir Watershed",
+        "lat": 13.3386,
+        "lng": 144.7064,
+        "elevation_m": "Reservoir surface approximately 30 m; surrounding ridgelines 150-300 m",
+        "functional_strategic_description": "Largest surface water reservoir on Guam. Surrounded by upland ridgelines that control observation of the reservoir basin and connecting rivers (Maulap, Talofofo). The reservoir's watershed provides the majority of the Navy's and a portion of the civilian population's water supply. Topography funnels movement into the central valley corridor between the southern volcanic mountains and the northern limestone plateau.",
+        "control_zone": "Naval Base Guam (Navy manages reservoir and surrounding Naval Magazine; parts of the watershed fall under civilian jurisdiction.)",
+        "citation": "U.S. Navy, 'Fena Valley Reservoir Water Quality Management Plan' (2020); Guam Waterworks Authority."
+      }
+    ],
+    "physical_barriers": [
+      {
+        "name": "Andersen AFB Perimeter Fence",
+        "type": "manmade",
+        "lat": "13.58 (approximate centroid)",
+        "lng": "144.93 (approximate centroid)",
+        "length_km": "Approximately 45 km (total fence line enclosing main base and Northwest Field)",
+        "temporal_variations": "Fence line upgraded with intrusion detection systems, cameras, and patrol roads as part of the 2006-2025 military buildup.",
+        "stated_justification": "Force Protection: Prevent unauthorized entry, sabotage, espionage, and theft of military assets. Compliance with DoD antiterrorism standards (DoDI 2000.12).",
+        "opposing_characterization": "Local CHamoru activists characterize the perimeter as a barrier that blocks traditional access to Ritidian/Litekyan ancestral village sites, limestone forest gathering areas, and coastal fishing grounds.",
+        "citation": "DoD, 'Unified Facilities Criteria 4-010-01: DoD Minimum Antiterrorism Standards for Buildings' (2018); Prutehi Litekyan / Save Ritidian community petitions."
+      },
+      {
+        "name": "Naval Base Guam and Naval Munitions Site Perimeter",
+        "type": "manmade",
+        "lat": "13.44 (approximate centroid for Orote/Apra Harbor area)",
+        "lng": "144.66 (approximate centroid for Orote/Apra Harbor area)",
+        "length_km": "Approximately 35 km (combined fence lines around Naval Base Guam, Naval Munitions Site, and Fena Valley Reservoir watershed).",
+        "temporal_variations": "Continuously maintained since WWII. Post-9/11 enhancements include vehicle barriers, blast-resistant gates, and maritime security zones.",
+        "stated_justification": "Protection of critical naval infrastructure, munitions storage, water supply, and fleet units. Anti-terrorism and force protection measures per NAVSEA OPNAVINST 5530.14C.",
+        "opposing_characterization": "Descendants of displaced Sumay villagers characterize the barrier as a permanent exclusion from their ancestral land. Some environmental groups note the fence restricts public oversight of munitions storage near the aquifer.",
+        "citation": "U.S. Navy, 'Guam Naval Munitions Site Environmental Impact Statement' (2009); Sumay Memorial Foundation oral history project."
+      }
+    ]
+  },
+  "hydrology_data": {
+    "upstream_downstream_position": "not_applicable (island setting; Northern Guam Lens Aquifer is a sole-source aquifer, no upstream/downstream in the traditional sense.)",
+    "water_infrastructure": [
+      {
+        "name": "Northern Guam Lens Aquifer (NGLA) production wells (Andersen AFB and Yigo-Tumon well fields)",
+        "type": "Groundwater aquifer and extraction wells",
+        "lat": 13.55,
+        "lng": 144.88,
+        "controlling_entity": "Guam Waterworks Authority (GWA) manages civilian wells; U.S. Navy Public Works manages on-base wells. The aquifer is a hydrologically connected single resource.",
+        "capacity_or_flow_rate": "Approximately 80% of Guam's total potable water supply is sourced from the NGLA. DoD wells produce approximately 18-22 million gallons per day (68,000-83,000 m³/day) for base use. Total sustainable yield estimated at 80 MGD (303,000 m³/day) per USGS.",
+        "citation": "USGS Scientific Investigations Report 2020-5054; Guam Waterworks Authority, 'Water Resources Master Plan Update' (2022)."
+      },
+      {
+        "name": "Fena Valley Reservoir (FVR) Water Treatment Plant",
+        "type": "Surface water reservoir and treatment facility",
+        "lat": 13.34,
+        "lng": 144.7,
+        "controlling_entity": "U.S. Navy (Naval Base Guam Public Works) operates the reservoir and treatment plant; GWA distributes a portion to civilian users under a 2009 Memorandum of Agreement.",
+        "capacity_or_flow_rate": "Reservoir capacity: 10.8 million cubic meters (2.85 billion gallons). Treatment plant design capacity: 15 MGD (56,800 m³/day). Provides approximately 20% of island's potable water.",
+        "citation": "U.S. Navy, 'Fena Valley Reservoir Water Quality Management Plan' (2020)."
+      }
+    ],
+    "per_capita_water_consumption_l_d": {
+      "population_a": "Military population: approximately 450-550 L/c/d (including industrial/institutional uses on base per DoD facility reports; residential component estimated at 250-350 L/c/d.)",
+      "population_b": "Civilian population: approximately 300-380 L/c/d (average residential and commercial per GWA billing data, 2023).",
+      "who_reference_standard": 100.0,
+      "citation": "GWA Annual Report (2023); U.S. Navy NAVFAC Pacific Utility Reports; WHO guidelines (2017)."
+    },
+    "agriculture": {
+      "arable_land_pct": "Approximately 6.5% (32 sq km) of Guam's land area is classified as agricultural, per U.S. Department of Agriculture 2017 Census of Agriculture for Guam. Of this, less than 1% of total land is used for row crops.",
+      "irrigated_land_pct": "Less than 1% of total land; largely limited to small-scale vegetable and fruit farms.",
+      "food_import_dependency_pct": "Approximately 90-95%. Guam imports the vast majority of its food supply via maritime shipping, mainly from the U.S. mainland and Asia.",
+      "citation": "USDA, '2017 Census of Agriculture for Guam' (2020); Guam Department of Agriculture."
+    }
+  },
+  "environmental_degradation_incidents": [
+    {
+      "incident_type": "PFAS (Per- and Polyfluoroalkyl Substances) Contamination from Aqueous Film Forming Foam (AFFF)",
+      "chemical_or_hazard_agents": [
+        "PFOS (Perfluorooctanesulfonic acid)",
+        "PFOA (Perfluorooctanoic acid)",
+        "PFHxS (Perfluorohexane sulfonate)"
+      ],
+      "toxicological_classification": "EPA: Probable Human Carcinogen; Linked to thyroid disease, immune system effects, developmental toxicity, and liver damage.",
+      "affected_area_sqkm": "DoD has identified 3 active investigation areas associated with Andersen AFB and 2 at Naval Base Guam. Monitoring wells in the Yigo-Tumon area detected PFAS above the EPA Lifetime Health Advisory level (70 ppt). The full extent of the contaminant plume in the Northern Guam Lens Aquifer is under investigation.",
+      "first_documented_year": 2016,
+      "ongoing": true,
+      "stated_justification": "DoD: AFFF was used historically in accordance with federal law (14 CFR Part 139) for firefighting and emergency response training. DoD is conducting a CERCLA Remedial Investigation/Feasibility Study to characterize and address contamination. DoD has funded alternative well development for GWA.",
+      "opposing_characterization": "Local environmental groups (Guam Environmental Protection Agency Citizens' Advisory Committee) and some Guam Senators have stated that DoD's response has been slow and that the military should fund a comprehensive island-wide water treatment system to remove PFAS from all affected civilian wells. GEPA has noted that many private wells have not been tested.",
+      "documenting_orgs": [
+        "U.S. Navy Environmental Compliance Office",
+        "Guam Environmental Protection Agency (GEPA)",
+        "Agency for Toxic Substances and Disease Registry (ATSDR)",
+        "Sierra Club Guam Chapter"
+      ],
+      "citations": [
+        "DoD, 'Per- and Polyfluoroalkyl Substances (PFAS) Task Force Progress Report' (2023).",
+        "Guam EPA, 'PFAS in Guam: Public Water System Monitoring Data' (2022).",
+        "Sierra Club Guam, 'PFAS Contamination and the Guam Military Buildup' (2021)."
+      ]
+    },
+    {
+      "incident_type": "Habitat Loss and Fragmentation from Military Construction (Andersen AFB Northwest Field and MCB Camp Blaz)",
+      "chemical_or_hazard_agents": [
+        "No specific chemical agents; physical clearing of native limestone forest."
+      ],
+      "toxicological_classification": "Not applicable (habitat destruction).",
+      "affected_area_sqkm": "Approximately 10 sq km of native limestone forest cleared or altered for Camp Blaz cantonment. Additional 8 sq km for training ranges, firing points, and buffer zones.",
+      "first_documented_year": 2011,
+      "ongoing": true,
+      "stated_justification": "U.S. Marine Corps Relocation to Guam Record of Decision (2010) recognized habitat impacts and required mitigation. The DoD has funded off-site forest restoration and invasive species control as compensatory mitigation. The training ranges are sited to avoid primary habitat for the Mariana fruit bat (Pteropus mariannus) and the Guam Micronesian kingfisher (Todiramphus cinnamominus).",
+      "opposing_characterization": "The Prutehi Litekyan coalition, National Park Service, and U.S. Fish and Wildlife Service have noted that no net-loss mitigation fails to replace the unique cultural and ecological values of the old-growth forest at Litekyan (Ritidian), which contains hundreds of intact latte stone archaeological sites and endemic species habitats that cannot be replicated elsewhere.",
+      "documenting_orgs": [
+        "Prutehi Litekyan (Save Ritidian)",
+        "U.S. Fish and Wildlife Service",
+        "National Park Service (War in the Pacific NHP)",
+        "Guam Preservation Trust"
+      ],
+      "citations": [
+        "USMC, 'Final Environmental Impact Statement: Guam and CNMI Military Relocation' (2010).",
+        "USFWS, 'Biological Opinion on the Mariana Islands Training and Testing' (2020).",
+        "Prutehi Litekyan v. United States, U.S. District Court of Guam (2021)."
+      ]
+    },
+    {
+      "incident_type": "Munitions and Explosives of Concern (MEC) at Former Dump Sites and Ranges",
+      "chemical_or_hazard_agents": [
+        "RDX",
+        "TNT",
+        "Lead",
+        "Depleted Uranium (alleged, not confirmed by Navy)"
+      ],
+      "toxicological_classification": "Carcinogenic, potential groundwater contaminant.",
+      "affected_area_sqkm": "data not available. Navy's Munitions Response Program has identified 17 MEC sites across Naval Base Guam, primarily near Orote Point and the Naval Munitions Site.",
+      "first_documented_year": 1980,
+      "ongoing": true,
+      "stated_justification": "Navy is conducting time-critical and non-time-critical removal actions under the Military Munitions Response Program. Public access is restricted to affected areas. No drinking water wells are located in immediate proximity to confirmed MEC sites.",
+      "opposing_characterization": "Veterans and local environmental groups have raised concerns about potential depleted uranium contamination from testing, which the Navy states has not been confirmed. Calls for independent verification of all contaminants.",
+      "documenting_orgs": [
+        "Naval Facilities Engineering Systems Command (NAVFAC) Pacific",
+        "U.S. Environmental Protection Agency Region IX",
+        "Guam EPA"
+      ],
+      "citations": [
+        "U.S. Navy, 'Guam Munitions Response Site Management Action Plan' (2022).",
+        "Agency for Toxic Substances and Disease Registry, 'Public Health Assessment for Naval Munitions Site Guam' (2005)."
+      ]
+    }
+  ],
+  "infrastructure_and_logistics_data": {
+    "airspace_and_spectrum": {
+      "cellular_tech_allowed": "3G, 4G LTE, and 5G are commercially deployed by licensed operators (GTA, IT&E, Docomo Pacific). FCC regulates spectrum. DoD operates its own secure wireless infrastructure on base; coordination with commercial providers managed via FCC-DoD spectrum sharing agreements.",
+      "flight_corridor_control": "FAA controls all civil and commercial airspace over Guam (Guam Center for Radar Control, CERAP). Andersen AFB controls Special Use Airspace (Warning Areas W-517 and restricted areas R-7201) for military training and operations. The FAA and DoD coordinate through Letter of Agreement procedures for transit.",
+      "stated_justification": "Safe and efficient use of airspace for both civil commerce (critical to Guam's economy) and military training (required for readiness under PACOM OPLANs). Compliance with 49 U.S.C. § 40103 and FAA-DoD Memorandum of Understanding.",
+      "citation": "FAA, 'Guam International Airport Terminal Procedures' (current edition); Joint Region Marianas Public Affairs, 'Airspace Management Fact Sheet' (2021)."
+    },
+    "maritime_and_cabotage": {
+      "eez_claimed_sqkm": "Approximately 218,000 sq km of EEZ claimed by the United States around Guam. (NOAA Maritime Boundaries.)",
+      "eez_accessible_sqkm": "Approximately 218,000 sq km. The U.S. Coast Guard Sector Guam and Navy Maritime Expeditionary Security Squadron enforce U.S. laws within the entire EEZ.",
+      "accessible_ports_count": 1,
+      "fishing_zone_nautical_miles": "The U.S. EEZ extends 200 nautical miles from the territorial sea baseline. Foreign fishing is prohibited without a Magnuson-Stevens Act permit; U.S. flagged vessels may fish per Western Pacific Regional Fishery Management Council regulations.",
+      "cabotage_or_merchant_marine_restrictions": "The Merchant Marine Act of 1920 (Jones Act, 46 U.S.C. § 55102) applies to Guam. All maritime cargo shipped between U.S. points (including Guam) must be carried on U.S.-flagged, U.S.-built, U.S.-crewed vessels. This applies to all cargo moving between the U.S. West Coast and Guam.",
+      "stated_justification": "The Jones Act ensures a reliable, militarily-useful U.S.-flag merchant marine fleet and sealift capacity. The Department of Defense and MARAD have certified that Jones Act trade lanes are essential to maintaining a domestic shipbuilding industrial base and a pool of U.S. citizen mariners available for national emergencies and defense sealift.",
+      "citation": "MARAD, 'Maritime Administration Policy Paper on the Jones Act' (2019); DoD, 'Assessment of the National Defense Sealift Strategy' (2022); 46 U.S.C. § 55102."
+    },
+    "trade_and_dual_use_controls": {
+      "controlled_item_categories": [
+        "ITAR-controlled defense articles (munitions, military electronics, night vision equipment)",
+        "EAR-controlled dual-use items (high-end computers, encrypted software, certain chemicals)",
+        "Controlled substances and precursor chemicals"
+      ],
+      "transit_permit_regimes": "Guam is a U.S. territory. Trade between Guam and the U.S. mainland is domestic and not subject to customs duties, though U.S. Customs and Border Protection (CBP) performs agricultural inspections to prevent invasive species. Exports to foreign countries follow all U.S. export control laws (ITAR/EAR).",
+      "stated_justification": "Protecting national security by preventing the transfer of military-critical technology to adversaries. Compliance with Arms Export Control Act (22 U.S.C. § 2751) and Export Control Reform Act (50 U.S.C. § 4801).",
+      "citation": "CBP, 'Guam Field Office Trade Operations Manual'; DoD, 'Defense Technology Security Administration Guidelines'."
+    },
+    "checkpoints_and_gates": [
+      {
+        "name": "Andersen AFB Main Gate (Patton Boulevard)",
+        "lat": 13.5717,
+        "lng": 144.9133,
+        "permit_type_required": "Defense Biometric Identification System (DBIDS) card or sponsored visitor pass. 100% ID check. Random vehicle inspections per Force Protection Condition (FPCON) level.",
+        "stated_justification": "Force Protection; Anti-terrorism measures; Access control to a military installation containing aircraft, munitions, and fuel storage. DoD Instruction 5200.08.",
+        "citation": "Andersen AFB Security Forces, 'Base Access Policy' (2023)."
+      },
+      {
+        "name": "Naval Base Guam Main Gate (Route 1, Piti)",
+        "lat": 13.4583,
+        "lng": 144.695,
+        "permit_type_required": "DBIDS card or visitor pass. Commercial vehicles entering Apra Harbor must have port clearance and vehicle pass.",
+        "stated_justification": "Protection of critical naval infrastructure, fleet units, and munitions. Anti-terrorism per OPNAVINST 5530.14C.",
+        "citation": "U.S. Naval Base Guam, 'Installation Access Instruction' (2022)."
+      },
+      {
+        "name": "MCB Camp Blaz Main Gate (Finegayan, Route 3)",
+        "lat": 13.5333,
+        "lng": 144.8333,
+        "permit_type_required": "DBIDS card (base not yet fully operational for general traffic; construction traffic has escorted access). Upon full operational capability (2027), standard DoD access rules apply.",
+        "stated_justification": "Force protection for Marine Corps units and facilities. DoD Instruction 5200.08.",
+        "citation": "Marine Corps Activity Guam Public Affairs, 'Camp Blaz Access Policy Update' (2024)."
+      }
+    ],
+    "utilities_and_energy_grid": {
+      "official_currency": "United States Dollar (USD)",
+      "local_informal_currency": "None",
+      "power_generating_assets": [
+        "Guam Power Authority (GPA) Cabras Island Power Plant (diesel-fired, 110 MW)",
+        "GPA Tanguisson Power Plant (diesel-fired, 70 MW; scheduled for retirement)",
+        "GPA Dededo Combustion Turbine Plant (diesel, 40 MW)",
+        "Ukudu Power Plant (under construction; 198 MW combined-cycle, expected completion 2025)",
+        "DoD operates backup diesel generators at Andersen AFB and Naval Base Guam (combined capacity approx. 50 MW), off-grid from GPA for operational reliability."
+      ],
+      "daily_electricity_hours_avg": 24,
+      "power_grid_self_sufficiency_pct": "0% (Guam has no indigenous fossil fuel resources. All fuel for power generation is imported. Renewable energy from solar PV accounts for approximately 5% of annual generation as of 2023.)",
+      "fuel_import_dependency_pct": "100%. All diesel, gasoline, and jet fuel are imported by tanker ship from refineries in Singapore, South Korea, and the U.S. West Coast. DoD maintains a separate fuel pipeline from Apra Harbor to Andersen AFB with strategic fuel reserves.",
+      "debt_or_fiscal_transfer_mechanisms": "Guam is not eligible for U.S. federal income tax revenue; federal taxes paid by Guam residents are remitted to the Government of Guam Treasury ('Section 30' funds under the Organic Act, 48 U.S.C. § 1421h). GPA has approximately $1.2 billion in outstanding bond debt (2023). DoD has not assumed GPA debt; the military buildup's power demand is met through a combination of base self-generation and GPA grid purchases.",
+      "citation": "GPA, 'Annual Financial Report' (2023); U.S. Energy Information Administration, 'Guam Profile' (2022); DoD, 'Ukudu Power Purchase Agreement Environmental Assessment' (2021)."
+    }
+  },
+  "jurisprudence_and_statutory_friction": {
+    "enforced_system_name": "United States federal law and the Organic Act of Guam (1950, 48 U.S.C. Chapter 8A) as the governing federal territorial statute. Federal supremacy under Article IV, Section 3, Clause 2 of the U.S. Constitution (Territory Clause).",
+    "preferred_or_prior_system_name": "Local Chamorro customary law (limited recognition in 21 GCA Chapter 75, Chamorro Land Trust Act), and the 1898 Treaty of Paris Article IX (status of inhabitants).",
+    "population_under_special_or_external_law": 153836,
+    "enforced_statutes_cited": [
+      "48 U.S.C. § 1421 et seq. (The Organic Act of Guam, 1950)",
+      "Naval Government of Guam Land Acquisition Orders (1948-1950, authorized under the Second War Powers Act, now codified in 50 U.S.C. § 2672)",
+      "Federal Water Pollution Control Act (Clean Water Act), 33 U.S.C. § 1251 et seq. (applied to Guam via Organic Act)",
+      "Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA), 42 U.S.C. § 9601 et seq.",
+      "National Environmental Policy Act (NEPA), 42 U.S.C. § 4321 et seq."
+    ],
+    "landmark_jurisprudence_and_treaties": [
+      {
+        "judicial_body_or_treaty": "U.S. Supreme Court",
+        "case_or_resolution_name": "Davis v. Guam",
+        "year": 2017,
+        "holding_or_standard": "The U.S. Supreme Court denied certiorari, leaving in place the Ninth Circuit ruling that struck down Guam's native Chamorro-only plebiscite law (1 GCA § 2101 et seq.) as a violation of the 15th Amendment's prohibition on racial discrimination in voting. Guam may not restrict participation in a political status plebiscite based on ancestry.",
+        "official_legal_rationale": "The federal Equal Protection Clause, applied to Guam via the Organic Act, prohibits race-based voting qualifications. A plebiscite restricted to 'Native Inhabitants of Guam' as defined by lineage from pre-1898 residents is a racial classification and violates the 15th Amendment.",
+        "citation": "Davis v. Guam, 932 F.3d 822 (9th Cir. 2017), cert. denied, 139 S. Ct. 1318 (2019)."
+      },
+      {
+        "judicial_body_or_treaty": "U.S. Supreme Court",
+        "case_or_resolution_name": "Guam v. United States (CERCLA settlement litigation)",
+        "year": 2021,
+        "holding_or_standard": "The U.S. Supreme Court ruled unanimously that under CERCLA, a party that settles its liability with the EPA for environmental contamination may seek contribution from the United States if the U.S. is also a responsible party, even if the U.S. has not itself resolved its own liability through a formal settlement. Guam could seek a portion of cleanup costs for the Ordot Dump from the U.S. Navy.",
+        "official_legal_rationale": "CERCLA § 113(f)(3)(B) allows contribution claims by any person who has resolved its liability to the United States or a state. A unilateral administrative order requiring cleanup qualifies as resolution of liability. The federal government is not immune from contribution claims under the statute.",
+        "citation": "Guam v. United States, 593 U.S. ___ (2021), 141 S. Ct. 1608 (2021)."
+      },
+      {
+        "judicial_body_or_treaty": "U.S. Court of Appeals for the D.C. Circuit",
+        "case_or_resolution_name": "United States ex rel. Guam v. United States (Fena Valley Reservoir lawsuit)",
+        "year": 2023,
+        "holding_or_standard": "Pending litigation. Guam alleges that the Navy's operation of the Fena Valley Reservoir since WWII constitutes an unpermitted discharge of pollutants into waters of the United States under the Clean Water Act. The Navy argues sovereign immunity and that its operations are in compliance with a 2009 Memorandum of Agreement with the Government of Guam.",
+        "official_legal_rationale": "The U.S. argues that the Clean Water Act's waiver of sovereign immunity under 33 U.S.C. § 1323 does not extend to retrospective penalties for activities conducted under color of federal law prior to the agreement, and that the 2009 MOA settled any compliance disputes.",
+        "citation": "Guam v. United States, Civ. No. 1:23-cv-00025 (D. Guam, filed Aug. 2023); Ninth Circuit appeal pending."
+      }
+    ],
+    "documented_statutory_conflicts": [
+      {
+        "legal_domain": "Land tenure and voting rights: Federal Equal Protection v. Native self-determination",
+        "enforced_clause_reference": "15th Amendment, U.S. Constitution; 48 U.S.C. § 1421b(u) (Organic Act granting voting rights to Guam residents); enforced by Davis v. Guam.",
+        "preferred_or_prior_clause_reference": "1 GCA § 2101 et seq. (Guam Decolonization Registry and Plebiscite Law, limiting vote on Guam's political status to 'Native Inhabitants of Guam'); 21 GCA § 75101 et seq. (Chamorro Land Trust Act, reserving public land leases for native Chamorros).",
+        "conflict_description": "Federal courts have invalidated the native-only voting registry under the federal Equal Protection Clause, on the rationale that race-based voting is prohibited regardless of decolonization context. The Chamorro Land Trust Act, which operates similarly by ancestry-based eligibility, remains in effect but faces ongoing federal constitutional challenges. The tension is between federally protected individual rights (non-discrimination in voting) and collective indigenous rights to self-determination and land restitution.",
+        "citation": "Davis v. Guam, 932 F.3d 822 (9th Cir. 2017); Attorney General of Guam, 'Legal Analysis of the Chamorro Land Trust Act After Davis' (2019)."
+      },
+      {
+        "legal_domain": "Environmental compliance: DoD claimed exemptions v. local enforcement",
+        "enforced_clause_reference": "Clean Water Act, 33 U.S.C. § 1323 (federal facilities must comply with state and local environmental requirements, including permit requirements for pollutant discharges).",
+        "preferred_or_prior_clause_reference": "Guam EPA regulations (Title 22 GAR Division 2) require National Pollutant Discharge Elimination System (NPDES) permits for any discharge of pollutants into waters of Guam, including from federal facilities.",
+        "conflict_description": "Guam alleges that the U.S. Navy has not obtained NPDES permits for stormwater and operational discharges from the Fena Valley Reservoir and Naval Base Guam, as required by the CWA. The Navy argues that certain activities are exempt as sovereign functions and that the CWA waiver of sovereign immunity is narrower than Guam claims.",
+        "citation": "Guam v. United States, Civ. No. 1:23-cv-00025 (D. Guam, 2023); U.S. EPA Region IX, 'NPDES Compliance Evaluation Inspection: Naval Base Guam' (2022)."
+      }
+    ]
+  },
+  "security_and_justification_data": {
+    "official_threat_assessments_or_attack_statistics": [
+      {
+        "description": "PLA Navy and Air Force activity in the Western Pacific and around Guam.",
+        "time_period": "2013-2026",
+        "numbers_or_incidents": "DoD publicly confirmed PLA Navy task forces have sailed within 200 nautical miles of Guam on multiple occasions, including during RIMPAC exercises (2014, 2016, 2022). PLA H-6K bombers have trained in the Philippine Sea within stand-off range of Guam. In October 2023, a PLA Navy task force transited near Guam during a combined exercise with Russian naval forces.",
+        "source": "U.S. Indo-Pacific Command (USINDOPACOM) Public Affairs; DoD Annual China Military Power Report.",
+        "citation": "DoD, 'Military and Security Developments Involving the People's Republic of China' (2023); USINDOPACOM press releases."
+      },
+      {
+        "description": "North Korean ballistic missile threat to Guam.",
+        "time_period": "2017-2026",
+        "numbers_or_incidents": "In August 2017, North Korea's Strategic Force publicly announced a plan to fire four Hwasong-12 intermediate-range ballistic missiles into waters 30-40 km from Guam. In 2022-2024, North Korea launched multiple IRBMs over Japan on trajectories demonstrating range capability to target Guam. Guam is within the 'strike envelope' of North Korean IRBM/ICBM systems, as assessed by the Defense Intelligence Agency.",
+        "source": "North Korean state media (KCNA); USINDOPACOM; DIA.",
+        "citation": "DoD, 'Ballistic Missile Defense Review' (2022); Missile Defense Agency, 'Guam Defense System' fact sheet (2024)."
+      },
+      {
+        "description": "Cyber threats and espionage targeting Guam military infrastructure.",
+        "time_period": "2016-2026",
+        "numbers_or_incidents": "USCYBERCOM has attributed multiple cyber intrusions to PRC-sponsored advanced persistent threat (APT) groups targeting DoD networks on Guam, including attempts to map base power grids and water systems. Specific numbers of attempted intrusions are classified.",
+        "source": "U.S. Cyber Command; Defense Counterintelligence and Security Agency (DCSA).",
+        "citation": "National Security Agency and CISA, 'Cybersecurity Advisory: PRC State-Sponsored Cyber Activity' (2023); DCSA, 'Industrial Security Threat Assessment for Guam' (2023)."
+      }
+    ],
+    "stated_administrative_or_security_rationales": [
+      {
+        "measure": "Land reservation and military basing (Andersen AFB, Naval Base Guam, MCB Camp Blaz)",
+        "official_rationale": "Guam is a sovereign U.S. territory and a critical hub in the Indo-Pacific defense posture. The Guam military complex supports power projection, deterrence, and humanitarian assistance/disaster relief operations across the Western Pacific. The relocation of U.S. Marines from Okinawa to Guam strengthens distributed lethality and reduces operational risk in the First Island Chain. The military's land holdings are required to support these missions and are lawfully acquired under the Organic Act and prior legislative authority.",
+        "citation": "DoD, 'Guam Strategic Laydown and Military Buildup EIS' (2010); USMC, 'Littoral Warfare and Distributed Operations Concept' (2022); 48 U.S.C. § 1421f."
+      },
+      {
+        "measure": "Firing range operations at Northwest Field and Andersen South",
+        "official_rationale": "Live-fire training ranges are essential to Marine Corps and Army readiness. The ranges on Guam allow combined arms training that is not feasible on other U.S. territory in the Western Pacific. Safety fans and exclusion zones are designed to prevent civilian exposure to munitions. The DoD has conducted environmental impact analysis and implemented protective measures for endangered species (Mariana fruit bat, Micronesian megapode) and cultural resources (latte stone sites).",
+        "citation": "USMC, 'Guam Firing Range Final EIS' (2015); USFWS Biological Opinion (2020)."
+      },
+      {
+        "measure": "Jones Act maritime shipping requirements",
+        "official_rationale": "The Jones Act is a national security statute. It ensures the availability of U.S.-flagged, U.S.-crewed vessels for defense sealift and wartime logistics. The cost of maintaining this sealift capacity is borne across all U.S. domestic shipping, including Guam. The DoD has determined that the strategic value of the Jones Act fleet outweighs the incremental cost to Guam's economy. The Maritime Administration maintains that repeal would decimate the U.S. shipbuilding industrial base.",
+        "citation": "MARAD, 'Economic Importance of the Jones Act to National Defense' (2019); DoD, 'Sealift Strategy' (2022)."
+      },
+      {
+        "measure": "DBIDS and base access control (checkpoints and gates)",
+        "official_rationale": "Mandated by DoD Instruction 5200.08 and force protection condition (FPCON) requirements. Biometric access control prevents unauthorized entry, espionage, and potential terrorist attacks. Naval Base Guam is a designated critical infrastructure facility under the Defense Critical Infrastructure Program. All military installations on Guam operate under standing anti-terrorism orders.",
+        "citation": "DoDI 5200.08, 'Security of DoD Installations and Resources' (2023); Commander, Joint Region Marianas, 'Installation Access Policy' (2023)."
+      }
+    ]
+  }
+}

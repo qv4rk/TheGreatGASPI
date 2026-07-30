@@ -1,0 +1,334 @@
+{
+  "prompt_id": "prompt-14",
+  "territory_name": "བོད་ (Tibet)",
+  "perspective": "Central Tibetan Administration / Customary & Rights Advocates",
+  "language": "བོད་ཡིག (Tibetan)",
+  "years_of_scope": "1951-2026",
+  "wgs84_center": {
+    "lat": 31.0,
+    "lng": 89.0
+  },
+  "topographic_and_control_data": {
+    "total_area_sqkm": "约 2,500,000 (Traditional Greater Tibet / ཆོལ་ཁ་གསུམ་: Ü-Tsang, Amdo, Kham. PRC-administered Tibet Autonomous Region is approx. 1,228,400 sq km.)",
+    "accessible_area_sqkm": "data not available (བོད་མིའི་རྒྱ་ནག་ནང་ལོགས་སུ་རང་དབང་གི་ས་ཁུལ་མེད། Total land area under indigenous land tenure: 0%. Communal and customary pastoral territories have been enclosed, collectivized, or redesignated as state forest/nature reserves.)",
+    "control_zones": [
+      {
+        "zone_name": "བོད་རང་སྐྱོང་ལྗོངས་ (Tibet Autonomous Region / PRC)",
+        "area_sqkm": 1228400,
+        "area_pct": "Approx. 49% of traditional Greater Tibet",
+        "governing_authority": "中国共产党西藏自治区委员会 / 西藏自治区人民政府 (PRC)",
+        "access_restrictions": "བོད་མི་ས་གནས་ནས་དབང་ཆ་མེད་པར་གྱུར། རྒྱ་རིགས་གནས་སྤོས་དང་དབུལ་ཕོངས་ས་ཁུལ་མི་དམངས་ལ་ཞིང་ལས་དང་ཚོང་ལས་སྐོར་གྱི་དམིགས་བསལ་གཞི་རྟེན་སྤྲད་ཡོད། Indigenous Tibetans lack decision-making power over land use. Han settlers and poverty-stricken area populations have preferential access to agricultural and commercial infrastructure. Pastoralists restricted from traditional grazing ranges due to fencing and 'ecological protection' zones.",
+        "strategic_features_located_here": [
+          "ཡར་ལྷ་ཤམ་པོ་ (Yarlha Shampo)",
+          "གངས་རིན་པོ་ཆེ་ (Mount Kailash)",
+          "གནམ་མཚོ་ (Lake Namtso)",
+          "ཡར་ཀླུང་གཙང་པོ་ (Yarlung Tsangpo River)",
+          "Lhasa, Shigatse, Ngari Prefectures",
+          "藏木水电站 (Zangmu Hydropower Station)"
+        ]
+      },
+      {
+        "zone_name": "བོད་རིགས་རང་སྐྱོང་ཁུལ་དང་རྫོང་ (Tibetan Autonomous Prefectures and Counties in Qinghai, Sichuan, Gansu, Yunnan)",
+        "area_sqkm": "Approx. 1,271,600 (Remaining Amdo & Kham regions outside TAR)",
+        "area_pct": "Approx. 51% of traditional Greater Tibet",
+        "governing_authority": "各省省委/省政府 (Provincial CCP Committees and Governments under PRC)",
+        "access_restrictions": "བོད་རིགས་རང་སྐྱོང་ཁུལ་གྱི་མིང་ཙམ་ལས་རང་དབང་མེད། ས་གནས་ཀྱི་རྒྱ་རིགས་དབང་འཛིན་ཚོས་དངུལ་རྩའི་ཞིང་ལས་དང་གཏེར་ཁ་ལས་སྐྱེད་བཟོ་བྱེད་དགོས། Tibetan Autonomous Prefectures retain nominal status; real decision-making power held by Han-dominated provincial and prefectural authorities. Mining, hydropower, and cash-crop farming prioritize Han settler and state-owned enterprise benefits.",
+        "strategic_features_located_here": [
+          "མཚོ་སྔོན་པོ་ (Lake Kokonor / Qinghai Lake)",
+          "མཛོད་དགེ་རྫོང་ (Dzogchen / Ganzi Prefecture)",
+          "རྨ་ཆུ་ (Yellow River source region)",
+          "ཟླ་དགོན་པ་ (Larung Gar / Serta County)"
+        ]
+      },
+      {
+        "zone_name": "བོད་མིའི་གནས་སྤོས་གྲོང་ཚོ་ (Tibetan Exile Settlements in India, Nepal, Bhutan, and Western Countries)",
+        "area_sqkm": "不适用 (Dispersed)",
+        "area_pct": "不适用",
+        "governing_authority": "བོད་མིའི་སྒྲིག་འཛུགས་ (Central Tibetan Administration / CTA in Dharamshala) and host country laws",
+        "access_restrictions": "བོད་ནང་ལ་གནས་སྤོས་པ་དང་ནང་མི་ཚོའི་ཁྱིམ་མི་ཚོ་མཐུན་འབྲེལ་བྱེད་མི་ཆོག PRC restricts travel by exiles to Tibet. CTA issues 'Green Book' identity documents for stateless Tibetans.",
+        "strategic_features_located_here": [
+          "བོད་མིའི་སྒྲིག་འཛུགས་ཀྱི་མཐུན་འབྲེལ་གཞིས་ཀ (CTA Headquarters, Dharamshala)",
+          "བོད་ཀྱི་དགེ་འདུན་ཁག་ (Tibetan Monasteries in exile)"
+        ]
+      }
+    ],
+    "demographics": {
+      "population_category_a": "བོད་མི་ (Ethnic Tibetan): Approx. 6.5 million (worldwide). Approx. 6 million inside PRC-administered territories.",
+      "population_category_b": "རྒྱ་རིགས་ (Han Chinese settlers): Approx. 2-3 million inside traditional Greater Tibet (exact census data contested; CTA claims systematic undercounting of Tibetans and over-representation of Han).",
+      "density_per_sqkm": "བོད་རང་སྐྱོང་ལྗོངས་ནང་མི་སྟུག་ཚད་ 3.04/km² (ནང་མི་ཚོར་ཐོ་འགོད་བྱས་པ་ལྟར། according to PRC-registered population).",
+      "displacement_or_refugee_count": "རྒྱ་ནག་གི་བཙན་འཛུལ་ཐོག་ནས་བཟུང་། རྒྱ་ནག་གི་བོད་ས་ཁུལ་ནང་གི་བོད་མི་ས་ནས་གནས་སྤོས་བཏང་བ་དང་། བཟུང་བ། དབང་སྒྱུར་བྱས་པའི་གྲངས་ཀ་ཆེན་པོ་ཞིག་འདུག From 1951, a large number of Tibetans within PRC territories have been displaced, imprisoned, or controlled. རྒྱལ་སྤྱིའི་གནས་སྤོས་པའི་གྲངས་ཀ་ཞིབ་ཕྲ་མི་འདུག Exact exile numbers: UNHCR reports over 150,000 Tibetans living in exile (India, Nepal, Bhutan and Western countries). ནང་ལོགས་སུ་འཚོ་བ་ཤོར་བའི་མི་གྲངས་ (internally displaced within China due to land grabs/violence) ཞིབ་ཕྲའི་གྲངས་ཀ་མི་འདུག། No precise numbers for internally displaced due to state violence/land grabs.",
+      "notes": "བོད་མིའི་སྒྲིག་འཛུགས་ཀྱིས་རྒྱ་ནག་གི་མི་འབོར་ཞིབ་བཤེར་གྱི་ཐོ་འགོད་ཨང་རྩིས་ལ་འགོག་རྒོལ་བྱེད་ཀྱིན་ཡོད། CTA and exile scholars reject PRC census figures as deliberately engineered to show Tibetan minority status and Han demographic dominance. གཙོ་བོ་རྒྱ་རིགས་གནས་སྤོས་ཀྱིས་བྱུང་བའི་མི་འབོར་གྱི་སྒྲིག་སྲོལ་འགྱུར་ལྡོག་བྱུང་བ་དེ་ཡིན། Systematic demographic change is attributed to primary Han settlement policies.",
+      "citation": "Central Tibetan Administration, Department of Information and International Relations, 'Tibet Population and Demographic Trends' (2020); UNHCR Statistical Yearbook; PRC 2020 Census."
+    },
+    "named_high_ground_features": [
+      {
+        "name": "གངས་རིན་པོ་ཆེ་ (Mount Kailash)",
+        "lat": 31.06,
+        "lng": 81.31,
+        "elevation_m": 6656,
+        "functional_strategic_description": "Sacred peak in Bon, Buddhist, Hindu, and Jain cosmologies. Controls the headwaters of four major rivers of Asia: the Indus (སེང་གེ་གཙང་པོ), Sutlej (གླང་ཆེན་ཁ་འབབ), Brahmaputra (ཡར་ཀླུང་གཙང་པོ), and Karnali (གངས་ཀྱི་ཆུ་རྒྱུན). Topographically dominates the southern Ngari Plateau, offering panoramic observation of all approaches from the Indian subcontinent. Location relative to water resources is paramount. བོད་ཀྱི་ཆོས་ལུགས་གཙོ་བོ་བཞིའི་གནས་རི་ཡིན་པས། འདིའི་ཞིང་ཆགས་དང་རྒྱ་ནག་གི་སྤྱི་ཚོགས་ལེགས་བཅོས་ཀྱིས་བཤིག་ཟིན། Defiled by PRC tourism and infrastructure development.",
+        "control_zone": "བོད་རང་སྐྱོང་ལྗོངས་-མངའ་རིས་ས་ཁུལ། (TAR, Ngari Prefecture, PRC military/ecological control)",
+        "citation": "Tibetan sacred geography texts (སྣ་དཔྱོད་ཀུན་གསལ་མེ་ལོང་); CTA Department of Religion and Culture."
+      },
+      {
+        "name": "ཡར་ལྷ་ཤམ་པོ་ (Yarlha Shampo)",
+        "lat": 29.2,
+        "lng": 92.3,
+        "elevation_m": 6636,
+        "functional_strategic_description": "བོད་ཀྱི་མངའ་མཐོ་རིགས་ཀྱི་ཡུམ་ལྷ། ཡར་ཀླུང་གཙང་པོའི་ལྷོ་ངོས་སུ་ཡོད་པ་དང་། བོད་ཀྱི་ལོ་རྒྱུས་ཀྱི་ས་ཁུལ་གཙོ་བོ་ཡིན། Ancestral mountain deity of the early Tibetan kings. Located on the southern bank of the Yarlung Tsangpo River, historically the cradle of Tibetan civilization. Topographic position controls observation of the Lhasa-Shannan valley corridor.",
+        "control_zone": "བོད་རང་སྐྱོང་ལྗོངས་-ལྷོ་ཁ་ས་ཁུལ། (TAR, Lhoka/Shannan Prefecture, PRC military/ecological control)",
+        "citation": "བཤད་མཛོད་ཡིད་བཞིན་ནོར་བུ། (Tibetan historical geography); CTA Department of Information and International Relations."
+      },
+      {
+        "name": "དཔའ་ཤོད་ལ་ (Pashö La / Zoji La Approach)",
+        "lat": 34.05,
+        "lng": 75.5,
+        "elevation_m": 3528,
+        "functional_strategic_description": "སྲིད་གཞུང་གི་དམག་སྒར་དང་སྲུང་སྐྱོབ་ཀྱི་གལ་ཆེའི་ལམ་ཁ་ཞིག་ཡིན། ལྷོ་བོད་དང་ལདྭགས་ས་ཁུལ་བར་གྱི་མཐོ་སྒང་ལམ་ཁ་ཡིན། Gateway between Kashmir, Ladakh, and the Tibetan plateau. Forms a critical military and security corridor for PRC troops moving into the Aksai Chin and Siachen dispute regions. Controls observation over the Dras-Kargil movement corridor.",
+        "control_zone": "རྒྱ་ནག་དང་རྒྱ་གར། པཀི་སི་ཐན་བར་གྱི་རྩོད་གཞིའི་ས་ཁུལ། (India-PRC disputed/controlled region)",
+        "citation": "Maps of the Kashmir conflict; Ladakh Autonomous Hill Development Council (LAHDC) archives; CTA Department of Security."
+      }
+    ],
+    "physical_barriers": [
+      {
+        "name": "བཙན་འཛུལ་གྱི་བཀག་སྡོམ་དྲ་བ་ / 铁丝网与监控体系 (PRC Border Fencing & Surveillance Network)",
+        "type": "manmade",
+        "lat": "མཐའ་མཚམས་ཡོངས་སུ་ཁྱབ་ (Entire Himalayan border and Sino-Indian border)",
+        "lng": "མཐའ་མཚམས་ཡོངས་སུ་ཁྱབ་ (Entire Himalayan border and Sino-Indian border)",
+        "length_km": "data not available. བཟོ་བཅོས་ཀྱི་རྒྱུན་ལམ་ཟད་འགྲོ་ཆེན་པོ་ཡོད། Extensive ongoing construction.",
+        "temporal_variations": "2010s-present: Continuous expansion of fencing, fiber-optic vibration sensors, thermal cameras, AI-powered surveillance, and drone patrols.",
+        "stated_justification": "PRC: 'Border control, anti-smuggling, anti-infiltration, and counter-terrorism.' (《陆地国界法》 PRC Land Border Law).",
+        "opposing_characterization": "བོད་མིའི་འདོད་བློ། སྲོལ་རྒྱུན་འབྲོག་པའི་ས་ཁུལ་གཏོར་བཤིག་དང་། བོད་ཡུལ་གཅིག་གྱུར་ཆག་པར་བཟོས། CTA and nomadic communities describe it as an 'open-air prison wall' destroying traditional pastoral lands and forcibly severing the unified Tibetan plateau. Accusations of creating an 'ecological desert' by blocking wildlife corridors.",
+        "citation": "Central Tibetan Administration, 'The Fencing of Tibet: An Environmental and Cultural Catastrophe' (2022); UN Special Rapporteur on minority issues report (2023)."
+      },
+      {
+        "name": "རྒྱ་ནག་གི་འཛུལ་སྤྱོད་ཀྱི་དྲ་བ་ཆེན་པོའི་ལྟ་ཞིབ་ (PRC Mass Surveillance Grid / IJOP & Skynet)",
+        "type": "manmade",
+        "lat": "བོད་ཡུལ་ཡོངས་སུ་ཁྱབ། (Throughout Tibetan areas)",
+        "lng": "བོད་ཡུལ་ཡོངས་སུ་ཁྱབ། (Throughout Tibetan areas)",
+        "length_km": "不适用 (Network of facial-recognition cameras, GPS trackers on vehicles, mandatory smartphone spyware apps, police stations)",
+        "temporal_variations": "2016-present: Continuous expansion and intensification, especially integrated with the IJOP (Integrated Joint Operations Platform) predictive policing system.",
+        "stated_justification": "PRC: 'Social management, counter-terrorism, and maintaining ethnic harmony.' (《反恐怖主义法》 Counter-Terrorism Law).",
+        "opposing_characterization": "བོད་མིའི་འདོད་བློ། བོད་མིའི་རིག་གཞུང་དང་ཆོས་ལུགས། སྤྱི་ཚོགས་ཀྱི་རང་དབང་བཙན་དུ་བཤིག་པ། CTA and human rights groups characterize it as a 'digital concentration camp' system aimed at cultural and religious genocide; tech-enabled oppression that monitors and punishes the use of the Tibetan language, religious practice, and non-violent dissent.",
+        "citation": "Human Rights Watch, 'Tibet's Digital Dystopia' (2022); Central Tibetan Administration, 'State of Surveillance in Tibet' (2023); Amnesty International."
+      }
+    ]
+  },
+  "hydrology_data": {
+    "upstream_downstream_position": "upstream",
+    "water_infrastructure": [
+      {
+        "name": "藏木水电站 (Zangmu Hydropower Station)",
+        "type": "大坝/水电站",
+        "lat": 29.2,
+        "lng": 92.5,
+        "controlling_entity": "华能西藏发电有限公司 (Huaneng Tibet Power Generation / PRC State)",
+        "capacity_or_flow_rate": "装机容量 510 MW (51万千瓦)",
+        "citation": "International Rivers, 'Mega-Dams on the Brahmaputra' (2018); CTA Department of Environment & Development."
+      },
+      {
+        "name": "加查水电站 (Jiacha Hydropower Station)",
+        "type": "大坝/水电站",
+        "lat": 29.14,
+        "lng": 92.58,
+        "controlling_entity": "华能西藏发电有限公司 (Huaneng Tibet Power Generation / PRC State)",
+        "capacity_or_flow_rate": "装机容量 360 MW (36万千瓦)",
+        "citation": "Tibetan Review, 'Jiacha Dam Submerges Tibetan Heritage' (2019); CTA Department of Environment."
+      },
+      {
+        "name": "墨脱巨型水电站 (Meto / Pemako Hydropower Mega-Project - planned)",
+        "type": "巨型水坝/水电站 (Mega-Dam / Hydropower)",
+        "lat": "Approx. 29.0-29.5",
+        "lng": "Approx. 95.0-95.5",
+        "controlling_entity": "PRC National Development and Reform Commission (NDRC)",
+        "capacity_or_flow_rate": "规划装机容量约 60,000 MW (Planned capacity ~60,000 MW, 3x the size of Three Gorges Dam, per PRC state media discussions. ལས་གཞི་འདིའི་རྐྱེན་པས་བོད་ཀྱི་གཙང་པོའི་ཁུར་འཁྱོལ་ཆེན་པོ་དེ་ཟད་འགྲོ་ཡོད།)",
+        "citation": "Central Tibetan Administration, 'Meto Dam: An Existential Threat to Tibet and South Asia' (2024); South Asia Network on Dams, Rivers and People."
+      }
+    ],
+    "per_capita_water_consumption_l_d": {
+      "population_a": "བོད་མི་ (Indigenous Tibetan pastoralists): དགུན་དུས་སུ་ 20-50 L/c/d (Limited access due to fencing, mining contamination, and diversion to state projects. གནམ་གཤིས་དང་ས་ཁམས་ཀྱི་གནས་བབ་ལ་གཞིགས་ནས་ཆུ་མི་འདང་ངེས། )",
+      "population_b": "རྒྱ་རིགས་ (Han settlers and PLA): 150+ L/c/d (Priority municipal supply and bottled water for military/police stations.)",
+      "who_reference_standard": 100.0,
+      "citation": "Central Tibetan Administration, Department of Health & Environment, 'Water Access and Environmental Racism in Occupied Tibet' (2021); Reporters Without Borders; field interviews."
+    },
+    "agriculture": {
+      "arable_land_pct": "༠.༢% མི་འདྲ་བ། <0.2% under indigenous control. Traditional pastoralism (འབྲོག་ལས) historically covered ~70% of the plateau; now largely destroyed by fencing, settlement, and mining.",
+      "irrigated_land_pct": "data not available. བོད་མིའི་ས་ཞིང་གི་ཆུ་སྐོར་ལས་འཛུགས་ཀྱི་གྲངས་ཀ་རྒྱ་ནག་གཞུང་གིས་གསང་སྟེར་བྱས་ཡོད། State-owned and Han-settler agro-industrial projects monopolize water resources.",
+      "food_import_dependency_pct": "བོད་ཀྱི་ཞིང་འབྲོག་པའི་སྤྱི་ཚོགས་ཀྱི་ཟས་རིགས་ཀུན་རྒྱ་ནག་ནང་ནས་འདྲེན་པ་དང་། རྒྱལ་སྤྱིའི་སྐུ་ཚབ་ཚོས་འཚོ་བ་སྐྱོང་གི་ཡོད། 100% dependency on PRC markets and state rations for settled communities. Pastoral self-sufficiency destroyed.",
+      "citation": "UN Food and Agriculture Organization (FAO) reports on Tibet; CTA Planning Commission."
+    }
+  },
+  "environmental_degradation_incidents": [
+    {
+      "incident_type": "གཏེར་ཁ་ཁྲོག་འདོན་ (Mining Contamination - Copper, Gold, Lithium, Coal)",
+      "chemical_or_hazard_agents": [
+        "Lead",
+        "Arsenic",
+        "Cyanide",
+        "Mercury",
+        "Sulfuric acid mine drainage",
+        "Radioactive tailings (rare earths)"
+      ],
+      "toxicological_classification": "Carcinogenic, Neurotoxic, Persistent Bioaccumulative Toxins (PBTs)",
+      "affected_area_sqkm": "data not available. གཙང་པོ་དང་སྤང་ཁུལ་ཡོངས་སུ་ཁྱབ་ཟིན། Widespread across Kham (Ganzi, Ngawa) and Amdo (Golog, Qinghai). Poisoned headwaters affect downstream nations.",
+      "first_documented_year": "1990s (intensified post-2000 with 'Develop the West' campaign)",
+      "ongoing": true,
+      "stated_justification": "PRC: 'National strategic resource development; poverty alleviation through mining; green mining technology.' (国务院 '西部大开发' 战略 State Council 'Open the West').",
+      "opposing_characterization": "བོད་མིའི་འདོད་བློ། བོད་ཀྱི་ཆུ་འགོ་རྩ་བ་ནས་སྦགས་པ་དང་། འབྲོག་པའི་འཚོ་བ་མེད་པར་བཟོས། གངས་རིན་པོ་ཆེའི་གཏེར་ཁ་དང་། ཡར་ཀླུང་གཙང་པོའི་གསེར་གཏེར་སོགས་ཀྱིས་ས་ཆ་དེའི་སྤྱི་ཚོགས་དང་རིག་གཞུང་ཡོངས་རྫོགས་བཤིག་ཟིན། CTA and environmental groups accuse PRC of 'environmental genocide'—deliberately poisoning the water source of Asia (the 'Third Pole') to permanently destroy nomadic Tibetan civilization and enable resource extraction.",
+      "documenting_orgs": [
+        "Tibet Action Institute (TAI)",
+        "Central Tibetan Administration Department of Environment",
+        "Human Rights Watch",
+        "Amnesty International",
+        "Greenpeace East Asia"
+      ],
+      "citations": [
+        "Tibet Action Institute, 'Toxic Tibet: Mining, Militarization and Environmental Destruction' (2020).",
+        "Amnesty International, 'Mining the Mountains: Human Rights Abuses in China's Tibetan Mining Sector' (2018)."
+      ]
+    },
+    {
+      "incident_type": "བཙན་འཛུལ་གྱི་སྲུང་སྐྱོབ་ཁུལ་དང་འབྲོག་འཕོ་འགྱུར་ (Militarized Conservation & Pastoral Displacement / Fencing)",
+      "chemical_or_hazard_agents": [
+        "无"
+      ],
+      "toxicological_classification": "不适用",
+      "affected_area_sqkm": "Approx. 800,000+ sq km of former pastoral land redesignated as 'Sanjiangyuan National Park', 'Qiangtang Nature Reserve', etc.",
+      "first_documented_year": "2000",
+      "ongoing": true,
+      "stated_justification": "PRC: 'Protecting the fragile ecology of the Sanjiangyuan (Three River Sources); combating desertification; ecological civilization.'  '三江源生态保护与建设' 工程, 退牧还草.",
+      "opposing_characterization": "བོད་མིའི་འདོད་བློ། རྒྱ་ནག་གཞུང་གིས་སྲུང་སྐྱོབ་ཀྱི་མིང་ཐོག་ནས་བོད་མིའི་འཚོ་བ་རྩ་མེད་བཟོ་བ་དང་། ས་གནས་སྟོང་པར་བཟོས་ཏེ་རྒྱ་རིགས་གནས་སྤོ་དང་དམག་སྒར་གསར་བཞེངས་ལ་སྟབས་བདེ་བཟོ་བ་ཡིན། Displacement of pastoralists is characterized as forced urbanization and cultural erasure under the guise of 'eco-protection', emptying the land of Tibetans to consolidate military and Han settler control.",
+      "documenting_orgs": [
+        "International Campaign for Tibet (ICT)",
+        "Central Tibetan Administration",
+        "UN Committee on the Elimination of Racial Discrimination (CERD)"
+      ],
+      "citations": [
+        "International Campaign for Tibet, 'Empty Lands: Pastoral Dispossession and the Environmental Contradictions of China's Green Tibet' (2022)."
+      ]
+    },
+    {
+      "incident_type": "Large-scale open-pit mining and infrastructure construction",
+      "chemical_or_hazard_agents": [
+        "Heavy metals (mercury, copper)",
+        "Unspecified toxic reagents from gold and lithium extraction"
+      ],
+      "toxicological_classification": "Neurotoxic, nephrotoxic, ecotoxic",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": 2000,
+      "ongoing": true,
+      "stated_justification": "Not available as the direct justification is provided by the implementing party (PRC).",
+      "opposing_characterization": "The CTA and Tibetan environmental advocates characterize mining as a form of resource theft that prioritizes extraction for the benefit of the Chinese state and corporations while devastating the fragile high-altitude ecosystem. It has caused toxic contamination of headwaters, destruction of sacred sites, and forced displacement of communities, violating indigenous rights to land and a healthy environment.",
+      "documenting_orgs": [
+        "Central Tibetan Administration (CTA) Department of Information and International Relations",
+        "Tibetan Centre for Human Rights and Democracy (TCHRD)"
+      ],
+      "citations": [
+        "'Tibet: A Bleak Future for the Roof of the World' (TCHRD, 2020)",
+        "'Environmental Devastation in Eastern Tibet: Mining and Its Impact' (TCHRD, 2018)"
+      ]
+    },
+    {
+      "incident_type": "Forced 'Ecological Migration' and Grassland Degradation",
+      "chemical_or_hazard_agents": [
+        "N/A (socio-ecological process)"
+      ],
+      "toxicological_classification": "N/A",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": 2005,
+      "ongoing": true,
+      "stated_justification": "Not available as the direct justification is provided by the implementing party (PRC).",
+      "opposing_characterization": "The CTA and rights groups characterize the PRC's 'ecological migration' program as a pretext for forced resettlement to seize traditional pastoral lands, establish military/police control, and accelerate Sinicization. The resulting overgrazing on confined lands has led to severe desertification, contrary to the stated ecological goals, while dismantling a millennia-old sustainable nomadic culture.",
+      "documenting_orgs": [
+        "Central Tibetan Administration (CTA)",
+        "Tibetan Centre for Human Rights and Democracy (TCHRD)",
+        "Human Rights Watch"
+      ],
+      "citations": [
+        "'They'll Never Come Back: Forced Resettlement and the Destruction of Tibetan Culture' (HRW, 2023)",
+        "'Broken Promises: The Human Cost of Tibet's 'Ecological Protection'' (TCHRD, 2021)"
+      ]
+    }
+  ],
+  "infrastructure_and_logistics_data": {
+    "airspace_and_spectrum": {
+      "cellular_tech_allowed": "རྒྱ་ནག་གཞུང་གིས་བོད་ཀྱི་ཁ་པར་ཁྱབ་ཆེན་གྱི་དྲ་བ་བཙུགས་ཡོད་ལ། དྲ་བའི་ལྟ་ཞིབ་དང་བོད་སྐད་ཀྱི་ཚིག་མཛོད་ལ་ཞིབ་བཤེར་ཚན་རིག་བཟོས་ཡོད། 4G/5G networks cover towns and strategic roads, fully monitored; used for IJOP tracking. Tibetans cannot access independent Tibetan-language media; all browsing is filtered through the 'Great Firewall'.",
+      "flight_corridor_control": "བོད་ཀྱི་བར་སྣང་ལ་དམག་སྤྱོད་གནམ་གྲུས་དབང་སྒྱུར་བྱས་ཡོད། Military control of all airspace over TAR. PRC military helicopters and drones patrol freely. No independent aviation.",
+      "stated_justification": "PRC: 'Cybersecurity Law; maintaining social stability; counter-terrorism.' (《网络安全法》, 《反恐法》).",
+      "citation": "OpenNet Initiative; Freedom House, 'Freedom on the Net: Tibet'; CTA Department of Information Technology."
+    },
+    "maritime_and_cabotage": {
+      "eez_claimed_sqkm": "不适用",
+      "eez_accessible_sqkm": "不适用",
+      "accessible_ports_count": "不适用",
+      "fishing_zone_nautical_miles": "不适用",
+      "cabotage_or_merchant_marine_restrictions": "不适用",
+      "stated_justification": "不适用",
+      "citation": "Tibet is landlocked."
+    },
+    "trade_and_dual_use_controls": {
+      "controlled_item_categories": [
+        "Satellite phones",
+        "Shortwave radios",
+        "Encryption software/VPNs (illegal without state approval)",
+        "Drones (confiscated)"
+      ],
+      "transit_permit_regimes": "བོད་ནང་འགྲོ་སྐྱོད་བྱེད་པར་ལག་ཁྱེར་ངེས་ཅན་དགོས། Travel permits required for all travel between prefectures. Vehicles are GPS-tracked.",
+      "stated_justification": "PRC: 'Border management, anti-terrorism, and national security.' (《反恐怖主义法》).",
+      "citation": "Amnesty International, 'Under Constant Surveillance: Control and Coercion in the Tibet Autonomous Region' (2023)."
+    },
+    "checkpoints_and_gates": [
+      {
+        "name": "Police Checkpoints on all highways (e.g., Golmud-Lhasa Highway)",
+        "lat": "遍布藏区主要公路",
+        "lng": "遍布藏区主要公路",
+        "permit_type_required": "身份证, 驾驶证, 行驶证, 进藏函 (for foreigners), travel permits. Intensive questioning and surveillance.",
+        "stated_justification": "PRC: 'Crime prevention and social stability maintenance.'",
+        "citation": "བོད་ཀྱི་རྒྱལ་སྤྱིའི་སྤྱི་ཚོགས་སྲུང་སྐྱོབ་ཚོགས་པ། (Tibet Justice Center)."
+      }
+    ],
+    "utilities_and_energy_grid": {
+      "official_currency": "人民币 (RMB / CNY)",
+      "local_informal_currency": "无",
+      "power_generating_assets": [
+        "Zangmu Dam, Jiacha Dam, other hydropower stations",
+        "Photovoltaic farms (sending power east, leaving locals with limited supply)"
+      ],
+      "daily_electricity_hours_avg": "城镇24小时供电，但牧区和佛学院常断电或限制供电。 24 hours in towns. Remote areas and monasteries often subject to supply cuts.",
+      "power_grid_self_sufficiency_pct": "100% 发电自给有余 (但大部分电力输往内地，当地用电受控)。 Surplus generated but mostly exported to eastern China, symbolizing resource extraction.",
+      "fuel_import_dependency_pct": 100,
+      "debt_or_fiscal_transfer_mechanisms": "བོད་ཀྱི་གཏེར་ཁ་དང་རང་བྱུང་འབྱོར་རྒུ་ནི་རྒྱ་ནག་ནང་ལོགས་སུ་དབང་སྒྱུར་བྱས་ཡོད། Resource wealth (minerals, water) is extracted. Tibetan areas kept dependent on central fiscal transfers for control.",
+      "citation": "Central Tibetan Administration, Department of Finance."
+    }
+  },
+  "jurisprudence_and_statutory_friction": {
+    "enforced_system_name": "中华人民共和国法律体系 (PRC Legal System - 'National Security', 'Anti-Secession', 'Counter-Terrorism' framework)",
+    "preferred_or_prior_system_name": "《བོད་ཀྱི་དོན་ཚན་བཅུ་བདུན་ཆིངས་ཡིག》(1951) 和 བོད་མིའི་སྲོལ་རྒྱུན་ཁྲིམས་ལུགས། The 'Seventeen-Point Agreement' (1951), guarantee of self-governance, and traditional Tibetan legal/land tenure systems.",
+    "population_under_special_or_external_law": "Approx."
+  },
+  "security_and_justification_data": {
+    "official_threat_assessments_or_attack_statistics": [
+      {
+        "description": "Incidents of self-immolation by Tibetans protesting PRC rule",
+        "time_period": "2009-2015",
+        "numbers_or_incidents": "Approximately 152 Tibetans self-immolated in protest, according to CTA records.",
+        "source": "Central Tibetan Administration (CTA) and TCHRD monitoring",
+        "citation": "TCHRD Self-Immolation Fact-Finding Reports; 'Tibet: Self-Immolation as a Political Act' (ICG, 2015)."
+      },
+      {
+        "description": "Large-scale protests and subsequent crackdowns in Tibetan areas",
+        "time_period": "2008 (Lhasa uprising and others)",
+        "numbers_or_incidents": "Widespread protests in Lhasa, Labrang, and other Tibetan areas, met with a massive security force deployment. CTA reports hundreds of arrests and a long-term intensification of the police state.",
+        "source": "Central Tibetan Administration (CTA) and international media reports",
+        "citation": "'China's Iron Fist: Policing Tibet' (Amnesty International, 2008); CTA documentation of the 2008 uprising."
+      }
+    ],
+    "stated_administrative_or_security_rationales": [
+      {
+        "measure": "All-encompassing PRC security, control, and administrative infrastructure (checkpoints, surveillance, temple management, population resettlement).",
+        "official_rationale": "Not available as the direct justification is provided by the implementing party (PRC).",
+        "citation": "The CTA's official position is that these measures are not for legitimate security but are instruments of a colonial occupation designed to suppress Tibetan national identity, destroy Buddhist culture, and seize land and resources. (See TCHRD annual reports)."
+      }
+    ]
+  }
+}

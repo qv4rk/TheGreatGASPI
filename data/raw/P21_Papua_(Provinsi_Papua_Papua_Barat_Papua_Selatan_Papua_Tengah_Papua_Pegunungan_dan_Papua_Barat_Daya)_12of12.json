@@ -1,0 +1,368 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Great GASPI Data Schema",
+  "type": "object",
+  "prompt_id": "prompt-21",
+  "territory_name": "Papua (Provinsi Papua, Papua Barat, Papua Selatan, Papua Tengah, Papua Pegunungan, dan Papua Barat Daya)",
+  "perspective": "Pemerintah Republik Indonesia / Kementerian Koordinator Polhukam / Kementerian ESDM",
+  "language": "Indonesian (Bahasa Indonesia)",
+  "years_of_scope": "1969-2026",
+  "wgs84_center": {
+    "lat": -4.0,
+    "lng": 137.0
+  },
+  "topographic_and_control_data": {
+    "total_area_sqkm": 418707,
+    "accessible_area_sqkm": "data not available",
+    "control_zones": [
+      {
+        "zone_name": "Provinsi Papua",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Pemerintah Provinsi Papua / Pemerintah Pusat RI",
+        "access_restrictions": "Wilayah dengan status otonomi khusus; akses terbatas ke zona konflik dan perbatasan; diperlukan izin untuk perjalanan ke wilayah konflik",
+        "strategic_features_located_here": [
+          "Pegunungan Jayawijaya",
+          "Puncak Jaya (4.884 m)",
+          "Lembah Baliem",
+          "Tambang Grasberg (PT Freeport Indonesia)",
+          "Perbatasan RI-PNG di Skouw"
+        ]
+      },
+      {
+        "zone_name": "Provinsi Papua Barat",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Pemerintah Provinsi Papua Barat / Pemerintah Pusat RI",
+        "access_restrictions": "Wilayah dengan status otonomi khusus; akses terbatas ke zona perbatasan dan wilayah konflik",
+        "strategic_features_located_here": [
+          "Kepala Burung (Bird's Head Peninsula)",
+          "Teluk Cenderawasih",
+          "Sorong"
+        ]
+      },
+      {
+        "zone_name": "Provinsi Papua Selatan, Tengah, Pegunungan, dan Barat Daya (Hasil Pemekaran 2022)",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Pemerintah Provinsi masing-masing / Pemerintah Pusat RI",
+        "access_restrictions": "Wilayah pemekaran baru; akses terbatas ke zona konflik; penguatan pos TNI/Polri di wilayah perbatasan",
+        "strategic_features_located_here": [
+          "Kabupaten Nduga (lokasi konflik dan pembangunan infrastruktur)",
+          "Kabupaten Intan Jaya",
+          "Kabupaten Puncak",
+          "Kabupaten Maybrat"
+        ]
+      },
+      {
+        "zone_name": "Zona Perbatasan RI-PNG",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Satuan Tugas Perbatasan (Satgas Pamtas) / TNI-Polri",
+        "access_restrictions": "Wilayah perbatasan dengan pengamanan ketat; akses terbatas untuk masyarakat sipil; pengawasan ketat oleh TNI",
+        "strategic_features_located_here": [
+          "Pos perbatasan Skouw",
+          "Pos pengamanan TNI/Polri sepanjang perbatasan",
+          "Koridor Trans-Papua di wilayah perbatasan"
+        ]
+      }
+    ],
+    "demographics": {
+      "population_category_a": 2469302,
+      "population_category_b": "data not available",
+      "density_per_sqkm": "data not available",
+      "displacement_or_refugee_count": "data not available",
+      "notes": "Berdasarkan data BPS dari Sensus Penduduk 2010, proporsi Penduduk Asli Papua (PAP) di Provinsi Papua adalah 73.57% (2,121,436 dari total 2,883,381), dan di Provinsi Papua Barat adalah 51.49%. Namun, proporsi PAP terus menurun seiring migrasi masuk dari luar Papua. Hingga 2025, tidak ada data resmi terbaru yang dipublikasikan mengenai komposisi PAP vs non-PAP pasca pemekaran 2022. The proportion of Papuans as a percentage of the total population continues to decline, particularly in coastal and urban areas such as Jayapura, Sorong, Merauke, and Keerom[citation:2][citation:12].",
+      "citation": "Badan Pusat Statistik (BPS), Sensus Penduduk 2010; analisis demografi Papua oleh Jim Elmslie (Cambridge University Press, 2025)"
+    },
+    "named_high_ground_features": [
+      {
+        "name": "Pegunungan Jayawijaya",
+        "lat": -4.0833,
+        "lng": 138.0,
+        "elevation_m": 4884,
+        "functional_strategic_description": "Pegunungan tertinggi di Indonesia dan Oseania; kontrol atas observasi, koridor gerakan, dan posisi relatif terhadap sumber daya air dan tambang Grasberg; daerah pegunungan interior masih didominasi oleh Penduduk Asli Papua (PAP) dengan populasi yang sangat terisolasi[citation:2][citation:12]",
+        "control_zone": "Provinsi Papua / Provinsi Papua Pegunungan",
+        "citation": "Data geografis BPS; analisis demografi Cambridge University Press, 2025[citation:2]"
+      },
+      {
+        "name": "Puncak Jaya",
+        "lat": -4.0833,
+        "lng": 137.1833,
+        "elevation_m": 4884,
+        "functional_strategic_description": "Puncak tertinggi di Indonesia; kontrol observasi dan komunikasi di wilayah tengah Papua; posisi relatif terhadap tambang Grasberg dan sumber air",
+        "control_zone": "Provinsi Papua / Provinsi Papua Tengah",
+        "citation": "BPS"
+      }
+    ],
+    "physical_barriers": [
+      {
+        "name": "Pos Pengamanan Perbatasan (Satgas Pamtas RI-PNG)",
+        "type": "manmade",
+        "lat": "data not available",
+        "lng": "data not available",
+        "length_km": "data not available",
+        "temporal_variations": "Pos permanen di sepanjang perbatasan; penguatan pos TNI/Polri di wilayah konflik; operasi gabungan TNI-Polri di Nduga dan wilayah konflik lainnya",
+        "stated_justification": "Pemerintah RI menyatakan pos-pos perbatasan diperlukan untuk menjaga kedaulatan negara, mencegah infiltrasi kelompok separatis, dan melindungi masyarakat dari gangguan keamanan. Operasi pengamanan di Nduga dan wilayah lain diperlukan untuk melindungi pekerja infrastruktur dan menegakkan hukum[citation:4].",
+        "opposing_characterization": "Kelompok advokasi HAM dan masyarakat adat Papua mengkarakterisasi pos-pos militer dan operasi TNI sebagai bentuk militerisasi dan pendudukan yang menyebabkan ketakutan, pelanggaran HAM, dan pengungsian paksa. Operasi di Nduga pada 2018-2019 mengakibatkan lebih dari 38,000 orang mengungsi dan 243 orang tewas[citation:15].",
+        "citation": "RNZ, 2018[citation:4]; TAPOL briefing[citation:15]"
+      }
+    ]
+  },
+  "hydrology_data": {
+    "upstream_downstream_position": "upstream",
+    "water_infrastructure": [
+      {
+        "name": "Sungai Mamberamo",
+        "type": "Sungai utama",
+        "lat": -1.5,
+        "lng": 137.0,
+        "controlling_entity": "Pemerintah Indonesia / Kementerian PUPR",
+        "capacity_or_flow_rate": "data not available",
+        "citation": "Data geografis BPS"
+      },
+      {
+        "name": "Sungai Digul",
+        "type": "Sungai utama",
+        "lat": -6.0,
+        "lng": 140.0,
+        "controlling_entity": "Pemerintah Indonesia / Kementerian PUPR",
+        "capacity_or_flow_rate": "data not available",
+        "citation": "Data geografis BPS"
+      },
+      {
+        "name": "Sungai Ajkwa dan Sistem ModADA (Modified Ajkwa Deposition Area)",
+        "type": "Sistem penempatan tailing tambang",
+        "lat": -4.5,
+        "lng": 137.0,
+        "controlling_entity": "PT Freeport Indonesia (PTFI) / Kementerian ESDM / KLHK",
+        "capacity_or_flow_rate": "PTFI membuang sekitar 200,000 ton tailing per hari ke sistem sungai Ajkwa. Tailing adalah pasir sisa tambang dari pengolahan bijih tambang yang digiling hingga kehalusan pasir halus dan dicampur air, kemudian dialirkan ke delta Ajkwa[citation:3]. PTFI telah membangun sistem tanggul untuk mengelola sekitar 3 miliar ton tailing hingga akhir masa tambang pada 2041[citation:3].",
+        "citation": "The Guardian, 2025[citation:3]; PTFI corporate communication, 2024[citation:8]"
+      },
+      {
+        "name": "Sistem Tanggul Ajkwa (Levee System)",
+        "type": "Sistem pengelolaan tailing",
+        "lat": -4.5,
+        "lng": 137.0,
+        "controlling_entity": "PT Freeport Indonesia (PTFI)",
+        "capacity_or_flow_rate": "PTFI mengklaim sistem tanggul telah mematuhi AMDAL, Keputusan Menteri Lingkungan Hidup, Keputusan Gubernur, dan Izin Bupati Mimika, dan telah beroperasi hampir 30 tahun[citation:3]. KLHK dan Bappenas melakukan kunjungan pemantauan reklamasi dan pemberdayaan masyarakat pada Februari 2024, termasuk pemanfaatan lahan tailing untuk pertanian, perkebunan, peternakan, dan perikanan[citation:8].",
+        "citation": "PTFI corporate communication, 2024[citation:8]; The Guardian, 2025[citation:3]"
+      }
+    ],
+    "per_capita_water_consumption_l_d": {
+      "population_a": "data not available",
+      "population_b": "data not available",
+      "who_reference_standard": 100.0,
+      "citation": "data not available"
+    },
+    "agriculture": {
+      "arable_land_pct": "data not available",
+      "irrigated_land_pct": "data not available",
+      "food_import_dependency_pct": "data not available",
+      "notes": "Data tentang luas lahan pertanian dan konsesi kawasan hutan yang dilepas untuk Proyek Strategis Nasional (PSN) tidak tersedia dalam hasil pencarian. Program food estate di Merauke yang mencakup 20 juta hektar lahan telah memicu protes dari masyarakat adat karena dianggap melanggar hak-hak masyarakat adat dan berpotensi merusak ekosistem[citation:5][citation:10].",
+      "citation": "OHCHR submission, 2025[citation:5]; Kompas.id, 2025[citation:10]"
+    }
+  },
+  "environmental_degradation_incidents": [
+    {
+      "incident_type": "Penempatan tailing tambang Grasberg di Sungai Ajkwa",
+      "chemical_or_hazard_agents": [
+        "Arsenik",
+        "Kadmium",
+        "Timbal",
+        "Merkuri",
+        "Sianida",
+        "Partikel batuan halus"
+      ],
+      "toxicological_classification": "Pencemaran lingkungan dan risiko kesehatan; analisis tailing tahun 2020 menemukan kontaminan termasuk arsenik, kadmium, timbal, merkuri, dan sianida[citation:3]",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": 1973,
+      "ongoing": true,
+      "stated_justification": "PTFI menyatakan sistem penempatan tailing telah mematuhi peraturan lingkungan hidup Indonesia (AMDAL) dan merupakan pendekatan paling tepat secara lingkungan mengingat kondisi spesifik lokasi. Mereka berkomitmen pada praktik pertambangan berkelanjutan, reklamasi, dan pemberdayaan masyarakat. PTFI mengklaim sistem tanggul dan bio-retensi (zona hijau, reklamasi) telah berhasil mengelola tailing, dan tailing kini dianggap sebagai sumber daya untuk infrastruktur dan konstruksi sipil[citation:3][citation:8][citation:13].",
+      "opposing_characterization": "Masyarakat adat Papua mengklaim komunitas mereka dilanda kemiskinan, penyakit, penindasan, dan degradasi lingkungan sejak tambang beroperasi pada 1973. Seorang kepala suku mengatakan sedimen tailing telah menaikkan dasar sungai di dekat desanya, membunuh ikan, tiram, dan udang yang menjadi basis ekonomi dan diet tradisional mereka[citation:3]. Studi 2016 di Nature menemukan volume limbah yang besar menyebabkan 'inundasi hutan dan degradasi badan air yang penting bagi masyarakat adat'[citation:3].",
+      "documenting_orgs": [
+        "PT Freeport Indonesia (PTFI)",
+        "Kementerian Lingkungan Hidup dan Kehutanan (KLHK)",
+        "Bappenas",
+        "London Mining Network (LMN)",
+        "Global Legal Action Network (GLAN)",
+        "The Guardian",
+        "Nature (jurnal ilmiah)"
+      ],
+      "citations": [
+        "The Guardian, 2025[citation:3]",
+        "PTFI corporate communication, 2024[citation:8]",
+        "KLHK-Bappenas kunjungan, 2024[citation:8]",
+        "Studi ilmiah 2008[citation:13]"
+      ]
+    },
+    {
+      "incident_type": "Food Estate Merauke dan konversi lahan hutan",
+      "chemical_or_hazard_agents": [
+        "Pembukaan lahan 20 juta hektar",
+        "Konversi hutan"
+      ],
+      "toxicological_classification": "Deforestasi dan perubahan ekosistem",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": 2024,
+      "ongoing": true,
+      "stated_justification": "Pemerintah Indonesia menyatakan program food estate bertujuan untuk meningkatkan ketahanan pangan nasional, mengurangi impor, mendorong ekonomi lokal melalui partisipasi OAP, dan mengurangi kesenjangan pembangunan antarwilayah[citation:10][citation:5].",
+      "opposing_characterization": "Program food estate menuai protes dari masyarakat adat dan masyarakat sipil karena melanggar HAM melalui perampasan lahan, serta menyebabkan dampak ekologis dan sosial-budaya yang signifikan. Sejarawan menunjukkan bahwa program serupa justru memperdalam marginalisasi OAP. Sebuah studi CSIS menyebut program ini 'salah dari awal' karena mengabaikan hak-hak masyarakat adat dan diimplementasikan tanpa persetujuan mereka[citation:10]. Hutan di Papua mencakup 84% komposisi lahan; konsesi HPH masyarakat adat hanya 78,040 hektar, sementara konsesi HPH korporasi mencapai 5,5 juta hektar[citation:5].",
+      "documenting_orgs": [
+        "Pemerintah Indonesia",
+        "OHCHR (submission anak 2025)",
+        "CSIS (Centre for Strategic and International Studies)",
+        "Kompas.id"
+      ],
+      "citations": [
+        "OHCHR submission, 2025[citation:5]",
+        "Kompas.id (CSIS), 2025[citation:10]"
+      ]
+    }
+  ],
+  "infrastructure_and_logistics_data": {
+    "airspace_and_spectrum": {
+      "cellular_tech_allowed": "Teknologi seluler 3G, 4G, dan 5G di wilayah perkotaan (Jayapura, Sorong); 2G/3G di wilayah terpencil; Palapa Timur proyek serat optik untuk konektivitas ke Papua",
+      "flight_corridor_control": "Ruang udara dikendalikan oleh Kementerian Perhubungan dan TNI AU; bandara strategis: Jayapura (Sentani), Sorong, Merauke, Timika (Moses Kilangin)",
+      "stated_justification": "Pengendalian ruang udara dan spektrum frekuensi untuk keamanan nasional dan integrasi komunikasi",
+      "citation": "Kementerian Kominfo; Kementerian Perhubungan"
+    },
+    "maritime_and_cabotage": {
+      "eez_claimed_sqkm": "data not available",
+      "eez_accessible_sqkm": "data not available",
+      "accessible_ports_count": "data not available",
+      "fishing_zone_nautical_miles": 200,
+      "cabotage_or_merchant_marine_restrictions": "data not available",
+      "stated_justification": "data not available",
+      "citation": "data not available"
+    },
+    "trade_and_dual_use_controls": {
+      "controlled_item_categories": [
+        "Barang dan peralatan dual-use",
+        "Material konstruksi dan infrastruktur strategis",
+        "Bahan peledak (untuk pertambangan)"
+      ],
+      "transit_permit_regimes": "Surat izin perjalanan diperlukan untuk mengakses wilayah konflik; dokumen perizinan lintas di pos keamanan; kontrol ketat di perbatasan RI-PNG",
+      "stated_justification": "Pengamanan operasi keamanan dan pembangunan infrastruktur di wilayah konflik; pencegahan masuknya barang ilegal dan terorisme",
+      "citation": "Pemerintah Indonesia"
+    },
+    "checkpoints_and_gates": [
+      {
+        "name": "Pos Keamanan TNI/Polri di Nduga",
+        "lat": -4.5,
+        "lng": 138.0,
+        "permit_type_required": "Surat izin perjalanan untuk memasuki zona konflik; identifikasi untuk warga sipil",
+        "stated_justification": "Pengamanan pekerja infrastruktur dan wilayah dari ancaman kelompok separatis; setelah pembantaian 16 pekerja Istaka Karya pada 2018, TNI mengambil alih pembangunan infrastruktur dengan mengerahkan ratusan personel tambahan[citation:4]",
+        "citation": "RNZ, 2018[citation:4]"
+      },
+      {
+        "name": "Pos Perbatasan Skouw (RI-PNG)",
+        "lat": -2.5,
+        "lng": 140.8,
+        "permit_type_required": "Paspor dan izin lintas perbatasan resmi",
+        "stated_justification": "Penjagaan perbatasan negara untuk mencegah penyelundupan dan infiltrasi",
+        "citation": "Satgas Pamtas RI-PNG"
+      }
+    ],
+    "utilities_and_energy_grid": {
+      "official_currency": "Rupiah (IDR)",
+      "local_informal_currency": "data not available",
+      "power_generating_assets": [
+        "PLTD (Pembangkit Listrik Tenaga Diesel) - dominan di wilayah terpencil",
+        "PLTA (Pembangkit Listrik Tenaga Air) - beberapa proyek di pegunungan",
+        "Proyek energi terbarukan (sedang dikembangkan)"
+      ],
+      "daily_electricity_hours_avg": "data not available",
+      "power_grid_self_sufficiency_pct": "data not available",
+      "fuel_import_dependency_pct": "data not available",
+      "debt_or_fiscal_transfer_mechanisms": "Dana Otonomi Khusus (Otsus) untuk Papua; skema baru pencairan dalam UU No. 2 Tahun 2021; pembentukan Badan Khusus Pembangunan Papua[citation:1]. Total Dana Otonomi Khusus dari tahun 2002-2020 mencapai Rp24.04 triliun, namun efektivitas anggaran dipertanyakan karena keterbatasan SDM di provinsi-provinsi Papua[citation:1].",
+      "citation": "Jurnal Politeia, 2023[citation:1]; Kemenkeu data[citation:1]"
+    }
+  },
+  "jurisprudence_and_statutory_friction": {
+    "enforced_system_name": "Hukum Nasional Indonesia / UU Otonomi Khusus Papua (UU No. 2 Tahun 2021 dan turunannya)",
+    "preferred_or_prior_system_name": "Hukum Adat Papua (Hak Ulayat) / Deklarasi PBB tentang Hak-Hak Masyarakat Adat",
+    "population_under_special_or_external_law": "data not available",
+    "enforced_statutes_cited": [
+      "UU No. 2 Tahun 2021 tentang Perubahan Kedua atas UU No. 21 Tahun 2001 tentang Otonomi Khusus bagi Provinsi Papua",
+      "UU Pokok Agraria (UU No. 5 Tahun 1960)",
+      "Penetapan Kawasan Hutan Negara (UU No. 41/1999)",
+      "Pasal 68A UU Otsus (pembentukan Badan Khusus Pembangunan Papua)",
+      "Pasal 76 UU Otsus (pemekaran daerah di Papua)",
+      "Pasal 1 ayat (8) UU Otsus (definisi Orang Asli Papua/OAP dan perlakuan khusus)"
+    ],
+    "landmark_jurisprudence_and_treaties": [
+      {
+        "judicial_body_or_treaty": "Mahkamah Konstitusi Indonesia",
+        "case_or_resolution_name": "Pengujian UU Otsus Papua (UU No. 21 Tahun 2001 dan UU No. 2 Tahun 2021)",
+        "year": 2023,
+        "holding_or_standard": "MK memutuskan tetap mempertahankan UU Otsus Papua sebagai kebijakan afirmatif untuk meningkatkan kesejahteraan rakyat Papua dan mengakui eksistensi Orang Asli Papua dalam pengelolaan daerah melalui MRP dan afirmasi di DPRK[citation:1][citation:11].",
+        "official_legal_rationale": "Pemerintah dan MK berpendapat bahwa Otsus adalah strategi politik untuk meredakan ketegangan dan mendorong dialog konstruktif. Pembentukan MRP yang didominasi OAP dianggap sebagai solusi representasi, dan pemberian kuota MRP khusus untuk OAP sebagai upaya memberikan kepercayaan bagi OAP untuk memperjuangkan hak-hak mereka[citation:11].",
+        "citation": "Jurnal Fiat Justisia, 2024[citation:11]; Jurnal Politeia, 2023[citation:1]"
+      },
+      {
+        "judicial_body_or_treaty": "Dewan Hak Asasi Manusia PBB",
+        "case_or_resolution_name": "Submisi mengenai hak anak di Papua (Aisyah Novanarima)",
+        "year": 2025,
+        "holding_or_standard": "Konflik bersenjata di Papua telah berlangsung selama puluhan tahun, melanggar hak-hak anak termasuk hilangnya nyawa, kekerasan seksual, trauma psikologis, kehilangan pendidikan, risiko kesehatan, dan eksploitasi anak. Dalam 2023-2024 tercatat 150 korban jiwa dari 294 insiden benturan senjata[citation:5].",
+        "official_legal_rationale": "Pemerintah Indonesia terus menggunakan intervensi militer sebagai pendekatan utama dan tidak mengutamakan dialog damai. Pemerintah dinilai gagal mengusulkan langkah non-militer yang substantif untuk menyelesaikan konflik. Kehadiran militer dan pembangunan ekonomi dianggap sebagai strategi utama penyelesaian konflik[citation:5].",
+        "citation": "OHCHR submission, 2025[citation:5]"
+      }
+    ],
+    "documented_statutory_conflicts": [
+      {
+        "legal_domain": "Hukum Agraria / Hak Atas Tanah",
+        "enforced_clause_reference": "Penetapan Kawasan Hutan Negara (UU No. 41/1999) dan UU Pokok Agraria (UU No. 5 Tahun 1960) yang menetapkan sebagian besar tanah Papua sebagai Kawasan Hutan Negara",
+        "preferred_or_prior_clause_reference": "Hak Ulayat (hak adat masyarakat Papua) yang diakui dalam UUD 1945 Pasal 18B(2) dan deklarasi PBB tentang hak-hak masyarakat adat",
+        "conflict_description": "Pertentangan eksplisit antara hukum agraria nasional yang menetapkan Kawasan Hutan Negara atas tanah Papua (5,5 juta hektar konsesi HPH korporasi vs 78,040 hektar konsesi HPH masyarakat adat) dan pengakuan Hak Ulayat berdasarkan hukum adat setempat[citation:5][citation:11]. Program food estate dan pembukaan lahan 20 juta hektar semakin memperparah konflik ini[citation:5][citation:10].",
+        "citation": "OHCHR submission, 2025[citation:5]; Jurnal Fiat Justisia, 2024[citation:11]; Kompas.id (CSIS), 2025[citation:10]"
+      },
+      {
+        "legal_domain": "Hak menentukan nasib sendiri / Otonomi Khusus",
+        "enforced_clause_reference": "UU Otsus Papua Jilid II (UU No. 2 Tahun 2021) - perpanjangan otonomi khusus dan pemekaran 6 provinsi",
+        "preferred_or_prior_clause_reference": "Deklarasi PBB tentang hak-hak masyarakat adat dan tuntutan referendum Papua",
+        "conflict_description": "Pertentangan antara kerangka hukum otonomi khusus yang ditawarkan pemerintah pusat dan tuntutan masyarakat adat Papua akan hak menentukan pilihan (right to self-determination). Tuntutan referendum Papua telah muncul sejak 1998 (FORERI), dan beberapa kelompok menolak Otsus Jilid II karena dianggap gagal menyelesaikan akar persoalan[citation:6][citation:11]. Hasil evaluasi MRP 2013 menyimpulkan Otsus gagal[citation:6].",
+        "citation": "Suara Papua, 2020[citation:6]; Jurnal Fiat Justisia, 2024[citation:11]"
+      },
+      {
+        "legal_domain": "Keadilan bagi korban pelanggaran HAM masa lalu",
+        "enforced_clause_reference": "Tidak ada mekanisme khusus yang terungkap ke publik (seperti yang disarankan dalam Pasal 68A UU Otsus Jilid II tentang Badan Khusus Pembangunan Papua) untuk menangani pelanggaran HAM masa lalu[citation:1]",
+        "preferred_or_prior_clause_reference": "Tuntutan masyarakat adat Papua akan penyelesaian pelanggaran HAM berat sejak 1965 dan pembentukan komisi kebenaran dan rekonsiliasi",
+        "conflict_description": "Konflik antara tidak adanya mekanisme yang jelas untuk menyelesaikan pelanggaran HAM masa lalu di Papua dan tuntutan masyarakat adat akan keadilan. Salah satu akar konflik utama adalah ketidakadilan sejarah integrasi Papua ke Indonesia pada 1969, kekerasan politik, pelanggaran HAM, kegagalan pembangunan, rasisme, dan marginalisasi Orang Asli Papua (OAP). Kebijakan selama puluhan tahun belum menyelesaikan masalah diskriminasi dan ketidakadilan[citation:1][citation:11].",
+        "citation": "Jurnal Politeia, 2023[citation:1]; Jurnal Fiat Justisia, 2024[citation:11]"
+      }
+    ]
+  },
+  "security_and_justification_data": {
+    "official_threat_assessments_or_attack_statistics": [
+      {
+        "description": "Serangan oleh kelompok separatis Papua (TPNPB-OPM) terhadap pekerja dan TNI",
+        "time_period": "2018-2026",
+        "numbers_or_incidents": "Pembantaian 16 pekerja Istaka Karya di Nduga (2018) oleh TPNPB karena dituduh sebagai mata-mata militer; operasi gabungan TNI-Polri mengakibatkan lebih dari 38,000 orang mengungsi dan 243 tewas hingga awal 2019[citation:4][citation:15]. Menurut IPAC, kelompok TPNPB-OPM sulit diberantas karena adanya aktor tertentu yang mendukung dan diuntungkan dari konflik, termasuk jaringan perdagangan senjata ilegal yang melibatkan aparat keamanan, sipil, dan desertir[citation:10].",
+        "source": "TNI/Polri; IPAC (Institute for Policy Analysis of Conflict); CSIS",
+        "citation": "RNZ, 2018[citation:4]; TAPOL briefing[citation:15]; Kompas.id (CSIS), 2025[citation:10]"
+      },
+      {
+        "description": "Benturan bersenjata dan korban jiwa anak-anak",
+        "time_period": "2023-2024",
+        "numbers_or_incidents": "Tercatat 150 korban jiwa di Papua dari 209 insiden benturan bersenjata pada 2023 dan 85 insiden pada 2024. Anak-anak menjadi korban langsung; pada April 2024, Ronaldo D. (12 tahun) tewas terkena tembakan di Sugapa, Intan Jaya. Nepina D. (6 tahun) selamat dan dirawat. Pada 26 September 2021, Melpianus (di bawah 2 tahun) dan Yoakim M. (6 tahun) terkena tembakan di Jogotapa, Sugapa[citation:5].",
+        "source": "Pengamat HAM dan advokat anak; OHCHR submission",
+        "citation": "OHCHR submission, 2025[citation:5]"
+      }
+    ],
+    "stated_administrative_or_security_rationales": [
+      {
+        "measure": "Operasi TNI-Polri dan pengamanan di wilayah konflik (Nduga, Intan Jaya, Puncak)",
+        "official_rationale": "Tindakan ini diambil untuk melindungi pekerja infrastruktur, menegakkan hukum, dan memberantas kelompok separatis. Pemerintah mengklaim operasi diperlukan untuk melindungi keutuhan NKRI dan mencegah terorisme. Pemerintah menyatakan bahwa kehadiran militer dan pembangunan ekonomi adalah strategi utama penyelesaian konflik[citation:4][citation:10].",
+        "opposing_characterization": "Masyarakat adat dan organisasi HAM mengkarakterisasi operasi militer sebagai bentuk pendudukan dan militerisasi yang menyebabkan ketakutan, pelanggaran HAM, dan pengungsian paksa bagi warga sipil, termasuk anak-anak. Operasi di Nduga menyebabkan lebih dari 38,000 orang mengungsi tanpa bantuan dari negara[citation:15]. Tidak ada mekanisme khusus untuk melindungi anak-anak dalam situasi konflik bersenjata, dan kehadiran pos militer di dekat pemukiman memperbesar risiko anak-anak terkena tembakan[citation:5].",
+        "citation": "RNZ, 2018[citation:4]; TAPOL briefing[citation:15]; OHCHR submission, 2025[citation:5]"
+      },
+      {
+        "measure": "UU Otonomi Khusus Jilid II (UU No. 2 Tahun 2021) dan pemekaran 6 provinsi",
+        "official_rationale": "Pemerintah menilai Otsus Jilid II sebagai jalan tengah antara kelompok separatis dan pro-NKRI di Papua, memberikan kewenangan khusus kepada Papua untuk mengelola daerah dengan diskresi. Pemekaran bertujuan untuk pemerataan pembangunan dan peningkatan kesejahteraan OAP, dengan memperkuat peran MRP (yang didominasi OAP) dan afirmasi di DPRK[citation:1][citation:11].",
+        "opposing_characterization": "Sebagian kelompok menolak Otsus Jilid II karena dianggap gagal menyelesaikan akar persoalan; hasil evaluasi MRP 2013 menyimpulkan Otsus gagal[citation:6]. Masyarakat adat mengklaim bahwa Otsus justru menyebabkan penderitaan bagi rakyat karena tidak memperbaiki pendidikan, kesehatan, ekonomi, dan kesejahteraan. Tuntutan referendum tetap menjadi isu utama. Pemekaran justru memicu munculnya elite lokal kuat yang mempengaruhi struktur penegakan hukum dan politik, serta tidak disertai mekanisme resolusi konflik yang memadai[citation:11]. Anak-anak di Papua, meskipun dijamin dalam Inpres No. 9/2020 tentang Percepatan Kesejahteraan Papua, tidak memiliki mekanisme formal untuk melindungi kepentingan terbaik mereka dalam situasi konflik bersenjata[citation:5].",
+        "citation": "Jurnal Politeia, 2023[citation:1]; Suara Papua, 2020[citation:6]; Jurnal Fiat Justisia, 2024[citation:11]"
+      }
+    ]
+  }
+}

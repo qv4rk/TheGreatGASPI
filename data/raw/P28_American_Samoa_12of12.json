@@ -1,0 +1,237 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Great GASPI Data Schema",
+  "type": "object",
+  "prompt_id": "prompt-28",
+  "territory_name": "American Samoa",
+  "perspective": "Samoan Customary Land / Fa’amatai Advocates / Communal Land Defenders",
+  "language": "English (with Samoan terms)",
+  "years_of_scope": "1900-2026",
+  "wgs84_center": {
+    "lat": -14.2705,
+    "lng": -170.1322
+  },
+  "topographic_and_control_data": {
+    "total_area_sqkm": 199,
+    "accessible_area_sqkm": "data not available",
+    "control_zones": [
+      {
+        "zone_name": "Communal (Customary) Lands (fa'aleaganu'u)",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Fa’amatai system / communal land holders / extended families (aiga)",
+        "access_restrictions": "Ownership of communal land is vested in the matai title-holding family group; customary land cannot be alienated by sale to non-Samoans or non-members of the title-holding family group, subject to specific exceptions under local law and federal interpretation",
+        "strategic_features_located_here": [
+          "Village territories and settlements across Tutuila, Aunu'u, Ofu, Olosega, and Ta'ū",
+          "Traditional agricultural and agroforestry areas",
+          "Cultural and sacred sites (including elevated features of cultural significance)"
+        ]
+      },
+      {
+        "zone_name": "Individual Owned or Freehold Land",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Individual landowners / local land commissions",
+        "access_restrictions": "Subject to standard property laws; less common than customary land; may be alienated or sold under specific conditions",
+        "strategic_features_located_here": [
+          "Some urban areas, including parts of Pago Pago"
+        ]
+      }
+    ],
+    "demographics": {
+      "population_category_a": "data not available",
+      "population_category_b": "data not available",
+      "density_per_sqkm": "data not available",
+      "displacement_or_refugee_count": "data not available",
+      "notes": "Native ethnic Samoans make up the overwhelming majority of the population. The matai (chiefs) hold authority over communal lands on behalf of the aiga (extended families). Demographic data on the proportion of land controlled by aiga is not available in the search results.",
+      "citation": "data not available"
+    },
+    "named_high_ground_features": [
+      {
+        "name": "Mount Matafao",
+        "lat": -14.2756,
+        "lng": -170.7025,
+        "elevation_m": 653,
+        "functional_strategic_description": "Highest point on Tutuila Island; control of observation and movement corridors across the central and eastern portions of the main island; position relative to traditional village territories and water resources",
+        "control_zone": "Communal or mixed jurisdiction",
+        "citation": "data not available"
+      },
+      {
+        "name": "Mount Pioa (Rainmaker Mountain)",
+        "lat": -14.2833,
+        "lng": -170.6333,
+        "elevation_m": 523,
+        "functional_strategic_description": "High ground near Pago Pago Harbor; control of observation over the harbor and approaches; culturally significant feature linked to matai titles and traditional lands",
+        "control_zone": "Communal or mixed jurisdiction",
+        "citation": "data not available"
+      }
+    ],
+    "physical_barriers": [
+      {
+        "name": "Federal and Territorial Projects Affecting Communal Land Access",
+        "type": "manmade",
+        "lat": "data not available",
+        "lng": "data not available",
+        "length_km": "data not available",
+        "temporal_variations": "Various projects and infrastructure developments have affected communal land access over time",
+        "stated_justification": "Official justifications often cite public benefit, infrastructure development, or administrative necessity",
+        "opposing_characterization": "Customary land defenders characterize these projects as encroachments on communal lands and disruptions to traditional use and access",
+        "citation": "data not available"
+      }
+    ]
+  },
+  "hydrology_data": {
+    "upstream_downstream_position": "not_applicable",
+    "water_infrastructure": [
+      {
+        "name": "Traditional Water Sources and Streams",
+        "type": "Traditional water sources",
+        "lat": "data not available",
+        "lng": "data not available",
+        "controlling_entity": "Villages / customary management",
+        "capacity_or_flow_rate": "data not available",
+        "citation": "data not available"
+      }
+    ],
+    "per_capita_water_consumption_l_d": {
+      "population_a": "data not available",
+      "population_b": "data not available",
+      "who_reference_standard": 100.0,
+      "citation": "data not available"
+    },
+    "agriculture": {
+      "arable_land_pct": "data not available",
+      "irrigated_land_pct": "data not available",
+      "food_import_dependency_pct": "data not available",
+      "notes": "Communal land includes agricultural and agroforestry areas under customary management. Food import dependency is likely high, as is the case with many Pacific island territories",
+      "citation": "data not available"
+    }
+  },
+  "environmental_degradation_incidents": [
+    {
+      "incident_type": "Coastal Erosion and Coral Reef Damage",
+      "chemical_or_hazard_agents": [
+        "data not available"
+      ],
+      "toxicological_classification": "Environmental degradation",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": "data not available",
+      "ongoing": true,
+      "stated_justification": "data not available",
+      "opposing_characterization": "Local village concerns",
+      "documenting_orgs": [
+        "data not available"
+      ],
+      "citations": [
+        "data not available"
+      ]
+    }
+  ],
+  "infrastructure_and_logistics_data": {
+    "airspace_and_spectrum": {
+      "cellular_tech_allowed": "data not available",
+      "flight_corridor_control": "data not available",
+      "stated_justification": "data not available",
+      "citation": "data not available"
+    },
+    "maritime_and_cabotage": {
+      "eez_claimed_sqkm": "data not available",
+      "eez_accessible_sqkm": "data not available",
+      "accessible_ports_count": 1,
+      "fishing_zone_nautical_miles": "data not available",
+      "cabotage_or_merchant_marine_restrictions": "data not available",
+      "stated_justification": "data not available",
+      "citation": "data not available"
+    },
+    "trade_and_dual_use_controls": {
+      "controlled_item_categories": [
+        "data not available"
+      ],
+      "transit_permit_regimes": "data not available",
+      "stated_justification": "data not available",
+      "citation": "data not available"
+    },
+    "checkpoints_and_gates": [
+      {
+        "name": "data not available",
+        "lat": "data not available",
+        "lng": "data not available",
+        "permit_type_required": "data not available",
+        "stated_justification": "data not available",
+        "citation": "data not available"
+      }
+    ],
+    "utilities_and_energy_grid": {
+      "official_currency": "United States Dollar (USD)",
+      "local_informal_currency": "data not available",
+      "power_generating_assets": [
+        "data not available"
+      ],
+      "daily_electricity_hours_avg": "data not available",
+      "power_grid_self_sufficiency_pct": "data not available",
+      "fuel_import_dependency_pct": "data not available",
+      "debt_or_fiscal_transfer_mechanisms": "data not available",
+      "citation": "data not available"
+    }
+  },
+  "jurisprudence_and_statutory_friction": {
+    "enforced_system_name": "Territorial legal regime under U.S. federal authority / American Samoa Constitution",
+    "preferred_or_prior_system_name": "Fa’amatai system and Samoan customary law / Deed of Cession protections",
+    "population_under_special_or_external_law": "data not available",
+    "enforced_statutes_cited": [
+      "American Samoa Constitution",
+      "Deed of Cession (1900 and 1904)",
+      "Local statutes restricting the sale of communal land to non-Samoans (e.g., 21 ASC Chapter 75, or similar provisions)"
+    ],
+    "landmark_jurisprudence_and_treaties": [
+      {
+        "judicial_body_or_treaty": "data not available",
+        "case_or_resolution_name": "data not available",
+        "year": "data not available",
+        "holding_or_standard": "data not available",
+        "official_legal_rationale": "data not available",
+        "citation": "data not available"
+      }
+    ],
+    "documented_statutory_conflicts": [
+      {
+        "legal_domain": "Land Tenure",
+        "enforced_clause_reference": "U.S. constitutional norms (Equal Protection, due process) and free-alienation market principles",
+        "preferred_or_prior_clause_reference": "Customary prohibition on permanent alienation of communal land / communal land tenure under Samoan custom",
+        "conflict_description": "Tension between U.S. constitutional and market principles which generally favor free alienation of property, and the Samoan customary system (fa’amatai) which is based on communal land tenure and prohibits permanent alienation of customary land to non-Samoans or non-members of the title-holding family group. Local statutes are designed to restrict the sale of communal land to non-Samoans, supported by the Deed of Cession protections.",
+        "citation": "data not available"
+      },
+      {
+        "legal_domain": "Constitutional Status and Citizenship",
+        "enforced_clause_reference": "Territorial legal regime of the United States",
+        "preferred_or_prior_clause_reference": "Samoan political status and fa’amatai governance",
+        "conflict_description": "Tension between U.S. constitutional birthright citizenship norms and the continued non-citizen national status of persons born in American Samoa. This unique status affects the political and legal position of Samoans within the U.S. framework.",
+        "citation": "data not available"
+      }
+    ]
+  },
+  "security_and_justification_data": {
+    "official_threat_assessments_or_attack_statistics": [
+      {
+        "description": "data not available",
+        "time_period": "data not available",
+        "numbers_or_incidents": "data not available",
+        "source": "data not available",
+        "citation": "data not available"
+      }
+    ],
+    "stated_administrative_or_security_rationales": [
+      {
+        "measure": "Alienation restrictions on communal land",
+        "official_rationale": "Local statutes designed to restrict the sale of communal land to non-Samoans are supported as a means of protecting the Samoan cultural system and communal land tenure, drawing on the Deed of Cession protections.",
+        "citation": "data not available"
+      },
+      {
+        "measure": "Non-citizen national status",
+        "official_rationale": "The U.S. federal government maintains the distinct immigration and nationality status of American Samoa",
+        "opposing_characterization": "Local and customary advocates, including the fa’amatai system, view this status as a limitation on the political and legal rights of Samoans",
+        "citation": "data not available"
+      }
+    ]
+  }
+}

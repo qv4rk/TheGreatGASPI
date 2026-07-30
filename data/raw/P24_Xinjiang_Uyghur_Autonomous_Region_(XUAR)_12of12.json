@@ -1,0 +1,310 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Great GASPI Data Schema",
+  "type": "object",
+  "prompt_id": "prompt-24",
+  "territory_name": "Xinjiang Uyghur Autonomous Region (XUAR)",
+  "perspective": "Uyghur Rights Preservation / World Uyghur Congress / Diaspora Archives",
+  "language": "English (with Uyghur terms where appropriate)",
+  "years_of_scope": "2014-2026",
+  "wgs84_center": {
+    "lat": 39.0,
+    "lng": 78.0
+  },
+  "topographic_and_control_data": {
+    "total_area_sqkm": 1664900,
+    "accessible_area_sqkm": "data not available",
+    "control_zones": [
+      {
+        "zone_name": "Xinjiang Production and Construction Corps (Bingtuan) Occupied Lands",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Xinjiang Production and Construction Corps (XPCC/Bingtuan)",
+        "access_restrictions": "Bingtuan-controlled areas are heavily monitored; access restricted for Uyghur populations; mandatory surveillance and movement controls ",
+        "strategic_features_located_here": [
+          "Cotton production bases [citation:11]",
+          "State farms and agricultural colonies ",
+          "Border regions with strategic military presence"
+        ]
+      },
+      {
+        "zone_name": "Uyghur-populated Rural Areas (Southern Xinjiang)",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Local Party Committees / Public Security Bureau",
+        "access_restrictions": "Checkpoints every 100 yards in cities like Kashgar; residents require permits to leave registered areas; movement severely restricted [citation:9][citation:12]",
+        "strategic_features_located_here": [
+          "Kashgar Prefecture",
+          "Hotan Prefecture",
+          "Aksu Prefecture",
+          "Kizilsu Kirgiz Autonomous Prefecture"
+        ]
+      },
+      {
+        "zone_name": "Vocational Education and Training Centers (VETCs) / Detention Facilities",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Public Security Bureau / Party Committees",
+        "access_restrictions": "Highly restricted; detainees held without due process; released individuals subject to ongoing surveillance [citation:4][citation:12]",
+        "strategic_features_located_here": [
+          "Re-education camps (terminology disputed by Chinese authorities)",
+          "Industrial parks with forced labor facilities",
+          "Prisons for those formally prosecuted"
+        ]
+      }
+    ],
+    "demographics": {
+      "population_category_a": "data not available",
+      "population_category_b": "data not available",
+      "density_per_sqkm": "data not available",
+      "displacement_or_refugee_count": "data not available",
+      "notes": "Chinese state statistics report Uyghur population growth: 8.3456 million in 2000, 10.0013 million in 2010, and 11.6243 million in 2020 [citation:2]. However, diaspora and rights organizations dispute these figures, citing forced birth control, sterilization, and demographic engineering. The Uyghur population is concentrated in southern Xinjiang (Kashgar, Hotan, Aksu, Kizilsu), where they constitute 83.74% of the population . Estimates of detention range from 900,000 to 1.5 million people, based on leaked data sets [citation:4].",
+      "citation": "Xinjiang 2025 National Economic and Social Development Statistical Bulletin; The Intercept data leak"
+    },
+    "named_high_ground_features": [
+      {
+        "name": "Tian Shan Mountains",
+        "lat": "data not available",
+        "lng": "data not available",
+        "elevation_m": "data not available",
+        "functional_strategic_description": "Natural barrier separating northern and southern Xinjiang; controls movement corridors and observation points over major population centers",
+        "control_zone": "Mixed; Bingtuan and Party control",
+        "citation": "data not available"
+      },
+      {
+        "name": "Tarim Basin (Southern Xinjiang)",
+        "lat": "data not available",
+        "lng": "data not available",
+        "elevation_m": "data not available",
+        "functional_strategic_description": "Primary Uyghur-populated region; location of major cotton production and water resources; controlled through surveillance and checkpoints [citation:11]",
+        "control_zone": "Uyghur-populated rural areas",
+        "citation": "data not available"
+      }
+    ],
+    "physical_barriers": [
+      {
+        "name": "Checkpoint Network and Surveillance Infrastructure",
+        "type": "manmade",
+        "lat": "data not available",
+        "lng": "data not available",
+        "length_km": "data not available",
+        "temporal_variations": "Massive expansion post-2014; checkpoints every 100 yards in cities like Kashgar; grid-management system implemented [citation:9][citation:12]",
+        "stated_justification": "Chinese authorities claim checkpoints are counter-terrorism measures to combat the 'three forces' of separatism, extremism, and terrorism [citation:5][citation:13]",
+        "opposing_characterization": "Uyghur rights organizations characterize the checkpoint network as a system of collective punishment and racial profiling that restricts movement, separates families, and creates a 'normalization of fear' [citation:4][citation:9]",
+        "citation": "Human Rights Watch; The Intercept; RNA Media"
+      },
+      {
+        "name": "Vocational Education and Training Centers (VETCs)",
+        "type": "manmade",
+        "lat": "data not available",
+        "lng": "data not available",
+        "length_km": "data not available",
+        "temporal_variations": "Established 2017; phased transformation to 'vocational schools' but detention continues; many trainees still unaccounted for [citation:4]",
+        "stated_justification": "Chinese authorities describe VETCs as schools for deradicalization, similar to programs in the UK and France; trainees learn language, law, and vocational skills [citation:1][citation:6][citation:13]",
+        "opposing_characterization": "Uyghur rights organizations characterize VETCs as high-tech penal colonies with forced labor, surveillance, and cultural assimilation; estimate 900,000 to 1.5 million people have been detained [citation:4][citation:12]",
+        "citation": "Human Rights Watch; Darren Byler interview; China Law Translate"
+      }
+    ]
+  },
+  "hydrology_data": {
+    "upstream_downstream_position": "upstream",
+    "water_infrastructure": [
+      {
+        "name": "Tarim River Basin",
+        "type": "Inland river basin",
+        "lat": "data not available",
+        "lng": "data not available",
+        "controlling_entity": "Chinese government / Tarim River Basin Water Resource Commission",
+        "capacity_or_flow_rate": "China's largest inland river; critical for irrigated agriculture including cotton production; experiences severe water scarcity and resource competition [citation:11]",
+        "citation": "Appiah et al., 2014"
+      }
+    ],
+    "per_capita_water_consumption_l_d": {
+      "population_a": "data not available",
+      "population_b": "data not available",
+      "who_reference_standard": 100.0,
+      "citation": "data not available"
+    },
+    "agriculture": {
+      "arable_land_pct": "data not available",
+      "irrigated_land_pct": "data not available",
+      "food_import_dependency_pct": "data not available",
+      "notes": "Xinjiang leads in cotton production in China; Bingtuan controls 30% of stable land with only 12% of population [citation:11]. Cotton production relies on intensive irrigation from the Tarim River, causing resource competition and salinization. Uyghur farmers face restrictions on water use compared to state farms [citation:11]",
+      "citation": "Appiah et al., 2014; China Perspectives"
+    }
+  },
+  "environmental_degradation_incidents": [
+    {
+      "incident_type": "Soil salinization and water resource depletion",
+      "chemical_or_hazard_agents": [
+        "Salinity accumulation",
+        "Groundwater depletion"
+      ],
+      "toxicological_classification": "Land degradation; reduced agricultural productivity",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": "data not available",
+      "ongoing": true,
+      "stated_justification": "Chinese authorities implement subsurface drainage and irrigation technologies to combat salinization [citation:8][citation:15]",
+      "opposing_characterization": "Uyghur and environmental groups characterize cotton production as exacerbating water scarcity and damaging the fragile ecosystem of the Tarim Basin",
+      "documenting_orgs": [
+        "Xinjiang Production and Construction Corps (Bingtuan)",
+        "Tarim University",
+        "Environmental NGOs"
+      ],
+      "citations": [
+        "Appiah et al., 2014",
+        "Agriculture-Basel journal"
+      ]
+    }
+  ],
+  "infrastructure_and_logistics_data": {
+    "airspace_and_spectrum": {
+      "cellular_tech_allowed": "3G, 4G, 5G with heavy surveillance; internet and messaging apps monitored [citation:9]",
+      "flight_corridor_control": "Airspace controlled by Chinese authorities; military presence at airports",
+      "stated_justification": "Security control",
+      "opposing_characterization": "Digital surveillance and control of communications are used to monitor and suppress Uyghur communities",
+      "citation": "RNA Media"
+    },
+    "maritime_and_cabotage": {
+      "eez_claimed_sqkm": "data not available",
+      "eez_accessible_sqkm": "data not available",
+      "accessible_ports_count": 0,
+      "fishing_zone_nautical_miles": "data not available",
+      "cabotage_or_merchant_marine_restrictions": "Landlocked region",
+      "stated_justification": "data not available",
+      "citation": "data not available"
+    },
+    "trade_and_dual_use_controls": {
+      "controlled_item_categories": [
+        "Cotton and textiles (subject to international sanctions and forced labor allegations)",
+        "Oil and gas (extracted in Xinjiang and transferred to inland provinces)"
+      ],
+      "transit_permit_regimes": "Movement between cities requires permits and identity checks; Uyghurs face stricter controls",
+      "stated_justification": "Security control",
+      "opposing_characterization": "Resource extraction disproportionately benefits Han Chinese and the state; oil, cotton, and other resources are transferred out of Xinjiang",
+      "citation": "data not available"
+    },
+    "checkpoints_and_gates": [
+      {
+        "name": "Kashgar City Checkpoints",
+        "lat": 39.4677,
+        "lng": 75.9938,
+        "permit_type_required": "Identity card verification; biometric scanning; travel permits to leave areas",
+        "stated_justification": "Counter-terrorism and public security",
+        "opposing_characterization": "Uyghurs require permits to leave their registered areas; checkpoints are used to monitor and control movement [citation:9][citation:12]",
+        "citation": "RNA Media"
+      },
+      {
+        "name": "Integrated Joint Operations Platform (IJOP) Checkpoints",
+        "lat": "data not available",
+        "lng": "data not available",
+        "permit_type_required": "Digital identity verification; biometric data check",
+        "stated_justification": "Data collection for security purposes",
+        "opposing_characterization": "IJOP system collects massive personal data (fingerprints, iris scans, DNA, voice samples) and flags 'suspicious' behavior, triggering investigations and detention [citation:4][citation:12]",
+        "citation": "Human Rights Watch; The Intercept"
+      }
+    ],
+    "utilities_and_energy_grid": {
+      "official_currency": "Chinese Yuan (CNY / RMB)",
+      "local_informal_currency": "data not available",
+      "power_generating_assets": [
+        "Coal and hydroelectric plants in Xinjiang",
+        "Tarim Basin oil and gas extraction sites"
+      ],
+      "daily_electricity_hours_avg": "24 hours",
+      "power_grid_self_sufficiency_pct": "data not available",
+      "fuel_import_dependency_pct": "data not available",
+      "debt_or_fiscal_transfer_mechanisms": "Resource extraction revenue largely flows to central government and inland provinces",
+      "citation": "data not available"
+    }
+  },
+  "jurisprudence_and_statutory_friction": {
+    "enforced_system_name": "Chinese National Law / Counter-Terrorism Law / De-extremification Regulations",
+    "preferred_or_prior_system_name": "Uyghur customary law / Islamic law / UN human rights standards",
+    "population_under_special_or_external_law": "data not available",
+    "enforced_statutes_cited": [
+      "PRC Counter-Terrorism Law",
+      "Xinjiang Uyghur Autonomous Region Regulations on De-extremification",
+      "Xinjiang Uyghur Autonomous Region Measures on the Implementation of the Counter-Terrorism Law",
+      "Regulations on Religious Affairs"
+    ],
+    "landmark_jurisprudence_and_treaties": [
+      {
+        "judicial_body_or_treaty": "United Nations Human Rights Council",
+        "case_or_resolution_name": "OHCHR Report on Human Rights in Xinjiang",
+        "year": 2022,
+        "holding_or_standard": "The UN High Commissioner for Human Rights found significant concerns about arbitrary detention, torture, forced labor, and restrictions on fundamental freedoms in Xinjiang",
+        "official_legal_rationale": "Chinese authorities reject the report, claiming it is based on fabricated evidence and biased sources",
+        "citation": "OHCHR Report 2022"
+      },
+      {
+        "judicial_body_or_treaty": "U.S. Congress",
+        "case_or_resolution_name": "Uyghur Human Rights Policy Act",
+        "year": 2020,
+        "holding_or_standard": "Declared China's actions in Xinjiang a 'massive human rights abuse' and imposed sanctions on officials and entities",
+        "official_legal_rationale": "Chinese government denounces the act as interference in internal affairs and rejects its findings",
+        "citation": "Uyghur Human Rights Policy Act"
+      }
+    ],
+    "documented_statutory_conflicts": [
+      {
+        "legal_domain": "De-extremification Regulations vs. Customary Rights",
+        "enforced_clause_reference": "XUAR De-extremification Regulations (identifies 15 manifestations of extremism)",
+        "preferred_or_prior_clause_reference": "Uyghur customary practices / Islamic religious practices",
+        "conflict_description": "Authorities have banned Islamic-sounding names, restricted fasting during Ramadan, confiscated religious materials, and regulated mosque activities [citation:12]. The regulations blur the line between lawful religious practice and 'extremism,' allowing authorities to criminalize cultural and religious expression. Two-faced people' (those deemed insufficiently supportive of state policies) face detention.",
+        "citation": "UK Home Office CPIN; Human Rights Watch"
+      },
+      {
+        "legal_domain": "Land Rights / Forced Labor",
+        "enforced_clause_reference": "Labor laws and state economic policies",
+        "preferred_or_prior_clause_reference": "Uyghur land rights and customary land use",
+        "conflict_description": "Uyghur populations are assigned to work in factories under surveillance; the 'smart factory' system uses data from checkpoints and smartphones to hold people in place, facilitating a system of unfree labor [citation:4]. Former detainees are released to ongoing surveillance and work restrictions.",
+        "citation": "Darren Byler interview; Human Rights Watch"
+      }
+    ]
+  },
+  "security_and_justification_data": {
+    "official_threat_assessments_or_attack_statistics": [
+      {
+        "description": "Counter-terrorism operations in Xinjiang",
+        "time_period": "2014-2026",
+        "numbers_or_incidents": "Chinese authorities claim to have 'wiped out 1,588 violent terrorist gangs and captured 12,995 people' and investigated 4,858 instances of illegal religious activities involving 30,645 people [citation:13]",
+        "source": "Chinese government statements",
+        "citation": "China Law Translate"
+      },
+      {
+        "description": "Detention and surveillance in Xinjiang",
+        "time_period": "2017-2026",
+        "numbers_or_incidents": "Estimated 900,000 to 1.5 million people detained; 52 gigabytes of leaked data from Urumqi Public Security Bureau documenting arrests, surveillance, and detention [citation:4]",
+        "source": "Uyghur rights organizations; The Intercept",
+        "citation": "Darren Byler interview"
+      }
+    ],
+    "stated_administrative_or_security_rationales": [
+      {
+        "measure": "Counter-Terrorism and De-extremification Laws",
+        "official_rationale": "Chinese government states these measures are necessary to combat the 'three forces' (separatism, extremism, terrorism) and protect the rights of all ethnic groups in Xinjiang [citation:5][citation:13]",
+        "opposing_characterization": "Uyghur rights organizations characterize these measures as systemic repression, cultural genocide, and forced assimilation targeting Uyghur identity, language, and religion [citation:4][citation:12]",
+        "citation": "OHCHR report; Human Rights Watch"
+      },
+      {
+        "measure": "Vocational Education and Training Centers (VETCs)",
+        "official_rationale": "Chinese authorities describe VETCs as schools providing language, legal, and vocational education to prevent radicalization [citation:1][citation:6]",
+        "opposing_characterization": "Uyghur rights organizations characterize VETCs as high-tech prisons where Uyghurs are subjected to forced labor, political re-education, and cultural erasure; many detainees remain unaccounted for [citation:4][citation:12]",
+        "citation": "Human Rights Watch; The Intercept"
+      },
+      {
+        "measure": "Surveillance System (IJOP, facial recognition, biometric collection)",
+        "official_rationale": "Data collection for public security and counter-terrorism purposes",
+        "opposing_characterization": "A system of 'dataveillance' that tracks Uyghurs' every move, including private communications, social relationships, and daily routines; flags lawful behavior as 'suspicious' and triggers detention [citation:4][citation:9][citation:12]",
+        "citation": "Human Rights Watch; RNA Media"
+      },
+      {
+        "measure": "Forced Labor and Resource Extraction",
+        "official_rationale": "Chinese authorities state that all workers are protected by labor laws and have freedom to choose employment [citation:6][citation:14]",
+        "opposing_characterization": "Uyghurs are assigned to work in factories and agricultural operations under surveillance; the 'smart factory' system and checkpoints hold people in place; resources (oil, cotton) are transferred to inland provinces [citation:4][citation:11]",
+        "citation": "Darren Byler interview; Appiah et al., 2014"
+      }
+    ]
+  }
+}

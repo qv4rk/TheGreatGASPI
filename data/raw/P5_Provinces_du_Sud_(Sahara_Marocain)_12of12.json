@@ -1,0 +1,329 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Great GASPI Data Schema",
+  "type": "object",
+  "prompt_id": "prompt-5",
+  "territory_name": "Provinces du Sud (Sahara Marocain)",
+  "perspective": "Royaume du Maroc / Ministère de l'Intérieur / Administration des Provinces du Sud",
+  "language": "French",
+  "years_of_scope": "1975-2026",
+  "wgs84_center": {
+    "lat": 25.0,
+    "lng": -13.0
+  },
+  "topographic_and_control_data": {
+    "total_area_sqkm": "710850",
+    "accessible_area_sqkm": "416075",
+    "control_zones": [
+      {
+        "zone_name": "Région de Laâyoune-Sakia El Hamra",
+        "area_sqkm": 140018,
+        "area_pct": 19.7,
+        "governing_authority": "Administration marocaine / Ministère de l'Intérieur",
+        "access_restrictions": "Accès réglementé par les autorités marocaines; zones militaires le long du Berm",
+        "strategic_features_located_here": [
+          "Plateau de Sakia El Hamra",
+          "Mine de Bou Craa",
+          "Convoyeur à bande de 102 km",
+          "Ville de Laâyoune",
+          "Poste frontière de Guerguerat (extrême sud-ouest)"
+        ]
+      },
+      {
+        "zone_name": "Région de Dakhla-Oued Ed-Dahab",
+        "area_sqkm": 130898,
+        "area_pct": 18.4,
+        "governing_authority": "Administration marocaine / Ministère de l'Intérieur",
+        "access_restrictions": "Accès réglementé; zone militaire et postes frontière",
+        "strategic_features_located_here": [
+          "Péninsule de Dakhla",
+          "Port de Dakhla",
+          "Station de dessalement de Dakhla",
+          "Zone économique exclusive (ZEE) revendiquée"
+        ]
+      },
+      {
+        "zone_name": "Région de Guelmim-Oued Noun",
+        "area_sqkm": 46108,
+        "area_pct": 6.49,
+        "governing_authority": "Administration marocaine / Ministère de l'Intérieur",
+        "access_restrictions": "Accès réglementé",
+        "strategic_features_located_here": [
+          "Plateau du Draa",
+          "Ville de Guelmim",
+          "Routes vers le sud"
+        ]
+      },
+      {
+        "zone_name": "Zone du Berm (Mur de défense marocain)",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Forces Armées Royales (FAR) du Maroc",
+        "access_restrictions": "Zone militaire hautement restreinte; champ de mines le long du mur",
+        "strategic_features_located_here": [
+          "Mur de défense marocain (longueur d'environ 2 700 km)",
+          "Postes militaires fortifiés",
+          "Champs de mines"
+        ]
+      }
+    ],
+    "demographics": {
+      "population_category_a": 1119678,
+      "population_category_b": "data not available",
+      "density_per_sqkm": 2.7,
+      "displacement_or_refugee_count": "data not available",
+      "notes": "Population légale des trois régions du Sud (Laâyoune-Sakia El Hamra, Dakhla-Oued Ed-Dahab, Guelmim-Oued Noun) au 1er septembre 2024, selon le Recensement Général de la Population et de l'Habitat (RGPH) 2024[reference:0]. Ce chiffre représente 3% de la population totale du Maroc[reference:1].",
+      "citation": "Haut-Commissariat au Plan (HCP), RGPH 2024"
+    },
+    "named_high_ground_features": [
+      {
+        "name": "Plateau du Draa",
+        "lat": 28.5,
+        "lng": -7.5,
+        "elevation_m": 500,
+        "functional_strategic_description": "Contrôle des corridors de mouvement nord-sud; point d'observation sur la vallée du Draa; position relative aux ressources en eau de la vallée",
+        "control_zone": "Région de Guelmim-Oued Noun",
+        "citation": "Coordonnées approximatives[reference:2]"
+      },
+      {
+        "name": "Gueltat Zemmour",
+        "lat": 25.15,
+        "lng": -12.3667,
+        "elevation_m": 465,
+        "functional_strategic_description": "Point d'observation sur les routes de transhumance et les pistes commerciales; contrôle des mouvements dans le nord-est du Sahara",
+        "control_zone": "Région de Laâyoune-Sakia El Hamra",
+        "citation": "Coordonnées et altitude[reference:3]"
+      }
+    ],
+    "physical_barriers": [
+      {
+        "name": "Berm (Mur de défense marocain / Moroccan Wall)",
+        "type": "manmade",
+        "lat": "data not available",
+        "lng": "data not available",
+        "length_km": 2700,
+        "temporal_variations": "Construit entre 1980 et 1987[reference:4]; toujours en place et entretenu",
+        "stated_justification": "Le Maroc justifie la construction du Berm comme une mesure de sécurité défensive pour protéger ses provinces du Sud contre les incursions armées, les attentats et les activités du Front POLISARIO[reference:5]. Il s'agit d'une barrière de séparation entre les zones contrôlées par le Maroc et celles contrôlées par le POLISARIO[reference:6][reference:7].",
+        "opposing_characterization": "Le Front POLISARIO et les organisations de défense des droits humains caractérisent le Berm comme un 'mur de la honte' et un instrument d'occupation, de séparation et de déplacement forcé de la population sahraouie[reference:8]. Il est également critiqué pour l'utilisation massive de mines terrestres tout au long de son tracé[reference:9].",
+        "citation": "Longueur d'environ 2 700 km[reference:10][reference:11][reference:12]"
+      }
+    ]
+  },
+  "hydrology_data": {
+    "upstream_downstream_position": "shared",
+    "water_infrastructure": [
+      {
+        "name": "Station de dessalement de Laâyoune",
+        "type": "Usine de dessalement",
+        "lat": "data not available",
+        "lng": "data not available",
+        "controlling_entity": "Office National de l'Électricité et de l'Eau Potable (ONEE)",
+        "capacity_or_flow_rate": "data not available",
+        "citation": "data not available"
+      },
+      {
+        "name": "Station de dessalement de Dakhla",
+        "type": "Usine de dessalement",
+        "lat": "data not available",
+        "lng": "data not available",
+        "controlling_entity": "Office National de l'Électricité et de l'Eau Potable (ONEE)",
+        "capacity_or_flow_rate": "37 millions de m³ par an (capacité de production)",
+        "citation": "Projet de dessalement à Dakhla[reference:13]"
+      },
+      {
+        "name": "Convoyeur à bande de Bou Craa",
+        "type": "Infrastructure minière / Transport de minerai",
+        "lat": 26.32278,
+        "lng": -12.84972,
+        "controlling_entity": "Phosboucraa (Groupe OCP)",
+        "capacity_or_flow_rate": "4 millions de tonnes de phosphate par an",
+        "citation": "Coordonnées de la mine de Bou Craa[reference:14]; capacité d'extraction[reference:15]; longueur du convoyeur[reference:16]"
+      }
+    ],
+    "per_capita_water_consumption_l_d": {
+      "population_a": "data not available",
+      "population_b": "data not available",
+      "who_reference_standard": 100.0,
+      "citation": "data not available"
+    },
+    "agriculture": {
+      "arable_land_pct": "data not available",
+      "irrigated_land_pct": "data not available",
+      "food_import_dependency_pct": "data not available",
+      "citation": "data not available"
+    }
+  },
+  "environmental_degradation_incidents": [
+    {
+      "incident_type": "Mines terrestres et restes explosifs de guerre",
+      "chemical_or_hazard_agents": [
+        "Mines antipersonnel",
+        "Munitions non explosées (UXO)",
+        "Restes explosifs de guerre (REG)"
+      ],
+      "toxicological_classification": "Danger physique / risque de blessure ou de mort",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": 1980,
+      "ongoing": true,
+      "stated_justification": "Les Forces Armées Royales (FAR) marocaines mènent des opérations de déminage depuis 2007. Entre le 15 janvier 2007 et le 30 octobre 2009, 1 133 km² ont été déminés, avec 2 195 mines antipersonnel, 7 000 munitions non explosées et 97 293 autres REG découverts et détruits[reference:17]. Depuis le début de 2024, 13 850 munitions non explosées, 116 mines et 2 900 munitions d'armes légères ont été détruites[reference:18].",
+      "opposing_characterization": "Le Front POLISARIO et les organisations de défense des droits humains accusent le Maroc d'être responsable des dommages environnementaux causés par les mines terrestres, qui menacent la vie humaine, la biodiversité et le mode de vie des Sahraouis[reference:19]. La ceinture de mines le long du Berm est considérée comme le plus long champ de mines continu du monde[reference:20].",
+      "documenting_orgs": [
+        "Forces Armées Royales (FAR)",
+        "MINURSO",
+        "Front POLISARIO",
+        "Sahara Press Service (SPS)",
+        "Organisations de défense des droits humains"
+      ],
+      "citations": [
+        "Données de déminage[reference:21]",
+        "Opérations de déminage 2024[reference:22]",
+        "Caractérisation du champ de mines[reference:23]"
+      ]
+    },
+    {
+      "incident_type": "Exploitation minière du phosphate",
+      "chemical_or_hazard_agents": [
+        "Poussières",
+        "Déchets miniers"
+      ],
+      "toxicological_classification": "Pollution industrielle",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": 1972,
+      "ongoing": true,
+      "stated_justification": "Le Groupe OCP et sa filiale Phosboucraa mettent en œuvre des programmes de développement industriel intégrant des mesures environnementales, telles que la récupération et le recyclage de plus de 80 % des eaux utilisées dans les procédés d'enrichissement[reference:24]. Les bénéfices de Phosboucraa sont réinvestis dans les Provinces du Sud[reference:25][reference:26].",
+      "opposing_characterization": "Les organisations de défense des droits humains et le Front POLISARIO contestent la légitimité de l'exploitation des ressources naturelles du Sahara occidental, y compris le phosphate, sans le consentement du peuple sahraoui[reference:27].",
+      "documenting_orgs": [
+        "Groupe OCP",
+        "Phosboucraa",
+        "Front POLISARIO",
+        "Western Sahara Resource Watch (WSRW)"
+      ],
+      "citations": [
+        "Données OCP[reference:28]",
+        "Revendications du POLISARIO[reference:29]"
+      ]
+    }
+  ],
+  "infrastructure_and_logistics_data": {
+    "airspace_and_spectrum": {
+      "cellular_tech_allowed": "3G, 4G, 5G (opérateurs marocains)",
+      "flight_corridor_control": "Contrôle marocain de l'espace aérien; aéroports de Laâyoune et Dakhla",
+      "stated_justification": "L'administration marocaine exerce un contrôle souverain sur l'espace aérien et les télécommunications dans les Provinces du Sud dans le cadre de l'intégrité territoriale du Royaume.",
+      "citation": "data not available"
+    },
+    "maritime_and_cabotage": {
+      "eez_claimed_sqkm": "data not available",
+      "eez_accessible_sqkm": "data not available",
+      "accessible_ports_count": 2,
+      "fishing_zone_nautical_miles": 200,
+      "cabotage_or_merchant_marine_restrictions": "Le Maroc a adopté des textes visant à inclure l'espace maritime faisant face aux côtes du Sahara dans sa zone économique exclusive (ZEE)[reference:30]. La ZEE marocaine revendiquée s'étend sur 200 miles marins (environ 370 km) au large du Sahara[reference:31].",
+      "stated_justification": "La délimitation de la ZEE est justifiée par le Maroc comme un 'ajustement technique' de son arsenal juridique maritime[reference:32].",
+      "citation": "Délimitation de la ZEE marocaine[reference:33]"
+    },
+    "trade_and_dual_use_controls": {
+      "controlled_item_categories": [
+        "Matériaux à double usage (contrôle à l'exportation)",
+        "Équipements militaires et de sécurité"
+      ],
+      "transit_permit_regimes": "Régime de permis de transit pour les marchandises; contrôle douanier aux postes frontières (Guerguerat)",
+      "stated_justification": "Contrôle des flux commerciaux pour des raisons de sécurité et de souveraineté économique.",
+      "citation": "data not available"
+    },
+    "checkpoints_and_gates": [
+      {
+        "name": "Poste frontière de Guerguerat",
+        "lat": 21.4268293,
+        "lng": -16.9598412,
+        "permit_type_required": "Contrôle douanier et d'immigration pour le passage entre le Maroc et la Mauritanie",
+        "stated_justification": "Contrôle des frontières pour la sécurité nationale et la régulation des échanges commerciaux[reference:34].",
+        "citation": "Coordonnées[reference:35]"
+      }
+    ],
+    "utilities_and_energy_grid": {
+      "official_currency": "Dirham marocain (MAD)",
+      "local_informal_currency": "data not available",
+      "power_generating_assets": [
+        "Réseau électrique national (ONEE)",
+        "Projets d'énergies renouvelables (éolien, solaire)"
+      ],
+      "daily_electricity_hours_avg": "24 heures par jour",
+      "power_grid_self_sufficiency_pct": "data not available",
+      "fuel_import_dependency_pct": "data not available",
+      "debt_or_fiscal_transfer_mechanisms": "Programmes d'investissement et de développement des Provinces du Sud (Nouveau Modèle de Développement des Provinces du Sud - NMDPS)",
+      "citation": "NMDPS[reference:36]"
+    }
+  },
+  "jurisprudence_and_statutory_friction": {
+    "enforced_system_name": "Droit marocain (Code civil, Code pénal, Code de commerce) étendu aux Provinces du Sud",
+    "preferred_or_prior_system_name": "Droit espagnol (héritage colonial) / Revendications du Front POLISARIO",
+    "population_under_special_or_external_law": "data not available",
+    "enforced_statutes_cited": [
+      "Constitution du Royaume du Maroc",
+      "Dahirs royaux étendant la législation marocaine aux Provinces du Sud",
+      "Loi organique 111-14 relative aux régions[reference:37]",
+      "Code civil, Code pénal, Code de commerce marocains"
+    ],
+    "landmark_jurisprudence_and_treaties": [
+      {
+        "judicial_body_or_treaty": "Cour Internationale de Justice (CIJ)",
+        "case_or_resolution_name": "Avis consultatif sur le Sahara occidental",
+        "year": 1975,
+        "holding_or_standard": "La CIJ a estimé qu'il n'existait pas de liens de souveraineté territoriale entre le territoire du Sahara occidental et le Maroc ou la Mauritanie à l'époque coloniale, et a reconnu le droit à l'autodétermination du peuple sahraoui.",
+        "official_legal_rationale": "Le Maroc conteste l'interprétation de cet avis et se fonde sur des liens historiques d'allégeance et sur l'initiative marocaine d'autonomie comme solution au conflit[reference:38].",
+        "citation": "Avis consultatif de la CIJ (1975)"
+      },
+      {
+        "judicial_body_or_treaty": "Cour de Justice de l'Union Européenne (CJUE)",
+        "case_or_resolution_name": "Annulation des accords de pêche et d'agriculture UE-Maroc",
+        "year": 2024,
+        "holding_or_standard": "La CJUE a annulé les accords de pêche et d'agriculture entre l'UE et le Maroc dans la mesure où ils s'appliquaient au Sahara occidental, estimant que le consentement du peuple sahraoui n'avait pas été obtenu[reference:39].",
+        "official_legal_rationale": "Le Maroc a fait appel de ces décisions et continue de défendre la validité de ses accords avec l'UE[reference:40].",
+        "citation": "Arrêt de la CJUE du 4 octobre 2024"
+      }
+    ],
+    "documented_statutory_conflicts": [
+      {
+        "legal_domain": "Droit des ressources naturelles",
+        "enforced_clause_reference": "Lois marocaines sur l'exploitation minière et les ressources naturelles",
+        "preferred_or_prior_clause_reference": "Revendications du POLISARIO sur la souveraineté des ressources du Sahara occidental[reference:41]",
+        "conflict_description": "Conflit sur la légitimité de l'exploitation des ressources naturelles (phosphate, pêche) dans les eaux et le territoire du Sahara occidental, le Maroc affirmant sa souveraineté et le POLISARIO revendiquant les ressources pour un futur État sahraoui.",
+        "citation": "Revendications du POLISARIO[reference:42]"
+      },
+      {
+        "legal_domain": "Droit maritime / ZEE",
+        "enforced_clause_reference": "Lois marocaines sur la délimitation de la ZEE incluant les côtes du Sahara[reference:43]",
+        "preferred_or_prior_clause_reference": "Revendications du POLISARIO sur une ZEE sahraouie[reference:44]",
+        "conflict_description": "Conflit sur la délimitation des eaux territoriales et de la ZEE au large du Sahara occidental, le Maroc l'ayant intégrée dans son arsenal juridique et le POLISARIO revendiquant une ZEE distincte.",
+        "citation": "Délimitation de la ZEE marocaine[reference:45]; Déclaration de ZEE par le POLISARIO[reference:46]"
+      }
+    ]
+  },
+  "security_and_justification_data": {
+    "official_threat_assessments_or_attack_statistics": [
+      {
+        "description": "Incursions, attentats et activités armées du Front POLISARIO le long du Berm et dans les zones frontalières",
+        "time_period": "1975-présent",
+        "numbers_or_incidents": "Le Front POLISARIO a revendiqué des attaques contre des positions de l'armée marocaine dans les secteurs d'Oum Dreyga et de Farsia[reference:47].",
+        "source": "Autorités marocaines et communiqués du POLISARIO",
+        "citation": "Revendications du POLISARIO[reference:48]"
+      }
+    ],
+    "stated_administrative_or_security_rationales": [
+      {
+        "measure": "Construction et maintien du Berm (mur de défense)",
+        "official_rationale": "Mesure de sécurité défensive pour protéger les Provinces du Sud contre les incursions armées, les attentats et les activités du Front POLISARIO[reference:49].",
+        "citation": "Description du Berm[reference:50]"
+      },
+      {
+        "measure": "Contrôle des frontières et des points de passage (Guerguerat)",
+        "official_rationale": "Garantir la sécurité nationale et réguler les échanges commerciaux[reference:51].",
+        "citation": "Description de Guerguerat[reference:52]"
+      },
+      {
+        "measure": "Opérations de déminage",
+        "official_rationale": "Protéger les populations civiles et les militaires contre les dangers des mines terrestres et des restes explosifs de guerre[reference:53].",
+        "citation": "Données de déminage[reference:54]"
+      }
+    ]
+  }
+}

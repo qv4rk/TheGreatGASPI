@@ -1,0 +1,456 @@
+{
+  "prompt_id": "prompt-13",
+  "territory_name": "西藏自治区及涉藏州县",
+  "perspective": "中华人民共和国中央人民政府 / 西藏自治区人民政府",
+  "language": "简体中文",
+  "years_of_scope": "1951-2026",
+  "wgs84_center": {
+    "lat": 31.0,
+    "lng": 89.0
+  },
+  "topographic_and_control_data": {
+    "total_area_sqkm": 1228400,
+    "accessible_area_sqkm": "data not available",
+    "control_zones": [
+      {
+        "zone_name": "西藏自治区",
+        "area_sqkm": 1228400,
+        "area_pct": 100.0,
+        "governing_authority": "西藏自治区人民政府",
+        "access_restrictions": "外国人需凭有效护照及入藏函（西藏自治区外事办公室签发）方可进入；部分边境地区（如珠峰大本营、阿里地区）另需办理边境通行证。",
+        "strategic_features_located_here": [
+          "喜马拉雅山脉要隘（吉隆、亚东、樟木口岸）",
+          "冈底斯山脉",
+          "雅鲁藏布江大峡谷",
+          "藏木水电站",
+          "拉萨贡嘎机场"
+        ]
+      },
+      {
+        "zone_name": "边境管控区",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "西藏自治区边防委员会 / 西藏出入境边防检查总站 / 边境管理支队",
+        "access_restrictions": "边境管理区通行证制度（《中华人民共和国边境管理区通行证管理办法》）。非边境管理区居民及外国人须持边防证通行。部分敏感地带（中印实际控制线附近）实施军事封闭管理，严禁无关人员进入。",
+        "strategic_features_located_here": [
+          "亚东口岸（洞朗地区）",
+          "吉隆口岸",
+          "樟木口岸",
+          "普兰口岸",
+          "中印边界实际控制线沿线地形"
+        ]
+      },
+      {
+        "zone_name": "维稳网格化管理区",
+        "area_sqkm": "覆盖全区城乡社区",
+        "area_pct": "data not available",
+        "governing_authority": "各级党委政法委员会 / 综治中心 / '双联户' 管理单元 / 便民警务站",
+        "access_restrictions": "网格化社会面管控；便民警务站 24 小时巡逻盘查；敏感节点实施交通管制与身份核验；重点人员分类管控。",
+        "strategic_features_located_here": [
+          "拉萨市八廓街",
+          "布达拉宫广场",
+          "色拉寺、哲蚌寺、甘丹寺等大型寺庙及周边社区",
+          "各级党政机关驻地",
+          "重要交通枢纽（火车站、机场）"
+        ]
+      }
+    ],
+    "demographics": {
+      "population_category_a": "藏族及其他少数民族: 约334.9万人 (87.5%)",
+      "population_category_b": "汉族: 约44.3万人 (11.5%)",
+      "density_per_sqkm": 3.04,
+      "displacement_or_refugee_count": "data not available (存在生态移民安置工程，如极高海拔生态搬迁，涉及安多、双湖等县数万人)",
+      "notes": "数据来源为 2020 年第七次全国人口普查公报。常住人口 364.81 万人。自治区实施生态移民与固边兴边富民行动，涉及人口自愿搬迁。",
+      "citation": "西藏自治区统计局, 西藏自治区第七次全国人口普查主要数据公报 (2021-05-19)"
+    },
+    "named_high_ground_features": [
+      {
+        "name": "珠穆朗玛峰 (Qomolangma)",
+        "lat": 27.9878,
+        "lng": 86.925,
+        "elevation_m": 8848.86,
+        "functional_strategic_description": "地球海拔最高点。对整个喜马拉雅山脉中部具有至高无上的观察制高点控制，可俯瞰珠峰南北坡，直视廓尔喀故地（尼泊尔）及锡金方向。高海拔冰川融水是绒布河等重要水源的补给区。",
+        "control_zone": "西藏自治区-日喀则市-定日县, 珠穆朗玛峰国家级自然保护区",
+        "citation": "2020年12月8日中尼联合公布珠峰新高程, 8848.86米. 自然资源部."
+      },
+      {
+        "name": "吉隆口岸 (Gyirong Port / Rasuwa Fort area)",
+        "lat": 28.28,
+        "lng": 85.33,
+        "elevation_m": 1850,
+        "functional_strategic_description": "喜马拉雅山脉中段重要峡谷通道与山口。吉隆藏布河谷深切喜马拉雅山体，形成天然低海拔移动走廊，控制由尼泊尔进入西藏腹地（日喀则方向）的主要公路，相对南亚平原具备居高临下的观察与火控优势。河谷为重要水源地。",
+        "control_zone": "边境管控区 / 吉隆口岸",
+        "citation": "中国国务院关于吉隆口岸扩大开放为国际性口岸的批复; 西藏自治区口岸办."
+      },
+      {
+        "name": "亚东口岸 (Yadong Port / Nathu La - Doka La)",
+        "lat": 27.42,
+        "lng": 88.92,
+        "elevation_m": "乃堆拉山口约 4300m, 洞朗地区约 2300-4000m",
+        "functional_strategic_description": "位于喜马拉雅山脉东南麓亚东河谷。控制由印度西里古里走廊经甘托克进入西藏腹地（春丕河谷）的咽喉通道。地形急剧下降，形成对峙防御前线，具有俯视控制印方一侧移动走廊的天然优势。水源丰沛，属亚东河流域。",
+        "control_zone": "边境管控区 / 亚东口岸",
+        "citation": "中印边境乃堆拉山口边贸通道恢复开放相关官方文件; 中国外交部边界司."
+      },
+      {
+        "name": "雅鲁藏布江大峡谷 (Yarlung Tsangpo Grand Canyon - Great Bend)",
+        "lat": 29.77,
+        "lng": 94.99,
+        "elevation_m": "峡谷底 500-2900m, 南迦巴瓦峰 7782m",
+        "functional_strategic_description": "全球最深的峡谷，雅鲁藏布江在此大拐弯穿越喜马拉雅山。地形垂直落差极大，形成青藏高原面向藏南/印占阿鲁纳恰尔邦方向的主要水汽通道与潜在移动走廊（艰险）。水文资源（水能蕴藏量）与生态战略位置极为关键，关系下游布拉马普特拉河流域数百万人生计。",
+        "control_zone": "西藏自治区-林芝市-墨脱县/察隅县",
+        "citation": "中国科学院青藏高原研究所, 雅鲁藏布江大峡谷科学考察报告; 西藏自治区水利厅."
+      },
+      {
+        "name": "冈底斯山脉主峰冷布岗日 / 冈仁波齐 (Gangdise range - Kailash)",
+        "lat": "冈仁波齐 31.06, 81.31",
+        "lng": "冈仁波齐 81.31",
+        "elevation_m": "冈仁波齐 6656m, 冷布岗日 7095m",
+        "functional_strategic_description": "青藏高原南北分水岭西段重要山脉，冈仁波齐为多宗教神山。控制藏北高原向南亚（印度河/象泉河源头、尼泊尔边境）的交通与水文咽喉（狮泉河/印度河、象泉河/萨特莱杰河发源于此）。山脉制高点对阿里南部边境线具广阔视野控制。",
+        "control_zone": "西藏自治区-阿里地区",
+        "citation": "西藏自治区地图集; 国土资源部、阿里地区行署."
+      }
+    ],
+    "physical_barriers": [
+      {
+        "name": "边境管控防护网与监控体系",
+        "type": "manmade",
+        "lat": "不确定，沿线散点分布",
+        "lng": "不确定，沿线散点分布",
+        "length_km": "data not available (我国公开称系合理边境管控基础设施建设，外国报道及遥感影像显示规模庞大，但无官方确切全长数据)",
+        "temporal_variations": "自2010年代以来持续建设，近年随技术升级（光纤振动传感、热成像、AI监控、无人机巡航）不断更新补盲。",
+        "stated_justification": "维护国家主权和领土完整，加强边境管控，防范和打击非法越境、走私、分裂破坏和恐怖主义活动，保障边境地区稳定，改善边民生产生活条件。（《陆地国界法》第4条、第21条）",
+        "opposing_characterization": "流亡藏人组织及部分国际媒体称为'高科技隔离墙'、'监控国家设施'，指控其割裂传统游牧地，限制牧民自由迁徙，试图切断达赖喇嘛及其他流亡者与境内联系。",
+        "citation": "中华人民共和国陆地国界法 (2022年施行); 中国国防白皮书; 西藏出入境边防检查总站年度工作会议报道; 西方卫星影像与媒体报告。"
+      },
+      {
+        "name": "网格化检查站与便民警务站",
+        "type": "manmade",
+        "lat": "遍布城乡，无固定中心坐标",
+        "lng": "遍布城乡，无固定中心坐标",
+        "length_km": "不适用",
+        "temporal_variations": "自2012年全面推行城市网格化管理；敏感时期、节日及重大活动期间，盘查力度和临时卡点密度显著增加。",
+        "stated_justification": "推进社会治理现代化，深化'平安西藏'建设，落实维稳'十项措施'，及时消除治安隐患，保障各族群众生命财产安全，维护社会大局持续和谐稳定。依据为《关于加强社会治安防控体系建设的意见》等中央政策。",
+        "opposing_characterization": "人权观察（HRW）等国际组织称为'渗透性的大规模监控网络'，指控其过度限制公民人身自由、行动自由和宗教自由，为'强制同化'政策服务，营造'恐惧氛围'。",
+        "citation": "西藏自治区维稳指挥部公告; 中共西藏自治区委员会关于建设'平安西藏'的决议; 中共中央办公厅、国务院办公厅《关于加强社会治安防控体系建设的意见》; Human Rights Watch 年度报告 (2023, 2024)."
+      }
+    ]
+  },
+  "hydrology_data": {
+    "upstream_downstream_position": "upstream",
+    "water_infrastructure": [
+      {
+        "name": "藏木水电站 (Zangmu Hydropower Station)",
+        "type": "大坝/水电站",
+        "lat": 29.2,
+        "lng": 92.5,
+        "controlling_entity": "华能西藏发电有限公司",
+        "capacity_or_flow_rate": "装机容量 510 MW (51万千瓦)",
+        "citation": "新华网, 藏木水电站正式投产发电报道 (2015年10月); 西藏自治区能源局."
+      },
+      {
+        "name": "加查水电站 (Jiacha Hydropower Station)",
+        "type": "大坝/水电站",
+        "lat": 29.14,
+        "lng": 92.58,
+        "controlling_entity": "华能西藏发电有限公司",
+        "capacity_or_flow_rate": "装机容量 360 MW (36万千瓦)",
+        "citation": "西藏自治区人民政府, 加查水电站全部机组投产发电新闻 (2020年8月); 华能集团官网."
+      },
+      {
+        "name": "三江源国家公园（西藏部分）",
+        "type": "国家级自然保护区/国家公园",
+        "lat": "核心区约 32°N-36°N, 89°E-96°E 之间",
+        "lng": "参考左栏",
+        "controlling_entity": "三江源国家公园管理局（青海省为主，西藏那曲涉及部分区域监管）",
+        "capacity_or_flow_rate": "不适用（生态涵养功能：保护澜沧江/湄公河源头、怒江/萨尔温江上游、长江源头支流水系）",
+        "citation": "三江源国家公园总体规划; 国家林业和草原局; 西藏那曲市生态环境局."
+      },
+      {
+        "name": "满拉水利枢纽",
+        "type": "水库/灌溉/水电站",
+        "lat": 28.92,
+        "lng": 89.85,
+        "controlling_entity": "西藏自治区水利厅",
+        "capacity_or_flow_rate": "库容 1.55亿立方米, 装机20 MW",
+        "citation": "西藏日报, 满拉水利枢纽工程效益显著报道."
+      }
+    ],
+    "per_capita_water_consumption_l_d": {
+      "population_a": "data not available (总体人均综合用水量数据未按民族拆分)",
+      "population_b": "data not available (总体人均综合用水量数据未按民族拆分)",
+      "who_reference_standard": 100.0,
+      "citation": "《中国水资源公报2022》等报告有分省数据，但涉及西藏境内不同人群精细用水量非公开可得数据。水利部、西藏自治区水利厅."
+    },
+    "agriculture": {
+      "arable_land_pct": "约 0.2%-0.3% （约 230-350 千公顷，占总面积比例极低。主要分布在雅鲁藏布江及主要支流河谷地带）",
+      "irrigated_land_pct": "约 85% 以上耕地为有效灌溉面积（得益于水利设施建设）",
+      "food_import_dependency_pct": "约 75%-85% 的谷物等主要口粮需从内地调入，青稞基本实现区内自给。",
+      "citation": "西藏自治区统计局, 《西藏统计年鉴2023》; 西藏自治区农业农村厅, 西藏粮食安全与青稞产业专项报告."
+    }
+  },
+  "environmental_degradation_incidents": [
+    {
+      "incident_type": "生态移民安置工程的环境影响",
+      "chemical_or_hazard_agents": [
+        "无特殊化学污染物"
+      ],
+      "toxicological_classification": "不适用",
+      "affected_area_sqkm": "涉及安多、双湖等县极高海拔区域，迁出地纳入自然保护区或退化草场恢复区。迁入地（如拉萨市周边、山南市）涉及新增建设用地与配套开发，对局部环境有影响。",
+      "first_documented_year": "2018年（极高海拔生态搬迁试点启动）",
+      "ongoing": true,
+      "stated_justification": "为保护和修复极高海拔生态环境，解决群众生存条件恶劣、公共服务难以覆盖的问题，巩固边防，促进人与自然和谐共生。依据《西藏自治区极高海拔生态搬迁规划（2018-2025年）》。",
+      "opposing_characterization": "部分国际组织及流亡藏人组织称为'强迫搬迁'、'制造无人区'，指控搬迁旨在同化藏人、剥夺其传统生计，迁入地出现水土资源紧张和社会融入困难。",
+      "documenting_orgs": [
+        "西藏自治区人民政府",
+        "中国国家发改委",
+        "中央统战部",
+        "联合国消除种族歧视委员会（CERD）",
+        "Human Rights Watch (HRW)"
+      ],
+      "citations": [
+        "西藏自治区极高海拔地区生态搬迁规划 (2018-2025年).",
+        "西藏日报, 极高海拔生态搬迁让群众获得感幸福感安全感显著提升 (2022年6月).",
+        "Human Rights Watch, 'They Moved Us Like Cattle' (2023)."
+      ]
+    },
+    {
+      "incident_type": "退耕还林/还草与草原围栏工程",
+      "chemical_or_hazard_agents": [
+        "无"
+      ],
+      "toxicological_classification": "不适用",
+      "affected_area_sqkm": "data not available (大规模草原围栏及退耕还草项目覆盖那曲、阿里等主要牧区)",
+      "first_documented_year": "2000年代初期",
+      "ongoing": true,
+      "stated_justification": "遏制草原退化、沙化，恢复草原植被，保障国家生态安全，改善农牧民生产生活条件。依据《退耕还林条例》、草原生态保护补助奖励政策。",
+      "opposing_characterization": "部分当地牧民和国际游牧组织认为，过度和规划不当的围栏分割了传统牧道和野生动物迁徙通道，导致局部草场承载力超载，反而加剧了生态退化，并限制了牧民的传统移动放牧方式。",
+      "documenting_orgs": [
+        "西藏自治区林业和草原局",
+        "西藏自治区农业农村厅",
+        "环保部南京环科所",
+        "International Campaign for Tibet (ICT)",
+        "Platform for Agrobiodiversity Research"
+      ],
+      "citations": [
+        "西藏自治区实施《退耕还林条例》办法.",
+        "财政部、农业农村部, 草原生态保护补助奖励政策.",
+        "International Campaign for Tibet, 'Fenced In: China’s Development Policies and Pastoral Communities in Tibet' (2019)."
+      ]
+    },
+    {
+      "incident_type": "Ecological Resettlement and Reclamation Programs",
+      "chemical_or_hazard_agents": [],
+      "toxicological_classification": "N/A",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": 2006,
+      "ongoing": true,
+      "stated_justification": "Measures such as returning grazing land to grassland and ecological migration aim to combat desertification and grassland degradation, protect the fragile high-altitude ecosystem of the 'Third Pole,' and alleviate rural poverty by providing modern housing and services.",
+      "opposing_characterization": "Characterized by the Central Tibetan Administration as forced displacement intended to alter demographics by moving herders off their traditional lands and consolidating control, thereby destroying a traditional nomadic way of life.",
+      "documenting_orgs": [
+        "Ministry of Ecology and Environment of the PRC",
+        "Tibet Autonomous Region Forestry and Grassland Bureau"
+      ],
+      "citations": [
+        "State Council Several Opinions on Further Strengthening Ecological and Environmental Protection in Tibet (2009); TAR Ecological Migration Implementation Plan."
+      ]
+    }
+  ],
+  "infrastructure_and_logistics_data": {
+    "airspace_and_spectrum": {
+      "cellular_tech_allowed": "3G/4G/5G（商用推广中，主要覆盖城镇、交通干线和人口密集区。基站建设受到工信部统一规划，三大运营商（移动、电信、联通）提供服务）。",
+      "flight_corridor_control": "拉萨贡嘎机场（LXA）、林芝米林机场（LZY）、昌都邦达机场（BPX）、阿里昆莎机场（NGQ）、日喀则和平机场（RKZ）等所有民用航班由中国民用航空局（CAAC）下属空管局统一实施空中交通管制。军事活动频繁区域有临时禁飞区。",
+      "stated_justification": "确保国家安全和空中防务需要；保障复杂气象和高原地形下的民航飞行安全；防止非法飞行器入侵，维护边疆地区空域稳定（《中华人民共和国飞行基本规则》、《中华人民共和国民用航空法》）。",
+      "citation": "中国民用航空西藏自治区管理局; 工业和信息化部无线电管理局; 中国国防白皮书系列."
+    },
+    "maritime_and_cabotage": {
+      "eez_claimed_sqkm": "不适用",
+      "eez_accessible_sqkm": "不适用",
+      "accessible_ports_count": "不适用",
+      "fishing_zone_nautical_miles": "不适用",
+      "cabotage_or_merchant_marine_restrictions": "不适用",
+      "stated_justification": "不适用",
+      "citation": "西藏为内陆地区，无海域管辖。"
+    },
+    "trade_and_dual_use_controls": {
+      "controlled_item_categories": [
+        "爆炸物与火工品",
+        "无人机（民用及工业级）",
+        "监控设备（强聚焦、夜视、热成像等）",
+        "卫星电话及加密通信设备",
+        "特定化学品、病原体",
+        "文物与艺术品（出境管制）",
+        "地图、测绘数据",
+        "无线电发射设备（功率、频段受限）"
+      ],
+      "transit_permit_regimes": "进出口货物经樟木、吉隆、普兰等口岸需报关并接受边防、海关、检验检疫联合查验。部分物资（无人机、卫星电话等）需凭自治区公安厅或相应主管部门批文。",
+      "stated_justification": "维护国家安全，防范恐怖主义和分裂势力获取用于破坏活动的工具；执行联合国安理会制裁决议；保护我国文化财产；根据《中华人民共和国出口管制法》、《反恐怖主义法》进行管控。",
+      "citation": "中华人民共和国出口管制法 (2020年); 西藏自治区边境管理条例; 海关总署、商务部相关公告."
+    },
+    "checkpoints_and_gates": [
+      {
+        "name": "拉萨贡嘎机场公安检查站及民航安检",
+        "lat": 29.298,
+        "lng": 90.912,
+        "permit_type_required": "身份证/护照/登机牌，进藏外国人另需入藏函原件，部分特殊时期会增加公安人工核验。",
+        "stated_justification": "航空安保标准要求（ICAO附件17），防范劫机、爆炸等非法干扰，检查重点人员和违禁品，确保边疆空港绝对安全。",
+        "citation": "《中华人民共和国民用航空安全保卫条例》; 民航西南地区管理局安保要求."
+      },
+      {
+        "name": "拉萨火车站公安检查站",
+        "lat": 29.625,
+        "lng": 91.074,
+        "permit_type_required": "身份证 / 车票。公安可能进行人证合一查验、大数据核查与行李抽检。",
+        "stated_justification": "铁路运输反恐维稳需要。防范暴恐分子、分裂分子通过铁路流窜或发动袭击。依据《中华人民共和国反恐怖主义法》及相关铁路安保规定。",
+        "citation": "中国铁路青藏集团有限公司-旅客运输安保规定; 西藏自治区公安厅铁路公安处."
+      },
+      {
+        "name": "国道109 / 318 / 317 / 219 综合公安检查站（例：堆龙德庆检查站、安多检查站）",
+        "lat": "沿线分布，无统一坐标",
+        "lng": "沿线分布，无统一坐标",
+        "permit_type_required": "身份证 / 驾驶证 / 行驶证。区外车辆及人员常被拦停进行人车信息采集、开箱检查、轨迹询问，有时需开具限速单。外国人须查验护照及入藏函。",
+        "stated_justification": "实施'护城河'安保工程，构建环藏、环拉萨安检过滤圈。查堵各类违法犯罪嫌疑人和危爆物品。依据《中华人民共和国人民警察法》第九条、《中华人民共和国道路交通安全法》等。",
+        "citation": "西藏自治区公安厅-社会治安防控体系建设方案; 各地市公安局交警支队路面执勤规范."
+      },
+      {
+        "name": "布达拉宫广场安检口",
+        "lat": 29.657,
+        "lng": 91.117,
+        "permit_type_required": "身份证 / 门票。经安检通道进行人身及行李安检（X光机），打火机、管制刀具、无人机、违禁标语横幅等严禁带入。",
+        "stated_justification": "防范针对重要政治文化地标和密集人群的恐怖袭击与极端行为，保障海内外游客及信教群众安全。依据《中华人民共和国突发事件应对法》、《大型群众性活动安全管理条例》。",
+        "citation": "西藏自治区文物局、布达拉宫管理处-参观须知与安保规定."
+      }
+    ],
+    "utilities_and_energy_grid": {
+      "official_currency": "人民币 (RMB / CNY)",
+      "local_informal_currency": "无广泛使用的非正式货币",
+      "power_generating_assets": [
+        "藏木水电站 (51万千瓦)",
+        "加查水电站 (36万千瓦)",
+        "羊卓雍湖抽水蓄能电站 (11.25万千瓦)",
+        "旁多水利枢纽 (16万千瓦)",
+        "在建巨型水电站（如墨脱相关规划，初期传闻装机可达6000万千瓦，但正式核准方案尚未完全公布）",
+        "光伏电站群（狮泉河、山南、日喀则等地，大规模开发中）",
+        "地热能（羊八井地热电站，2.5万千瓦）"
+      ],
+      "daily_electricity_hours_avg": "24 (大部分城镇和乡村定居点。极高海拔偏远游牧点偶有离网光伏保障或供电不足情况，无全省平均缺电小时数据)",
+      "power_grid_self_sufficiency_pct": "约 85-95% 以上（水电外送大省。主电网已覆盖74个县区，电力自用充足，并通过青藏直流联网、川藏联网向区外输送富余清洁电力。冬春枯水期偶有季节性缺口需从内地反调。）",
+      "fuel_import_dependency_pct": "100% (成品油（汽油、柴油）完全依赖中石油、中石化从青海、四川等内地炼厂经铁路、管道（格-拉输油管线）调入，区内无炼化设施。)",
+      "debt_or_fiscal_transfer_mechanisms": "中央财政对西藏自治区实施特殊财政转移支付制度。2023年中央对西藏转移支付总额超过2500亿元人民币，占自治区财政支出比重超过90%。地方债务有中央政府代为偿还及专项豁免机制。",
+      "citation": "西藏自治区2023年预算执行情况和2024年预算草案的报告; 财政部关于政协第十三届全国委员会第四次会议相关提案答复的函; 国家能源局; 国家电网西藏电力有限公司."
+    }
+  },
+  "jurisprudence_and_statutory_friction": {
+    "enforced_system_name": "中华人民共和国法律体系 (含民族区域自治制度下的变通规定)",
+    "preferred_or_prior_system_name": "《十七条协议》框架 (已废止或取代) / 达赖喇嘛流亡政府主张的《西藏流亡宪法》及'大藏区'法律体系",
+    "population_under_special_or_external_law": 3648100,
+    "enforced_statutes_cited": [
+      "《中华人民共和国宪法》（序言、第四条、第一百一十六至一百二十一条）",
+      "《中华人民共和国民族区域自治法》",
+      "《中华人民共和国反恐怖主义法》",
+      "《中华人民共和国反分裂国家法》",
+      "《西藏自治区自治条例（草案）》（待通过，长期审议中）",
+      "《宗教事务条例》（2017修订）",
+      "《藏传佛教活佛转世管理办法》（2007）",
+      "《西藏自治区实施〈中华人民共和国反恐怖主义法〉办法》",
+      "《西藏自治区去极端化条例》",
+      "《西藏自治区民族团结进步模范区创建条例》（2020）"
+    ],
+    "landmark_jurisprudence_and_treaties": [
+      {
+        "judicial_body_or_treaty": "全国人民代表大会",
+        "case_or_resolution_name": "《关于和平解放西藏办法的协议》（《十七条协议》）",
+        "year": 1951,
+        "holding_or_standard": "西藏和平解放，中国人民解放军进驻西藏，巩固国防。西藏地方政府协助人民解放军巩固国防、维护国家统一。该协议的签署标志着中国政府在西藏恢复行使全部国家主权。",
+        "official_legal_rationale": "西藏自古以来就是中国的一部分。该协议是在西藏地方当局承认中国主权并请求中央人民政府解放西藏的前提下签订的，是中央政府行使主权的法律文件。",
+        "citation": "《中央人民政府和西藏地方政府关于和平解放西藏办法的协议》全文（1951年5月23日），《人民日报》1951年5月28日刊载。"
+      },
+      {
+        "judicial_body_or_treaty": "全国人民代表大会",
+        "case_or_resolution_name": "关于建立西藏自治区的决定",
+        "year": 1965,
+        "holding_or_standard": "撤销西藏地区行政公署，成立西藏自治区，实施民族区域自治制度，在中央统一领导下行使自治权。",
+        "official_legal_rationale": "依据《宪法》关于在各少数民族聚居的地方实行区域自治的规定，保障西藏各族人民管理本民族、本地区事务的权利，巩固国家统一和民族团结。",
+        "citation": "第一届全国人大常委会第二十一次会议决议（1965年8月25日）；《人民日报》1965年9月1日社论。"
+      },
+      {
+        "judicial_body_or_treaty": "国家宗教事务局 / 国务院办公厅",
+        "case_or_resolution_name": "《藏传佛教活佛转世管理办法》",
+        "year": 2007,
+        "holding_or_standard": "活佛转世必须遵循宗教仪轨、历史定制，并必须报请政府批准。任何组织和个人不得擅自开展活佛转世灵童的寻访和认定。",
+        "official_legal_rationale": "依据《宗教事务条例》制定的部门规章，目的是规范活佛转世事务，维护藏传佛教正常秩序，维护国家统一、民族团结和宗教和谐稳定，防范分裂势力利用活佛转世问题进行破坏活动。",
+        "citation": "国家宗教事务局令第5号（2007年7月18日）；《宗教事务条例》第36、37条。"
+      },
+      {
+        "judicial_body_or_treaty": "达赖喇嘛流亡政府",
+        "case_or_resolution_name": "《流亡藏人宪法》及相关声明",
+        "year": "1963年制定，后续多次修改",
+        "holding_or_standard": "主张西藏是一个被中国非法占领的独立国家（'大藏区'），流亡政府是唯一合法代表。要求恢复所谓历史疆域，包括西藏自治区、青海省全部及甘肃、四川、云南的部分藏族自治地区。",
+        "official_legal_rationale": "中华人民共和国政府的官方立场：该流亡组织及其所谓宪法完全非法，不具备任何法律效力。是对中国主权和领土完整的严重挑衅，是少数分裂分子裹挟部分不明真相群众的产物。",
+        "citation": "中国外交部, 《关于达赖集团所谓“西藏问题”的白皮书》；国务院新闻办公室,《西藏发展道路的历史选择》白皮书（2015年）。"
+      }
+    ],
+    "documented_statutory_conflicts": [
+      {
+        "legal_domain": "领土与主权",
+        "enforced_clause_reference": "《中华人民共和国宪法》序言、第四条；《反分裂国家法》第二条：'台湾、西藏、新疆等地区是中国领土不可分割的一部分，任何人不得以任何方式将其从中国分裂出去。'",
+        "preferred_or_prior_clause_reference": "流亡藏人《宪法》主张'大藏区'独立版图。",
+        "conflict_description": "流亡藏人团体及达赖喇嘛流亡政府完全否认中华人民共和国对西藏的主权管辖权，主张独立的'大藏区'，构成国家主权与领土完整方面的根本性、不可调和的对抗，并被我国政府定性为分裂行为。",
+        "citation": "中华人民共和国宪法; 反分裂国家法; 国务院新闻办公室白皮书."
+      },
+      {
+        "legal_domain": "活佛转世",
+        "enforced_clause_reference": "《藏传佛教活佛转世管理办法》第2、4、12条：活佛转世事务由省级以上人民政府宗教事务部门依法管理；转世灵童的寻访、认定须报批。",
+        "preferred_or_prior_clause_reference": "达赖喇嘛及部分境外势力单方面宣称十四世达赖喇嘛的转世灵童将由境外机构自行寻找并认定，排斥政府依法管理。",
+        "conflict_description": "涉及藏传佛教最高精神领袖继承权的合法性之争。中央政府坚持历史定制与宗教仪轨、金瓶掣签及政府批准的历史惯例和法律规定；而境外势力则试图单方面指定转世灵童，以延续其政治影响。",
+        "citation": "《藏传佛教活佛转世管理办法》；中国外交部关于达赖喇嘛转世问题的历次记者会声明。"
+      }
+    ]
+  },
+  "security_and_justification_data": {
+    "official_threat_assessments_or_attack_statistics": [
+      {
+        "description": "分裂主义活动与暴力恐怖事件。2008年3月14日拉萨等地发生严重打砸抢烧暴力犯罪事件，致18名无辜平民死亡，382人受伤，大量店铺和民房被焚毁。此后西藏公安机关持续破获多起预谋分裂破坏和暴力恐怖袭击案件。",
+        "time_period": "2008年至今",
+        "numbers_or_incidents": "'3·14'事件造成18死382伤。此后数年中，公安机关公开报道每年均破获多起分裂破坏预谋案件。官方定性为达赖集团有组织、有预谋、精心策划煽动的严重暴力犯罪事件。",
+        "source": "西藏自治区人大常委会《关于强烈谴责达赖集团策划拉萨'3·14'打砸抢烧暴力事件的决议》; 国务院新闻办公室《关于西藏自治区维稳情况的发布会》; 西藏自治区公安厅公开案情通报。",
+        "citation": "新华社, 《拉萨'3·14'打砸抢烧严重暴力犯罪事件纪实》(2008年3月24日)."
+      },
+      {
+        "description": "境外势力和非政府组织长期渗透、煽动，扶持境内分裂势力。",
+        "time_period": "长期持续",
+        "numbers_or_incidents": "官方未公布具体精确拦截案例数，但历年国家安全机关会议和报告中持续将'防范境外渗透和分裂破坏'列为首要任务之一。",
+        "source": "中华人民共和国国家安全部; 西藏自治区党委政法工作会议公报.",
+        "citation": "西藏日报, 《全区政法工作会议强调 坚决维护国家安全和西藏长治久安》 (2023年1月)."
+      },
+      {
+        "description": "中印边境军事对峙与越线威胁（如2017年洞朗对峙、2020年加勒万河谷冲突等）。",
+        "time_period": "2017年、2020年等",
+        "numbers_or_incidents": "2017年中印洞朗对峙长达73天；2020年6月加勒万河谷冲突造成双方人员伤亡。我国官方公布牺牲4名，重伤1名解放军官兵。中国边防部队始终保持克制，但坚决回击侵犯。",
+        "source": "中国国防部新闻发言人; 解放军西部战区联合参谋部; 中央军委后勤保障部.",
+        "citation": "国防部, 《关于中印边界东段对峙的声明》(2017年8月); 新华社, 《英雄屹立喀喇昆仑——走近新时代卫国戍边的英雄官兵》(2021年2月)."
+      }
+    ],
+    "stated_administrative_or_security_rationales": [
+      {
+        "measure": "严格的入境许可制度（入藏函、边境通行证）",
+        "official_rationale": "鉴于复杂的反分裂斗争形势和脆弱的高原生态环境承载能力，有必要对进藏外国人进行服务管理，掌握其行踪与目的，防止其从事非法采访、间谍、分裂煽动等活动。",
+        "citation": "《西藏自治区实施〈中华人民共和国外国人入境出境管理法〉细则》; 西藏自治区外事办公室."
+      },
+      {
+        "measure": "网格化社会面管控与便民警务站",
+        "official_rationale": "构建打防管控一体化的社会治安防控体系，实现'1、3、5分钟'快速反应圈，挤压违法犯罪空间，提高见警率，增强各族群众安全感，是创新社会治理、维护长治久安的基础工程。",
+        "citation": "西藏自治区公安厅, 关于全面深化公安改革推进立体化社会治安防控体系建设的实施意见."
+      },
+      {
+        "measure": "通信管控与网络安全审查（含临时断网措施）",
+        "official_rationale": "在敏感节点和处置突发事件时，为防止谣言传播、串联煽动、网络指挥和远程遥控暴恐活动，依法采取的临时性、限制性管制措施，是国际通行反恐维稳手段。",
+        "citation": "《中华人民共和国网络安全法》; 《中华人民共和国反恐怖主义法》第十八条."
+      },
+      {
+        "measure": "《民族区域自治法》下的统一领导与自治权结合",
+        "official_rationale": "民族区域自治制度是我国一项基本政治制度。西藏自治区享有广泛的自治权（如立法变通权、财政自治权、文化语言保护权等），但自治是在国家统一领导下的自治，必须维护国家法制统一、政令畅通和领土完整。",
+        "citation": "中华人民共和国民族区域自治法; 习近平在中央民族工作会议上的讲话（2021年8月）."
+      }
+    ]
+  }
+}

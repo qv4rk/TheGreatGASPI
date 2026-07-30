@@ -1,0 +1,341 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Great GASPI Data Schema",
+  "type": "object",
+  "prompt_id": "prompt-22",
+  "territory_name": "West Papua (Papua, Papua Barat, Papua Selatan, Papua Tengah, Papua Pegunungan, Papua Barat Daya)",
+  "perspective": "Indigenous Papuan Customary Council (Dewan Adat Papua) / Majelis Rakyat Papua / Rights Advocates / LBH Papua",
+  "language": "English (with Indonesian/Papuan terms)",
+  "years_of_scope": "1969-2026",
+  "wgs84_center": {
+    "lat": -4.0,
+    "lng": 137.0
+  },
+  "topographic_and_control_data": {
+    "total_area_sqkm": 418707,
+    "accessible_area_sqkm": "data not available",
+    "control_zones": [
+      {
+        "zone_name": "Customary Ancestral Territories (Tanah Adat / Hak Ulayat)",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Masyarakat Adat Papua (customary governance through clans/marga)",
+        "access_restrictions": "Customary lands are being systematically converted for mining, palm oil, and food estate projects; military posts restrict access; indigenous residents displaced to forests or IDP camps",
+        "strategic_features_located_here": [
+          "Nduga Regency (occupied by military, civilian governance collapsed)",
+          "Intan Jaya Regency (Wabu Block gold mining project)",
+          "Puncak Regency",
+          "Paniai Regency",
+          "Lanny Jaya Regency",
+          "Yahukimo Regency",
+          "Pegunungan Bintang Regency",
+          "Merauke (food estate project on 2.5 million hectares of customary land)",
+          "Mimika (Ajkwa River and tailings deposition from Grasberg mine)"
+        ]
+      },
+      {
+        "zone_name": "Militarized Zones (Military Operation Areas)",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Indonesian National Armed Forces (TNI) / Police",
+        "access_restrictions": "Civilian infrastructure (churches, schools, community centers) converted into military posts; civilian movement restricted; telecommunications controlled by military (Telkomsel operates only 1-2 hours daily in Nduga)",
+        "strategic_features_located_here": [
+          "31 military posts in Intan Jaya alone (September 2025)",
+          "18 strategic posts in Nduga",
+          "Military posts across Puncak, Puncak Jaya, Paniai, Lanny Jaya, Yahukimo, Nduga, Pegunungan Bintang"
+        ]
+      }
+    ],
+    "demographics": {
+      "population_category_a": 2469302,
+      "population_category_b": "data not available",
+      "density_per_sqkm": "data not available",
+      "displacement_or_refugee_count": 103218,
+      "notes": "Total population of Papua provinces (BPS 2010 data). Papuan Council of Churches (PCC) recorded 103,218 refugees as of October 2025. Majority are indigenous Papuans displaced by military operations and armed conflict. Largest impact in Intan Jaya where military operations forced entire villages into refugee camps. Nduga refugees in Jayawijaya since 2019 exceed 10,000. Conflict mediation team reported at least 145 displaced after the October 15, 2025 operation in Intan Jaya (68 women, 38 men, 39 children).",
+      "citation": "Badan Pusat Statistik 2010; Papuan Council of Churches (PCC), November 2025; Human Rights Monitor, October 2025"
+    },
+    "named_high_ground_features": [
+      {
+        "name": "Pegunungan Jayawijaya / Central Highlands",
+        "lat": -4.0833,
+        "lng": 138.0,
+        "elevation_m": 4884,
+        "functional_strategic_description": "Mountain range covering the central highlands where most militarization and displacement is occurring; controls movement corridors, observation, and access to Wabu Block gold reserves (116 million tonnes of mineral ore), traditional agricultural lands, and water resources",
+        "control_zone": "Militarized zones across Intan Jaya, Nduga, Puncak, Paniai, Lanny Jaya, Yahukimo, Pegunungan Bintang",
+        "citation": "Human Rights Monitor, October 2025"
+      }
+    ],
+    "physical_barriers": [
+      {
+        "name": "Military Posts and Occupation of Civilian Facilities",
+        "type": "manmade",
+        "lat": "data not available",
+        "lng": "data not available",
+        "length_km": "data not available",
+        "temporal_variations": "31 military posts established in Intan Jaya since September 2025; 18 strategic posts in Nduga; occupation of churches, schools, district offices, and community centers; expansion across central highlands",
+        "stated_justification": "Indonesian military officially states operations are for counterinsurgency and national security. Commander claimed troops moved into Soanggama to 'free residents' from TPNPB presence.",
+        "opposing_characterization": "Dewan Adat Papua (DAP) and Papuan rights advocates characterize military posts as systematic militarization of civilian territories and forced occupation of ancestral lands. The military has transformed civilian infrastructure (churches, schools, district offices, community centers) into military installations in violation of international humanitarian law principles requiring distinction between military and civilian objectives. Human rights activists describe the deployment as designed to forcibly evacuate indigenous peoples from ancestral lands to facilitate mining exploitation, particularly for the Wabu Block gold project.",
+        "citation": "Human Rights Monitor, October 2025; HRW glossary; APBN briefing"
+      }
+    ]
+  },
+  "hydrology_data": {
+    "upstream_downstream_position": "upstream",
+    "water_infrastructure": [
+      {
+        "name": "Ajkwa River and Modified Ajkwa Deposition Area (ModADA)",
+        "type": "River and tailings management system",
+        "lat": -4.5,
+        "lng": 137.0,
+        "controlling_entity": "PT Freeport Indonesia (PTFI)",
+        "capacity_or_flow_rate": "PTFI disposes approximately 200,000 tons of tailings per day (167 million tons total since 1974) into the Ajkwa River system. Tailings contain arsenic, cadmium, lead, mercury, and cyanide. The system has caused inundation of forests and degradation of water bodies essential to indigenous communities.",
+        "citation": "The Guardian 2025; Tempo 2025; Nature journal 2016; BPK audit 2018"
+      },
+      {
+        "name": "Sungai Aghawagon (affected by tailings)",
+        "type": "River",
+        "lat": -4.5,
+        "lng": 137.0,
+        "controlling_entity": "PT Freeport Indonesia (PTFI)",
+        "capacity_or_flow_rate": "Tailings from mining operations have contaminated the Aghawagon and Ajkwa rivers, damaging aquatic ecosystems that supported indigenous communities for centuries.",
+        "citation": "Radar Mojokerto, September 2025"
+      }
+    ],
+    "per_capita_water_consumption_l_d": {
+      "population_a": "data not available",
+      "population_b": "data not available",
+      "who_reference_standard": 100.0,
+      "citation": "data not available"
+    },
+    "agriculture": {
+      "arable_land_pct": "data not available",
+      "irrigated_land_pct": "data not available",
+      "food_import_dependency_pct": "data not available",
+      "notes": "Documentary 'Pesta Babi' (Pig Feast) documented the clearing of an estimated 2.5 million hectares of indigenous land and forest in South Papua for food and energy projects under the National Strategic Project framework. Sago forests and customary gardens are being converted for palm oil, bioethanol, and biodiesel operations. Indigenous communities (Malind, Yei, Awyu, Muyu) have lost access to traditional agricultural land.",
+      "citation": "APSN, May 2026"
+    }
+  },
+  "environmental_degradation_incidents": [
+    {
+      "incident_type": "Tailings Contamination of Ajkwa River and Lowland Forests",
+      "chemical_or_hazard_agents": [
+        "Arsenic",
+        "Cadmium",
+        "Lead",
+        "Mercury",
+        "Cyanide",
+        "Sediments / fine sand from ore processing"
+      ],
+      "toxicological_classification": "Environmental contamination; degradation of aquatic ecosystems; heavy metals linked to health risks",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": 1973,
+      "ongoing": true,
+      "stated_justification": "PTFI claims tailings management complies with AMDAL regulations, is the most environmentally appropriate approach given site conditions, and that tailings are now considered a resource for infrastructure and civil construction. PTFI claims levees and bio-retention systems have successfully managed tailings.",
+      "opposing_characterization": "Indigenous communities (Kamoro people) claim their communities have been devastated by poverty, disease, oppression, and environmental degradation since the mine began operating in 1973. A chief said sediment from tailings has raised the riverbed near his village, killing fish, shrimp, and crabs that were the basis of their traditional economy and diet. A 2016 Nature study found the large volume of waste caused 'inundation of forests and degradation of water bodies essential to indigenous communities.' BPK audit 2018 recorded state losses from environmental damage at Rp185 trillion. Wetlands and rivers are disappearing, replaced by thick mud that cannot be cultivated. Indigenous Kamoro people have lost access to food, clean water, and ancestral lands.",
+      "documenting_orgs": [
+        "Dewan Adat Papua",
+        "LBH Papua",
+        "London Mining Network (LMN)",
+        "Global Legal Action Network (GLAN)",
+        "The Guardian",
+        "Nature (journal)",
+        "Badan Pemeriksa Keuangan (BPK) - Indonesian Audit Board",
+        "Tempo"
+      ],
+      "citations": [
+        "The Guardian, 2025",
+        "Tempo, 2025",
+        "Radar Mojokerto, 2025",
+        "Nature journal, 2016",
+        "BPK audit, 2018"
+      ]
+    },
+    {
+      "incident_type": "Land Grabbing and Conversion of Customary Forests (Merauke Food Estate)",
+      "chemical_or_hazard_agents": [
+        "Deforestation",
+        "Land clearing",
+        "Conversion for agriculture"
+      ],
+      "toxicological_classification": "Habitat loss and ecosystem destruction",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": "data not available",
+      "ongoing": true,
+      "stated_justification": "Government frames as National Strategic Project for food security, reducing imports, and economic development. Projects include palm oil bioethanol and biodiesel operations protected by thousands of soldiers.",
+      "opposing_characterization": "Documentary 'Pesta Babi' (Pig Feast) documented the clearing of an estimated 2.5 million hectares of indigenous land and forest for food and energy projects. Indigenous Malind, Yei, Awyu, and Muyu communities have organized resistance through solidarity networks, legal challenges, and civil resistance. The screening campaign faced obstruction, with organizers reporting intimidation, persecution, and forced dispersals at no fewer than 52 locations. Land defenders were subject to arbitrary detention and crackdowns.",
+      "documenting_orgs": [
+        "LBH Papua Merauke",
+        "Greenpeace Indonesia",
+        "Watchdoc",
+        "Ekspedisi Indonesia Baru",
+        "Jubi Media"
+      ],
+      "citations": [
+        "APSN, May 2026"
+      ]
+    }
+  ],
+  "infrastructure_and_logistics_data": {
+    "airspace_and_spectrum": {
+      "cellular_tech_allowed": "Limited; military controls telecommunications in militarized zones; Telkomsel operates only 1-2 hours daily in Nduga; security forces operate the only paid WiFi access to control information flow; internet shutdowns during operations in Paniai",
+      "flight_corridor_control": "Controlled by Indonesian military; use of Russian-made helicopters for troop deployment in Intan Jaya (September 2025); Kenyam Airport entirely controlled by security forces",
+      "stated_justification": "Security operations",
+      "opposing_characterization": "Systematic information control preventing documentation and external monitoring of abuses; prohibition on photographing military installations in Pegunungan Bintang; telecommunications controlled by military to restrict civilian communication",
+      "citation": "Human Rights Monitor, October 2025"
+    },
+    "maritime_and_cabotage": {
+      "eez_claimed_sqkm": "data not available",
+      "eez_accessible_sqkm": "data not available",
+      "accessible_ports_count": "data not available",
+      "fishing_zone_nautical_miles": "data not available",
+      "cabotage_or_merchant_marine_restrictions": "data not available",
+      "stated_justification": "data not available",
+      "citation": "data not available"
+    },
+    "trade_and_dual_use_controls": {
+      "controlled_item_categories": [
+        "Military equipment and weaponry",
+        "Extractive industry infrastructure",
+        "Construction materials for militarization"
+      ],
+      "transit_permit_regimes": "Special travel permits (Surat Jalan) required for indigenous Papuans to access customary lands; security checkpoints with identity verification",
+      "stated_justification": "Security measures",
+      "opposing_characterization": "Indigenous Papuans require special travel permits to access their own customary lands; security checkpoints restrict freedom of movement; military controls movement and economic activity in militarized zones",
+      "citation": "Human Rights Monitor, October 2025"
+    },
+    "checkpoints_and_gates": [
+      {
+        "name": "Military Posts and Security Checkpoints in Customary Lands",
+        "lat": "data not available",
+        "lng": "data not available",
+        "permit_type_required": "Identity verification; special travel permits (Surat Jalan) for indigenous Papuans",
+        "stated_justification": "Security for military operations and infrastructure",
+        "opposing_characterization": "Indigenous Papuans are denied access to their own ancestral lands; military checkpoints control movement and isolate communities. State intelligence agents operate undercover in stores, road construction projects, and community surveillance.",
+        "citation": "Human Rights Monitor, October 2025"
+      }
+    ],
+    "utilities_and_energy_grid": {
+      "official_currency": "Indonesian Rupiah (IDR)",
+      "local_informal_currency": "data not available",
+      "power_generating_assets": [
+        "Limited electricity supply; operating only 6:00 pm to 6:00 am in Nduga, preventing daytime office operations",
+        "Military controls fuel sales, shops, and timber businesses in Nduga"
+      ],
+      "daily_electricity_hours_avg": 12,
+      "power_grid_self_sufficiency_pct": "data not available",
+      "fuel_import_dependency_pct": "data not available",
+      "debt_or_fiscal_transfer_mechanisms": "Resource revenue from mining and extractive industries flows out of Papua; local poverty remains high among indigenous Papuans. Special Autonomy Fund (Dana Otsus) between 2008-2020 reached over Rp35 trillion (approx. $2.5 billion USD), but effectiveness questioned due to limited capacity and failure to recognize customary rights.",
+      "citation": "ScienceDirect journal; Human Rights Monitor, October 2025"
+    }
+  },
+  "jurisprudence_and_statutory_friction": {
+    "enforced_system_name": "Indonesian National Law / UU Otonomi Khusus (UU No. 2 Tahun 2021)",
+    "preferred_or_prior_system_name": "Customary law (Hak Ulayat) / UN Declaration on the Rights of Indigenous Peoples / Dewan Adat Papua customary governance",
+    "population_under_special_or_external_law": 2469302,
+    "enforced_statutes_cited": [
+      "Undang-Undang Dasar 1945 Pasal 18B(2) (recognition of customary communities)",
+      "UU No. 2 Tahun 2021 tentang Otonomi Khusus bagi Papua",
+      "UU No. 41/1999 tentang Kehutanan (National Forest Area designation)",
+      "UU Pokok Agraria No. 5 Tahun 1960",
+      "Regulation of MoIA No. 52/2014 on customary institutions",
+      "MoEF Regulation No. 21/2019 on customary forests"
+    ],
+    "landmark_jurisprudence_and_treaties": [
+      {
+        "judicial_body_or_treaty": "Mahkamah Konstitusi (Constitutional Court of Indonesia)",
+        "case_or_resolution_name": "Putusan MK tentang Hutan Adat (Customary Forests Ruling)",
+        "year": 2012,
+        "holding_or_standard": "Recognized that customary forests are not state forests, affirming the existence of customary rights. However, the ruling did not significantly enthuse local governments in Papua, and initiatives for formal recognition only gained momentum after Regulation of MoIA No. 52/2014.",
+        "official_legal_rationale": "The court affirmed customary forest rights exist under Indonesian law.",
+        "opposing_characterization": "The Dewan Adat Papua (DAP) states the ruling has not led to meaningful recognition of customary rights in Papua. Sectoral regulations, particularly related to forests, 'torpedoed (killed off) the Special Autonomy Law' according to local officials and NGOs. Local governments are only mandated with technical issues, empowerment and evaluation, instead of substantive authorities over forests. Budgets allocated for local regulatory frameworks for customary rights were limited.",
+        "citation": "ScienceDirect journal (2017)"
+      },
+      {
+        "judicial_body_or_treaty": "United Nations Expert Mechanism on the Rights of Indigenous Peoples",
+        "case_or_resolution_name": "Study on indigenous peoples and the right to participate in decision-making (Submission by Dewan Adat Papua)",
+        "year": 2011,
+        "holding_or_standard": "The DAP presented that the organization is blocked from running effectively, denied free, prior and informed consent (FPIC), and blocked from receiving support from government, donors, and international bodies. Both Dewan Adat Papua and Majelis Rakyat Papua have been labelled 'separatist,' preventing their effective functioning.",
+        "official_legal_rationale": "The government established MRP under the Special Autonomy Law as a formal body for Papuan representation.",
+        "opposing_characterization": "Two members of MRP who were elected by the people and legalized by the provincial government were refused by the central government for the second period. The DAP is blocked from receiving support from government, donor, and international and UN bodies working in West Papua.",
+        "citation": "DAP Submission to UN Expert Mechanism, 2011"
+      },
+      {
+        "judicial_body_or_treaty": "Dewan Adat Papua / Papuan People's Congress",
+        "case_or_resolution_name": "Second Papuan People's Congress (Kongres Rakyat Papua II)",
+        "year": 2000,
+        "holding_or_standard": "Established the Papuan Presidium Council (PDP) and intensified demand for Papuan independence. The DAP was established as a representative adat institution based on bottom-up characteristics, giving it legitimacy as a representable adat institution.",
+        "official_legal_rationale": "The government responded with Special Autonomy Law (UU No. 21/2001) rather than independence.",
+        "opposing_characterization": "The central government created a new institution, the Customary Community Council (Lembaga Masyarakat Adat / LMA), as a top-down alternative to the DAP, with top-down characteristics that weaken its legitimacy but bring more concrete programs. The DAP frequently criticizes the central government and is not recognized by the government, resulting in failure to implement concrete programs.",
+        "citation": "ScienceDirect journal (2017)"
+      }
+    ],
+    "documented_statutory_conflicts": [
+      {
+        "legal_domain": "Hak Ulayat / Land Rights",
+        "enforced_clause_reference": "National Forest Area designations (UU No. 41/1999) and UU Pokok Agraria (UU No. 5/1960) designating most of Papua as state forest land; UU Otsus amendments allowing central land acquisition",
+        "preferred_or_prior_clause_reference": "Hak Ulayat (customary land rights), Article 18B(2) of the 1945 Constitution, UN Declaration on the Rights of Indigenous Peoples",
+        "conflict_description": "Direct contradiction between National Forest Area designations that designate most of Papua as state forest (5.5 million hectares of corporate HPH concessions vs 78,040 hectares for indigenous communities) and Hak Ulayat customary land rights. The Special Autonomy Law's revised amendments (UU No. 2/2021) allow central land acquisition, overriding customary protections. Food estate and mining projects are permitted without free, prior, and informed consent (FPIC). The DAP has called for implementation of FPIC.",
+        "citation": "OHCHR submission, 2025; ScienceDirect journal, 2017; DAP UN submission, 2011"
+      },
+      {
+        "legal_domain": "Institutional Legitimacy / Self-Determination",
+        "enforced_clause_reference": "Government-recognized institutions: Majelis Rakyat Papua (MRP), Lembaga Masyarakat Adat (LMA / new institution)",
+        "preferred_or_prior_clause_reference": "Dewan Adat Papua (DAP) - established by Papuan grassroots Congress in 2000",
+        "conflict_description": "Government refuses to recognize the DAP, the most representative indigenous institution, branding it and its members as 'separatist.' The government instead created a top-down LMA that is less representative but receives government support and funding. This has created a plurality of adat institutions confusing to Papuans. The DAP is blocked from effectively functioning and denied free, prior, and informed consent.",
+        "citation": "ScienceDirect journal, 2017; DAP UN submission, 2011"
+      }
+    ]
+  },
+  "security_and_justification_data": {
+    "official_threat_assessments_or_attack_statistics": [
+      {
+        "description": "Military operation in Intan Jaya (October 15, 2025)",
+        "time_period": "October 15, 2025",
+        "numbers_or_incidents": "Military operation in Soanggama Village, Hitadipa District: TNI units conducted house-to-house searches before dawn. Military claimed 14 TPNPB members killed in a firefight; local informants state 14 indigenous Papuans were summarily executed, one elderly woman swept away fleeing. At least 10 summary executions across Nduni Ndugupa, Soanggama, Dugibugate. Bodies buried in multiple locations including in front of a Protestant church. 145 displaced (68 women, 38 men, 39 children) to Hitadipa with limited access to food, water, healthcare.",
+        "source": "Indonesian National Armed Forces (TNI); Intan Jaya Conflict Mediation Team; local informants",
+        "citation": "Human Rights Monitor, October 20, 2025"
+      },
+      {
+        "description": "Systematic militarization and occupation of indigenous lands (August-September 2025)",
+        "time_period": "August-September 2025",
+        "numbers_or_incidents": "At least 31 military posts established in Intan Jaya since September 11, 2025; 400 non-organic troops occupying Jalai village including elementary school and teacher housing; 500 additional troops deployed to Homeyo District; Operation Obema targeting TPNPB headquarters; occupation of all 21 villages in Homeyo District. Deployment of thousands of non-organic troops using Russian-made helicopters, armored vehicles, heavy weaponry. Expansion across Puncak, Puncak Jaya, Paniai, Lanny Jaya, Yahukimo, Nduga, Pegunungan Bintang.",
+        "source": "Human Rights Monitor; local informants",
+        "citation": "Human Rights Monitor, October 2025"
+      },
+      {
+        "description": "Internal displacement refugees",
+        "time_period": "October 2025",
+        "numbers_or_incidents": "103,218 refugees recorded by Papuan Council of Churches. Nduga refugees in Jayawijaya since 2019 exceed 10,000. Intan Jaya: entire villages forced into refugee camps. Lanny Jaya: 2,000-2,300 residents fled after October 5 helicopter operation.",
+        "source": "Papuan Council of Churches (PCC)",
+        "citation": "APSN, November 2025"
+      },
+      {
+        "description": "Human rights violations against student demonstrators",
+        "time_period": "February 2025",
+        "numbers_or_incidents": "Student demonstrations against National Strategic Projects and for free education were met with violent dispersal, arbitrary arrests, use of live ammunition. In Jayapura: 15 students arbitrarily arrested. In Jayawijaya: police dispersal with live ammunition. In Yalimo: militaristic approach with live ammunition firing.",
+        "source": "LBH Papua",
+        "citation": "Tribun-Papua, February 2025"
+      }
+    ],
+    "stated_administrative_or_security_rationales": [
+      {
+        "measure": "Military operations and post establishment (Intan Jaya, Nduga, Central Highlands)",
+        "official_rationale": "Counterinsurgency operations against TPNPB-OPM; protecting infrastructure and national security. TNI claimed October 15 operation was to 'free residents' from TPNPB presence and that 14 TPNPB members were killed in a firefight.",
+        "opposing_characterization": "The military occupation is a systematic militarization designed to secure resource-rich territories rather than protect civilian populations. Human rights activists accuse the military deployment of being designed to forcibly evacuate indigenous peoples from their ancestral lands to facilitate mining exploitation. Wabu Block gold mining (116 million tonnes of mineral ore) is scheduled to begin March 2026 with five companies (PT Antam, PT Freeport Indonesia, PT Madinah Qurrata Ain, PT Nasapati Satria, PT Kotabara Miratama). Military deployment patterns and geography align precisely with mining concessions. The Head of Papua's Komnas HAM Representative Office stated troop deployments lack legal basis and proper approval, causing disruption to community security, coordination chaos, and tensions.",
+        "citation": "Human Rights Monitor, October 2025; Komnas HAM statement; Asia Pacific Solidarity Network, 2025"
+      },
+      {
+        "measure": "Special Autonomy Law (UU Otsus Jilid II) and Provincial Expansion",
+        "official_rationale": "Pemerintah views Special Autonomy as a middle path for development, recognition of Papuan identity, and improving welfare. Local governments prioritize infrastructure, economic development, health, and education.",
+        "opposing_characterization": "The DAP and civil society characterize Otsus as failing to resolve the root causes of conflict. The law has not led to recognition of customary rights and institutions regarding forest resources. The Special Autonomy Law did not provide clear operationalization of customary land and forest rights. Sectoral regulations torpedoed the Special Autonomy Law. The MRP's authority is limited and constrained by inadequate Perdasus. Recognition of customary rights has not been a policy priority; budgets for customary frameworks were limited. Papua's indigenous peoples continue to face systematic militarization, displacement, and lack of effective participation in decision-making.",
+        "citation": "ScienceDirect journal, 2017; DAP UN submission, 2011"
+      },
+      {
+        "measure": "Restrictions on telecommunications, movement, and assembly",
+        "official_rationale": "Security measures to prevent coordination of armed groups and maintain public order.",
+        "opposing_characterization": "Systematic information control preventing documentation and external monitoring of abuses. Military controls telecommunications and information flow. Indigenous Papuans are subjected to arbitrary detention, surveillance, and denial of freedom of expression and assembly. LBH Papua documented arbitrary arrests, torture, and use of excessive force against peaceful demonstrators.",
+        "citation": "Human Rights Monitor, October 2025; LBH Papua statements"
+      }
+    ]
+  }
+}

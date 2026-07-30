@@ -1,0 +1,288 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Great GASPI Data Schema",
+  "type": "object",
+  "prompt_id": "prompt-8",
+  "territory_name": "Regiunea Transnistreană (Stânga Nistrului)",
+  "perspective": "Republica Moldova / Biroul Politici de Reintegrare / Serviciul Vamal al RM",
+  "language": "Romanian",
+  "years_of_scope": "1990-2026",
+  "wgs84_center": {
+    "lat": 46.8333,
+    "lng": 29.6167
+  },
+  "topographic_and_control_data": {
+    "total_area_sqkm": 4163,
+    "accessible_area_sqkm": "data not available",
+    "control_zones": [
+      {
+        "zone_name": "Zona de Securitate",
+        "area_sqkm": 225,
+        "area_pct": 5.4,
+        "governing_authority": "Comisia Unificată de Control (Republica Moldova, Federația Rusă, Transnistria)",
+        "access_restrictions": "Regim special de securitate; restricții de circulație și activitate militară; puncte de control ale forțelor de menținere a păcii.",
+        "strategic_features_located_here": [
+          "Podurile peste Nistru în zona Dubăsari",
+          "Traseul Tiraspol-Râbnița (segmente care trec prin satele moldovenești)",
+          "Localitățile Cocieri, Coșnița, Varnița"
+        ]
+      },
+      {
+        "zone_name": "Teritoriul controlat de facto de autoritățile de la Tiraspol",
+        "area_sqkm": "data not available",
+        "area_pct": 85.0,
+        "governing_authority": "Administrația de la Tiraspol (nerecunoscută de Republica Moldova)",
+        "access_restrictions": "Control administrativ și militar de către autoritățile separatiste; regim vamal propriu; puncte de control nelegitime.",
+        "strategic_features_located_here": [
+          "Fluviul Nistru (malul stâng)",
+          "Orașul Tiraspol",
+          "Orașul Râbnița",
+          "Lacul de acumulare Dubăsari",
+          "Centrala Termoelectrică de la Cuciurgan (MGRES)"
+        ]
+      },
+      {
+        "zone_name": "Teritoriul controlat de autoritățile constituționale (malul drept)",
+        "area_sqkm": "data not available",
+        "area_pct": 10.0,
+        "governing_authority": "Autoritățile Republicii Moldova",
+        "access_restrictions": "Acces limitat în anumite zone din cauza obstacolelor create de regimul separatist; puncte de control moldovenești la intrarea și ieșirea din regiune.",
+        "strategic_features_located_here": [
+          "Orașul Dubăsari (malul drept)",
+          "Satele din raionul Dubăsari aflate sub control constituțional"
+        ]
+      }
+    ],
+    "demographics": {
+      "population_category_a": "data not available",
+      "population_category_b": "data not available",
+      "density_per_sqkm": "data not available",
+      "displacement_or_refugee_count": "data not available",
+      "notes": "Republica Moldova estimează că în regiunea transnistreană trăiesc aproximativ 470,000 de persoane, dintre care 300,000 sunt deținători de pașapoarte moldovenești. Această cifră variază, deoarece unele persoane au plecat din regiune sau au dobândit cetățenia altor state.",
+      "citation": "Agenția Servicii Publice a Republicii Moldova (date privind deținătorii de pașapoarte moldovenești în regiunea transnistreană)"
+    },
+    "named_high_ground_features": [
+      {
+        "name": "Platoul Cocieri",
+        "lat": "data not available",
+        "lng": "data not available",
+        "elevation_m": "data not available",
+        "functional_strategic_description": "Control al observării și al coridoarelor de mișcare de-a lungul malului drept al Nistrului, în zona de securitate.",
+        "control_zone": "Zona de Securitate",
+        "citation": "data not available"
+      }
+    ],
+    "physical_barriers": [
+      {
+        "name": "Punctele de control nelegitime ale autorităților de la Tiraspol",
+        "type": "manmade",
+        "lat": "data not available",
+        "lng": "data not available",
+        "length_km": 816,
+        "temporal_variations": "Puncte de control permanente; intensificarea controlului în contextul conflictului din Ucraina.",
+        "stated_justification": "Autoritățile Republicii Moldova caracterizează aceste puncte de control ca fiind ilegale, obstacole în calea reintegrării și încălcări ale suveranității și integrității teritoriale a Republicii Moldova.",
+        "opposing_characterization": "Autoritățile de la Tiraspol le justifică drept măsuri de securitate necesare pentru protejarea granițelor și controlul circulației.",
+        "citation": "Declarațiile Biroului Politici de Reintegrare al Republicii Moldova"
+      }
+    ]
+  },
+  "hydrology_data": {
+    "upstream_downstream_position": "upstream",
+    "water_infrastructure": [
+      {
+        "name": "Lacul de acumulare Dubăsari",
+        "type": "Lac de acumulare / Hidrocentrală",
+        "lat": 47.25,
+        "lng": 29.1667,
+        "controlling_entity": "Autoritățile de la Tiraspol (de facto)",
+        "capacity_or_flow_rate": "data not available",
+        "citation": "data not available"
+      },
+      {
+        "name": "Centrala Hidroelectrică de la Dubăsari",
+        "type": "Hidrocentrală",
+        "lat": 47.25,
+        "lng": 29.1667,
+        "controlling_entity": "Autoritățile de la Tiraspol (de facto)",
+        "capacity_or_flow_rate": "48 MW",
+        "citation": "data not available"
+      },
+      {
+        "name": "Centrala Termoelectrică de la Cuciurgan (MGRES)",
+        "type": "Centrală termoelectrică",
+        "lat": 46.85,
+        "lng": 29.6333,
+        "controlling_entity": "Autoritățile de la Tiraspol (de facto) / Inter RAO (Rusia)",
+        "capacity_or_flow_rate": 2520,
+        "citation": "data not available"
+      }
+    ],
+    "per_capita_water_consumption_l_d": {
+      "population_a": "data not available",
+      "population_b": "data not available",
+      "who_reference_standard": 100.0,
+      "citation": "data not available"
+    },
+    "agriculture": {
+      "arable_land_pct": "data not available",
+      "irrigated_land_pct": "data not available",
+      "food_import_dependency_pct": "data not available",
+      "citation": "data not available"
+    }
+  },
+  "environmental_degradation_incidents": [
+    {
+      "incident_type": "Depozitul de muniții de la Cobasna",
+      "chemical_or_hazard_agents": [
+        "Muniții (explozivi)",
+        "Risc de explozie",
+        "Risc de contaminare a solului și apelor subterane"
+      ],
+      "toxicological_classification": "Risc ridicat de catastrofă ecologică (explozie, incendii)",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": 2004,
+      "ongoing": true,
+      "stated_justification": "Republica Moldova a solicitat în repetate rânduri retragerea sau distrugerea munițiilor, considerând depozitul o amenințare pentru securitatea și mediul din regiune.",
+      "opposing_characterization": "Autoritățile de la Tiraspol și Federația Rusă consideră că depozitul este securizat și nu prezintă un risc iminent.",
+      "documenting_orgs": [
+        "Guvernul Republicii Moldova",
+        "Biroul Politici de Reintegrare",
+        "Organizații ecologice"
+      ],
+      "citations": [
+        "Declarațiile Biroului Politici de Reintegrare privind depozitul de la Cobasna"
+      ]
+    }
+  ],
+  "infrastructure_and_logistics_data": {
+    "airspace_and_spectrum": {
+      "cellular_tech_allowed": "Spectrul radio este autorizat de ANRCETI (Autoritatea Națională pentru Reglementare în Comunicații Electronice și Tehnologia Informației) a Republicii Moldova.",
+      "flight_corridor_control": "Spațiul aerian este controlat de Republica Moldova; aeroportul din Chișinău este utilizat pentru zboruri internaționale.",
+      "stated_justification": "Republica Moldova consideră că utilizarea neautorizată a spectrului în regiune este ilegală și interferează cu comunicațiile autorizate.",
+      "citation": "ANRCETI"
+    },
+    "maritime_and_cabotage": {
+      "eez_claimed_sqkm": "data not available",
+      "eez_accessible_sqkm": "data not available",
+      "accessible_ports_count": 0,
+      "fishing_zone_nautical_miles": "data not available",
+      "cabotage_or_merchant_marine_restrictions": "data not available",
+      "stated_justification": "data not available",
+      "citation": "data not available"
+    },
+    "trade_and_dual_use_controls": {
+      "controlled_item_categories": [
+        "Bunuri cu dublă destinație",
+        "Produse energetice",
+        "Metale"
+      ],
+      "transit_permit_regimes": "Codul Vamal al Republicii Moldova; înregistrarea agenților economici din regiune la Camera Înregistrării de Stat a Republicii Moldova; regim de comerț controlat.",
+      "stated_justification": "Republica Moldova promovează un regim vamal unitar și condiții economice uniforme pe întreg teritoriul țării, inclusiv în regiunea transnistreană.",
+      "citation": "Declarațiile Biroului Politici de Reintegrare"
+    },
+    "checkpoints_and_gates": [
+      {
+        "name": "Punctul de trecere a frontierei moldo-ucrainene (sectorul transnistrean)",
+        "lat": "data not available",
+        "lng": "data not available",
+        "permit_type_required": "Control vamal și de frontieră al Republicii Moldova (doar pentru mărfuri la import/export)",
+        "stated_justification": "Controlul vamal moldovenesc la frontiera de stat este necesar pentru aplicarea TVA-ului, accizelor și respectarea standardelor europene pentru produsele care intră pe piața moldovenească.",
+        "citation": "Declarațiile Biroului Politici de Reintegrare"
+      },
+      {
+        "name": "Puncte de control interne ale autorităților de la Tiraspol (nelegitime)",
+        "lat": "data not available",
+        "lng": "data not available",
+        "permit_type_required": "Permise emise de autoritățile de la Tiraspol (nu sunt recunoscute de Republica Moldova)",
+        "stated_justification": "Republica Moldova consideră aceste puncte de control ca fiind ilegale și obstacole în calea liberei circulații și a reintegrării.",
+        "citation": "Declarațiile Biroului Politici de Reintegrare"
+      }
+    ],
+    "utilities_and_energy_grid": {
+      "official_currency": "Leul moldovenesc (MDL)",
+      "local_informal_currency": "Rubla transnistreană (PRB), rubla rusă (RUB), grivna ucraineană (UAH) (utilizate în regiune în paralel, dar nu recunoscute oficial de Republica Moldova)",
+      "power_generating_assets": [
+        "Centrala Termoelectrică de la Cuciurgan (MGRES) - pe teritoriul regiunii transnistrene, dar proprietatea Republicii Moldova",
+        "Centrala Hidroelectrică de la Dubăsari"
+      ],
+      "daily_electricity_hours_avg": "24 de ore pe zi (fără întreruperi)",
+      "power_grid_self_sufficiency_pct": "data not available",
+      "fuel_import_dependency_pct": "data not available",
+      "debt_or_fiscal_transfer_mechanisms": "Acumularea datoriei istorice pentru gaze naturale în regiunea transnistreană; factura pentru gaze la MGRES; scheme de decontare a gazelor rusești.",
+      "citation": "Declarațiile Biroului Politici de Reintegrare"
+    }
+  },
+  "jurisprudence_and_statutory_friction": {
+    "enforced_system_name": "Legislația Republicii Moldova (de jure pentru întreg teritoriul, inclusiv regiunea transnistreană)",
+    "preferred_or_prior_system_name": "Legislația Republicii Moldova / Legislația Uniunii Sovietice (în trecut)",
+    "population_under_special_or_external_law": "Aproximativ 470,000 persoane",
+    "enforced_statutes_cited": [
+      "Constituția Republicii Moldova (art. 1, 2)",
+      "Legea Nr. 221/2005 cu privire la prevederile de bază ale statutului juridic special al localităților din stânga Nistrului",
+      "Codul Vamal al Republicii Moldova",
+      "Legea Nr. 173/1994 cu privire la organizarea și funcționarea Zonei Economice Libere 'Tiraspol'"
+    ],
+    "landmark_jurisprudence_and_treaties": [
+      {
+        "judicial_body_or_treaty": "Curtea Europeană a Drepturilor Omului (CEDO)",
+        "case_or_resolution_name": "Cauza Catan și alții",
+        "year": 2012,
+        "holding_or_standard": "CEDO a constatat că Republica Moldova are jurisdicție asupra întregului teritoriu, inclusiv asupra regiunii transnistrene, și că este responsabilă pentru încălcările drepturilor omului din regiune. Moldova trebuie să ia măsuri pentru a garanta drepturile omului.",
+        "official_legal_rationale": "Republica Moldova recunoaște jurisdicția CEDO și își asumă responsabilitatea de a aplica hotărârile și de a proteja drepturile cetățenilor săi în întreaga țară.",
+        "citation": "Hotărârea CEDO în cauza Catan și alții (2012)"
+      },
+      {
+        "judicial_body_or_treaty": "Organizația pentru Securitate și Cooperare în Europa (OSCE)",
+        "case_or_resolution_name": "Declarația de la Moscova",
+        "year": 1993,
+        "holding_or_standard": "Angajamentul statelor membre OSCE de a respecta integritatea teritorială a Republicii Moldova și de a căuta o soluție politică pentru conflict.",
+        "official_legal_rationale": "Republica Moldova se bazează pe aceste angajamente pentru a susține că integritatea sa teritorială trebuie respectată.",
+        "citation": "Declarația de la Moscova a OSCE (1993)"
+      }
+    ],
+    "documented_statutory_conflicts": [
+      {
+        "legal_domain": "Drept constituțional",
+        "enforced_clause_reference": "Constituția Republicii Moldova (articolul 1, alin. (1) și articolul 2)",
+        "preferred_or_prior_clause_reference": "Constituția Pridnestroviei (nerecunoscută)",
+        "conflict_description": "Conflict direct între Constituția Republicii Moldova, care proclamă suveranitatea și integritatea teritorială asupra întregului teritoriu național (inclusiv regiunea transnistreană), și actele constitutive ale autorităților separatiste de la Tiraspol, care revendică independența.",
+        "citation": "Constituția Republicii Moldova; Constituția Pridnestroviei"
+      },
+      {
+        "legal_domain": "Drept administrativ / Vamal",
+        "enforced_clause_reference": "Codul Vamal al Republicii Moldova",
+        "preferred_or_prior_clause_reference": "Codul Vamal al Pridnestroviei",
+        "conflict_description": "Conflict între unitatea teritoriului vamal al Republicii Moldova și existența unui regim vamal separat în regiunea transnistreană, care nu este recunoscut de autoritățile constituționale.",
+        "citation": "Codul Vamal al Republicii Moldova; Codul Vamal al Pridnestroviei"
+      }
+    ]
+  },
+  "security_and_justification_data": {
+    "official_threat_assessments_or_attack_statistics": [
+      {
+        "description": "Ilegalitatea punctelor de control și obstacolelor în calea liberei circulații",
+        "time_period": "1992-2026",
+        "numbers_or_incidents": "Puncte de control nelegitime; restricții de acces pentru cetățenii moldoveni; obstacole în calea liberei circulații a bunurilor și persoanelor.",
+        "source": "Biroul Politici de Reintegrare al Republicii Moldova",
+        "citation": "Declarațiile Biroului Politici de Reintegrare"
+      }
+    ],
+    "stated_administrative_or_security_rationales": [
+      {
+        "measure": "Punctele de control ale autorităților de la Tiraspol",
+        "official_rationale": "Republica Moldova consideră aceste puncte de control ca fiind ilegale, obstacole în calea reintegrării și încălcări ale suveranității și integrității teritoriale. Afectează libertatea de circulație și comerțul.",
+        "citation": "Declarațiile Biroului Politici de Reintegrare"
+      },
+      {
+        "measure": "Controlul vamal moldovenesc la frontiera de stat (sectorul transnistrean)",
+        "official_rationale": "Controlul vamal moldovenesc este necesar pentru aplicarea TVA-ului, accizelor și respectarea standardelor europene pentru produsele care intră pe piața moldovenească.",
+        "citation": "Declarațiile Biroului Politici de Reintegrare"
+      },
+      {
+        "measure": "Statutul juridic special al localităților din stânga Nistrului",
+        "official_rationale": "Legea Nr. 221/2005 stabilește cadrul juridic pentru reintegrarea regiunii și garantarea drepturilor locuitorilor săi, inclusiv dreptul la limba maternă și la cultură.",
+        "citation": "Legea Nr. 221/2005"
+      }
+    ]
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Great GASPI Data Schema",
+  "type": "object",
+  "prompt_id": "prompt-3",
+  "territory_name": "Gaza Strip",
+  "perspective": "State of Israel / Southern Command / COGAT",
+  "language": "Hebrew",
+  "years_of_scope": "1967-2026",
+  "wgs84_center": {
+    "lat": 31.5,
+    "lng": 34.4667
+  },
+  "topographic_and_control_data": {
+    "total_area_sqkm": 365,
+    "accessible_area_sqkm": "data not available",
+    "control_zones": [
+      {
+        "zone_name": "Access Restricted Area (ARA) / Buffer Zone",
+        "area_sqkm": "data not available",
+        "area_pct": 16,
+        "governing_authority": "Israel Defense Forces (Southern Command)",
+        "access_restrictions": "Access prohibited; the zone extends between 800 to 1,500 meters inward from the border in some areas, and up to 3,000 meters in others[citation:6]. The zone is enforced through live fire; anyone entering is considered a threat[citation:6].",
+        "strategic_features_located_here": [
+          "Perimeter security fence",
+          "Observation and fire control lines",
+          "Agricultural land (approximately 17,000 dunams / 17 sq km, or 15% of Gazan agricultural land)[citation:13]"
+        ]
+      },
+      {
+        "zone_name": "Netzarim Corridor",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Israel Defense Forces",
+        "access_restrictions": "A six-kilometre stretch of land south of Gaza City dividing the Strip into northern and southern parts; used to monitor and control movement and launch military operations[citation:6]. Designated as a 'kill zone' with no clear rules of engagement[citation:6].",
+        "strategic_features_located_here": [
+          "Military observation and control corridor",
+          "Movement control line"
+        ]
+      },
+      {
+        "zone_name": "Maritime Access Restricted Area",
+        "area_sqkm": "data not available",
+        "area_pct": "data not available",
+        "governing_authority": "Israeli Navy",
+        "access_restrictions": "Fishing zone varies; allowed distance has fluctuated between 3 and 15 nautical miles[citation:2][citation:12]. The zone is enforced by naval patrols and live fire[citation:2][citation:10].",
+        "strategic_features_located_here": [
+          "Coastal waters",
+          "Fishing grounds"
+        ]
+      }
+    ],
+    "demographics": {
+      "population_category_a": 2114301,
+      "population_category_b": "data not available",
+      "density_per_sqkm": "data not available",
+      "displacement_or_refugee_count": "data not available",
+      "notes": "Population of Gaza Strip estimated at 2,114,301 persons for 2025, a decrease of 10% from pre-aggression estimates due to casualties and displacement[citation:5].",
+      "citation": "Palestinian Central Bureau of Statistics (PCBS), 2025 population estimates[citation:5]"
+    },
+    "named_high_ground_features": {
+      "name": "data not available",
+      "lat": "data not available",
+      "lng": "data not available",
+      "elevation_m": "data not available",
+      "functional_strategic_description": "The Gaza Strip is characterized by flat coastal terrain, with no significant high-ground features. Strategic control is established through observation towers, the perimeter fence, and the Netzarim Corridor, which allow observation, fire control, and movement restriction across the territory[citation:6].",
+      "control_zone": "data not available",
+      "citation": "data not available"
+    },
+    "physical_barriers": [
+      {
+        "name": "Perimeter Security Fence (Gaza-Israel Border)",
+        "type": "manmade",
+        "lat": "data not available",
+        "lng": "data not available",
+        "length_km": "data not available",
+        "temporal_variations": "Established after the 2005 disengagement; the buffer zone has varied in width from 100 to 1,500 meters; post-October 2023, expanded to 800-1,500 meters in some areas[citation:2][citation:6].",
+        "stated_justification": "The buffer zone is a defensive measure to prevent attacks, rocket fire, and infiltration into Israeli territory. It creates sterile lines of observation and fire and denies cover to combatants[citation:6]. Israel states it operates in accordance with international law[citation:1].",
+        "opposing_characterization": "The buffer zone is an illegal measure that constitutes collective punishment and a violation of international humanitarian law. It denies Palestinians access to 15% of their agricultural land and has been created through 'wholesale destruction' of civilian infrastructure and agricultural areas[citation:6][citation:13][citation:2].",
+        "citation": "Breaking the Silence report, 2025[citation:6]; Palestinian Ministry of Foreign Affairs, 2019[citation:2]"
+      }
+    ]
+  },
+  "hydrology_data": {
+    "upstream_downstream_position": "shared",
+    "water_infrastructure": [
+      {
+        "name": "Coastal Aquifer",
+        "type": "Underground aquifer",
+        "lat": "data not available",
+        "lng": "data not available",
+        "controlling_entity": "Gaza Strip municipal authorities; Israel controls water lines entering Gaza",
+        "capacity_or_flow_rate": "data not available",
+        "citation": "data not available"
+      },
+      {
+        "name": "Khan Yunis Desalination Plant",
+        "type": "Desalination plant",
+        "lat": "data not available",
+        "lng": "data not available",
+        "controlling_entity": "Palestinian Authority; power coordinated with COGAT/UNICEF",
+        "capacity_or_flow_rate": "20,000 cubic meters per day at full capacity[citation:1]",
+        "citation": "COGAT, 2024[citation:1]"
+      },
+      {
+        "name": "South Sea Desalination Plant",
+        "type": "Desalination plant",
+        "lat": "data not available",
+        "lng": "data not available",
+        "controlling_entity": "Palestinian Authority; reconnected to Israeli electricity grid",
+        "capacity_or_flow_rate": "18,000 cubic meters per day at full capacity; reduced to 3,000 cubic meters per day after electricity cut[citation:7]",
+        "citation": "Amnesty International, 2025[citation:7]"
+      },
+      {
+        "name": "Water Lines from Israel",
+        "type": "Water supply lines",
+        "lat": "data not available",
+        "lng": "data not available",
+        "controlling_entity": "Israel (COGAT)",
+        "capacity_or_flow_rate": "3 active water lines supplying variable amounts[citation:1]",
+        "citation": "COGAT, 2024[citation:1]"
+      }
+    ],
+    "per_capita_water_consumption_l_d": {
+      "population_a": 107,
+      "population_b": "data not available",
+      "who_reference_standard": 100.0,
+      "notes": "COGAT reported water supply averages: 107 liters per person in northern Gaza, 34 liters per person in central Gaza, and 20 liters per person in southern Gaza (as of December 2024)[citation:1]. The WHO reference standard for conflict zones is 15 liters per person daily[citation:1]. Water supply exceeded 70,000 cubic meters per day during the ceasefire period[citation:9].",
+      "citation": "COGAT, 2024[citation:1]; COGAT, 2026[citation:9]"
+    },
+    "agriculture": {
+      "arable_land_pct": "data not available",
+      "irrigated_land_pct": "data not available",
+      "food_import_dependency_pct": "data not available",
+      "notes": "Approximately 35% of all agricultural land in Gaza was razed as part of buffer zone creation[citation:6]. About 15% (17,000 dunams) of agricultural land lies within the Access Restricted Area[citation:13].",
+      "citation": "Breaking the Silence report, 2025[citation:6]; EcoMENA, 2024[citation:13]"
+    }
+  },
+  "environmental_degradation_incidents": [
+    {
+      "incident_type": "Agricultural Land Razing and Buffer Zone Creation",
+      "chemical_or_hazard_agents": [
+        "Bulldozing",
+        "Demolition",
+        "Mines/explosives"
+      ],
+      "toxicological_classification": "Environmental destruction / Habitat loss",
+      "affected_area_sqkm": "data not available",
+      "first_documented_year": "data not available",
+      "ongoing": true,
+      "stated_justification": "Creation of 'sterile' buffer zones to deny cover to combatants, establish observation and fire control lines, and prevent attacks on Israel[citation:6].",
+      "opposing_characterization": "Destruction of agricultural land and infrastructure constitutes collective punishment, undermines Palestinian self-sufficiency, and may constitute a war crime[citation:6][citation:13].",
+      "documenting_orgs": [
+        "Breaking the Silence (BtS)",
+        "Palestinian Ministry of Foreign Affairs",
+        "UN Human Rights Office"
+      ],
+      "citations": [
+        "Breaking the Silence report, 2025[citation:6]",
+        "EcoMENA, 2024[citation:13]"
+      ]
+    }
+  ],
+  "infrastructure_and_logistics_data": {
+    "airspace_and_spectrum": {
+      "cellular_tech_allowed": "Limited; subject to Israeli restrictions and damage from conflict",
+      "flight_corridor_control": "Israel controls the airspace over the Gaza Strip",
+      "stated_justification": "Security control to prevent aerial attacks and weapons smuggling",
+      "citation": "data not available"
+    },
+    "maritime_and_cabotage": {
+      "eez_claimed_sqkm": "data not available",
+      "eez_accessible_sqkm": "data not available",
+      "accessible_ports_count": 1,
+      "fishing_zone_nautical_miles": 15,
+      "cabotage_or_merchant_marine_restrictions": "The fishing zone is restricted by the Israeli Navy and has varied between 3 and 15 nautical miles since 2005[citation:2][citation:10][citation:12]. COGAT reported an expansion to 15 nautical miles in December 2025 as part of civilian policy to prevent humanitarian deterioration[citation:12].",
+      "stated_justification": "Restrictions on the fishing zone are for security reasons, to prevent arms smuggling and attacks from the sea[citation:2].",
+      "citation": "COGAT, 2025[citation:12]; Palestinian Ministry of Foreign Affairs, 2019[citation:2]"
+    },
+    "trade_and_dual_use_controls": {
+      "controlled_item_categories": [
+        "Dual-use items: generators, solar panels, tent poles, smoke detectors, crutches, wheelchairs, walkers[citation:3][citation:11]",
+        "Construction materials",
+        "Fuel"
+      ],
+      "transit_permit_regimes": "Items are controlled at border crossings (Kerem Shalom and other crossings). Humanitarian organizations are barred from delivering many dual-use items, but commercial traders are permitted to bring them in, selling them at inflated prices[citation:3][citation:11].",
+      "stated_justification": "Dual-use items are restricted because they could be repurposed for military activities by combatants[citation:3][citation:11].",
+      "citation": "The Guardian report, 2026[citation:3]"
+    },
+    "checkpoints_and_gates": [
+      {
+        "name": "Kerem Shalom Crossing",
+        "lat": "data not available",
+        "lng": "data not available",
+        "permit_type_required": "Commercial and humanitarian goods transport permits",
+        "stated_justification": "Security checkpoint for humanitarian and commercial goods; coordinates with COGAT, international organizations, and UN agencies[citation:1].",
+        "citation": "COGAT, 2024[citation:1]"
+      },
+      {
+        "name": "Erez Crossing",
+        "lat": "data not available",
+        "lng": "data not available",
+        "permit_type_required": "Passenger and humanitarian aid transit permits",
+        "stated_justification": "Security checkpoint for personnel and humanitarian movement",
+        "citation": "data not available"
+      }
+    ],
+    "utilities_and_energy_grid": {
+      "official_currency": "Israeli New Shekel (NIS)",
+      "local_informal_currency": "US Dollar (USD), Jordanian Dinar (JOD)",
+      "power_generating_assets": [
+        "Gaza Strip power plant (shut down early in the conflict due to fuel shortage)[citation:14]",
+        "Power lines from Israel (10 lines; 4 with load limiters)[citation:15]",
+        "Power line from Egypt"
+      ],
+      "daily_electricity_hours_avg": 0,
+      "power_grid_self_sufficiency_pct": "data not available",
+      "fuel_import_dependency_pct": "data not available",
+      "debt_or_fiscal_transfer_mechanisms": "Electricity supply from Israel has been cut; Gaza's sole power plant shut down early in the war. Satellite data shows Gaza is seven times less bright at night than before October 7, 2023, and some populated areas are now as dimly lit as adjacent desert regions[citation:14]. The sole power plant's shutdown occurred on October 10-11, 2023[citation:14].",
+      "citation": "AFP analysis of NASA Black Marble satellite data, 2025[citation:14]; ICRC Casebook, 2008[citation:15]"
+    }
+  },
+  "jurisprudence_and_statutory_friction": {
+    "enforced_system_name": "Israeli Military Law / Security Protocols",
+    "preferred_or_prior_system_name": "Palestinian Authority Law / Local Administration",
+    "population_under_special_or_external_law": 2114301,
+    "enforced_statutes_cited": [
+      "Israeli security and border control regulations",
+      "Dual-use export control lists",
+      "Military orders regarding buffer zones"
+    ],
+    "landmark_jurisprudence_and_treaties": [
+      {
+        "judicial_body_or_treaty": "International Court of Justice (ICJ)",
+        "case_or_resolution_name": "Advisory Opinion on Genocide and Occupation (2024)",
+        "year": 2024,
+        "holding_or_standard": "The ICJ affirmed that Israel's obligations as an occupying power were not terminated by the 2005 disengagement, as Israel maintains effective control over the Gaza Strip's borders, airspace, and maritime zones[citation:8].",
+        "official_legal_rationale": "Israel argues it no longer has a general duty to ensure the welfare of Gaza residents as it is not an occupying power, though it does have obligations arising from its control over border crossings and the relationship with Gaza[citation:15].",
+        "citation": "International Court of Justice, 2024[citation:8]"
+      },
+      {
+        "judicial_body_or_treaty": "Israeli Supreme Court",
+        "case_or_resolution_name": "Jaber Al-Bassiouni Ahmed and others v. Prime Minister and Minister of Defence (HCJ 9132/07)",
+        "year": 2008,
+        "holding_or_standard": "The Supreme Court held that restrictions on fuel and electricity must be balanced against the humanitarian needs of Gaza's population. The court accepted the state's position that it had no duty to allow unlimited fuel/electricity when some is used for terrorism, and that duties derive from the state of armed conflict and control over crossings[citation:15].",
+        "official_legal_rationale": "The state argued that since the 2005 disengagement, Israel no longer has effective control over Gaza and therefore is not subject to all obligations of an occupying power; only to obligations derived from armed conflict and the control over border crossings. The court accepted this position[citation:15].",
+        "citation": "Israeli Supreme Court, 2008[citation:15]"
+      }
+    ],
+    "documented_statutory_conflicts": [
+      {
+        "legal_domain": "Humanitarian Law / Occupation Status",
+        "enforced_clause_reference": "Israeli legal position that 2005 disengagement terminated occupation status",
+        "preferred_or_prior_clause_reference": "International law position that Israel remains the occupying power due to effective control",
+        "conflict_description": "Conflict between Israel's legal position (that it is not the occupying power and has limited obligations) and international bodies (ICJ, UN, human rights organizations) that maintain Israel remains the occupying power and is subject to the full obligations under the Fourth Geneva Convention[citation:8][citation:15].",
+        "citation": "International Court of Justice, 2024[citation:8]; ICRC Casebook, 2008[citation:15]"
+      }
+    ]
+  },
+  "security_and_justification_data": {
+    "official_threat_assessments_or_attack_statistics": [
+      {
+        "description": "Terrorist attacks from Gaza prior to buffer zone creation",
+        "time_period": "data not available",
+        "numbers_or_incidents": "Israel cites continuous rocket and mortar shell fire at Israeli civilian targets, and terrorist attacks targeting civilians and IDF soldiers at the border crossings as justification for border restrictions[citation:15]. The buffer zone and perimeter fence were established to prevent attacks and infiltration[citation:6].",
+        "source": "Israeli government/security establishment statements",
+        "citation": "Israeli Supreme Court, 2008[citation:15]"
+      },
+      {
+        "description": "Water infrastructure coordination",
+        "time_period": "2024",
+        "numbers_or_incidents": "COGAT coordinated with UNICEF the repair of the electricity line to the Khan Yunis desalination plant so it could operate at full capacity, providing 20,000 cubic meters of water daily[citation:1].",
+        "source": "COGAT",
+        "citation": "COGAT, 2024[citation:1]"
+      },
+      {
+        "description": "Humanitarian aid during ceasefire",
+        "time_period": "October 2025 - June 2026",
+        "numbers_or_incidents": "Approximately 1.78 million tons of food entered Gaza during this period, over three times the UN requirements[citation:9]. Water supply exceeded 70,000 cubic meters per day, and food prices declined 72%[citation:9].",
+        "source": "COGAT",
+        "citation": "COGAT, 2026[citation:9]"
+      }
+    ],
+    "stated_administrative_or_security_rationales": [
+      {
+        "measure": "Access Restricted Area (Buffer Zone)",
+        "official_rationale": "The buffer zone is a defensive measure to prevent attacks, rocket fire, and infiltration; to create sterile observation and fire lines; and to deny cover to combatants. The area is enforced because anyone entering is considered a threat under IDF rules of engagement[citation:6].",
+        "citation": "Breaking the Silence report, 2025[citation:6]"
+      },
+      {
+        "measure": "Dual-Use Control List",
+        "official_rationale": "Restrictions are in place because items such as generators, solar panels, and construction materials could be repurposed by combatants for military activities[citation:3][citation:11].",
+        "citation": "The Guardian report, 2026[citation:3]"
+      },
+      {
+        "measure": "Fishing Zone Restrictions",
+        "official_rationale": "Restrictions are for security reasons, preventing arms smuggling and attacks from the sea. Easing restrictions is part of civilian policy to prevent humanitarian deterioration[citation:2][citation:12].",
+        "citation": "COGAT, 2025[citation:12]"
+      }
+    ]
+  }
+}
