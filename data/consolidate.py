@@ -204,6 +204,19 @@ def _with_perspective(note, perspective):
     tag = f"— per {perspective}"
     return f"{note} {tag}".strip() if note else tag
 
+def _lead_note(*parts, perspective=None):
+    """Join labeled text parts (skipping missing/empty ones) into one plain-
+    text note, control/attribution info first — written for someone reading
+    the marker list as text (screen reader or TTS), not looking at a colored
+    dot on a map. A dot's color alone was never meant to carry meaning; this
+    is the actual content that has to."""
+    clean = []
+    for label, val in parts:
+        if val and val != "data not available":
+            clean.append(f"{label}: {val}" if label else val)
+    text = ". ".join(clean)
+    return _with_perspective(text, perspective) if perspective else (text or "data not available")
+
 def build_incidents(docs):
     incidents = []
     for d in docs:
@@ -282,11 +295,12 @@ def build_territory(name, docs):
             })
 
     peaks = collect_points(docs, ["topographic_and_control_data", "named_high_ground_features"],
-                            ["name", "lat", "lng", "elevation_m", "functional_strategic_description"])
+                            ["name", "lat", "lng", "elevation_m", "control_zone", "functional_strategic_description"])
     barriers_raw = collect_points(docs, ["topographic_and_control_data", "physical_barriers"],
-                                   ["name", "lat", "lng", "length_km", "type"])
+                                   ["name", "lat", "lng", "length_km", "type",
+                                    "stated_justification", "opposing_characterization"])
     checkpoints = collect_points(docs, ["infrastructure_and_logistics_data", "checkpoints_and_gates"],
-                                  ["name", "lat", "lng", "permit_type_required"])
+                                  ["name", "lat", "lng", "permit_type_required", "stated_justification"])
     water = collect_points(docs, ["hydrology_data", "water_infrastructure"],
                             ["name", "lat", "lng", "controlling_entity", "capacity_or_flow_rate"])
 
@@ -329,18 +343,36 @@ def build_territory(name, docs):
             "water": {"reports": water_reports} if water_reports else {"value": "data not available"},
         },
         "zones": zones,
+        # Every note leads with who controls / operates / justifies the thing,
+        # in plain text — not left to marker color to imply. Someone reading
+        # this list with a screen reader or TTS gets the same information as
+        # someone looking at the map.
         "peaks": [{"name": p["name"], "lat": to_float(p["lat"]) or 0, "lng": to_float(p["lng"]) or 0,
                     "elev": p.get("elevation_m"),
-                    "note": _with_perspective(p.get("functional_strategic_description"), p.get("perspective"))}
+                    "note": _lead_note(
+                        ("Control zone", p.get("control_zone")),
+                        ("Strategic significance", p.get("functional_strategic_description")),
+                        perspective=p.get("perspective"))}
                    for p in peaks if to_float(p.get("lat"))],
         "checkpoints": [{"name": c["name"], "lat": to_float(c["lat"]) or 0, "lng": to_float(c["lng"]) or 0,
-                          "note": _with_perspective(c.get("permit_type_required"), c.get("perspective"))}
+                          "note": _lead_note(
+                              ("Permit required", c.get("permit_type_required")),
+                              ("Stated justification", c.get("stated_justification")),
+                              perspective=c.get("perspective"))}
                          for c in checkpoints if to_float(c.get("lat"))],
         "water": [{"name": w["name"], "lat": to_float(w["lat"]) or 0, "lng": to_float(w["lng"]) or 0,
-                    "note": _with_perspective(w.get("controlling_entity"), w.get("perspective"))}
+                    "note": _lead_note(
+                        ("Controlled by", w.get("controlling_entity")),
+                        ("Capacity", w.get("capacity_or_flow_rate")),
+                        perspective=w.get("perspective"))}
                    for w in water if to_float(w.get("lat"))],
         "barriers": [{"name": b["name"], "lat": to_float(b["lat"]) or 0, "lng": to_float(b["lng"]) or 0,
-                       "note": _with_perspective(f"{b.get('length_km','?')} km — {b.get('type','')}", b.get("perspective"))}
+                       "note": _lead_note(
+                           ("Length", f"{b.get('length_km','?')} km" if b.get("length_km") not in (None, "data not available") else None),
+                           ("Type", b.get("type")),
+                           ("Stated justification", b.get("stated_justification")),
+                           ("Opposing characterization", b.get("opposing_characterization")),
+                           perspective=b.get("perspective"))}
                       for b in barriers_raw if to_float(b.get("lat"))],
         "incidents": incidents,
         "legal": legal,
