@@ -334,7 +334,6 @@ def _supplementary_markers(key, category, supp_by_territory):
             note = _lead_note(
                 (None, r.get("note")),
                 ("Source", r.get("source")),
-                ("Funding/institutional relationship", r.get("funding_relationship")),
             )
             note = f"{note} [AI-researched, cross-checked — not from the original perspective documents]"
             out.append({"name": feat["name"], "lat": lat, "lng": lng, "note": note})
