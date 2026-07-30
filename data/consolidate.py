@@ -22,6 +22,23 @@ from pathlib import Path
 
 RAW = Path(__file__).parent / "raw"
 OUT = Path(__file__).parent / "consolidated.json"
+SUPPLEMENTARY = Path(__file__).parent / "supplementary_points.json"
+
+def load_supplementary():
+    """Coordinates found after the fact to fill map gaps -- NOT from the 32
+    perspective documents. Kept in a separate file with its own provenance
+    note per entry so it never gets presented as if it were part of the
+    original paired research. When a named feature has more than one
+    reported coordinate (sources disagreeing on where it actually is, not
+    just what to call it), every report is kept and shown as its own
+    marker -- same principle as differently-named markers at one location,
+    mirrored: here it's one name, multiple locations, and the disagreement
+    itself is the thing worth showing, not something to average away."""
+    if not SUPPLEMENTARY.exists():
+        return {}
+    data = json.loads(SUPPLEMENTARY.read_text(encoding="utf-8"))
+    data.pop("_readme", None)
+    return data
 
 def load_all():
     files = sorted(glob.glob(str(RAW / "P*.json")))
@@ -234,6 +251,7 @@ def _lead_note(*parts, perspective=None):
     clean = []
     for label, val in parts:
         if val and val != "data not available":
+            val = str(val).rstrip(". ")
             clean.append(f"{label}: {val}" if label else val)
     text = ". ".join(clean)
     return _with_perspective(text, perspective) if perspective else (text or "data not available")
@@ -296,7 +314,30 @@ def build_legal(docs):
             legal.append({"name": name, "desc": desc, "perspective": persp})
     return legal
 
-def build_territory(name, docs):
+def _supplementary_markers(key, category, supp_by_territory):
+    """Turn this territory's supplementary_points.json entries for one
+    category into the same {name, lat, lng, note} shape the perspective-
+    sourced markers use, so they render identically -- but the note always
+    says where the coordinate actually came from, never implying it's part
+    of the original 32-file research."""
+    out = []
+    for feat in supp_by_territory.get(key, []):
+        if feat.get("category") != category:
+            continue
+        for r in feat.get("reports", []):
+            lat, lng = to_float(r.get("lat")), to_float(r.get("lng"))
+            if lat is None or lng is None:
+                continue
+            note = _lead_note(
+                (None, r.get("note")),
+                ("Source", r.get("source")),
+                ("Funding/institutional relationship", r.get("funding_relationship")),
+            )
+            note = f"{note} [AI-researched, cross-checked — not from the original perspective documents]"
+            out.append({"name": feat["name"], "lat": lat, "lng": lng, "note": note})
+    return out
+
+def build_territory(key, name, docs, supp_by_territory):
     center = docs[0].get("wgs84_center", {})
     perspectives = [d.get("perspective", "data not available") for d in docs]
 
@@ -352,7 +393,7 @@ def build_territory(name, docs):
             for org in inc.get("documenting_orgs", []) or []:
                 sources.add(org)
 
-    return {
+    result = {
         "name": name,
         "sub": " · ".join(dict.fromkeys(perspectives)),
         "center": {"lat": to_float(center.get("lat")) or 0, "lng": to_float(center.get("lng")) or 0},
@@ -399,6 +440,9 @@ def build_territory(name, docs):
         "legal": legal,
         "sources": sorted(sources),
     }
+    for cat in ("peaks", "checkpoints", "water", "barriers"):
+        result[cat] = result[cat] + _supplementary_markers(key, cat, supp_by_territory)
+    return result
 
 def main():
     docs = load_all()
@@ -408,9 +452,14 @@ def main():
     for key, ds in groups.items():
         print(f"  - {canonical_names[key]} ({key}): {len(ds)} perspective file(s)")
 
+    supp_by_territory = load_supplementary()
+    if supp_by_territory:
+        supp_count = sum(len(feats) for feats in supp_by_territory.values())
+        print(f"Loaded {supp_count} supplementary feature(s) across {len(supp_by_territory)} territories (not from raw/)")
+
     result = {}
     for key, ds in groups.items():
-        result[key] = build_territory(canonical_names[key], ds)
+        result[key] = build_territory(key, canonical_names[key], ds, supp_by_territory)
 
     OUT.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"\nWrote {OUT}")

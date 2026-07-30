@@ -1,0 +1,102 @@
+{
+  "_readme": "Coordinates in this file did NOT come from the 32 paired perspective research documents in data/raw/ -- they were located afterward via AI-assisted research to fill map coordinate gaps, then independently cross-checked in a second pass. Every entry says so in its own note text; consolidate.py must never present these as if they were part of the original perspective research. Where two sources reported different coordinates for what is described as the same feature, BOTH are kept as separate entries -- not averaged, not resolved in favor of whichever source sounds more authoritative. 'funding_relationship' records who commissioned/funded the source document and its relationship to other actors in the territory; it stays 'data not available' until someone has actually read the primary document and confirmed it -- do not infer or assume based on the institution's name.",
+  "gaza-strip": [
+    {
+      "name": "Wastewater treatment plant(s)",
+      "category": "water",
+      "reports": [
+        {
+          "lat": 31.54, "lng": 34.45,
+          "source": "CMWU/WASH Cluster \"Gaza Wastewater Treatment Plants Status\" (2023)",
+          "funding_relationship": "data not available",
+          "note": "Identified as North Gaza Emergency Sewage Treatment Plant (NGEST), described as the largest documented plant."
+        },
+        {
+          "lat": 31.5056, "lng": 34.5102,
+          "source": "World Bank solar feasibility study (for the same facility, NGEST)",
+          "funding_relationship": "data not available",
+          "note": "~6.8km from the CMWU/WASH Cluster-sourced coordinate for the same named facility. Not resolved in favor of either source -- shown as reported."
+        }
+      ]
+    },
+    {
+      "name": "Kerem Shalom Crossing",
+      "category": "checkpoints",
+      "reports": [
+        {
+          "lat": 31.23, "lng": 34.28,
+          "source": "COGAT crossing maps; cross-checked against Wikipedia, OpenStreetMap, and Mapcarta (converge on ~31.221-31.228 N, 34.269-34.285 E)",
+          "funding_relationship": "data not available",
+          "note": "Independent sources agree closely on this location."
+        }
+      ]
+    },
+    {
+      "name": "Erez Crossing",
+      "category": "checkpoints",
+      "reports": [
+        {
+          "lat": 31.56, "lng": 34.54,
+          "source": "COGAT crossing maps; cross-checked against Wikipedia, DBpedia, and OpenStreetMap (converge on ~31.558 N, 34.544-34.546 E)",
+          "funding_relationship": "data not available",
+          "note": "Independent sources agree closely on this location."
+        }
+      ]
+    },
+    {
+      "name": "Perimeter Security Fence (Gaza-Israel Border)",
+      "category": "barriers",
+      "reports": [
+        {"lat": 31.61, "lng": 34.52, "source": "UN OCHA oPt barrier data (2023); OpenStreetMap", "funding_relationship": "data not available", "note": "Northern endpoint, Zikim beach area."},
+        {"lat": 31.56, "lng": 34.54, "source": "UN OCHA oPt barrier data (2023); OpenStreetMap", "funding_relationship": "data not available", "note": "Waypoint near Erez crossing."},
+        {"lat": 31.47, "lng": 34.48, "source": "UN OCHA oPt barrier data (2023); OpenStreetMap", "funding_relationship": "data not available", "note": "Waypoint near Nahal Oz."},
+        {"lat": 31.37, "lng": 34.39, "source": "UN OCHA oPt barrier data (2023); OpenStreetMap", "funding_relationship": "data not available", "note": "Waypoint near Kissufim."},
+        {"lat": 31.23, "lng": 34.28, "source": "UN OCHA oPt barrier data (2023); OpenStreetMap", "funding_relationship": "data not available", "note": "Southern endpoint, Kerem Shalom area."}
+      ]
+    },
+    {
+      "name": "Coastal Aquifer",
+      "category": "water",
+      "reports": [
+        {
+          "lat": 31.42, "lng": 34.38,
+          "source": "Palestinian Water Authority \"Gaza Coastal Aquifer Management Plan\" (2019)",
+          "funding_relationship": "data not available",
+          "note": "Representative center point of the recharge zone/extent, not a single facility."
+        }
+      ]
+    },
+    {
+      "name": "Khan Yunis Desalination Plant",
+      "category": "water",
+      "reports": [
+        {
+          "lat": 31.36, "lng": 34.28,
+          "source": "CMWU infrastructure map (Al-Fukhari area)",
+          "funding_relationship": "data not available",
+          "note": "Regional placement (southern/central Gaza) confirmed on cross-check; exact coordinate not independently re-verified against a second source."
+        }
+      ]
+    },
+    {
+      "name": "South Sea Desalination Plant",
+      "category": "water",
+      "reports": [
+        {
+          "lat": 31.43, "lng": 34.35,
+          "source": "CMWU/PWA project documentation (Deir al-Balah area)",
+          "funding_relationship": "data not available",
+          "note": "Regional placement confirmed on cross-check; exact coordinate not independently re-verified against a second source."
+        }
+      ]
+    },
+    {
+      "name": "Water Lines from Israel",
+      "category": "water",
+      "reports": [
+        {"lat": 31.48, "lng": 34.42, "source": "PWA/UNICEF \"Gaza Strip Water Supply Map\" (2022)", "funding_relationship": "data not available", "note": "Northern entry point (Bani Suheila connection)."},
+        {"lat": 31.37, "lng": 34.39, "source": "PWA/UNICEF \"Gaza Strip Water Supply Map\" (2022)", "funding_relationship": "data not available", "note": "Southern entry point (Khan Yunis connection)."}
+      ]
+    }
+  ]
+}
