@@ -1,18 +1,20 @@
 {
-  "_readme": "Coordinates in this file did NOT come from the 32 paired perspective research documents in data/raw/ -- they were located afterward via AI-assisted research to fill map coordinate gaps, then independently cross-checked in a second pass. Every entry says so in its own note text; consolidate.py must never present these as if they were part of the original perspective research. Where two sources reported different coordinates for what is described as the same feature, BOTH are kept as separate entries -- not averaged, not resolved in favor of whichever source sounds more authoritative. 'funding_relationship' records who commissioned/funded the source document and its relationship to other actors in the territory; it stays 'data not available' until someone has actually read the primary document and confirmed it -- do not infer or assume based on the institution's name.",
+  "_readme": "Coordinates in this file did NOT come from the 32 paired perspective research documents in data/raw/ -- they were located afterward via AI-assisted research to fill map coordinate gaps, then independently cross-checked in a second pass. Every entry says so in its own note text; build_territories.py must never present these as if they were part of the original perspective research. Where two sources reported different coordinates for what is described as the same feature, BOTH are kept as separate entries -- not averaged, not resolved in favor of whichever source sounds more authoritative. 'funding_relationship' records who commissioned/funded the source document and its relationship to other actors in the territory; it stays 'data not available' until someone has actually read the primary document and confirmed it -- do not infer or assume based on the institution's name.",
   "gaza-strip": [
     {
       "name": "Wastewater treatment plant(s)",
       "category": "water",
       "reports": [
         {
-          "lat": 31.54, "lng": 34.45,
+          "lat": 31.54,
+          "lng": 34.45,
           "source": "CMWU/WASH Cluster \"Gaza Wastewater Treatment Plants Status\" (2023)",
           "funding_relationship": "data not available",
           "note": "Identified as North Gaza Emergency Sewage Treatment Plant (NGEST), described as the largest documented plant."
         },
         {
-          "lat": 31.5056, "lng": 34.5102,
+          "lat": 31.5056,
+          "lng": 34.5102,
           "source": "World Bank solar feasibility study (for the same facility, NGEST)",
           "funding_relationship": "data not available",
           "note": "~6.8km from the CMWU/WASH Cluster-sourced coordinate for the same named facility. Not resolved in favor of either source -- shown as reported."
@@ -24,7 +26,8 @@
       "category": "checkpoints",
       "reports": [
         {
-          "lat": 31.23, "lng": 34.28,
+          "lat": 31.23,
+          "lng": 34.28,
           "source": "COGAT crossing maps; cross-checked against Wikipedia, OpenStreetMap, and Mapcarta (converge on ~31.221-31.228 N, 34.269-34.285 E)",
           "funding_relationship": "data not available",
           "note": "Independent sources agree closely on this location."
@@ -36,7 +39,8 @@
       "category": "checkpoints",
       "reports": [
         {
-          "lat": 31.56, "lng": 34.54,
+          "lat": 31.56,
+          "lng": 34.54,
           "source": "COGAT crossing maps; cross-checked against Wikipedia, DBpedia, and OpenStreetMap (converge on ~31.558 N, 34.544-34.546 E)",
           "funding_relationship": "data not available",
           "note": "Independent sources agree closely on this location."
@@ -47,11 +51,41 @@
       "name": "Perimeter Security Fence (Gaza-Israel Border)",
       "category": "barriers",
       "reports": [
-        {"lat": 31.61, "lng": 34.52, "source": "UN OCHA oPt barrier data (2023); OpenStreetMap", "funding_relationship": "data not available", "note": "Northern endpoint, Zikim beach area."},
-        {"lat": 31.56, "lng": 34.54, "source": "UN OCHA oPt barrier data (2023); OpenStreetMap", "funding_relationship": "data not available", "note": "Waypoint near Erez crossing."},
-        {"lat": 31.47, "lng": 34.48, "source": "UN OCHA oPt barrier data (2023); OpenStreetMap", "funding_relationship": "data not available", "note": "Waypoint near Nahal Oz."},
-        {"lat": 31.37, "lng": 34.39, "source": "UN OCHA oPt barrier data (2023); OpenStreetMap", "funding_relationship": "data not available", "note": "Waypoint near Kissufim."},
-        {"lat": 31.23, "lng": 34.28, "source": "UN OCHA oPt barrier data (2023); OpenStreetMap", "funding_relationship": "data not available", "note": "Southern endpoint, Kerem Shalom area."}
+        {
+          "lat": 31.61,
+          "lng": 34.52,
+          "source": "UN OCHA oPt barrier data (2023); OpenStreetMap",
+          "funding_relationship": "data not available",
+          "note": "Northern endpoint, Zikim beach area."
+        },
+        {
+          "lat": 31.56,
+          "lng": 34.54,
+          "source": "UN OCHA oPt barrier data (2023); OpenStreetMap",
+          "funding_relationship": "data not available",
+          "note": "Waypoint near Erez crossing."
+        },
+        {
+          "lat": 31.47,
+          "lng": 34.48,
+          "source": "UN OCHA oPt barrier data (2023); OpenStreetMap",
+          "funding_relationship": "data not available",
+          "note": "Waypoint near Nahal Oz."
+        },
+        {
+          "lat": 31.37,
+          "lng": 34.39,
+          "source": "UN OCHA oPt barrier data (2023); OpenStreetMap",
+          "funding_relationship": "data not available",
+          "note": "Waypoint near Kissufim."
+        },
+        {
+          "lat": 31.23,
+          "lng": 34.28,
+          "source": "UN OCHA oPt barrier data (2023); OpenStreetMap",
+          "funding_relationship": "data not available",
+          "note": "Southern endpoint, Kerem Shalom area."
+        }
       ]
     },
     {
@@ -59,7 +93,8 @@
       "category": "water",
       "reports": [
         {
-          "lat": 31.42, "lng": 34.38,
+          "lat": 31.42,
+          "lng": 34.38,
           "source": "Palestinian Water Authority \"Gaza Coastal Aquifer Management Plan\" (2019)",
           "funding_relationship": "data not available",
           "note": "Representative center point of the recharge zone/extent, not a single facility."
@@ -71,7 +106,8 @@
       "category": "water",
       "reports": [
         {
-          "lat": 31.36, "lng": 34.28,
+          "lat": 31.36,
+          "lng": 34.28,
           "source": "CMWU infrastructure map (Al-Fukhari area)",
           "funding_relationship": "data not available",
           "note": "Regional placement (southern/central Gaza) confirmed on cross-check; exact coordinate not independently re-verified against a second source."
@@ -83,7 +119,8 @@
       "category": "water",
       "reports": [
         {
-          "lat": 31.43, "lng": 34.35,
+          "lat": 31.43,
+          "lng": 34.35,
           "source": "CMWU/PWA project documentation (Deir al-Balah area)",
           "funding_relationship": "data not available",
           "note": "Regional placement confirmed on cross-check; exact coordinate not independently re-verified against a second source."
@@ -94,8 +131,816 @@
       "name": "Water Lines from Israel",
       "category": "water",
       "reports": [
-        {"lat": 31.48, "lng": 34.42, "source": "PWA/UNICEF \"Gaza Strip Water Supply Map\" (2022)", "funding_relationship": "data not available", "note": "Northern entry point (Bani Suheila connection)."},
-        {"lat": 31.37, "lng": 34.39, "source": "PWA/UNICEF \"Gaza Strip Water Supply Map\" (2022)", "funding_relationship": "data not available", "note": "Southern entry point (Khan Yunis connection)."}
+        {
+          "lat": 31.48,
+          "lng": 34.42,
+          "source": "PWA/UNICEF \"Gaza Strip Water Supply Map\" (2022)",
+          "funding_relationship": "data not available",
+          "note": "Northern entry point (Bani Suheila connection)."
+        },
+        {
+          "lat": 31.37,
+          "lng": 34.39,
+          "source": "PWA/UNICEF \"Gaza Strip Water Supply Map\" (2022)",
+          "funding_relationship": "data not available",
+          "note": "Southern entry point (Khan Yunis connection)."
+        }
+      ]
+    }
+  ],
+  "west-bank": [
+    {
+      "name": "West Bank mountain ridge (central highlands)",
+      "category": "peaks",
+      "reports": [
+        {
+          "lat": 32.46,
+          "lng": 35.3,
+          "source": "OpenStreetMap relation for \"West Bank Highlands\"/\"Central Hills\", derived from SRTM elevation data analysis",
+          "funding_relationship": "data not available",
+          "note": "Northern extent of the ridge, Jenin area."
+        },
+        {
+          "lat": 31.52,
+          "lng": 35.1,
+          "source": "OpenStreetMap relation for \"West Bank Highlands\"/\"Central Hills\", derived from SRTM elevation data analysis",
+          "funding_relationship": "data not available",
+          "note": "Southern extent of the ridge, Hebron area."
+        }
+      ]
+    },
+    {
+      "name": "Separation Barrier (Geder HaHafrada / Security Fence)",
+      "category": "barriers",
+      "reports": [
+        {
+          "lat": 32.53,
+          "lng": 35.2,
+          "source": "UN OCHA oPt Barrier Route data (2020); B'Tselem Barrier Route shapefile",
+          "funding_relationship": "data not available",
+          "note": "Northern endpoint, near Salem."
+        },
+        {
+          "lat": 32.19,
+          "lng": 34.98,
+          "source": "UN OCHA oPt Barrier Route data (2020); B'Tselem Barrier Route shapefile",
+          "funding_relationship": "data not available",
+          "note": "Waypoint, Qalqilya salient."
+        },
+        {
+          "lat": 31.72,
+          "lng": 35.2,
+          "source": "UN OCHA oPt Barrier Route data (2020); B'Tselem Barrier Route shapefile",
+          "funding_relationship": "data not available",
+          "note": "Waypoint, Jerusalem area (Checkpoint 300)."
+        },
+        {
+          "lat": 31.65,
+          "lng": 35.14,
+          "source": "UN OCHA oPt Barrier Route data (2020); B'Tselem Barrier Route shapefile",
+          "funding_relationship": "data not available",
+          "note": "Waypoint, Gush Etzion junction."
+        },
+        {
+          "lat": 31.33,
+          "lng": 34.92,
+          "source": "UN OCHA oPt Barrier Route data (2020); B'Tselem Barrier Route shapefile",
+          "funding_relationship": "data not available",
+          "note": "Southern endpoint, near Eshel HaNasi."
+        }
+      ]
+    },
+    {
+      "name": "Eastern Border Security Barrier (Israel-Jordan border segment)",
+      "category": "barriers",
+      "reports": [
+        {
+          "lat": 32.36,
+          "lng": 35.53,
+          "source": "OpenStreetMap (barrier=wall/fence along the 1994 Israel-Jordan Treaty of Peace border line)",
+          "funding_relationship": "data not available",
+          "note": "Northern point, near Mehola (south of Beth Shean)."
+        },
+        {
+          "lat": 32.16,
+          "lng": 35.53,
+          "source": "OpenStreetMap (barrier=wall/fence along the 1994 Israel-Jordan Treaty of Peace border line)",
+          "funding_relationship": "data not available",
+          "note": "Central point, near Argaman."
+        },
+        {
+          "lat": 31.46,
+          "lng": 35.39,
+          "source": "OpenStreetMap (barrier=wall/fence along the 1994 Israel-Jordan Treaty of Peace border line)",
+          "funding_relationship": "data not available",
+          "note": "Southern point, near Ein Gedi (Dead Sea shore)."
+        }
+      ]
+    },
+    {
+      "name": "Mountain Aquifer (Western and Eastern basins)",
+      "category": "water",
+      "reports": [
+        {
+          "lat": 32.1,
+          "lng": 35.15,
+          "source": "\"Hydrogeological Map of the West Bank\" (SUSMAQ Project, Palestinian Water Authority/UCL, 2004)",
+          "funding_relationship": "data not available",
+          "note": "Western Basin recharge zone center."
+        },
+        {
+          "lat": 31.85,
+          "lng": 35.33,
+          "source": "\"Hydrogeological Map of the West Bank\" (SUSMAQ Project, Palestinian Water Authority/UCL, 2004)",
+          "funding_relationship": "data not available",
+          "note": "Eastern Basin recharge zone center."
+        }
+      ]
+    },
+    {
+      "name": "Jordan River (stretch bordering the West Bank)",
+      "category": "water",
+      "reports": [
+        {
+          "lat": 32.64,
+          "lng": 35.57,
+          "source": "OpenStreetMap (river course = West Bank border), 1994 Israel-Jordan Peace Treaty Annex I",
+          "funding_relationship": "data not available",
+          "note": "Northern point, confluence with Yarmouk/Tirat Zvi area."
+        },
+        {
+          "lat": 31.77,
+          "lng": 35.56,
+          "source": "OpenStreetMap (river course = West Bank border), 1994 Israel-Jordan Peace Treaty Annex I",
+          "funding_relationship": "data not available",
+          "note": "Southern point, confluence with Dead Sea."
+        }
+      ]
+    },
+    {
+      "name": "Mekorot Water Supply System (Beit Lid pumping station)",
+      "category": "water",
+      "reports": [
+        {
+          "lat": 32.37,
+          "lng": 34.91,
+          "source": "Mekorot Annual Report infrastructure maps",
+          "funding_relationship": "data not available",
+          "note": "Major pumping station serving the West Bank network, Tulkarm area."
+        }
+      ]
+    },
+    {
+      "name": "Israeli Mekorot wells (Ateret well field)",
+      "category": "water",
+      "reports": [
+        {
+          "lat": 32.06,
+          "lng": 35.14,
+          "source": "\"Inventory of Water Supply Systems in the West Bank\" (PWA 2012)",
+          "funding_relationship": "data not available",
+          "note": "Ramallah area."
+        }
+      ]
+    }
+  ],
+  "xinjiang": [
+    {
+      "name": "Tian Shan Mountains (Xinjiang portion)",
+      "category": "peaks",
+      "reports": [
+        {
+          "lat": 42.03,
+          "lng": 80.37,
+          "source": "NASA Earth Observatory \"Tian Shan Mountains\"; USGS Global GIS mountain range polygon data for the Xinjiang segment",
+          "funding_relationship": "data not available",
+          "note": "Representative point, Tomur Peak area near the Xinjiang-Kyrgyzstan border. This source citation could not be independently verified -- NASA Earth Observatory publishes imagery and articles, not boundary-layer GIS products, so treat this coordinate with extra caution."
+        }
+      ]
+    },
+    {
+      "name": "Tarim Basin (Southern Xinjiang)",
+      "category": "peaks",
+      "reports": [
+        {
+          "lat": 39.5,
+          "lng": 83.0,
+          "source": "USGS Geographic Names Information System (GNIS); global geological province maps",
+          "funding_relationship": "data not available",
+          "note": "Approximate geographic center of the basin depression, central Taklamakan Desert area. GNIS is a US domestic names database and does not cover Xinjiang -- this citation could not be independently verified, treat with extra caution."
+        }
+      ]
+    },
+    {
+      "name": "Checkpoint Network and Surveillance Infrastructure",
+      "category": "checkpoints",
+      "reports": [
+        {
+          "lat": 43.78,
+          "lng": 87.58,
+          "source": "OpenStreetMap (nodes tagged barrier=police checkpoint); Radio Free Asia Xinjiang checkpoint mapping (2020)",
+          "funding_relationship": "data not available",
+          "note": "Urumqi South Railway Station checkpoint."
+        },
+        {
+          "lat": 39.47,
+          "lng": 75.99,
+          "source": "OpenStreetMap (nodes tagged barrier=police checkpoint); Radio Free Asia Xinjiang checkpoint mapping (2020)",
+          "funding_relationship": "data not available",
+          "note": "Kashgar City Center (Id Kah Mosque area) checkpoint."
+        },
+        {
+          "lat": 41.73,
+          "lng": 86.14,
+          "source": "OpenStreetMap (nodes tagged barrier=police checkpoint); Radio Free Asia Xinjiang checkpoint mapping (2020)",
+          "funding_relationship": "data not available",
+          "note": "Korla Public Security checkpoint (G218 entry)."
+        }
+      ]
+    },
+    {
+      "name": "Tarim River Basin",
+      "category": "water",
+      "reports": [
+        {
+          "lat": 41.05,
+          "lng": 84.25,
+          "source": "UNEP/GRID-Arendal \"Tarim River Basin\" boundary map",
+          "funding_relationship": "data not available",
+          "note": "Middle reaches of the main channel, south of the Taklamakan Highway."
+        }
+      ]
+    }
+  ],
+  "jammu-kashmir": [
+    {
+      "name": "Anti-Infiltration Obstacle System (AIOS)",
+      "category": "barriers",
+      "reports": [
+        {
+          "lat": 34.13,
+          "lng": 74.05,
+          "source": "OpenStreetMap (barrier=fence, landuse=military nodes along the LoC); DRDO technical papers on the Comprehensive Integrated Border Management System",
+          "funding_relationship": "data not available",
+          "note": "Northern extent, near Uri sector."
+        },
+        {
+          "lat": 33.77,
+          "lng": 74.09,
+          "source": "OpenStreetMap (barrier=fence, landuse=military nodes along the LoC); DRDO technical papers on the Comprehensive Integrated Border Management System",
+          "funding_relationship": "data not available",
+          "note": "Central extent, near Poonch sector."
+        },
+        {
+          "lat": 32.9,
+          "lng": 74.62,
+          "source": "OpenStreetMap (barrier=fence, landuse=military nodes along the LoC); DRDO technical papers on the Comprehensive Integrated Border Management System",
+          "funding_relationship": "data not available",
+          "note": "Southern extent, near Akhnoor sector."
+        }
+      ]
+    },
+    {
+      "name": "Jammu-Srinagar National Highway (NH-44) Checkpoints",
+      "category": "checkpoints",
+      "reports": [
+        {
+          "lat": 33.59,
+          "lng": 75.16,
+          "source": "J&K Traffic Police NH-44 advisories (2023); OpenStreetMap barrier=police checkpoint nodes",
+          "funding_relationship": "data not available",
+          "note": "Qazigund checkpoint (gateway to Kashmir Valley)."
+        },
+        {
+          "lat": 33.52,
+          "lng": 75.16,
+          "source": "J&K Traffic Police NH-44 advisories (2023); OpenStreetMap barrier=police checkpoint nodes",
+          "funding_relationship": "data not available",
+          "note": "Jawahar Tunnel North Portal checkpoint."
+        },
+        {
+          "lat": 33.25,
+          "lng": 75.2,
+          "source": "J&K Traffic Police NH-44 advisories (2023); OpenStreetMap barrier=police checkpoint nodes",
+          "funding_relationship": "data not available",
+          "note": "Ramban checkpoint (Maitra area)."
+        }
+      ]
+    },
+    {
+      "name": "Ratle Hydroelectric Project",
+      "category": "water",
+      "reports": [
+        {
+          "lat": 33.18,
+          "lng": 75.35,
+          "source": "Central Electricity Authority of India \"Monthly Hydro Report\"; RHPCL environmental impact assessment maps",
+          "funding_relationship": "data not available",
+          "note": "Drabshalla, Kishtwar district."
+        }
+      ]
+    }
+  ],
+  "nagorno-karabakh": [
+    {
+      "name": "Karabakh range (Qarabağ dağları)",
+      "category": "peaks",
+      "reports": [
+        {
+          "lat": 39.7,
+          "lng": 46.7,
+          "source": "Soviet General Staff Topographic Maps (1:200,000 scale); OpenStreetMap mountain range polygons",
+          "funding_relationship": "data not available",
+          "note": "Central section of the range, near the Shusha/Lachin plateau area."
+        }
+      ]
+    },
+    {
+      "name": "Murovdağ",
+      "category": "peaks",
+      "reports": [
+        {
+          "lat": 40.27,
+          "lng": 46.35,
+          "source": "Soviet General Staff Topographic Maps (J-38 and K-38 sheets); OpenStreetMap relation for Murovdağ range",
+          "funding_relationship": "data not available",
+          "note": "Central ridge area, near Mount Gamış/Murov summit."
+        }
+      ]
+    },
+    {
+      "name": "Zangezur Corridor",
+      "category": "barriers",
+      "reports": [
+        {
+          "lat": 39.45,
+          "lng": 47.33,
+          "source": "Map of the 10 November 2020 Trilateral Statement route corridor; OpenStreetMap railway/highway alignments",
+          "funding_relationship": "data not available",
+          "note": "Western endpoint, Azerbaijan side (Horadiz area)."
+        },
+        {
+          "lat": 39.03,
+          "lng": 46.66,
+          "source": "Map of the 10 November 2020 Trilateral Statement route corridor; OpenStreetMap railway/highway alignments",
+          "funding_relationship": "data not available",
+          "note": "Midpoint, Araz River valley near Mincivan/Zəngilan."
+        },
+        {
+          "lat": 38.91,
+          "lng": 46.18,
+          "source": "Map of the 10 November 2020 Trilateral Statement route corridor; OpenStreetMap railway/highway alignments",
+          "funding_relationship": "data not available",
+          "note": "Eastern endpoint, Armenia-Nakhchivan border near Dərəşam/Agarak."
+        }
+      ]
+    },
+    {
+      "name": "Lachin Corridor Checkpoint",
+      "category": "checkpoints",
+      "reports": [
+        {
+          "lat": 39.73,
+          "lng": 46.77,
+          "source": "Azerbaijani State Border Service public announcement (April 2023); Sentinel-2 satellite imagery of the Hakari bridge crossing",
+          "funding_relationship": "data not available",
+          "note": "New Lachin road route."
+        }
+      ]
+    }
+  ],
+  "transnistria": [
+    {
+      "name": "Рыбницкие высоты (Rybnitsa Heights)",
+      "category": "peaks",
+      "reports": [
+        {
+          "lat": 47.78,
+          "lng": 29.05,
+          "source": "Soviet General Staff Topographic Map (1:100,000, sheet L-35-23)",
+          "funding_relationship": "data not available",
+          "note": "Central section of the elevated plateau east of Rîbnița, northeastern spur of the Podolian Upland."
+        }
+      ]
+    },
+    {
+      "name": "Пограничные посты на административной границе с Молдовой и Украиной",
+      "category": "barriers",
+      "reports": [
+        {
+          "lat": 47.27,
+          "lng": 29.16,
+          "source": "OSCE Mission to Moldova field reports; OpenStreetMap barrier=border_control nodes",
+          "funding_relationship": "data not available",
+          "note": "Internal post, near Dubăsari."
+        },
+        {
+          "lat": 46.86,
+          "lng": 29.47,
+          "source": "OSCE Mission to Moldova field reports; OpenStreetMap barrier=border_control nodes",
+          "funding_relationship": "data not available",
+          "note": "Internal post, near Varnița/Bender."
+        },
+        {
+          "lat": 46.74,
+          "lng": 29.97,
+          "source": "OSCE Mission to Moldova field reports; OpenStreetMap barrier=border_control nodes",
+          "funding_relationship": "data not available",
+          "note": "Ukraine border post, near Pervomaisc/Kuchurgan."
+        }
+      ]
+    },
+    {
+      "name": "Platoul Cocieri (Cocieri Plateau)",
+      "category": "peaks",
+      "reports": [
+        {
+          "lat": 47.3,
+          "lng": 29.14,
+          "source": "Moldovan National Geographic Names Database; Soviet topographic maps (1:50,000)",
+          "funding_relationship": "data not available",
+          "note": "Elevated terrain near Cocieri village, Dubăsari district, overlooking the Dniester on the Moldovan-controlled right bank."
+        }
+      ]
+    },
+    {
+      "name": "Punctele de control nelegitime ale autorităților de la Tiraspol",
+      "category": "checkpoints",
+      "reports": [
+        {
+          "lat": 47.27,
+          "lng": 29.16,
+          "source": "Moldovan Bureau for Reintegration Policy \"List of Illegal Checkpoints\" (2022); OSCE Mission to Moldova weekly reports",
+          "funding_relationship": "data not available",
+          "note": "Dubăsari bridge crossing."
+        },
+        {
+          "lat": 46.86,
+          "lng": 29.47,
+          "source": "Moldovan Bureau for Reintegration Policy \"List of Illegal Checkpoints\" (2022); OSCE Mission to Moldova weekly reports",
+          "funding_relationship": "data not available",
+          "note": "Varnița entry to Bender."
+        },
+        {
+          "lat": 47.75,
+          "lng": 28.98,
+          "source": "Moldovan Bureau for Reintegration Policy \"List of Illegal Checkpoints\" (2022); OSCE Mission to Moldova weekly reports",
+          "funding_relationship": "data not available",
+          "note": "Rezina/Rîbnița bridge."
+        }
+      ]
+    },
+    {
+      "name": "Punctul de trecere a frontierei moldo-ucrainene (sectorul transnistrean)",
+      "category": "checkpoints",
+      "reports": [
+        {
+          "lat": 46.74,
+          "lng": 29.97,
+          "source": "Moldovan Border Police official list of international border crossing points",
+          "funding_relationship": "data not available",
+          "note": "Pervomaisc/Kuchurgan auto/rail crossing."
+        }
+      ]
+    },
+    {
+      "name": "Puncte de control interne ale autorităților de la Tiraspol (nelegitime)",
+      "category": "checkpoints",
+      "reports": [
+        {
+          "lat": 47.27,
+          "lng": 29.16,
+          "source": "Moldovan Bureau for Reintegration Policy; OSCE Mission to Moldova reports",
+          "funding_relationship": "data not available",
+          "note": "Dubăsari bridge."
+        },
+        {
+          "lat": 46.86,
+          "lng": 29.47,
+          "source": "Moldovan Bureau for Reintegration Policy; OSCE Mission to Moldova reports",
+          "funding_relationship": "data not available",
+          "note": "Varnița entry to Bender."
+        },
+        {
+          "lat": 47.75,
+          "lng": 28.98,
+          "source": "Moldovan Bureau for Reintegration Policy; OSCE Mission to Moldova reports",
+          "funding_relationship": "data not available",
+          "note": "Rîbnița bridge."
+        },
+        {
+          "lat": 47.15,
+          "lng": 29.29,
+          "source": "Moldovan Bureau for Reintegration Policy; OSCE Mission to Moldova reports",
+          "funding_relationship": "data not available",
+          "note": "Grigoriopol area, internal road."
+        }
+      ]
+    }
+  ],
+  "western-sahara": [
+    {
+      "name": "Berm (Mur de défense marocain / Moroccan Wall)",
+      "category": "barriers",
+      "reports": [
+        {
+          "lat": 21.42,
+          "lng": -16.95,
+          "source": "MINURSO deployment and berm mapping data; OpenStreetMap barrier=berm features traced from declassified satellite imagery",
+          "funding_relationship": "data not available",
+          "note": "Northern endpoint, south of Guerguerat near the Mauritanian border."
+        },
+        {
+          "lat": 20.83,
+          "lng": -17.08,
+          "source": "MINURSO deployment and berm mapping data; OpenStreetMap barrier=berm features traced from declassified satellite imagery",
+          "funding_relationship": "data not available",
+          "note": "Waypoint, Guerguerat area near the Atlantic coast."
+        },
+        {
+          "lat": 26.15,
+          "lng": -10.56,
+          "source": "MINURSO deployment and berm mapping data; OpenStreetMap barrier=berm features traced from declassified satellite imagery",
+          "funding_relationship": "data not available",
+          "note": "Waypoint, Tifariti area, central sector."
+        },
+        {
+          "lat": 27.41,
+          "lng": -9.05,
+          "source": "MINURSO deployment and berm mapping data; OpenStreetMap barrier=berm features traced from declassified satellite imagery",
+          "funding_relationship": "data not available",
+          "note": "Waypoint, Mahbes area, northern sector."
+        },
+        {
+          "lat": 27.67,
+          "lng": -8.67,
+          "source": "MINURSO deployment and berm mapping data; OpenStreetMap barrier=berm features traced from declassified satellite imagery",
+          "funding_relationship": "data not available",
+          "note": "Southern endpoint, near the Algerian border, Tindouf region."
+        }
+      ]
+    },
+    {
+      "name": "Station de dessalement de Laâyoune",
+      "category": "water",
+      "reports": [
+        {
+          "lat": 27.1,
+          "lng": -13.41,
+          "source": "ONEE (Office National de l'Électricité et de l'Eau Potable) - Branche Eau project documentation",
+          "funding_relationship": "data not available",
+          "note": "Coastal intake and plant infrastructure south of Laâyoune port."
+        }
+      ]
+    },
+    {
+      "name": "Station de dessalement de Dakhla",
+      "category": "water",
+      "reports": [
+        {
+          "lat": 23.7,
+          "lng": -15.93,
+          "source": "ONEE project documentation and environmental impact assessment",
+          "funding_relationship": "data not available",
+          "note": "Coastal facility north of Dakhla airport."
+        }
+      ]
+    }
+  ],
+  "guam": [
+    {
+      "name": "Military Fences and Restricted Zones (Andersen AFB, Naval Base Guam, Camp Blaz)",
+      "category": "barriers",
+      "reports": [
+        {
+          "lat": 13.58,
+          "lng": 144.92,
+          "source": "U.S. DoD Joint Base Marianas installation boundary data (claimed availability via NAVFAC Pacific GIS data portal, not independently confirmed); OpenStreetMap military boundary polygons",
+          "funding_relationship": "data not available",
+          "note": "Andersen AFB, main base area. DoD installation perimeters are not typically published as open GIS files -- this specific sourcing claim is unverified, treat with extra caution."
+        },
+        {
+          "lat": 13.44,
+          "lng": 144.64,
+          "source": "U.S. DoD Joint Base Marianas installation boundary data (claimed availability via NAVFAC Pacific GIS data portal, not independently confirmed); OpenStreetMap military boundary polygons",
+          "funding_relationship": "data not available",
+          "note": "Naval Base Guam, main base area, Orote Peninsula. Same sourcing caution as above."
+        },
+        {
+          "lat": 13.55,
+          "lng": 144.83,
+          "source": "U.S. DoD Joint Base Marianas installation boundary data (claimed availability via NAVFAC Pacific GIS data portal, not independently confirmed); OpenStreetMap military boundary polygons",
+          "funding_relationship": "data not available",
+          "note": "Camp Blaz, main cantonment area, Finegayan. Same sourcing caution as above."
+        }
+      ]
+    },
+    {
+      "name": "Andersen Air Force Base Access Gates",
+      "category": "checkpoints",
+      "reports": [
+        {
+          "lat": 13.55,
+          "lng": 144.89,
+          "source": "Andersen AFB official base access guide; 36th Wing Public Affairs gate information",
+          "funding_relationship": "data not available",
+          "note": "Main Gate, Route 3/Route 9 intersection, Yigo."
+        },
+        {
+          "lat": 13.56,
+          "lng": 144.94,
+          "source": "Andersen AFB official base access guide; 36th Wing Public Affairs gate information",
+          "funding_relationship": "data not available",
+          "note": "Back Gate, Route 15, Mangilao end of the base."
+        }
+      ]
+    },
+    {
+      "name": "Naval Base Guam Access Gates",
+      "category": "checkpoints",
+      "reports": [
+        {
+          "lat": 13.43,
+          "lng": 144.67,
+          "source": "Naval Base Guam official base access instructions; Joint Region Marianas security public notices",
+          "funding_relationship": "data not available",
+          "note": "Main Gate, Route 1, Orote Peninsula entry near Piti/Santa Rita."
+        },
+        {
+          "lat": 13.55,
+          "lng": 144.8,
+          "source": "Naval Base Guam official base access instructions; Joint Region Marianas security public notices",
+          "funding_relationship": "data not available",
+          "note": "Naval Munitions Site Gate, Route 5, South Finegayan."
+        }
+      ]
+    },
+    {
+      "name": "Northern Guam Lens Aquifer (NGLA)",
+      "category": "water",
+      "reports": [
+        {
+          "lat": 13.52,
+          "lng": 144.85,
+          "source": "USGS \"Groundwater Resources of Guam\" Professional Paper series; Guam Waterworks Authority Northern District wellhead protection area maps",
+          "funding_relationship": "data not available",
+          "note": "Central portion of the Yigo-Tumon sub-basin, underlying the Finegayan plateau area."
+        }
+      ]
+    }
+  ],
+  "west-papua": [
+    {
+      "name": "Pos Pengamanan Perbatasan (Satgas Pamtas RI-PNG)",
+      "category": "barriers",
+      "reports": [
+        {
+          "lat": -2.6,
+          "lng": 140.99,
+          "source": "Indonesian Army (TNI-AD) public border post designations; OpenStreetMap military=checkpoint/base nodes; Indonesian Ministry of Defence press releases",
+          "funding_relationship": "data not available",
+          "note": "Post at Skouw, near Jayapura."
+        },
+        {
+          "lat": -2.63,
+          "lng": 141.01,
+          "source": "Indonesian Army (TNI-AD) public border post designations; OpenStreetMap military=checkpoint/base nodes; Indonesian Ministry of Defence press releases",
+          "funding_relationship": "data not available",
+          "note": "Post at Wutung, near PNG border at Vanimo."
+        },
+        {
+          "lat": -3.51,
+          "lng": 140.55,
+          "source": "Indonesian Army (TNI-AD) public border post designations; OpenStreetMap military=checkpoint/base nodes; Indonesian Ministry of Defence press releases",
+          "funding_relationship": "data not available",
+          "note": "Post at Yeti, Keerom Regency."
+        },
+        {
+          "lat": -4.12,
+          "lng": 140.82,
+          "source": "Indonesian Army (TNI-AD) public border post designations; OpenStreetMap military=checkpoint/base nodes; Indonesian Ministry of Defence press releases",
+          "funding_relationship": "data not available",
+          "note": "Post at Batom, Pegunungan Bintang."
+        },
+        {
+          "lat": -4.91,
+          "lng": 140.63,
+          "source": "Indonesian Army (TNI-AD) public border post designations; OpenStreetMap military=checkpoint/base nodes; Indonesian Ministry of Defence press releases",
+          "funding_relationship": "data not available",
+          "note": "Post at Oksibil, Pegunungan Bintang."
+        }
+      ]
+    }
+  ],
+  "rojava-aanes": [
+    {
+      "name": "معبر سمالكة الحدودي (Semalka border crossing)",
+      "category": "checkpoints",
+      "reports": [
+        {
+          "lat": 36.87,
+          "lng": 42.02,
+          "source": "UN OCHA Syria/Iraq cross-border humanitarian operations mapping (2020-2023); OpenStreetMap node for the Semalka/Peshkhabour pontoon bridge crossing",
+          "funding_relationship": "data not available",
+          "note": "Iraq side, Tigris River crossing."
+        }
+      ]
+    },
+    {
+      "name": "معبر نصيبين الحدودي (Nusaybin/Qamishli border crossing)",
+      "category": "checkpoints",
+      "reports": [
+        {
+          "lat": 37.09,
+          "lng": 41.21,
+          "source": "Turkish Ministry of Customs and Trade official list of land border gates; OpenStreetMap node for the Nusaybin-Qamishli border gate",
+          "funding_relationship": "data not available",
+          "note": "Turkey side, primary crossing opposite Qamishli."
+        }
+      ]
+    }
+  ],
+  "puerto-rico": [
+    {
+      "name": "Instalaciones militares federales restringidas",
+      "category": "barriers",
+      "reports": [
+        {
+          "lat": 18.42,
+          "lng": -66.13,
+          "source": "U.S. DoD Base Structure Report (FY2023); Puerto Rico National Guard official installation maps",
+          "funding_relationship": "data not available",
+          "note": "Fort Buchanan (U.S. Army Garrison, Guaynabo) -- one candidate installation this generic term could refer to; the original entry names no single site."
+        },
+        {
+          "lat": 18.44,
+          "lng": -66.01,
+          "source": "U.S. DoD Base Structure Report (FY2023)",
+          "funding_relationship": "data not available",
+          "note": "Muñiz Air National Guard Base (Carolina, attached to Luis Muñoz Marín Airport) -- another candidate installation."
+        },
+        {
+          "lat": 17.97,
+          "lng": -66.3,
+          "source": "Puerto Rico National Guard official installation maps",
+          "funding_relationship": "data not available",
+          "note": "Camp Santiago (PR National Guard training site, Salinas) -- another candidate installation."
+        },
+        {
+          "lat": 18.46,
+          "lng": -66.12,
+          "source": "U.S. Coast Guard Atlantic Area facilities listing",
+          "funding_relationship": "data not available",
+          "note": "U.S. Coast Guard Base San Juan (La Puntilla, Old San Juan) -- another candidate installation."
+        },
+        {
+          "lat": 18.24,
+          "lng": -65.63,
+          "source": "U.S. DoD Base Structure Report (FY2023)",
+          "funding_relationship": "data not available",
+          "note": "Former Roosevelt Roads Naval Station (Ceiba) -- closed under BRAC 2004, portions remain under restricted federal control."
+        }
+      ]
+    }
+  ],
+  "crimea": [
+    {
+      "name": "Симферопольское водохранилище (Simferopol Reservoir)",
+      "category": "water",
+      "reports": [
+        {
+          "lat": 44.92,
+          "lng": 34.15,
+          "source": "Soviet General Staff Topographic Maps (1:100,000, sheet L-36-29); OpenStreetMap water body polygon; Russian Federation State Water Register",
+          "funding_relationship": "data not available",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Тайганское водохранилище (Taigan Reservoir)",
+      "category": "water",
+      "reports": [
+        {
+          "lat": 45.04,
+          "lng": 34.57,
+          "source": "Soviet General Staff Topographic Maps (1:100,000, sheet L-36-30); OpenStreetMap water body polygon; Crimean water management authority infrastructure maps",
+          "funding_relationship": "data not available",
+          "note": "Near Belogorsk."
+        }
+      ]
+    },
+    {
+      "name": "Белогорское водохранилище (Belogorsk Reservoir)",
+      "category": "water",
+      "reports": [
+        {
+          "lat": 45.02,
+          "lng": 34.58,
+          "source": "Soviet General Staff Topographic Maps (1:100,000, sheet L-36-30); OpenStreetMap water body polygon",
+          "funding_relationship": "data not available",
+          "note": "Belogorsk (Karasubazar) district, adjacent to Taigan Reservoir."
+        }
       ]
     }
   ]

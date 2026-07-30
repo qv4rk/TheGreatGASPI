@@ -16,9 +16,13 @@ renders per-territory data that's baked directly into the page.
 That data comes from `data/raw/`: paired research documents, one per
 named institutional perspective per territory (government bodies,
 international organizations, advocacy groups — always attributed by
-name, never reduced to "side A / side B"). `data/consolidate.py` turns
-those into `data/consolidated.json`, which gets spliced into the page's
-embedded data object.
+name, never reduced to "side A / side B"). `data/build_territories.py`
+assembles those into `data/territories.json`, which gets spliced into
+the page's embedded data object. Nothing gets shrunk or picked-between
+in that step — every perspective's data stays in the output, attributed
+to its source; see `data/supplementary_points.json` for coordinates
+found afterward to fill map gaps, kept clearly separate from the
+original 32-file research.
 
 The design intent: each perspective's account is told in full, in its
 own terms — not merged, not averaged, not compressed into "official
@@ -37,12 +41,15 @@ data pipeline.
 
 ```
 data/
-  raw/               research documents, one per perspective per territory
-  consolidate.py      builds consolidated.json from data/raw/
-  consolidated.json   output — consumed by frontend/index.html
-  *.zip, *.pdf         UNOSAT satellite damage assessment source files (not yet integrated)
+  raw/                       research documents, one per perspective per territory
+  build_territories.py       assembles territories.json from data/raw/
+  territories.json           output — consumed by frontend/index.html
+  supplementary_points.json  coordinates found afterward to fill map gaps — kept
+                              separate from data/raw/, never presented as if they
+                              were part of the original perspective research
+  *.zip, *.pdf                UNOSAT satellite damage assessment source files (not yet integrated)
 frontend/
-  index.html           the site itself
+  index.html                  the site itself
 research/
   GASPI_Complete_Prompts_Protocol.md   the research protocol used to generate data/raw/
 ```

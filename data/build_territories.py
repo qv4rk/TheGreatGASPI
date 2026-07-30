@@ -1,15 +1,18 @@
 #!/usr/bin/env python3
 """
-Consolidates the paired perspective research files in data/raw/ into the
-flat per-territory JS DATA structure the GASPI page renders.
+Builds the flat per-territory JS DATA structure the GASPI page renders,
+from the paired perspective research files in data/raw/. Nothing here
+picks a winner or reduces two accounts to one — every perspective's data
+stays in the output, attributed to its source. Not a summarizer; an
+assembler.
 
 Each territory has (usually) two raw files — one per named perspective/
 language. Rather than picking one, this keeps both: metrics that both
-files report get cross-checked (kept as a range if they disagree, same
-as West Bank/Gaza were handled by hand earlier); items that speak to a
-specific incident or claim (physical barriers, environmental incidents)
-carry an `accounts` array with each file's own perspective attributed
-by name, not compressed into "official" vs "objection."
+files report get cross-checked, kept per-perspective when they disagree
+(see attributed_metric()); items that speak to a specific incident or
+claim (physical barriers, environmental incidents) carry an `accounts`
+array with each file's own perspective attributed by name, not
+compressed into "official" vs "objection."
 
 This is a first pass, not a hand-polished one — some incident-level
 matching between the two files is approximate rather than a full
@@ -21,7 +24,7 @@ import re
 from pathlib import Path
 
 RAW = Path(__file__).parent / "raw"
-OUT = Path(__file__).parent / "consolidated.json"
+OUT = Path(__file__).parent / "territories.json"
 SUPPLEMENTARY = Path(__file__).parent / "supplementary_points.json"
 
 def load_supplementary():
