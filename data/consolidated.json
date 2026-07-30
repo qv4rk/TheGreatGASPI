@@ -1943,15 +1943,7 @@
         "governing_authority": "إسرائيل (سيطرة مدنية وأمنية كاملة)"
       }
     ],
-    "peaks": [
-      {
-        "name": "Mount Hermon (northern high ground)",
-        "lat": 33.4167,
-        "lng": 35.85,
-        "elev": 2814,
-        "note": "Control zone: Golan Heights. Strategic significance: Not directly within West Bank; included for regional strategic context. Controls eastern approaches to northern Israel and water resources. — per State of Israel / Civil Administration"
-      }
-    ],
+    "peaks": [],
     "checkpoints": [
       {
         "name": "Qalandia Checkpoint",

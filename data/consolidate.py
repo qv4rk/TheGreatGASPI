@@ -133,6 +133,20 @@ def _norm_name(s):
 # that they read as two different places. ~0.0008 deg is roughly 80-90m.
 _OFFSET = 0.0008
 
+_OUT_OF_TERRITORY = re.compile(
+    r"not (directly )?within|outside (the )?territory|regional (strategic )?context"
+    r"|not part of|located outside|not in (the )?west bank",
+    re.I,
+)
+
+def _is_flagged_out_of_territory(item):
+    for field in ("functional_strategic_description", "stated_justification",
+                   "opposing_characterization", "temporal_variations"):
+        val = item.get(field)
+        if isinstance(val, str) and _OUT_OF_TERRITORY.search(val):
+            return True
+    return False
+
 def collect_points(docs, path_parts, fields):
     """Pull a list-of-dicts field (e.g. named_high_ground_features) from
     every doc in this territory's group.
@@ -156,6 +170,13 @@ def collect_points(docs, path_parts, fields):
             name = item.get("name") or item.get("zone_name") or ""
             lat, lng = to_float(item.get("lat")), to_float(item.get("lng"))
             if lat is None or lng is None:
+                continue
+            # A handful of items are the source document's own regional
+            # context (e.g. Mount Hermon, cited under West Bank strategy
+            # while explicitly noting it isn't in the West Bank) — plotting
+            # those as a marker inside the territory misrepresents them, so
+            # skip anything the document itself flags as not actually here.
+            if _is_flagged_out_of_territory(item):
                 continue
             row = {f: item.get(f, "data not available") for f in fields}
             row["name"] = name
