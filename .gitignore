@@ -64,6 +64,7 @@ data/cache/*
 
 # Geospatial file formats (don't commit large spatial data)
 *.geojson
+!data/boundaries/*.geojson
 *.shp
 *.shx
 *.dbf

@@ -26,6 +26,31 @@ from pathlib import Path
 RAW = Path(__file__).parent / "raw"
 OUT = Path(__file__).parent / "territories.json"
 SUPPLEMENTARY = Path(__file__).parent / "supplementary_points.json"
+BOUNDARIES = Path(__file__).parent / "boundaries"
+
+def load_boundary(key):
+    """A real, separately-sourced administrative boundary polygon for this
+    territory, if one has been curated -- NOT harvested by the perspective
+    research pass, and never treated as historical: these are present-day
+    extents only. Kept as its own file per territory (data/boundaries/<key>.geojson,
+    a GeoJSON Feature) so provenance -- source, license, geometry_status,
+    confidence -- travels with the geometry instead of being asserted by
+    this script. Missing file means no known real boundary yet; the
+    frontend falls back to its approximate circle mask for that case."""
+    path = BOUNDARIES / f"{key}.geojson"
+    if not path.exists():
+        return None
+    feat = json.loads(path.read_text(encoding="utf-8"))
+    props = feat.get("properties", {})
+    return {
+        "geometry": feat.get("geometry"),
+        "geometry_status": props.get("geometry_status", "documented"),
+        "confidence": props.get("confidence", "unstated"),
+        "source": props.get("source", "data not available"),
+        "source_url": props.get("source_url", "data not available"),
+        "license": props.get("license", "data not available"),
+        "notes": props.get("notes", ""),
+    }
 
 def load_supplementary():
     """Coordinates found after the fact to fill map gaps -- NOT from the 32
@@ -339,7 +364,7 @@ def _supplementary_markers(key, category, supp_by_territory):
             out.append({"name": feat["name"], "lat": lat, "lng": lng, "note": note})
     return out
 
-def build_territory(key, name, docs, supp_by_territory):
+def build_territory(key, name, docs, supp_by_territory, boundary=None):
     center = docs[0].get("wgs84_center", {})
     perspectives = [d.get("perspective", "data not available") for d in docs]
 
@@ -442,6 +467,8 @@ def build_territory(key, name, docs, supp_by_territory):
         "legal": legal,
         "sources": sorted(sources),
     }
+    if boundary:
+        result["boundary"] = boundary
     for cat in ("peaks", "checkpoints", "water", "barriers"):
         result[cat] = result[cat] + _supplementary_markers(key, cat, supp_by_territory)
     return result
@@ -460,8 +487,14 @@ def main():
         print(f"Loaded {supp_count} supplementary feature(s) across {len(supp_by_territory)} territories (not from raw/)")
 
     result = {}
+    boundary_count = 0
     for key, ds in groups.items():
-        result[key] = build_territory(key, canonical_names[key], ds, supp_by_territory)
+        boundary = load_boundary(key)
+        if boundary:
+            boundary_count += 1
+        result[key] = build_territory(key, canonical_names[key], ds, supp_by_territory, boundary)
+    if boundary_count:
+        print(f"Attached real boundary geometry for {boundary_count} territory(ies)")
 
     OUT.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"\nWrote {OUT}")
