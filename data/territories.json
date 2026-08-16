@@ -2,6 +2,10 @@
   "puerto-rico": {
     "name": "Puerto Rico",
     "sub": "Asamblea Legislativa de Puerto Rico / Centro de Periodismo Investigativo / UTIER · U.S. Federal Government / Financial Oversight and Management Board (FOMB) / Department of the Interior",
+    "perspectives": [
+      "Asamblea Legislativa de Puerto Rico / Centro de Periodismo Investigativo / UTIER",
+      "U.S. Federal Government / Financial Oversight and Management Board (FOMB) / Department of the Interior"
+    ],
     "center": {
       "lat": 18.2208,
       "lng": -66.5901
@@ -255,6 +259,10 @@
   "northern-cyprus": {
     "name": "Northern Cyprus",
     "sub": "Turkish Republic of Northern Cyprus (TRNC) / Turkish State Authorities · Republic of Cyprus / UN Buffer Zone Framework",
+    "perspectives": [
+      "Turkish Republic of Northern Cyprus (TRNC) / Turkish State Authorities",
+      "Republic of Cyprus / UN Buffer Zone Framework"
+    ],
     "center": {
       "lat": 35.25,
       "lng": 33.75
@@ -586,6 +594,10 @@
   "tibet": {
     "name": "Tibet",
     "sub": "中华人民共和国中央人民政府 / 西藏自治区人民政府 · Central Tibetan Administration / Customary & Rights Advocates",
+    "perspectives": [
+      "中华人民共和国中央人民政府 / 西藏自治区人民政府",
+      "Central Tibetan Administration / Customary & Rights Advocates"
+    ],
     "center": {
       "lat": 31.0,
       "lng": 89.0
@@ -1033,6 +1045,10 @@
   "guam": {
     "name": "Guam",
     "sub": "U.S. Department of Defense / Joint Region Marianas · CHamoru Land Rights / Decolonization Advocates / Chamorro Land Trust Commission",
+    "perspectives": [
+      "U.S. Department of Defense / Joint Region Marianas",
+      "CHamoru Land Rights / Decolonization Advocates / Chamorro Land Trust Commission"
+    ],
     "center": {
       "lat": 13.4443,
       "lng": 144.7937
@@ -1481,6 +1497,9 @@
   "crimea": {
     "name": "Crimea",
     "sub": "Российская Федерация / Государственный Совет Республики Крым / Росреестр / Министерство энергетики РФ",
+    "perspectives": [
+      "Российская Федерация / Государственный Совет Республики Крым / Росреестр / Министерство энергетики РФ"
+    ],
     "center": {
       "lat": 45.0,
       "lng": 34.0
@@ -1692,6 +1711,10 @@
   "jammu-kashmir": {
     "name": "Jammu & Kashmir",
     "sub": "Government of India / Ministry of Home Affairs / J&K UT Administration · Local Kashmiri Advocates / J&K Coalition of Civil Society / High Court Bar Association",
+    "perspectives": [
+      "Government of India / Ministry of Home Affairs / J&K UT Administration",
+      "Local Kashmiri Advocates / J&K Coalition of Civil Society / High Court Bar Association"
+    ],
     "center": {
       "lat": 33.7782,
       "lng": 76.5762
@@ -2018,6 +2041,10 @@
   "west-bank": {
     "name": "West Bank",
     "sub": "State of Israel / Civil Administration · السلطة الوطنية الفلسطينية / دائرة الأراضي / سلطة المياه / الجهاز المركزي للإحصاء",
+    "perspectives": [
+      "State of Israel / Civil Administration",
+      "السلطة الوطنية الفلسطينية / دائرة الأراضي / سلطة المياه / الجهاز المركزي للإحصاء"
+    ],
     "center": {
       "lat": 31.9522,
       "lng": 35.2332
@@ -3306,6 +3333,10 @@
   "west-papua": {
     "name": "West Papua",
     "sub": "Pemerintah Republik Indonesia / Kementerian Koordinator Polhukam / Kementerian ESDM · Indigenous Papuan Customary Council (Dewan Adat Papua) / Majelis Rakyat Papua / Rights Advocates / LBH Papua",
+    "perspectives": [
+      "Pemerintah Republik Indonesia / Kementerian Koordinator Polhukam / Kementerian ESDM",
+      "Indigenous Papuan Customary Council (Dewan Adat Papua) / Majelis Rakyat Papua / Rights Advocates / LBH Papua"
+    ],
     "center": {
       "lat": -4.0,
       "lng": 137.0
@@ -3716,6 +3747,10 @@
   "xinjiang": {
     "name": "Xinjiang",
     "sub": "PRC Central Government / Xinjiang Uyghur Autonomous Region (XUAR) Authorities / XPCC · Uyghur Rights Preservation / World Uyghur Congress / Diaspora Archives",
+    "perspectives": [
+      "PRC Central Government / Xinjiang Uyghur Autonomous Region (XUAR) Authorities / XPCC",
+      "Uyghur Rights Preservation / World Uyghur Congress / Diaspora Archives"
+    ],
     "center": {
       "lat": 41.0,
       "lng": 85.0
@@ -3964,6 +3999,9 @@
   "new-caledonia": {
     "name": "New Caledonia",
     "sub": "État français / Haut-Commissariat de la République / Gouvernement de la Nouvelle-Calédonie",
+    "perspectives": [
+      "État français / Haut-Commissariat de la République / Gouvernement de la Nouvelle-Calédonie"
+    ],
     "center": {
       "lat": -21.5,
       "lng": 165.5
@@ -4062,6 +4100,10 @@
   "american-samoa": {
     "name": "American Samoa",
     "sub": "U.S. Department of the Interior / Office of Insular Affairs / American Samoa Government · Samoan Customary Land / Fa’amatai Advocates / Communal Land Defenders",
+    "perspectives": [
+      "U.S. Department of the Interior / Office of Insular Affairs / American Samoa Government",
+      "Samoan Customary Land / Fa’amatai Advocates / Communal Land Defenders"
+    ],
     "center": {
       "lat": -14.2705,
       "lng": -170.1322
@@ -4241,6 +4283,9 @@
   "rojava-aanes": {
     "name": "Rojava / AANES",
     "sub": "الحكومة السورية المؤقتة / وزارات الدفاع والداخلية والإدارة المحلية",
+    "perspectives": [
+      "الحكومة السورية المؤقتة / وزارات الدفاع والداخلية والإدارة المحلية"
+    ],
     "center": {
       "lat": 35.0,
       "lng": 39.0
@@ -4421,6 +4466,10 @@
   "nagorno-karabakh": {
     "name": "Nagorno-Karabakh",
     "sub": "Republic of Azerbaijan / Special Representative of the President / Karabakh and East Zangezur economic regions administrations · Republic of Armenia / Artsakh authorities / Armenian rights and displacement advocates",
+    "perspectives": [
+      "Republic of Azerbaijan / Special Representative of the President / Karabakh and East Zangezur economic regions administrations",
+      "Republic of Armenia / Artsakh authorities / Armenian rights and displacement advocates"
+    ],
     "center": {
       "lat": 39.85,
       "lng": 46.75
@@ -4647,6 +4696,10 @@
   "gaza-strip": {
     "name": "Gaza Strip",
     "sub": "State of Israel / Southern Command / COGAT · السلطة الوطنية الفلسطينية / سلطة الطاقة / سلطة المياه / شركة توزيع الكهرباء / مصلحة مياه بلديات الساحل / وزارة الاتصالات / المراكز الحقوقية الميدانية",
+    "perspectives": [
+      "State of Israel / Southern Command / COGAT",
+      "السلطة الوطنية الفلسطينية / سلطة الطاقة / سلطة المياه / شركة توزيع الكهرباء / مصلحة مياه بلديات الساحل / وزارة الاتصالات / المراكز الحقوقية الميدانية"
+    ],
     "center": {
       "lat": 31.5,
       "lng": 34.4667
@@ -5127,6 +5180,10 @@
   "western-sahara": {
     "name": "Western Sahara",
     "sub": "Royaume du Maroc / Ministère de l'Intérieur / Administration des Provinces du Sud · Frente POLISARIO / República Árabe Saharaui Democrática (RASD)",
+    "perspectives": [
+      "Royaume du Maroc / Ministère de l'Intérieur / Administration des Provinces du Sud",
+      "Frente POLISARIO / República Árabe Saharaui Democrática (RASD)"
+    ],
     "center": {
       "lat": 25.0,
       "lng": -13.0
@@ -5471,6 +5528,10 @@
   "transnistria": {
     "name": "Transnistria",
     "sub": "Государственные органы ПМР / Верховный Совет ПМР / Приднестровский республиканский банк · Republica Moldova / Biroul Politici de Reintegrare / Serviciul Vamal al RM",
+    "perspectives": [
+      "Государственные органы ПМР / Верховный Совет ПМР / Приднестровский республиканский банк",
+      "Republica Moldova / Biroul Politici de Reintegrare / Serviciul Vamal al RM"
+    ],
     "center": {
       "lat": 46.8333,
       "lng": 29.6167

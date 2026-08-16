@@ -423,6 +423,13 @@ def build_territory(key, name, docs, supp_by_territory, boundary=None):
     result = {
         "name": name,
         "sub": " · ".join(dict.fromkeys(perspectives)),
+        # Structured form of the line above -- 'sub' is a display string for
+        # the dossier header; anything that needs to know which perspectives
+        # exist (e.g. the ALL/SINGLE/COMPARE mode UI) should read this list
+        # directly instead of parsing 'sub' back apart on " · ", which broke
+        # the moment a perspective name legitimately contained that
+        # separator (see the West Bank Arabic file's own perspective name).
+        "perspectives": list(dict.fromkeys(perspectives)),
         "center": {"lat": to_float(center.get("lat")) or 0, "lng": to_float(center.get("lng")) or 0},
         "metrics": {
             "area_sqkm": attributed_metric(
