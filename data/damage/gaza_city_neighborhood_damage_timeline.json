@@ -1,0 +1,2258 @@
+{
+  "Az Zaitoun": [
+    {
+      "date": "2023-10-15T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 119,
+        "Destroyed": 33,
+        "Severe Damage": 35,
+        "Possible Damage": 123
+      }
+    },
+    {
+      "date": "2023-11-07T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 309,
+        "Moderate Damage": 581,
+        "Severe Damage": 374,
+        "Possible Damage": 856
+      }
+    },
+    {
+      "date": "2023-11-26T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 565,
+        "Destroyed": 577,
+        "Moderate Damage": 1693,
+        "Possible Damage": 1468
+      }
+    },
+    {
+      "date": "2024-01-06T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 1082,
+        "Moderate Damage": 2445,
+        "Severe Damage": 794,
+        "Possible Damage": 1717
+      }
+    },
+    {
+      "date": "2024-02-29T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 1763,
+        "Moderate Damage": 2732,
+        "Severe Damage": 965,
+        "Possible Damage": 1725
+      }
+    },
+    {
+      "date": "2024-04-01T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 1833,
+        "Moderate Damage": 2739,
+        "Severe Damage": 958,
+        "Possible Damage": 1717
+      }
+    },
+    {
+      "date": "2024-05-03T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 1867,
+        "Moderate Damage": 2804,
+        "Severe Damage": 978,
+        "Possible Damage": 1718,
+        "Unclassified": 61
+      }
+    },
+    {
+      "date": "2024-07-06T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 2393,
+        "Severe Damage": 1024,
+        "Moderate Damage": 2918,
+        "Possible Damage": 1649,
+        "Unclassified": 61
+      }
+    },
+    {
+      "date": "2024-09-06T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 2714,
+        "Severe Damage": 986,
+        "Moderate Damage": 2769,
+        "Possible Damage": 1611,
+        "Unclassified": 61
+      }
+    },
+    {
+      "date": "2024-12-01T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 3208,
+        "Moderate Damage": 2470,
+        "Severe Damage": 1016,
+        "Possible Damage": 1534,
+        "Unclassified": 61
+      }
+    },
+    {
+      "date": "2025-02-25T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 3624,
+        "Moderate Damage": 2190,
+        "Severe Damage": 918,
+        "Possible Damage": 1531,
+        "Unclassified": 61
+      }
+    },
+    {
+      "date": "2025-04-04T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 3633,
+        "Moderate Damage": 2195,
+        "Severe Damage": 916,
+        "Possible Damage": 1539,
+        "Unclassified": 61
+      }
+    },
+    {
+      "date": "2025-07-08T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 3830,
+        "Moderate Damage": 2271,
+        "Severe Damage": 926,
+        "Possible Damage": 1549,
+        "Unclassified": 61
+      }
+    },
+    {
+      "date": "2025-09-22T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 4072,
+        "Severe Damage": 857,
+        "Moderate Damage": 1317,
+        "Possible Damage": 1111,
+        "Unclassified": 45
+      }
+    },
+    {
+      "date": "2025-09-23T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 192,
+        "Destroyed": 1214,
+        "Moderate Damage": 234,
+        "Possible Damage": 238,
+        "Unclassified": 16
+      }
+    }
+  ],
+  "Ash Sheikh 'Ijleen": [
+    {
+      "date": "2023-10-15T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 49,
+        "Possible Damage": 54,
+        "Destroyed": 8,
+        "Severe Damage": 7
+      }
+    },
+    {
+      "date": "2023-11-07T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 496,
+        "Possible Damage": 406,
+        "Destroyed": 102,
+        "Severe Damage": 94
+      }
+    },
+    {
+      "date": "2023-11-26T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 158,
+        "Moderate Damage": 856,
+        "Destroyed": 187,
+        "Possible Damage": 349
+      }
+    },
+    {
+      "date": "2024-01-06T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 173,
+        "Moderate Damage": 1009,
+        "Destroyed": 213,
+        "Possible Damage": 297
+      }
+    },
+    {
+      "date": "2024-02-29T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 203,
+        "Moderate Damage": 1009,
+        "Destroyed": 301,
+        "Possible Damage": 273
+      }
+    },
+    {
+      "date": "2024-04-01T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 205,
+        "Moderate Damage": 978,
+        "Destroyed": 356,
+        "Possible Damage": 264
+      }
+    },
+    {
+      "date": "2024-05-03T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 211,
+        "Moderate Damage": 996,
+        "Destroyed": 381,
+        "Possible Damage": 261,
+        "Unclassified": 8
+      }
+    },
+    {
+      "date": "2024-07-06T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 460,
+        "Severe Damage": 230,
+        "Moderate Damage": 944,
+        "Possible Damage": 249,
+        "Unclassified": 8
+      }
+    },
+    {
+      "date": "2024-09-06T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 479,
+        "Severe Damage": 228,
+        "Moderate Damage": 931,
+        "Possible Damage": 247,
+        "Unclassified": 8
+      }
+    },
+    {
+      "date": "2024-12-01T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 733,
+        "Severe Damage": 225,
+        "Moderate Damage": 714,
+        "Unclassified": 8,
+        "Possible Damage": 227
+      }
+    },
+    {
+      "date": "2025-02-25T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 927,
+        "Moderate Damage": 542,
+        "Severe Damage": 219,
+        "Possible Damage": 221,
+        "Unclassified": 7
+      }
+    },
+    {
+      "date": "2025-04-04T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 927,
+        "Moderate Damage": 542,
+        "Severe Damage": 220,
+        "Possible Damage": 220,
+        "Unclassified": 7
+      }
+    },
+    {
+      "date": "2025-07-08T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 927,
+        "Moderate Damage": 542,
+        "Severe Damage": 220,
+        "Possible Damage": 220,
+        "Unclassified": 7
+      }
+    },
+    {
+      "date": "2025-09-22T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 925,
+        "Moderate Damage": 531,
+        "Severe Damage": 222,
+        "Possible Damage": 218,
+        "Unclassified": 7
+      }
+    },
+    {
+      "date": "2025-09-23T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 14,
+        "Possible Damage": 1
+      }
+    }
+  ],
+  "Tal El Hawa": [
+    {
+      "date": "2023-10-15T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 2,
+        "Moderate Damage": 4
+      }
+    },
+    {
+      "date": "2023-11-07T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 68,
+        "Destroyed": 16,
+        "Severe Damage": 22,
+        "Possible Damage": 57
+      }
+    },
+    {
+      "date": "2023-11-26T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 213,
+        "Possible Damage": 115,
+        "Destroyed": 64,
+        "Severe Damage": 48
+      }
+    },
+    {
+      "date": "2024-01-06T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 291,
+        "Possible Damage": 124,
+        "Destroyed": 77,
+        "Severe Damage": 65
+      }
+    },
+    {
+      "date": "2024-02-29T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 299,
+        "Severe Damage": 70,
+        "Destroyed": 77,
+        "Possible Damage": 118
+      }
+    },
+    {
+      "date": "2024-04-01T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 300,
+        "Severe Damage": 71,
+        "Destroyed": 77,
+        "Possible Damage": 118
+      }
+    },
+    {
+      "date": "2024-05-03T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 305,
+        "Severe Damage": 71,
+        "Destroyed": 80,
+        "Possible Damage": 119,
+        "Unclassified": 6
+      }
+    },
+    {
+      "date": "2024-07-06T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 331,
+        "Severe Damage": 70,
+        "Destroyed": 86,
+        "Possible Damage": 111,
+        "Unclassified": 6
+      }
+    },
+    {
+      "date": "2024-09-06T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 327,
+        "Severe Damage": 77,
+        "Destroyed": 93,
+        "Possible Damage": 112,
+        "Unclassified": 6
+      }
+    },
+    {
+      "date": "2024-12-01T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 327,
+        "Severe Damage": 85,
+        "Destroyed": 104,
+        "Possible Damage": 115,
+        "Unclassified": 6
+      }
+    },
+    {
+      "date": "2025-02-25T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 325,
+        "Severe Damage": 88,
+        "Destroyed": 110,
+        "Possible Damage": 117,
+        "Unclassified": 6
+      }
+    },
+    {
+      "date": "2025-04-04T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 325,
+        "Severe Damage": 88,
+        "Destroyed": 110,
+        "Possible Damage": 117,
+        "Unclassified": 6
+      }
+    },
+    {
+      "date": "2025-07-08T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 323,
+        "Severe Damage": 90,
+        "Destroyed": 110,
+        "Possible Damage": 117,
+        "Unclassified": 6
+      }
+    },
+    {
+      "date": "2025-09-22T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 311,
+        "Severe Damage": 110,
+        "Destroyed": 146,
+        "Possible Damage": 87,
+        "Unclassified": 6
+      }
+    },
+    {
+      "date": "2025-09-23T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 8,
+        "Severe Damage": 3,
+        "Moderate Damage": 18,
+        "Possible Damage": 3
+      }
+    }
+  ],
+  "As Sabra": [
+    {
+      "date": "2023-10-15T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 6,
+        "Moderate Damage": 46,
+        "Possible Damage": 50,
+        "Destroyed": 7
+      }
+    },
+    {
+      "date": "2023-11-07T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 35,
+        "Moderate Damage": 149,
+        "Destroyed": 42,
+        "Possible Damage": 193
+      }
+    },
+    {
+      "date": "2023-11-26T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 81,
+        "Moderate Damage": 392,
+        "Destroyed": 73,
+        "Possible Damage": 403
+      }
+    },
+    {
+      "date": "2024-01-06T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 106,
+        "Moderate Damage": 555,
+        "Destroyed": 100,
+        "Possible Damage": 475
+      }
+    },
+    {
+      "date": "2024-02-29T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 114,
+        "Moderate Damage": 604,
+        "Destroyed": 108,
+        "Possible Damage": 514
+      }
+    },
+    {
+      "date": "2024-04-01T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 114,
+        "Moderate Damage": 612,
+        "Destroyed": 111,
+        "Possible Damage": 510
+      }
+    },
+    {
+      "date": "2024-05-03T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 115,
+        "Moderate Damage": 621,
+        "Destroyed": 112,
+        "Possible Damage": 512,
+        "Unclassified": 61
+      }
+    },
+    {
+      "date": "2024-07-06T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 118,
+        "Moderate Damage": 632,
+        "Destroyed": 114,
+        "Possible Damage": 515,
+        "Unclassified": 61
+      }
+    },
+    {
+      "date": "2024-09-06T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 121,
+        "Moderate Damage": 630,
+        "Destroyed": 119,
+        "Possible Damage": 522,
+        "Unclassified": 61
+      }
+    },
+    {
+      "date": "2024-12-01T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 121,
+        "Moderate Damage": 633,
+        "Destroyed": 128,
+        "Possible Damage": 532,
+        "Unclassified": 61
+      }
+    },
+    {
+      "date": "2025-02-25T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 122,
+        "Moderate Damage": 633,
+        "Destroyed": 135,
+        "Possible Damage": 538,
+        "Unclassified": 61
+      }
+    },
+    {
+      "date": "2025-04-04T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 123,
+        "Moderate Damage": 632,
+        "Destroyed": 138,
+        "Possible Damage": 539,
+        "Unclassified": 61
+      }
+    },
+    {
+      "date": "2025-07-08T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 123,
+        "Moderate Damage": 634,
+        "Destroyed": 140,
+        "Possible Damage": 543,
+        "Unclassified": 61
+      }
+    },
+    {
+      "date": "2025-09-22T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 140,
+        "Moderate Damage": 723,
+        "Destroyed": 151,
+        "Possible Damage": 578,
+        "Unclassified": 61
+      }
+    }
+  ],
+  "Southern Remal": [
+    {
+      "date": "2023-10-15T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 95,
+        "Moderate Damage": 186,
+        "Possible Damage": 122,
+        "Destroyed": 78
+      }
+    },
+    {
+      "date": "2023-11-07T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 174,
+        "Moderate Damage": 318,
+        "Destroyed": 163,
+        "Possible Damage": 215
+      }
+    },
+    {
+      "date": "2023-11-26T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 243,
+        "Moderate Damage": 505,
+        "Destroyed": 288,
+        "Possible Damage": 338
+      }
+    },
+    {
+      "date": "2024-01-06T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 253,
+        "Moderate Damage": 604,
+        "Destroyed": 292,
+        "Possible Damage": 343
+      }
+    },
+    {
+      "date": "2024-02-29T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 278,
+        "Moderate Damage": 789,
+        "Destroyed": 339,
+        "Possible Damage": 367
+      }
+    },
+    {
+      "date": "2024-04-01T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 292,
+        "Moderate Damage": 809,
+        "Destroyed": 358,
+        "Possible Damage": 367
+      }
+    },
+    {
+      "date": "2024-05-03T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 294,
+        "Moderate Damage": 809,
+        "Destroyed": 364,
+        "Possible Damage": 376,
+        "Unclassified": 32
+      }
+    },
+    {
+      "date": "2024-07-06T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 295,
+        "Moderate Damage": 818,
+        "Destroyed": 362,
+        "Possible Damage": 377,
+        "Unclassified": 32
+      }
+    },
+    {
+      "date": "2024-09-06T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 308,
+        "Moderate Damage": 810,
+        "Destroyed": 388,
+        "Possible Damage": 381,
+        "Unclassified": 32
+      }
+    },
+    {
+      "date": "2024-12-01T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 309,
+        "Moderate Damage": 813,
+        "Destroyed": 396,
+        "Possible Damage": 383,
+        "Unclassified": 32
+      }
+    },
+    {
+      "date": "2025-02-25T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 309,
+        "Moderate Damage": 812,
+        "Destroyed": 407,
+        "Possible Damage": 381,
+        "Unclassified": 32
+      }
+    },
+    {
+      "date": "2025-04-04T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 310,
+        "Moderate Damage": 809,
+        "Destroyed": 410,
+        "Possible Damage": 386,
+        "Unclassified": 32
+      }
+    },
+    {
+      "date": "2025-07-08T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 312,
+        "Moderate Damage": 808,
+        "Destroyed": 414,
+        "Possible Damage": 387,
+        "Unclassified": 32
+      }
+    },
+    {
+      "date": "2025-09-22T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 317,
+        "Moderate Damage": 802,
+        "Destroyed": 427,
+        "Possible Damage": 388,
+        "Unclassified": 32
+      }
+    }
+  ],
+  "At Turukman": [
+    {
+      "date": "2023-10-15T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 79,
+        "Severe Damage": 80,
+        "Moderate Damage": 77,
+        "Possible Damage": 29
+      }
+    },
+    {
+      "date": "2023-11-07T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 117,
+        "Moderate Damage": 106,
+        "Severe Damage": 105,
+        "Possible Damage": 40
+      }
+    },
+    {
+      "date": "2023-11-26T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 125,
+        "Moderate Damage": 104,
+        "Severe Damage": 105,
+        "Possible Damage": 43
+      }
+    },
+    {
+      "date": "2024-01-06T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 407,
+        "Moderate Damage": 15,
+        "Severe Damage": 39,
+        "Possible Damage": 41
+      }
+    },
+    {
+      "date": "2024-02-29T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 408,
+        "Moderate Damage": 16,
+        "Severe Damage": 41,
+        "Possible Damage": 43
+      }
+    },
+    {
+      "date": "2024-04-01T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 449,
+        "Severe Damage": 34,
+        "Moderate Damage": 11,
+        "Possible Damage": 46
+      }
+    },
+    {
+      "date": "2024-05-03T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 459,
+        "Severe Damage": 29,
+        "Moderate Damage": 8,
+        "Possible Damage": 46,
+        "Unclassified": 20
+      }
+    },
+    {
+      "date": "2024-07-06T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 471,
+        "Severe Damage": 19,
+        "Moderate Damage": 6,
+        "Possible Damage": 46,
+        "Unclassified": 20
+      }
+    },
+    {
+      "date": "2024-09-06T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 471,
+        "Severe Damage": 19,
+        "Moderate Damage": 6,
+        "Possible Damage": 46,
+        "Unclassified": 20
+      }
+    },
+    {
+      "date": "2024-12-01T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 471,
+        "Severe Damage": 19,
+        "Moderate Damage": 6,
+        "Possible Damage": 46,
+        "Unclassified": 20
+      }
+    },
+    {
+      "date": "2025-02-25T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 477,
+        "Severe Damage": 13,
+        "Moderate Damage": 6,
+        "Possible Damage": 46,
+        "Unclassified": 20
+      }
+    },
+    {
+      "date": "2025-04-04T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 479,
+        "Severe Damage": 12,
+        "Moderate Damage": 5,
+        "Possible Damage": 46,
+        "Unclassified": 20
+      }
+    },
+    {
+      "date": "2025-07-08T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 488,
+        "Severe Damage": 9,
+        "Possible Damage": 46,
+        "Unclassified": 20
+      }
+    },
+    {
+      "date": "2025-09-22T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 379,
+        "Severe Damage": 6,
+        "Possible Damage": 38,
+        "Unclassified": 20
+      }
+    },
+    {
+      "date": "2025-09-23T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 109,
+        "Severe Damage": 3,
+        "Possible Damage": 8
+      }
+    }
+  ],
+  "At Turukman - Ijdeedeh": [
+    {
+      "date": "2023-10-15T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 125,
+        "Destroyed": 113,
+        "Moderate Damage": 234,
+        "Possible Damage": 227
+      }
+    },
+    {
+      "date": "2023-11-07T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 276,
+        "Moderate Damage": 897,
+        "Severe Damage": 441,
+        "Possible Damage": 874
+      }
+    },
+    {
+      "date": "2023-11-26T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 304,
+        "Moderate Damage": 986,
+        "Severe Damage": 475,
+        "Possible Damage": 1022
+      }
+    },
+    {
+      "date": "2024-01-06T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 1187,
+        "Severe Damage": 841,
+        "Moderate Damage": 1851,
+        "Possible Damage": 943
+      }
+    },
+    {
+      "date": "2024-02-29T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 1212,
+        "Severe Damage": 838,
+        "Moderate Damage": 1877,
+        "Possible Damage": 932
+      }
+    },
+    {
+      "date": "2024-04-01T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 1219,
+        "Severe Damage": 841,
+        "Moderate Damage": 1909,
+        "Possible Damage": 917
+      }
+    },
+    {
+      "date": "2024-05-03T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 1226,
+        "Severe Damage": 844,
+        "Moderate Damage": 1919,
+        "Possible Damage": 907,
+        "Unclassified": 18
+      }
+    },
+    {
+      "date": "2024-07-06T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 1325,
+        "Severe Damage": 881,
+        "Moderate Damage": 1897,
+        "Possible Damage": 847,
+        "Unclassified": 18
+      }
+    },
+    {
+      "date": "2024-09-06T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 1357,
+        "Severe Damage": 884,
+        "Moderate Damage": 1869,
+        "Possible Damage": 841,
+        "Unclassified": 18
+      }
+    },
+    {
+      "date": "2024-12-01T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 1374,
+        "Severe Damage": 896,
+        "Moderate Damage": 1858,
+        "Possible Damage": 833,
+        "Unclassified": 18
+      }
+    },
+    {
+      "date": "2025-02-25T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 1387,
+        "Severe Damage": 901,
+        "Moderate Damage": 1849,
+        "Possible Damage": 840,
+        "Unclassified": 18
+      }
+    },
+    {
+      "date": "2025-04-04T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 1388,
+        "Severe Damage": 901,
+        "Moderate Damage": 1850,
+        "Possible Damage": 844,
+        "Unclassified": 18
+      }
+    },
+    {
+      "date": "2025-07-08T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 2576,
+        "Severe Damage": 725,
+        "Moderate Damage": 1104,
+        "Possible Damage": 752,
+        "Unclassified": 18
+      }
+    },
+    {
+      "date": "2025-09-22T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 3632,
+        "Severe Damage": 469,
+        "Moderate Damage": 215,
+        "Possible Damage": 666,
+        "Unclassified": 13
+      }
+    },
+    {
+      "date": "2025-09-23T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 191,
+        "Severe Damage": 8,
+        "Moderate Damage": 1,
+        "Possible Damage": 19,
+        "Unclassified": 5
+      }
+    }
+  ],
+  "Northern Remal": [
+    {
+      "date": "2023-10-15T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 9,
+        "Moderate Damage": 36,
+        "Possible Damage": 42,
+        "Destroyed": 10
+      }
+    },
+    {
+      "date": "2023-11-07T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 131,
+        "Severe Damage": 26,
+        "Possible Damage": 195,
+        "Destroyed": 30
+      }
+    },
+    {
+      "date": "2023-11-26T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 391,
+        "Severe Damage": 103,
+        "Destroyed": 93,
+        "Possible Damage": 442
+      }
+    },
+    {
+      "date": "2024-01-06T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 741,
+        "Severe Damage": 171,
+        "Destroyed": 214,
+        "Possible Damage": 546
+      }
+    },
+    {
+      "date": "2024-02-29T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 765,
+        "Severe Damage": 174,
+        "Destroyed": 221,
+        "Possible Damage": 555
+      }
+    },
+    {
+      "date": "2024-04-01T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 967,
+        "Severe Damage": 224,
+        "Destroyed": 385,
+        "Possible Damage": 526
+      }
+    },
+    {
+      "date": "2024-05-03T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 996,
+        "Severe Damage": 226,
+        "Destroyed": 392,
+        "Possible Damage": 536,
+        "Unclassified": 39
+      }
+    },
+    {
+      "date": "2024-07-06T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 1000,
+        "Severe Damage": 226,
+        "Destroyed": 393,
+        "Possible Damage": 535,
+        "Unclassified": 39
+      }
+    },
+    {
+      "date": "2024-09-06T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 1004,
+        "Severe Damage": 226,
+        "Destroyed": 397,
+        "Possible Damage": 537,
+        "Unclassified": 39
+      }
+    },
+    {
+      "date": "2024-12-01T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 1005,
+        "Severe Damage": 226,
+        "Destroyed": 397,
+        "Possible Damage": 536,
+        "Unclassified": 39
+      }
+    },
+    {
+      "date": "2025-02-25T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 1005,
+        "Severe Damage": 224,
+        "Destroyed": 399,
+        "Possible Damage": 536,
+        "Unclassified": 39
+      }
+    },
+    {
+      "date": "2025-04-04T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 1005,
+        "Severe Damage": 224,
+        "Destroyed": 399,
+        "Possible Damage": 536,
+        "Unclassified": 39
+      }
+    },
+    {
+      "date": "2025-07-08T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 1007,
+        "Severe Damage": 224,
+        "Destroyed": 399,
+        "Possible Damage": 538,
+        "Unclassified": 39
+      }
+    },
+    {
+      "date": "2025-09-22T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 1015,
+        "Severe Damage": 227,
+        "Destroyed": 409,
+        "Possible Damage": 536,
+        "Unclassified": 39
+      }
+    }
+  ],
+  "An Naser": [
+    {
+      "date": "2023-10-15T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 29,
+        "Possible Damage": 42,
+        "Destroyed": 2,
+        "Severe Damage": 2
+      }
+    },
+    {
+      "date": "2023-11-07T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 236,
+        "Destroyed": 42,
+        "Severe Damage": 38,
+        "Possible Damage": 329
+      }
+    },
+    {
+      "date": "2023-11-26T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 773,
+        "Destroyed": 141,
+        "Severe Damage": 120,
+        "Possible Damage": 578
+      }
+    },
+    {
+      "date": "2024-01-06T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 229,
+        "Moderate Damage": 1326,
+        "Destroyed": 279,
+        "Possible Damage": 628
+      }
+    },
+    {
+      "date": "2024-02-29T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 231,
+        "Moderate Damage": 1351,
+        "Destroyed": 285,
+        "Possible Damage": 611
+      }
+    },
+    {
+      "date": "2024-04-01T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 236,
+        "Moderate Damage": 1350,
+        "Destroyed": 297,
+        "Possible Damage": 611
+      }
+    },
+    {
+      "date": "2024-05-03T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 240,
+        "Moderate Damage": 1357,
+        "Destroyed": 300,
+        "Possible Damage": 611,
+        "Unclassified": 12
+      }
+    },
+    {
+      "date": "2024-07-06T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 240,
+        "Moderate Damage": 1356,
+        "Destroyed": 301,
+        "Possible Damage": 611,
+        "Unclassified": 12
+      }
+    },
+    {
+      "date": "2024-09-06T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 240,
+        "Moderate Damage": 1355,
+        "Destroyed": 303,
+        "Possible Damage": 611,
+        "Unclassified": 12
+      }
+    },
+    {
+      "date": "2024-12-01T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 241,
+        "Moderate Damage": 1357,
+        "Destroyed": 307,
+        "Possible Damage": 611,
+        "Unclassified": 12
+      }
+    },
+    {
+      "date": "2025-02-25T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 242,
+        "Moderate Damage": 1357,
+        "Destroyed": 309,
+        "Possible Damage": 608,
+        "Unclassified": 12
+      }
+    },
+    {
+      "date": "2025-04-04T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 243,
+        "Moderate Damage": 1359,
+        "Destroyed": 309,
+        "Possible Damage": 608,
+        "Unclassified": 12
+      }
+    },
+    {
+      "date": "2025-07-08T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 241,
+        "Moderate Damage": 1359,
+        "Destroyed": 311,
+        "Possible Damage": 608,
+        "Unclassified": 12
+      }
+    },
+    {
+      "date": "2025-09-22T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 278,
+        "Moderate Damage": 1394,
+        "Destroyed": 375,
+        "Possible Damage": 572,
+        "Unclassified": 12
+      }
+    },
+    {
+      "date": "2025-09-23T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 11,
+        "Destroyed": 1,
+        "Possible Damage": 13
+      }
+    }
+  ],
+  "Ash Sheikh Radwan": [
+    {
+      "date": "2023-10-15T00:00:00+00:00",
+      "counts": {
+        "Possible Damage": 21,
+        "Moderate Damage": 13,
+        "Severe Damage": 2,
+        "Destroyed": 1
+      }
+    },
+    {
+      "date": "2023-11-07T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 228,
+        "Severe Damage": 39,
+        "Possible Damage": 264,
+        "Destroyed": 18
+      }
+    },
+    {
+      "date": "2023-11-26T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 344,
+        "Severe Damage": 63,
+        "Destroyed": 35,
+        "Possible Damage": 304
+      }
+    },
+    {
+      "date": "2024-01-06T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 813,
+        "Severe Damage": 163,
+        "Destroyed": 145,
+        "Possible Damage": 398
+      }
+    },
+    {
+      "date": "2024-02-29T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 825,
+        "Severe Damage": 167,
+        "Destroyed": 153,
+        "Possible Damage": 399
+      }
+    },
+    {
+      "date": "2024-04-01T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 823,
+        "Severe Damage": 169,
+        "Destroyed": 153,
+        "Possible Damage": 399
+      }
+    },
+    {
+      "date": "2024-05-03T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 828,
+        "Severe Damage": 170,
+        "Destroyed": 155,
+        "Possible Damage": 396,
+        "Unclassified": 13
+      }
+    },
+    {
+      "date": "2024-07-06T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 831,
+        "Severe Damage": 172,
+        "Destroyed": 156,
+        "Possible Damage": 395,
+        "Unclassified": 13
+      }
+    },
+    {
+      "date": "2024-09-06T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 828,
+        "Severe Damage": 175,
+        "Destroyed": 158,
+        "Possible Damage": 397,
+        "Unclassified": 13
+      }
+    },
+    {
+      "date": "2024-12-01T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 827,
+        "Severe Damage": 177,
+        "Destroyed": 159,
+        "Possible Damage": 402,
+        "Unclassified": 13
+      }
+    },
+    {
+      "date": "2025-02-25T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 830,
+        "Severe Damage": 178,
+        "Destroyed": 161,
+        "Possible Damage": 410,
+        "Unclassified": 13
+      }
+    },
+    {
+      "date": "2025-04-04T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 832,
+        "Severe Damage": 178,
+        "Destroyed": 161,
+        "Possible Damage": 414,
+        "Unclassified": 13
+      }
+    },
+    {
+      "date": "2025-07-08T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 842,
+        "Severe Damage": 182,
+        "Destroyed": 163,
+        "Possible Damage": 423,
+        "Unclassified": 13
+      }
+    },
+    {
+      "date": "2025-09-22T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 1047,
+        "Severe Damage": 257,
+        "Destroyed": 309,
+        "Possible Damage": 390,
+        "Unclassified": 13
+      }
+    }
+  ],
+  "Ijdeedeh": [
+    {
+      "date": "2023-10-15T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 27,
+        "Destroyed": 19,
+        "Moderate Damage": 48,
+        "Possible Damage": 15
+      }
+    },
+    {
+      "date": "2023-11-07T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 27,
+        "Destroyed": 39,
+        "Moderate Damage": 54,
+        "Possible Damage": 28
+      }
+    },
+    {
+      "date": "2023-11-26T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 27,
+        "Destroyed": 39,
+        "Moderate Damage": 54,
+        "Possible Damage": 28
+      }
+    },
+    {
+      "date": "2024-01-06T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 259,
+        "Severe Damage": 57,
+        "Moderate Damage": 24,
+        "Possible Damage": 29
+      }
+    },
+    {
+      "date": "2024-02-29T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 291,
+        "Severe Damage": 56,
+        "Moderate Damage": 20,
+        "Possible Damage": 27
+      }
+    },
+    {
+      "date": "2024-04-01T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 293,
+        "Severe Damage": 58,
+        "Moderate Damage": 23,
+        "Possible Damage": 28
+      }
+    },
+    {
+      "date": "2024-05-03T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 294,
+        "Severe Damage": 58,
+        "Moderate Damage": 25,
+        "Possible Damage": 28,
+        "Unclassified": 5
+      }
+    },
+    {
+      "date": "2024-07-06T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 302,
+        "Severe Damage": 50,
+        "Moderate Damage": 25,
+        "Possible Damage": 28,
+        "Unclassified": 5
+      }
+    },
+    {
+      "date": "2024-09-06T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 302,
+        "Severe Damage": 50,
+        "Moderate Damage": 25,
+        "Possible Damage": 28,
+        "Unclassified": 5
+      }
+    },
+    {
+      "date": "2024-12-01T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 308,
+        "Severe Damage": 50,
+        "Moderate Damage": 25,
+        "Possible Damage": 29,
+        "Unclassified": 5
+      }
+    },
+    {
+      "date": "2025-02-25T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 310,
+        "Severe Damage": 49,
+        "Moderate Damage": 24,
+        "Possible Damage": 29,
+        "Unclassified": 5
+      }
+    },
+    {
+      "date": "2025-04-04T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 313,
+        "Severe Damage": 48,
+        "Moderate Damage": 23,
+        "Possible Damage": 28,
+        "Unclassified": 5
+      }
+    },
+    {
+      "date": "2025-07-08T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 358,
+        "Severe Damage": 19,
+        "Moderate Damage": 9,
+        "Possible Damage": 29,
+        "Unclassified": 5
+      }
+    },
+    {
+      "date": "2025-09-22T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 99,
+        "Severe Damage": 9,
+        "Moderate Damage": 6,
+        "Possible Damage": 5,
+        "Unclassified": 2
+      }
+    },
+    {
+      "date": "2025-09-23T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 259,
+        "Severe Damage": 10,
+        "Moderate Damage": 3,
+        "Possible Damage": 24,
+        "Unclassified": 3
+      }
+    }
+  ],
+  "Ash Shuja'iyeh - Ijdeedeh": [
+    {
+      "date": "2023-10-15T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 73,
+        "Possible Damage": 100,
+        "Destroyed": 19,
+        "Severe Damage": 15
+      }
+    },
+    {
+      "date": "2023-11-07T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 255,
+        "Destroyed": 120,
+        "Severe Damage": 149,
+        "Possible Damage": 604
+      }
+    },
+    {
+      "date": "2023-11-26T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 295,
+        "Destroyed": 125,
+        "Severe Damage": 158,
+        "Possible Damage": 637
+      }
+    },
+    {
+      "date": "2024-01-06T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 1736,
+        "Destroyed": 720,
+        "Severe Damage": 475,
+        "Possible Damage": 983
+      }
+    },
+    {
+      "date": "2024-02-29T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 1763,
+        "Destroyed": 734,
+        "Severe Damage": 469,
+        "Possible Damage": 988
+      }
+    },
+    {
+      "date": "2024-04-01T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 1760,
+        "Destroyed": 739,
+        "Severe Damage": 469,
+        "Possible Damage": 987
+      }
+    },
+    {
+      "date": "2024-05-03T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 1761,
+        "Destroyed": 743,
+        "Severe Damage": 472,
+        "Possible Damage": 993,
+        "Unclassified": 4
+      }
+    },
+    {
+      "date": "2024-07-06T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 1907,
+        "Destroyed": 876,
+        "Severe Damage": 503,
+        "Possible Damage": 865,
+        "Unclassified": 4
+      }
+    },
+    {
+      "date": "2024-09-06T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 1877,
+        "Destroyed": 913,
+        "Severe Damage": 509,
+        "Possible Damage": 857,
+        "Unclassified": 4
+      }
+    },
+    {
+      "date": "2024-12-01T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 1873,
+        "Destroyed": 927,
+        "Severe Damage": 511,
+        "Possible Damage": 860,
+        "Unclassified": 4
+      }
+    },
+    {
+      "date": "2025-02-25T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 1868,
+        "Destroyed": 934,
+        "Severe Damage": 513,
+        "Possible Damage": 858,
+        "Unclassified": 4
+      }
+    },
+    {
+      "date": "2025-04-04T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 1866,
+        "Destroyed": 937,
+        "Severe Damage": 517,
+        "Possible Damage": 859,
+        "Unclassified": 4
+      }
+    },
+    {
+      "date": "2025-07-08T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 2141,
+        "Severe Damage": 397,
+        "Moderate Damage": 1553,
+        "Possible Damage": 545,
+        "Unclassified": 4
+      }
+    },
+    {
+      "date": "2025-09-22T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 2715,
+        "Severe Damage": 413,
+        "Moderate Damage": 1046,
+        "Possible Damage": 481,
+        "Unclassified": 3
+      }
+    },
+    {
+      "date": "2025-09-23T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 5,
+        "Unclassified": 1
+      }
+    }
+  ],
+  "At Tuffah": [
+    {
+      "date": "2023-10-15T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 155,
+        "Destroyed": 41,
+        "Severe Damage": 50,
+        "Possible Damage": 104
+      }
+    },
+    {
+      "date": "2023-11-07T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 301,
+        "Destroyed": 84,
+        "Severe Damage": 92,
+        "Possible Damage": 252
+      }
+    },
+    {
+      "date": "2023-11-26T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 329,
+        "Destroyed": 88,
+        "Severe Damage": 101,
+        "Possible Damage": 302
+      }
+    },
+    {
+      "date": "2024-01-06T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 351,
+        "Severe Damage": 247,
+        "Moderate Damage": 901,
+        "Possible Damage": 612
+      }
+    },
+    {
+      "date": "2024-02-29T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 360,
+        "Severe Damage": 253,
+        "Moderate Damage": 906,
+        "Possible Damage": 619
+      }
+    },
+    {
+      "date": "2024-04-01T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 364,
+        "Severe Damage": 252,
+        "Moderate Damage": 904,
+        "Possible Damage": 621
+      }
+    },
+    {
+      "date": "2024-05-03T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 375,
+        "Severe Damage": 251,
+        "Moderate Damage": 918,
+        "Possible Damage": 625,
+        "Unclassified": 6
+      }
+    },
+    {
+      "date": "2024-07-06T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 380,
+        "Severe Damage": 250,
+        "Moderate Damage": 923,
+        "Possible Damage": 620,
+        "Unclassified": 6
+      }
+    },
+    {
+      "date": "2024-09-06T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 387,
+        "Severe Damage": 249,
+        "Moderate Damage": 934,
+        "Possible Damage": 647,
+        "Unclassified": 6
+      }
+    },
+    {
+      "date": "2024-12-01T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 389,
+        "Severe Damage": 250,
+        "Moderate Damage": 935,
+        "Possible Damage": 653,
+        "Unclassified": 6
+      }
+    },
+    {
+      "date": "2025-02-25T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 393,
+        "Severe Damage": 250,
+        "Moderate Damage": 934,
+        "Possible Damage": 658,
+        "Unclassified": 6
+      }
+    },
+    {
+      "date": "2025-04-04T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 401,
+        "Severe Damage": 251,
+        "Moderate Damage": 945,
+        "Possible Damage": 660,
+        "Unclassified": 6
+      }
+    },
+    {
+      "date": "2025-07-08T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 625,
+        "Severe Damage": 261,
+        "Moderate Damage": 1016,
+        "Possible Damage": 667,
+        "Unclassified": 6
+      }
+    },
+    {
+      "date": "2025-09-22T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 1298,
+        "Severe Damage": 299,
+        "Moderate Damage": 778,
+        "Possible Damage": 618,
+        "Unclassified": 6
+      }
+    },
+    {
+      "date": "2025-09-23T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 18,
+        "Severe Damage": 9,
+        "Moderate Damage": 13,
+        "Possible Damage": 16
+      }
+    }
+  ],
+  "Al Awadah": [
+    {
+      "date": "2023-10-15T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 121,
+        "Destroyed": 43,
+        "Severe Damage": 52,
+        "Possible Damage": 109
+      }
+    },
+    {
+      "date": "2023-11-07T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 173,
+        "Destroyed": 165,
+        "Severe Damage": 116,
+        "Possible Damage": 163
+      }
+    },
+    {
+      "date": "2023-11-26T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 182,
+        "Severe Damage": 100,
+        "Destroyed": 252,
+        "Possible Damage": 140
+      }
+    },
+    {
+      "date": "2024-01-06T00:00:00+00:00",
+      "counts": {
+        "Moderate Damage": 216,
+        "Severe Damage": 101,
+        "Destroyed": 309,
+        "Possible Damage": 81
+      }
+    },
+    {
+      "date": "2024-02-29T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 100,
+        "Destroyed": 328,
+        "Moderate Damage": 211,
+        "Possible Damage": 70
+      }
+    },
+    {
+      "date": "2024-04-01T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 100,
+        "Destroyed": 329,
+        "Moderate Damage": 210,
+        "Possible Damage": 70
+      }
+    },
+    {
+      "date": "2024-05-03T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 100,
+        "Destroyed": 329,
+        "Moderate Damage": 210,
+        "Possible Damage": 70,
+        "Unclassified": 2
+      }
+    },
+    {
+      "date": "2024-07-06T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 99,
+        "Destroyed": 330,
+        "Moderate Damage": 210,
+        "Possible Damage": 70,
+        "Unclassified": 2
+      }
+    },
+    {
+      "date": "2024-09-06T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 99,
+        "Destroyed": 330,
+        "Moderate Damage": 210,
+        "Possible Damage": 70,
+        "Unclassified": 2
+      }
+    },
+    {
+      "date": "2024-12-01T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 98,
+        "Destroyed": 331,
+        "Moderate Damage": 210,
+        "Possible Damage": 70,
+        "Unclassified": 2
+      }
+    },
+    {
+      "date": "2025-02-25T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 97,
+        "Destroyed": 332,
+        "Moderate Damage": 210,
+        "Possible Damage": 70,
+        "Unclassified": 2
+      }
+    },
+    {
+      "date": "2025-04-04T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 97,
+        "Destroyed": 332,
+        "Moderate Damage": 210,
+        "Possible Damage": 70,
+        "Unclassified": 2
+      }
+    },
+    {
+      "date": "2025-07-08T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 97,
+        "Destroyed": 332,
+        "Moderate Damage": 210,
+        "Possible Damage": 70,
+        "Unclassified": 2
+      }
+    },
+    {
+      "date": "2025-09-22T00:00:00+00:00",
+      "counts": {
+        "Severe Damage": 96,
+        "Destroyed": 363,
+        "Moderate Damage": 182,
+        "Possible Damage": 69,
+        "Unclassified": 2
+      }
+    }
+  ],
+  "Ad Darraj": [
+    {
+      "date": "2023-10-15T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 8,
+        "Moderate Damage": 49,
+        "Possible Damage": 75,
+        "Severe Damage": 12
+      }
+    },
+    {
+      "date": "2023-11-07T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 41,
+        "Moderate Damage": 249,
+        "Possible Damage": 292,
+        "Severe Damage": 48
+      }
+    },
+    {
+      "date": "2023-11-26T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 50,
+        "Moderate Damage": 295,
+        "Possible Damage": 368,
+        "Severe Damage": 62
+      }
+    },
+    {
+      "date": "2024-01-06T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 165,
+        "Severe Damage": 153,
+        "Moderate Damage": 868,
+        "Possible Damage": 730
+      }
+    },
+    {
+      "date": "2024-02-29T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 171,
+        "Severe Damage": 155,
+        "Moderate Damage": 881,
+        "Possible Damage": 742
+      }
+    },
+    {
+      "date": "2024-04-01T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 176,
+        "Severe Damage": 157,
+        "Moderate Damage": 892,
+        "Possible Damage": 759
+      }
+    },
+    {
+      "date": "2024-05-03T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 183,
+        "Severe Damage": 168,
+        "Moderate Damage": 937,
+        "Possible Damage": 771,
+        "Unclassified": 144
+      }
+    },
+    {
+      "date": "2024-07-06T00:00:00+00:00",
+      "counts": {
+        "Unclassified": 146,
+        "Destroyed": 186,
+        "Moderate Damage": 961,
+        "Severe Damage": 170,
+        "Possible Damage": 792
+      }
+    },
+    {
+      "date": "2024-09-06T00:00:00+00:00",
+      "counts": {
+        "Unclassified": 146,
+        "Destroyed": 186,
+        "Moderate Damage": 963,
+        "Severe Damage": 170,
+        "Possible Damage": 796
+      }
+    },
+    {
+      "date": "2024-12-01T00:00:00+00:00",
+      "counts": {
+        "Unclassified": 146,
+        "Destroyed": 187,
+        "Moderate Damage": 965,
+        "Severe Damage": 172,
+        "Possible Damage": 798
+      }
+    },
+    {
+      "date": "2025-02-25T00:00:00+00:00",
+      "counts": {
+        "Unclassified": 146,
+        "Destroyed": 190,
+        "Moderate Damage": 972,
+        "Severe Damage": 173,
+        "Possible Damage": 799
+      }
+    },
+    {
+      "date": "2025-04-04T00:00:00+00:00",
+      "counts": {
+        "Unclassified": 146,
+        "Destroyed": 191,
+        "Moderate Damage": 971,
+        "Severe Damage": 174,
+        "Possible Damage": 798
+      }
+    },
+    {
+      "date": "2025-07-08T00:00:00+00:00",
+      "counts": {
+        "Unclassified": 146,
+        "Destroyed": 196,
+        "Moderate Damage": 985,
+        "Severe Damage": 176,
+        "Possible Damage": 803
+      }
+    },
+    {
+      "date": "2025-09-22T00:00:00+00:00",
+      "counts": {
+        "Unclassified": 145,
+        "Severe Damage": 267,
+        "Destroyed": 486,
+        "Moderate Damage": 1120,
+        "Possible Damage": 772
+      }
+    },
+    {
+      "date": "2025-09-23T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 7,
+        "Moderate Damage": 28,
+        "Severe Damage": 7,
+        "Possible Damage": 10
+      }
+    }
+  ],
+  "Old City": [
+    {
+      "date": "2023-10-15T00:00:00+00:00",
+      "counts": {
+        "Possible Damage": 6
+      }
+    },
+    {
+      "date": "2023-11-07T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 13,
+        "Severe Damage": 11,
+        "Moderate Damage": 55,
+        "Possible Damage": 90
+      }
+    },
+    {
+      "date": "2023-11-26T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 14,
+        "Severe Damage": 15,
+        "Moderate Damage": 60,
+        "Possible Damage": 101
+      }
+    },
+    {
+      "date": "2024-01-06T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 91,
+        "Severe Damage": 132,
+        "Moderate Damage": 379,
+        "Possible Damage": 570
+      }
+    },
+    {
+      "date": "2024-02-29T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 95,
+        "Severe Damage": 132,
+        "Moderate Damage": 382,
+        "Possible Damage": 574
+      }
+    },
+    {
+      "date": "2024-04-01T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 95,
+        "Severe Damage": 132,
+        "Moderate Damage": 383,
+        "Possible Damage": 575
+      }
+    },
+    {
+      "date": "2024-05-03T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 95,
+        "Severe Damage": 133,
+        "Moderate Damage": 389,
+        "Possible Damage": 595,
+        "Unclassified": 5
+      }
+    },
+    {
+      "date": "2024-07-06T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 96,
+        "Severe Damage": 133,
+        "Moderate Damage": 392,
+        "Possible Damage": 598,
+        "Unclassified": 5
+      }
+    },
+    {
+      "date": "2024-09-06T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 98,
+        "Severe Damage": 134,
+        "Moderate Damage": 393,
+        "Possible Damage": 597,
+        "Unclassified": 5
+      }
+    },
+    {
+      "date": "2024-12-01T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 98,
+        "Severe Damage": 134,
+        "Moderate Damage": 394,
+        "Possible Damage": 600,
+        "Unclassified": 5
+      }
+    },
+    {
+      "date": "2025-02-25T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 98,
+        "Severe Damage": 134,
+        "Moderate Damage": 395,
+        "Possible Damage": 602,
+        "Unclassified": 5
+      }
+    },
+    {
+      "date": "2025-04-04T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 98,
+        "Severe Damage": 134,
+        "Moderate Damage": 395,
+        "Possible Damage": 602,
+        "Unclassified": 5
+      }
+    },
+    {
+      "date": "2025-07-08T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 100,
+        "Severe Damage": 142,
+        "Moderate Damage": 398,
+        "Possible Damage": 610,
+        "Unclassified": 5
+      }
+    },
+    {
+      "date": "2025-09-22T00:00:00+00:00",
+      "counts": {
+        "Destroyed": 122,
+        "Severe Damage": 146,
+        "Moderate Damage": 406,
+        "Possible Damage": 645,
+        "Unclassified": 5
+      }
+    }
+  ]
+}

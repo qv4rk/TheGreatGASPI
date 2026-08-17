@@ -1,0 +1,283 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/qv4rk/TheGreatGASPI/data/schema/gaspi_2_0.schema.json",
+  "title": "GASPI 2.0 Data Model Schema",
+  "description": "One file per territory (data/v2/<territory-key>.json). Implements research/GASPI_2.0_DATA_MODEL_SPEC.md. Read that spec first -- this schema enforces its shapes but doesn't explain the reasoning behind them.",
+  "type": "object",
+  "required": ["schema_version", "territory_key", "migrated_from", "actors", "perspectives", "claims", "measurements", "sources"],
+  "properties": {
+    "schema_version": { "const": "2.0.0" },
+    "territory_key": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "migrated_from": {
+      "type": "array",
+      "description": "1.x data/raw/ file names this record set was derived from. Empty only for territories with no 1.x precursor.",
+      "items": { "type": "string" }
+    },
+    "actors": { "type": "array", "items": { "$ref": "#/$defs/actor" } },
+    "perspectives": { "type": "array", "items": { "$ref": "#/$defs/perspective" } },
+    "claims": { "type": "array", "items": { "$ref": "#/$defs/claim" } },
+    "measurements": { "type": "array", "items": { "$ref": "#/$defs/measurement" } },
+    "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } },
+    "findings": { "type": "array", "items": { "$ref": "#/$defs/finding" } },
+    "disputes": { "type": "array", "items": { "$ref": "#/$defs/dispute" } }
+  },
+  "additionalProperties": false,
+
+  "$defs": {
+
+    "id": {
+      "type": "string",
+      "pattern": "^(actor|perspective|claim|measurement|source|finding|dispute|subject):[a-z0-9-]+(:[a-z0-9-]+)*$"
+    },
+
+    "id_ref": {
+      "type": "string",
+      "description": "A reference to another record's id. Not validated for existence at the schema level -- a migration/build script must cross-check that every id_ref resolves to a real record."
+    },
+
+    "unknown_value": {
+      "type": "string",
+      "description": "Use in place of omitting a field when a concrete value cannot be given. Distinguishes why data is missing instead of collapsing every gap into one string, per spec section 1.8.",
+      "enum": [
+        "not_available",
+        "not_researched",
+        "inaccessible",
+        "disputed_and_unresolved",
+        "source_claims_unavailable"
+      ]
+    },
+
+    "claim_status": {
+      "type": "string",
+      "enum": [
+        "documented", "verified", "corroborated", "partially_verified",
+        "contested", "disputed", "unverified", "not_yet_researched",
+        "source_only_claim"
+      ]
+    },
+
+    "actor": {
+      "type": "object",
+      "required": ["id", "name", "actor_type"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "type": "string" },
+        "actor_type": {
+          "type": "string",
+          "enum": [
+            "state", "sub_state_authority", "judicial_body",
+            "intergovernmental_body", "ngo", "press", "academic",
+            "armed_actor", "population_group", "company", "unattributed"
+          ]
+        },
+        "jurisdiction": { "type": "string" },
+        "notes": { "type": "string" },
+        "accountability": {
+          "type": "object",
+          "description": "Optional. Design Blueprint section 15. Never required -- an empty object here means 'not yet researched', not 'not trustworthy'.",
+          "properties": {
+            "legal_name": { "type": "string" },
+            "entity_type": { "type": "string" },
+            "incorporation_jurisdiction": { "type": "string" },
+            "headquarters": { "type": "string" },
+            "operating_jurisdictions": { "type": "array", "items": { "type": "string" } },
+            "regulator": { "type": "string" },
+            "tax_status": { "type": "string" },
+            "public_filings": { "type": "array", "items": { "type": "string" } },
+            "funding_disclosures": { "type": "array", "items": { "type": "string" } },
+            "governing_authority": { "type": "string" },
+            "relationships_with_governments": { "type": "string" },
+            "relationships_with_armed_actors": { "type": "string" }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "perspective": {
+      "type": "object",
+      "required": ["id", "territory", "represented_actor", "label", "research_language"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "territory": { "type": "string" },
+        "represented_actor": { "$ref": "#/$defs/id_ref" },
+        "label": { "type": "string" },
+        "research_language": { "type": "string", "description": "BCP-47 language tag, e.g. 'he', 'ar', 'zh-CN'." },
+        "source_language_reason": { "type": "string" },
+        "years_of_scope": { "type": "string" },
+        "original_text_preserved": { "type": "boolean" },
+        "literal_translation": { "type": "boolean" },
+        "contextual_translation": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    },
+
+    "claim": {
+      "type": "object",
+      "required": ["id", "territory", "perspective", "subject", "claim_type", "text", "status"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "territory": { "type": "string" },
+        "perspective": { "$ref": "#/$defs/id_ref" },
+        "subject": {
+          "type": "string",
+          "description": "Free-form pointer to the 1.x-style record this claim is about, e.g. 'physical_barrier:west-bank:separation-barrier'. Not a #/$defs/id -- subjects (barriers, zones, checkpoints, incidents, legal records) are not migrated into this schema's own entity list; they keep their existing 1.x shape."
+        },
+        "claim_type": {
+          "type": "string",
+          "enum": ["justification", "characterization", "factual_assertion", "allegation", "denial"]
+        },
+        "text": { "type": "string" },
+        "supporting_measurements": { "type": "array", "items": { "$ref": "#/$defs/id_ref" } },
+        "sources": { "type": "array", "items": { "$ref": "#/$defs/id_ref" }, "minItems": 1 },
+        "status": { "$ref": "#/$defs/claim_status" }
+      },
+      "additionalProperties": false
+    },
+
+    "measurement": {
+      "type": "object",
+      "required": ["id", "territory", "metric", "unit", "value", "population", "sources"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "territory": { "type": "string" },
+        "metric": { "type": "string" },
+        "unit": { "type": "string" },
+        "value": {
+          "anyOf": [
+            { "type": "number" },
+            { "$ref": "#/$defs/unknown_value" }
+          ]
+        },
+        "population": {
+          "type": "object",
+          "required": ["group"],
+          "properties": {
+            "group": { "type": "string", "description": "Never left implicit -- this is the field that fixes the population_a/population_b ambiguity documented in the spec." },
+            "actor": { "$ref": "#/$defs/id_ref" }
+          },
+          "additionalProperties": false
+        },
+        "period": {
+          "anyOf": [
+            { "type": "string" },
+            { "$ref": "#/$defs/unknown_value" }
+          ]
+        },
+        "reported_by": { "type": "array", "items": { "$ref": "#/$defs/id_ref" } },
+        "sources": { "type": "array", "items": { "$ref": "#/$defs/id_ref" }, "minItems": 1 },
+        "corroboration": {
+          "type": "string",
+          "description": "Free text such as 'confirmed_by_2_perspectives' or 'single_source'. Not an enum -- corroboration count varies per territory and shouldn't be capped by a fixed vocabulary."
+        },
+        "who_reference_standard": { "type": "number" }
+      },
+      "additionalProperties": false
+    },
+
+    "source": {
+      "type": "object",
+      "required": ["id", "title", "publisher", "source_type"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "title": { "type": "string" },
+        "publisher": { "type": "string" },
+        "source_type": {
+          "type": "string",
+          "enum": [
+            "judicial_finding", "legal_instrument", "government_statement",
+            "ngo_report", "press", "academic", "dataset", "interview",
+            "archival_document", "unattributed_secondary"
+          ]
+        },
+        "date_published": {
+          "anyOf": [
+            { "type": "string", "format": "date" },
+            { "$ref": "#/$defs/unknown_value" }
+          ]
+        },
+        "date_accessed": {
+          "anyOf": [
+            { "type": "string", "format": "date" },
+            { "$ref": "#/$defs/unknown_value" }
+          ]
+        },
+        "url": {
+          "anyOf": [
+            { "type": "string", "format": "uri" },
+            { "$ref": "#/$defs/unknown_value" }
+          ]
+        },
+        "language": { "type": "string" },
+        "reliability_notes": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+
+    "finding": {
+      "type": "object",
+      "required": ["id", "territory", "issuing_body", "subject", "finding_type", "text", "sources"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "territory": { "type": "string" },
+        "issuing_body": { "$ref": "#/$defs/id_ref" },
+        "subject": { "type": "string" },
+        "finding_type": {
+          "type": "string",
+          "enum": ["judicial", "quasi_judicial", "administrative", "investigative", "academic_consensus"]
+        },
+        "text": { "type": "string" },
+        "date": {
+          "anyOf": [
+            { "type": "string", "format": "date" },
+            { "$ref": "#/$defs/unknown_value" }
+          ]
+        },
+        "sources": { "type": "array", "items": { "$ref": "#/$defs/id_ref" }, "minItems": 1 },
+        "binding_status": { "type": "string" },
+        "accepted_by": { "type": "array", "items": { "$ref": "#/$defs/id_ref" } },
+        "rejected_by": { "type": "array", "items": { "$ref": "#/$defs/id_ref" } }
+      },
+      "additionalProperties": false
+    },
+
+    "dispute": {
+      "type": "object",
+      "required": ["id", "territory", "subject", "relationship", "parties", "status"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "territory": { "type": "string" },
+        "subject": { "type": "string" },
+        "relationship": {
+          "type": "string",
+          "enum": [
+            "disputes", "contradicts", "supports", "alleges", "denies",
+            "recognizes", "claims_authority_over", "administers", "controls",
+            "occupies", "operates", "regulates", "challenges", "litigates",
+            "historically_controlled", "currently_disputed", "unknown"
+          ]
+        },
+        "parties": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "required": ["claim", "position"],
+            "properties": {
+              "claim": { "$ref": "#/$defs/id_ref" },
+              "position": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        },
+        "status": {
+          "type": "string",
+          "enum": ["unresolved", "resolved_by_subsequent_finding", "superseded"]
+        },
+        "notes": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  }
+}
