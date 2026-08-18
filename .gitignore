@@ -66,6 +66,8 @@ data/cache/*
 *.geojson
 !data/boundaries/*.geojson
 !data/damage/by_neighborhood/*.geojson
+!data/damage/raw_osm_buildings/*.geojson
+!data/damage/joined/*.geojson
 *.shp
 *.shx
 *.dbf
