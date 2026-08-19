@@ -49,6 +49,33 @@ def clean(v):
     from a GeoDataFrame row needs this before going into json.dumps."""
     return None if pd.isna(v) else v
 
+DEFAULT_HEIGHT_M = 11.0  # ~3-4 storeys; used only when OSM has no height/levels tag for a building
+METERS_PER_STOREY = 3.0
+
+def estimate_height(row):
+    """OSM height/building:levels tags are present on under 2% of Gaza's
+    building footprints (checked directly, not assumed) -- most buildings
+    need a fallback. Returns (height_m, source) where source is 'tagged'
+    or 'estimated', kept as internal data (not surfaced to visitors) so a
+    later pass could distinguish real from assumed heights if it matters."""
+    h = row.get("height")
+    if h is not None and not pd.isna(h):
+        try:
+            val = float(str(h).replace("m", "").strip())
+            if val > 0:
+                return round(val, 1), "tagged"
+        except ValueError:
+            pass
+    levels = row.get("building:levels")
+    if levels is not None and not pd.isna(levels):
+        try:
+            val = float(levels)
+            if val > 0:
+                return round(val * METERS_PER_STOREY, 1), "tagged"
+        except ValueError:
+            pass
+    return DEFAULT_HEIGHT_M, "estimated"
+
 OUT_DIR = Path(__file__).parent / "joined"
 NEAREST_MAX_M = 20
 
@@ -93,6 +120,7 @@ def join(buildings_path, damage_path, neighborhood_slug):
     buildings_wgs = buildings.to_crs(epsg=4326)
     for idx, brow in buildings_wgs.iterrows():
         sites = by_building.get(idx, [])
+        height_m, height_source = estimate_height(brow)
         building_features.append({
             "type": "Feature",
             "properties": {
@@ -100,6 +128,8 @@ def join(buildings_path, damage_path, neighborhood_slug):
                 "osm_id": clean(brow.get("id")),
                 "building_tag": clean(brow.get("building")),
                 "name": clean(brow.get("name")),
+                "height_m": height_m,
+                "height_source": height_source,
                 "damage_sites": [
                     {"site_id": clean(s["site_id"]), "event_code": clean(s["event_code"]),
                      "latest_date": clean(s["latest_date"]), "latest_class": clean(s["latest_class"]),
